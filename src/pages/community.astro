@@ -1,9 +1,20 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import CommunityPageHero from  '../components/CommunityPageHero/index.tsx';
+import SocialMediaSection from '../components/SocialMediaSection/index.tsx';
+import StarDome from '../components/StarDome/index.tsx';
+import GovernanceHistory from '../components/GovernanceHistory/index.tsx';
+import EcosystemPartners from '../components/EcosystemPartners/index.tsx';
+import Branding from '../components/Branding/index.tsx';
 ---
 
 <Layout title='community'>
-	<h1>community Page</h1>
+	<CommunityPageHero />
+	<SocialMediaSection />
+	<StarDome />
+	<GovernanceHistory />
+	<EcosystemPartners />
+	<Branding />
 </Layout>
 
 <style>

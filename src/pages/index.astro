@@ -1,9 +1,18 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import HomePageHero from '../components/HomePageHero/index.tsx';
+import GetStarted from '../components/GetStarted/index.tsx';
+import StarcoinFeatures from '../components/StarcoinFeatures/index.tsx';
+import CommunitySection from '../components/CommunitySection/index.tsx';
+import NewsSection from '../components/NewsSection/index.tsx';
 ---
 
 <Layout title='Home Page'>
-	<h1>Home Page</h1>
+	<HomePageHero />
+	<GetStarted />
+	<StarcoinFeatures />
+	<CommunitySection />
+	<NewsSection />
 </Layout>
 
 <style>
