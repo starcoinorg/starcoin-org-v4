@@ -142,6 +142,7 @@ textarea:not([rows]) {
   --font-lineheight-4: 1.75;
   --font-lineheight-5: 2;
 
+
   /* Color */
   --black: #000;
   --white: #fff;
@@ -328,7 +329,16 @@ textarea:not([rows]) {
       0.9769 72.16%, 0.9984 77.61%,
       1.0047 80.79%, 0.9991 91.48%, 1
     );
+
+
+    /* section */
+    --padding-block: calc(var(--size-ratio) * 6);
+    --padding-inline: calc(var(--size-ratio) * 12);
 }
+
+
+
+
 
 
 /* Basic Style*/
@@ -340,6 +350,7 @@ body {
   width: min(100%, 100dvw);
   min-height: 100%;
   font-family: var(--sys-family);
+  font-size: 14px;
 }
 
 

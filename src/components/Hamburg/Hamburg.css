@@ -7,10 +7,11 @@
   align-items: center;
   border: 1px solid var(--white-opacity-50);
   border-radius: 99rem;
-  padding-inline: calc(var(--size) * 8);
-  padding-block: calc(var(--size) * 6);
+  padding-inline: calc(var(--size) * 10);
+  padding-block: calc(var(--size) * 4);
   min-width: calc(var(--size) * 24);
   cursor: pointer;
+  background-color: transparent;
 
   .icon--hamburg {
     --fill-color: var(--color);

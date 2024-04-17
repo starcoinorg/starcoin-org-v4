@@ -19,6 +19,7 @@
         background-color: transparent;
         cursor: pointer;
         transition: all .28s ease-in-out;
+        padding: 5px;
 
         &:focus,
         &:hover {
@@ -30,7 +31,7 @@
 
     .icon {
         display: block;
-        width: 32px;
+        width: 80%;
         aspect-ratio: 1;
         fill: currentColor;
         transition: all .28s ease-in-out;

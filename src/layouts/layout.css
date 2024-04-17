@@ -25,3 +25,111 @@ ul, li {
     padding: 0;
 }
 
+
+/* Button */
+.button {
+    --btn-border-color: transparent;
+    --btn-bg-color: var(--primary-color);
+    --btn-text-color: var(--black);
+    --btn-w: 260px;
+    --btn-h: 48px;
+    --btn-padding-inline: 32px;
+    --btn-padding-block: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999rem;
+    border: 1px solid var(--btn-border-color);
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    min-width: var(--btn-w);
+    padding-inline: var(--btn-padding-inline);
+    padding-block: var(--btn-padding-block);
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all .28s ease-in-out;
+
+    &:focus,
+    &:hover {
+        /* 待确认 */
+    }
+}
+
+.button--outline{
+    --btn-border-color: var(--primary-color);
+    --btn-bg-color: transparent;
+    --btn-text-color: var(--primary-color);
+}
+
+
+
+
+/* Hero Section */
+.hero {
+    display: grid;
+
+    > * {
+        grid-area: 1 / 1 / -1 / -1;
+    }
+
+    
+
+    picture img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+
+        
+    }
+}
+
+.hero--container {
+    --fn-hero-title: 64px;
+    z-index: 2;
+    width: 100%;
+    padding-inline: var(--padding-inline);
+    display: grid;
+    place-content: center;
+    gap: 24px;
+    text-align: center;
+
+    > * {
+        justify-self: center;
+    
+
+    }
+
+    strong {
+        color: var(--primary-color);
+    }
+    p {
+        margin: 0;
+    }
+    .hero__title {
+        font-size: var(--fn-hero-title);
+        font-family: var(--font-starcoin);
+        color: var(--white);
+        letter-spacing: 10%;
+
+        
+        
+    }
+
+    .hero__content {
+        font-family: var(--font-PlusJakartaSans);
+        letter-spacing: 10%;
+
+
+    }
+
+    .hero__action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
