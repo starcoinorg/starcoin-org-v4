@@ -1,30 +1,23 @@
 ---
-import Header  from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-interface Props {
-	title: string;
-}
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 
-const { title } = Astro.props;
+import I18n, { type LocaleCode } from "@/i18n";
+
+const lng = Astro.currentLocale as LocaleCode;
+
 ---
 
 <!doctype html>
-<html lang="en">
-	<head>
+<html lang={lng}>
+	<head prefix="og: https://ogp.me/ns#">
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="stylesheet" href="/src/styles/global.css"  />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="/favicon.svg" />
+
+		<slot name="page-meta" />
 	</head>
-	<body>
-		<Header></Header>
-		<main>
-			<slot />
-		</main>
-		<Footer></Footer>
+	<body class="bg-cyan-50">
+		<slot />
 	</body>
 </html>
-

@@ -1,0 +1,10 @@
+# Public language fields are placed directly at the first level
+ok: 'Ok'
+
+# Other language fields are organized by page or functional module
+site:
+  name: 'Starcoin'
+  desc: ''
+
+home:
+  title: 'Home'

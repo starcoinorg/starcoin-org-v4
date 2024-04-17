@@ -1,11 +1,25 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+
+import I18n, { type LocaleCode } from "@/i18n";
+import { getRelativeLocaleUrl as grlu } from "astro:i18n";
+
+const cl = Astro.currentLocale as LocaleCode
+const t = I18n.useTrans(cl);
+
 ---
 
-<Layout title='Home Page'>
-	<h1>Home Page</h1>
-</Layout>
+<Layout>
+	<h1>Home Page: {grlu(cl, 'home/news')}</h1>
 
-<style>
-	
-</style>
+	<Fragment slot="page-meta">
+		<title>{t("home.title")} - {t("site.name")}</title>
+		<!-- <meta name="description" content={desc} />
+		<link rel="canonical" href={site} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={desc} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={site} />
+		<meta property="og:image" content={`${site}favicon.png`} /> -->
+	</Fragment>
+</Layout>
