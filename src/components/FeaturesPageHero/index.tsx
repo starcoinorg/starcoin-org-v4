@@ -4,7 +4,7 @@ import './FeaturesPageHero.css';
 export default function FeaturesPageHero() {
   return (
     <section className="hero hero--features">
-      <div className="hero--container">
+      <div className="hero__container section__container">
         <h2 className="hero__title">
           <p>A Reliable, Flexible, and Progressible</p>
           <p>

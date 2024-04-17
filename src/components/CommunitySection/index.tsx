@@ -7,12 +7,13 @@ import InfiniteScrollingLogos from '../InfiniteScrollingLogos/index.tsx';
 
 export default function CommunitySection() {
   return (
-    <div>
-
+    <section className="section section--community">
+      <div className="section__container community__container">
       Community Section
       <Social />
       <SwiperCard />
       <InfiniteScrollingLogos />
-    </div>
+      </div>
+    </section>
   );
 }

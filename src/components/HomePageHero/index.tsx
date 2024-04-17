@@ -6,7 +6,7 @@ import StatisticsCard from "../StatisticsCard/index.tsx";
 export default function HomePageHero() {
   return (
     <section className="hero hero--home">
-      <div className="hero--container">
+      <div className="hero__container section__container">
         <h2 className="hero__title">
           <p>power in speed</p>
           <p>

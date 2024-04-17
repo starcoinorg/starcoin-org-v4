@@ -3,6 +3,11 @@ import './Branding.css';
 
 export default function Branding() {
   return (
-    <div>Branding</div>
+    <section className="section section--branding">
+      <div className="section__container branding__container">
+        <div>Branding</div>
+      </div>
+    </section>
+    
   );
 }

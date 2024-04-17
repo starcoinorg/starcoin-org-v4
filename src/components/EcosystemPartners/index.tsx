@@ -3,6 +3,11 @@ import './EcosystemPartners.css';
 
 export default function EcosystemPartners() {
   return (
-    <div>Ecosystem Partners</div>
+    <section className="section section--ecosystem-partners">
+      <div className="section__container ecosystem-partners__container">
+      <div>Ecosystem Partners</div>
+      </div>
+    </section>
+    
   );
 }

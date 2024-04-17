@@ -2,4 +2,8 @@
     .hero__action {
         margin-bottom: 40px;
     }
+
+    .dividers {
+        align-self: end;
+    }
 }

@@ -3,6 +3,10 @@ import './StarDome.css';
 
 export default function StarDome() {
   return (
-    <div>Star Dome</div>
+    <section className="section section--star-dome">
+      <div className="section__container star-dome__container">
+      Star Dome
+      </div>
+    </section>
   );
 }

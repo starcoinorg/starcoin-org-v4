@@ -3,6 +3,10 @@ import './HardcorePlayer.css';
 
 export default function HardcorePlayer() {
   return (
-    <div>Hardcore Player</div>
+    <section className="section section--hardcore-player">
+      <div className="section__container hardcore-player__container">
+      Hardcore Player
+      </div>
+    </section>
   );
 }

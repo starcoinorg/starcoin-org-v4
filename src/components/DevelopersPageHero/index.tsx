@@ -4,7 +4,7 @@ import './DevelopersPageHero.css';
 export default function DevelopersPageHero() {
   return (
     <section className="hero hero--developers">
-      <div className="hero--container">
+      <div className="hero__container section__container">
         <h2 className="hero__title">
           <p><strong>Launchpad</strong></p>
           <p>

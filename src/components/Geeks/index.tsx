@@ -5,8 +5,11 @@ import './Geeks.css';
 
 export default function Geeks() {
   return (
-    <div>
+    <section className="section section--geeks">
+      <div className="section__container geeks__container">
       Geeks
-    </div>
+      </div>
+      
+    </section>
   );
 }

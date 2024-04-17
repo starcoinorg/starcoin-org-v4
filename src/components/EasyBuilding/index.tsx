@@ -5,8 +5,11 @@ import './EasyBuilding.css';
 
 export default function EasyBuilding() {
   return (
-    <div>
+    <section className="section section--easy-building">
+      <div className="section__container easy-building__container">
       Easy Building
-    </div>
+      </div>
+      
+    </section>
   );
 }

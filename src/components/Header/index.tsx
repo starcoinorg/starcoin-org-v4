@@ -8,7 +8,7 @@ import LanguageDropdownMenu from "../LanguageDropdownMenu/index.tsx";
 export default function Header() {
   return (
     <header className="page--header">
-      <div className="header--container">
+      <div className="header__container section__container">
         <h1 id="logo" className="logo">
           <a href="/">
             <svg>

@@ -5,8 +5,10 @@ import './StarcoinGrant.css';
 
 export default function StarcoinGrant() {
   return (
-    <div>
+    <section className="section section--starcoin-grant">
+      <div className="section__container starcoin-grant__container">
       Starcoin Grant  
-    </div>
+      </div>
+    </section>
   );
 }

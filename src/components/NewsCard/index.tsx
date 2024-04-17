@@ -3,6 +3,10 @@ import './NewsCard.css';
 
 export default function NewsCard() {
   return (
-    <div>News Card</div>
+    <section className="section section--news-card">
+      <div className="section__container news-card__container">
+      News Card
+      </div>
+    </section>
   );
 }

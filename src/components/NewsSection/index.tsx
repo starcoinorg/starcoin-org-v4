@@ -6,10 +6,12 @@ import SwiperNews from '../SwiperNews/index.tsx';
 
 export default function NewsSection() {
   return (
-    <div>
+    <section className="section section--news">
 
+      <div className="section__container news__container">
       News Section
       <SwiperNews />
-    </div>
+      </div>
+    </section>
   );
 }

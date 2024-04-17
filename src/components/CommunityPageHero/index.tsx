@@ -4,7 +4,7 @@ import './CommunityPageHero.css';
 export default function CommunityPageHero() {
   return (
     <section className="hero hero--community">
-      <div className="hero--container">
+      <div className="hero__container section__container">
         <h2 className="hero__title">
           <p>Make <strong>Friends</strong> with</p>
           <p>the Explorers <strong>Advocates</strong></p>

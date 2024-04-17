@@ -3,6 +3,10 @@ import './GetStarted.css';
 
 export default function GetStarted() {
   return (
-    <div>Gete Started</div>
+    <section className="getstarted">
+      <div className="section__container getstarted__container">
+        gets started
+      </div>
+    </section>
   );
 }

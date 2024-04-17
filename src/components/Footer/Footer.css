@@ -24,7 +24,7 @@
    
 }
 
-.footer--container {
+.footer__container {
     width: 100%;
     display: grid;
     align-items: start;

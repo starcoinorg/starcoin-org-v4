@@ -4,7 +4,7 @@ import './GetSTCPageHero.css';
 export default function GetSTCPageHero() {
   return (
     <section class="hero hero--individual">
-      <div className="hero--container">
+      <div className="hero__container section__container">
         <h2 className="hero__title">
           <p>Easy Fun</p>
           <p>

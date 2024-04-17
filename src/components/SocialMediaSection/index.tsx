@@ -6,10 +6,12 @@ import Social from '../Social/index.tsx';
 
 export default function SocialMediaSection() {
   return (
-    <div>
+    <section className="section section--social">
+      <div className="section__container social__container">
       <InfiniteScrollingTexts />
       Social Media Section
       <Social />
-    </div>
+      </div>
+    </section>
   );
 }

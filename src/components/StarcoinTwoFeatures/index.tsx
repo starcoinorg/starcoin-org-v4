@@ -5,9 +5,12 @@ import FeatureTable from '../FeatureTable/index.tsx';
 
 export default function StarcoinTwoFeatures() {
   return (
-    <div>
+    <section className="section section--starcoin-two-features">
+      <div className="section__container starcoin-two-features__container">
       StarcoinTwoFeatures 
       <FeatureTable />
-    </div>
+      </div>
+      
+    </section>
   );
 }

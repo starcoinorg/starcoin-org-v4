@@ -22,7 +22,7 @@
     }
 }
 
-.header--container {
+.header__container {
     width: 100%;
     padding-inline: var(--padding-inline);
     padding-block: var(--padding-block);

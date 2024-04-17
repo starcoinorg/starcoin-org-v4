@@ -4,7 +4,7 @@ import './NewsPageHero.css';
 export default function NewsPageHero() {
   return (
     <section className="hero hero--news">
-      <div className="hero--container">
+      <div className="hero__container section__container">
         <h2 className="hero__title">
           <p>NEWS & BLOG</p>
         </h2>

@@ -62,6 +62,11 @@ ul, li {
     --btn-text-color: var(--primary-color);
 }
 
+/* Section */
+.section__container {
+    padding-inline: var(--padding-inline);
+}
+
 
 
 
@@ -86,7 +91,7 @@ ul, li {
     }
 }
 
-.hero--container {
+.hero__container {
     --fn-hero-title: 64px;
     z-index: 2;
     width: 100%;

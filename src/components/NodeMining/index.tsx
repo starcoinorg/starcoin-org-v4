@@ -5,8 +5,10 @@ import './NodeMining.css';
 
 export default function NodeMining() {
   return (
-    <div>
+    <section className="section section--node-mining">
+      <div className="node-mining__container section__container">
       Node Mining
-    </div>
+      </div>
+    </section>
   );
 }
