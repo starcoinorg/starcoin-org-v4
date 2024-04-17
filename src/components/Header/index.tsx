@@ -1,13 +1,30 @@
 import React from "react";
 import './Header.css'
-import MobileHeader from "../MobileHeader/index.tsx";
-import DesktopHeader from "../DesktopHeader/index.tsx";
+import Social from '../Social/index.tsx';
+import Navigation from "../Navigation/index.tsx";
+import Hamburg from "../Hamburg/index.tsx";
+import LanguageDropdownMenu from '../LanguageDropdownMenu/index.tsx';
 
 export default function Header() {
   return (
-    <>
-      <MobileHeader />
-      <DesktopHeader />
-    </>
+    <header className="page--header">
+      <h1 id="logo" className="logo">
+        <a href="/">
+          <svg>
+            <use xlinkHref="#logo" href="#logo" />
+          </svg>
+        </a>
+      </h1>
+      <Navigation />
+      <div className="item">
+      <Social />
+      <LanguageDropdownMenu />
+      </div>
+      
+      <Hamburg />
+      
+
+      
+    </header>
   );
 }

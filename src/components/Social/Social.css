@@ -1,0 +1,38 @@
+.social {
+    --size: 64px;
+    --gap: 32px;
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    list-style: none outside none;
+    margin: 0;
+
+    a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: var(--size);
+        aspect-ratio: 1;
+        border-radius: 50%;
+        border: 1px solid currentColor;
+        color: var(--white);
+        background-color: transparent;
+        cursor: pointer;
+        transition: all .28s ease-in-out;
+
+        &:focus,
+        &:hover {
+            color: var(--black);
+            background-color: var(--white);
+            border-color: var(--white);
+        }
+    }
+
+    .icon {
+        display: block;
+        width: 32px;
+        aspect-ratio: 1;
+        fill: currentColor;
+        transition: all .28s ease-in-out;
+    }
+}

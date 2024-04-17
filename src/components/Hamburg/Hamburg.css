@@ -1,0 +1,55 @@
+.hamburg {
+  --size: var(--size-ratio);
+  --color: var(--primary-color);
+  --easing: var(--elastic-out);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--white-opacity-50);
+  border-radius: 99rem;
+  padding-inline: calc(var(--size) * 8);
+  padding-block: calc(var(--size) * 6);
+  min-width: calc(var(--size) * 24);
+  cursor: pointer;
+
+  .icon--hamburg {
+    --fill-color: var(--color);
+    display: block;
+    width: 24px;
+    aspect-ratio: 1;
+
+    rect {
+      transform-box: fill-box;
+      transform-origin: 50% 50%;
+    }
+  }
+}
+
+[aria-pressed="true"] {
+  svg {
+    rotate: 90deg;
+    transition: rotate 1s var(--easing) 0.4s;
+  }
+  rect {
+    &:nth-of-type(1) {
+      translate: 0 333%;
+      rotate: -45deg;
+    }
+    &:nth-of-type(2) {
+      rotate: 45deg;
+    }
+    &:nth-of-type(3) {
+      translate: 0 -333%;
+      rotate: 45deg;
+    }
+  }
+}
+
+rect {
+  [aria-pressed="false"] & {
+    transition: rotate 0.2s 0s, translate 0.2s 0.3s;
+  }
+  [aria-pressed="true"] & {
+    transition: translate 0.2s 0s, rotate 0.2s 0.3s;
+  }
+}

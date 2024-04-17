@@ -1,0 +1,27 @@
+body {
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    min-height: 100dvh;
+    align-items: start;
+    align-content: start;
+    background-color: var(--bg-body);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: all .28s linear;
+
+    &:focus,
+    &:hover {
+        color: var(--link-color-active);
+    }
+}
+
+ul, li {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
