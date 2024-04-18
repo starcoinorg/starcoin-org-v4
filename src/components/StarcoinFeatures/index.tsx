@@ -1,7 +1,7 @@
 import React from "react";
 import './StarcoinFeatures.css';
 
-import FeatureTable from '../FeatureTable/index.tsx';
+import FeatureTable from '@/components/FeatureTable';
 
 export default function StarcoinFeatures() {
   return (

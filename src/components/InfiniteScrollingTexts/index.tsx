@@ -1,8 +1,8 @@
 import React from "react";
 import './InfiniteScrollingTexts.css';
 
-export default function InfiniteScrollingTexts() {
+export default function InfiniteScrollingTexts(props) {
   return (
-    <div>Infinite Scrolling Texts</div>
+    <div>{props.text}</div>
   );
 }

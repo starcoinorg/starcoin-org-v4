@@ -1,9 +1,9 @@
 import React from "react";
 import "./Header.css";
-import Social from "../Social/index.tsx";
-import Navigation from "../Navigation/index.tsx";
-import Hamburg from "../Hamburg/index.tsx";
-import LanguageDropdownMenu from "../LanguageDropdownMenu/index.tsx";
+import Social from "@/components/Social";
+import Navigation from "@/components/Navigation";
+import Hamburg from "@/components/Hamburg";
+import LanguageDropdownMenu from "@/components/LanguageDropdownMenu";
 
 export default function Header() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import './CommunitySection.css';
 
-import Social from '../Social/index.tsx';
-import InfiniteScrollingLogos from '../InfiniteScrollingLogos/index.tsx';
+import Social from '@/components/Social';
+import InfiniteScrollingLogos from '@/components/InfiniteScrollingLogos';
 
 export default function CommunitySection() {
   return (

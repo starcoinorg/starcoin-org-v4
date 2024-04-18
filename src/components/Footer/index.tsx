@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./Footer.css";
-import FooterMenu from "../FooterMenu/index.tsx";
-import Social from "../Social/index.tsx";
+import FooterMenu from "@/components/FooterMenu";
+import Social from "@/components/Social";
 
 export default function Footer() {
   return (
