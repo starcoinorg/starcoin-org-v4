@@ -8,6 +8,13 @@ import StarcoinFoundation from "@/components/StarcoinFoundation";
 import StarcoinGrant from "@/components/StarcoinGrant";
 import StarcoinRoadmap from "@/components/StarcoinRoadmap";
 import Dividers from "@/components/Dividers";
+
+
+import I18n, { type LocaleCode } from "@/i18n";
+// import { getRelativeLocaleUrl as grlu } from "astro:i18n";
+
+const cl = Astro.currentLocale as LocaleCode;
+const t = I18n.useTrans(cl);
 ---
 
 <Layout title="Features">
@@ -24,6 +31,17 @@ import Dividers from "@/components/Dividers";
 	<StarcoinGrant />
 	<Dividers />
 	<StarcoinRoadmap />
+
+	<Fragment slot="page-meta">
+		<title>{t("home.title")} - {t("site.name")}</title>
+		<!-- <meta name="description" content={desc} />
+		<link rel="canonical" href={site} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={desc} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={site} />
+		<meta property="og:image" content={`${site}favicon.png`} /> -->
+	</Fragment>
 </Layout>
 
 <style></style>
