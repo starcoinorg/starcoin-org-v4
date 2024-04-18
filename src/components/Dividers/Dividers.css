@@ -1,6 +1,17 @@
 .dividers__container {
     width: 100%;
     padding-inline: var(--padding-inline);
+    
+}
+
+.section--dividers {
+    margin-top: -10px;
+    position: relative;
+    z-index: 2;
+
+    + .section {
+        margin-top: -10px;
+    }
 }
 
 .dividers {
