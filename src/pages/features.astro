@@ -1,11 +1,29 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "@/layouts/Layout.astro";
+import FeaturesPageHero from "@/components/FeaturesPageHero";
+import FeatureSection from "@/components/FeatureSection";
+import NewTrails from "@/components/NewTrails";
+import StarcoinTwoFeatures from "@/components/StarcoinTwoFeatures";
+import StarcoinFoundation from "@/components/StarcoinFoundation";
+import StarcoinGrant from "@/components/StarcoinGrant";
+import StarcoinRoadmap from "@/components/StarcoinRoadmap";
+import Dividers from "@/components/Dividers";
 ---
 
-<Layout title='Features'>
-	<h1>Features Page</h1>
+<Layout title="Features">
+	<FeaturesPageHero />
+	<Dividers />
+	<FeatureSection />
+	<Dividers />
+	<NewTrails />
+	<Dividers />
+	<StarcoinTwoFeatures />
+	<Dividers />
+	<StarcoinFoundation />
+	<Dividers />
+	<StarcoinGrant />
+	<Dividers />
+	<StarcoinRoadmap />
 </Layout>
 
-<style>
-	
-</style>
+<style></style>

@@ -1,0 +1,51 @@
+.page--header {
+    --padding-block: calc(var(--size-ratio) * 6);
+    /* --padding-inline: calc(var(--size-ratio) * 12); */
+    
+    
+    background-color: var(--black-opacity-50);
+    color: var(--white);
+
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .social {
+        --size: 32px;
+        --gap: 24px;
+    }
+
+    .hamburg {
+        display: none;
+    }
+}
+
+.header__container {
+    width: 100%;
+    padding-inline: var(--padding-inline);
+    padding-block: var(--padding-block);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo */
+.logo {
+    --width: 78px; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        display: block;
+    }
+
+    svg {
+        width: var(--width);
+        aspect-ratio: 792 / 612;
+        fill: #fff;
+    }
+}

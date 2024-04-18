@@ -1,0 +1,43 @@
+.dividers__container {
+    width: 100%;
+    padding-inline: var(--padding-inline);
+}
+
+.dividers {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to bottom, var(--gray), var(--gray));
+    background-size: 100% 1px;
+    background-position: center;
+    background-repeat: repeat-x;
+
+    .icon--star {
+        display: block;
+        width: 18px;
+        aspect-ratio: 1;
+
+        &:nth-child(1) {
+            margin-left: auto;
+        }
+
+        &:nth-child(2) {
+            margin-left: 140px;
+            margin-right: 10px;
+        }
+
+        &:not(:last-child) {
+            fill: var(--black);
+            stroke: var(--gray);
+        }
+
+        &:last-child {
+            fill: var(--gray);
+            stroke: none;
+            margin-right: 30%;
+        }
+    }
+}
+
+

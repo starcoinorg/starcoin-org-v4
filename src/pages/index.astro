@@ -1,16 +1,29 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from "@/layouts/Layout.astro";
+import HomePageHero from "@/components/HomePageHero";
+import GetStarted from "@/components/GetStarted";
+import StarcoinFeatures from "@/components/StarcoinFeatures";
+import CommunitySection from "@/components/CommunitySection";
+import NewsSection from "@/components/NewsSection";
+import Dividers from "@/components/Dividers";
 
 import I18n, { type LocaleCode } from "@/i18n";
-import { getRelativeLocaleUrl as grlu } from "astro:i18n";
+// import { getRelativeLocaleUrl as grlu } from "astro:i18n";
 
-const cl = Astro.currentLocale as LocaleCode
+const cl = Astro.currentLocale as LocaleCode;
 const t = I18n.useTrans(cl);
-
 ---
 
 <Layout>
-	<h1>Home Page: {grlu(cl, 'home/news')}</h1>
+	<HomePageHero />
+	<Dividers />
+	<GetStarted />
+	<Dividers />
+	<StarcoinFeatures />
+	<Dividers />
+	<CommunitySection />
+	<Dividers />
+	<NewsSection />
 
 	<Fragment slot="page-meta">
 		<title>{t("home.title")} - {t("site.name")}</title>

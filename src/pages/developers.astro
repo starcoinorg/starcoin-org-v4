@@ -1,11 +1,17 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "@/layouts/Layout.astro";
+import DevelopersPageHero from "@/components/DevelopersPageHero";
+import EasyBuilding from "@/components/EasyBuilding";
+import StarcoinGrantDevelopers from "@/components/StarcoinGrantDevelopers";
+import Dividers from "@/components/Dividers";
 ---
 
-<Layout title='Developers'>
-	<h1>Developers Page</h1>
+<Layout title="Developers">
+	<DevelopersPageHero />
+	<Dividers />
+	<EasyBuilding />
+	<Dividers />
+	<StarcoinGrantDevelopers />
 </Layout>
 
-<style>
-	
-</style>
+<style></style>

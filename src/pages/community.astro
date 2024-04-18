@@ -1,11 +1,26 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "@/layouts/Layout.astro";
+import CommunityPageHero from "@/components/CommunityPageHero";
+import SocialMediaSection from "@/components/SocialMediaSection";
+import StarDome from "@/components/StarDome";
+import GovernanceHistory from "@/components/GovernanceHistory";
+import EcosystemPartners from "@/components/EcosystemPartners";
+import Branding from "@/components/Branding";
+import Dividers from "@/components/Dividers";
 ---
 
-<Layout title='community'>
-	<h1>community Page</h1>
+<Layout title="community">
+	<CommunityPageHero />
+	<Dividers />
+	<SocialMediaSection />
+	<Dividers />
+	<StarDome />
+	<Dividers />
+	<GovernanceHistory />
+	<Dividers />
+	<EcosystemPartners />
+	<Dividers />
+	<Branding />
 </Layout>
 
-<style>
-	
-</style>
+<style></style>

@@ -1,11 +1,14 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "@/layouts/Layout.astro";
+import NewsPageHero from "@/components/NewsPageHero";
+import NewsCard from "@/components/NewsCard";
+import Dividers from "@/components/Dividers";
 ---
 
-<Layout title='news'>
-	<h1>news Page</h1>
+<Layout>
+	<NewsPageHero />
+	<Dividers />
+	<NewsCard />
 </Layout>
 
-<style>
-	
-</style>
+<style></style>
