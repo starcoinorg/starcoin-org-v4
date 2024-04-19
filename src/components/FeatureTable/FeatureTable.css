@@ -1,7 +1,7 @@
 .card--table {
-border: 1px solid rgb(111 238 135 / 0.5);
-filter: drop-shadow(0px 24px 42px #6FEE87);
-border-radius: 28px;
+    border: 1px solid rgb(111 238 135 / 0.5);
+    filter: drop-shadow(0px 24px 42px #6FEE87);
+    border-radius: 28px;
 
     padding: 20px;
 
@@ -25,18 +25,18 @@ border-radius: 28px;
     .row {
         display: grid;
         grid-template-columns: 100px minmax(0, 1fr) minmax(0, 1fr);
-        
+
         &:not(:last-child) {
             border-bottom: 1px solid #000;
         }
     }
 
     .row__title {
-background: linear-gradient(90deg, #6FEE87 0%, #D18989 78.5%, #3F884D 100%);
-border-radius: 8px;
-min-height: 74px;
-font-weight: 500;
-font-size: 20px;
+        background: linear-gradient(90deg, #6FEE87 0%, #D18989 78.5%, #3F884D 100%);
+        border-radius: 8px;
+        min-height: 74px;
+        font-weight: 500;
+        font-size: 20px;
     }
 
     .column {
@@ -45,11 +45,9 @@ font-size: 20px;
         align-items: center;
         align-content: center;
         font-size: 14px;
-        
+
         &:not(:last-child) {
             border-right: 1px solid #000;
         }
     }
 }
-
-
