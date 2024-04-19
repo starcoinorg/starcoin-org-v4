@@ -16,10 +16,12 @@ export default function Header() {
             </svg>
           </a>
         </h1>
-        <Navigation />
-        <div className="item">
-          <Social />
-          <LanguageDropdownMenu />
+        <div className="nav--wrapper">
+          <Navigation />
+          <div className="item">
+            <Social />
+            <LanguageDropdownMenu />
+          </div>
         </div>
 
         <Hamburg />

@@ -1,16 +1,19 @@
 .page--header {
     --padding-block: calc(var(--size-ratio) * 6);
     /* --padding-inline: calc(var(--size-ratio) * 12); */
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: var(--layer-important);
     
     
     background-color: var(--black-opacity-50);
+    backdrop-filter: blur(10px);
     color: var(--white);
 
-    .item {
-        display: flex;
-        align-items: center;
-        gap: 32px;
-    }
+    
+
+    
 
     .social {
         --size: 32px;
@@ -18,7 +21,7 @@
     }
 
     .hamburg {
-        display: none;
+        
     }
 }
 
@@ -45,7 +48,27 @@
 
     svg {
         width: var(--width);
-        aspect-ratio: 792 / 612;
+        aspect-ratio: 374 / 72;
         fill: #fff;
     }
+}
+
+.nav--wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: var(--layer-2);
+    background-color: var(--black);
+    display: grid;
+
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        padding-inline: 24px;
+        padding-block: 16px;
+    }
+
+    display: none;
 }
