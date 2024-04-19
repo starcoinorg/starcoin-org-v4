@@ -1,11 +1,17 @@
 import React from "react";
 import "./Header.css";
-import Social from "../Social/index.tsx";
-import Navigation from "../Navigation/index.tsx";
-import Hamburg from "../Hamburg/index.tsx";
-import LanguageDropdownMenu from "../LanguageDropdownMenu/index.tsx";
+import Social from "../Social";
+import Navigation from "../Navigation";
+import Hamburg from "../Hamburg";
+import LanguageDropdownMenu from "../LanguageDropdownMenu";
 
-export default function Header() {
+import I18n, { type LocaleCode } from "@/i18n";
+
+export default function Header({
+  locale
+}: {
+  locale: LocaleCode
+}) {
   return (
     <header className="page--header">
       <div className="header__container section__container">
@@ -19,7 +25,7 @@ export default function Header() {
         <Navigation />
         <div className="item">
           <Social />
-          <LanguageDropdownMenu />
+          <LanguageDropdownMenu locale={locale} />
         </div>
 
         <Hamburg />

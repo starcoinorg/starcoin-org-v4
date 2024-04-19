@@ -11,10 +11,10 @@ export const locale_config = {
     [LOCALE_ZH]: LOCALE_EN
   },
   locale_list: [{
-    locale: LOCALE_EN,
+    code: LOCALE_EN,
     label: 'English'
   }, {
-    locale: LOCALE_ZH,
+    code: LOCALE_ZH,
     label: '中文'
   }],
 } as const

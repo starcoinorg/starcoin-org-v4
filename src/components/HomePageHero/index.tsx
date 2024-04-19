@@ -1,18 +1,20 @@
 import "./HomePageHero.css";
-
 import StatisticsCard from "@/components/StatisticsCard";
+
+import I18n, { type LocaleCode } from '@/i18n'
+
 import img_hhm from '@/images/home-hero-mobile.png'
 import img_hhd from '@/images/home-hero-desktop.png'
 
-export default function HomePageHero() {
+export default function HomePageHero({ locale }: { locale: LocaleCode }) {
+  const t = I18n.create_trans(locale)
+
   return (
     <section className="hero hero--home">
       <div className="hero__container section__container">
         <h2 className="hero__title">
-          <p>power in speed</p>
-          <p>
-            innovate with <strong>pow</strong>
-          </p>
+          <p> {t('home.hero_title')} </p>
+          <p dangerouslySetInnerHTML={{ __html: t('home.hero_subtitle') }} />
         </h2>
         <div className="hero__content">
           <p>

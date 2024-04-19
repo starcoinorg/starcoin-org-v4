@@ -7,8 +7,7 @@ import Footer from "@/components/Footer";
 import SVGIcons from "@/components/SVGIcons";
 
 import I18n, { type LocaleCode } from "@/i18n";
-
-const lng = Astro.currentLocale as LocaleCode;
+const lng = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
 ---
 
 <!doctype html>
@@ -1297,9 +1296,9 @@ const lng = Astro.currentLocale as LocaleCode;
 				</defs>
 			</symbol>
 		</svg>
-		
+
 		<SVGIcons />
-		<Header />
+		<Header locale={lng} client:load />
 		<main>
 			<slot />
 		</main>

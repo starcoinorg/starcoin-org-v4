@@ -8,14 +8,14 @@ import NewsSection from "@/components/NewsSection";
 import Dividers from "@/components/Dividers";
 
 import I18n, { type LocaleCode } from "@/i18n";
-const cl = Astro.currentLocale as LocaleCode;
-// import { getRelativeLocaleUrl as grlu } from "astro:i18n";
+const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
+const t = I18n.create_trans(locale);
 
-const t = I18n.useTrans(cl);
+// import { getRelativeLocaleUrl as grlu } from "astro:i18n";
 ---
 
 <Layout>
-	<HomePageHero />
+	<HomePageHero locale={locale} />
 	<Dividers />
 	<GetStarted />
 	<Dividers />

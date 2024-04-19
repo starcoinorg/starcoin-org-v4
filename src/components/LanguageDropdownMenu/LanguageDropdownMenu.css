@@ -38,6 +38,7 @@
 
   .dropdown__content {
     position: absolute;
+    z-index: 3;
     right: 0;
     top: calc(100% + 14px);
     background-color: var(--black-opacity-50);
