@@ -3,10 +3,10 @@ import './GetStarted.css';
 
 export default function GetStarted() {
   return (
-    <section className="getstarted">
+    <section className="section--getstarted section">
       <div className="section__container getstarted__container">
         <div className="section__title">
-        Get Started on <strong>tarcoin</strong>
+          <h3>Get Started on <strong>tarcoin</strong></h3>
         </div>
         <div className="section__content">
           <ul>

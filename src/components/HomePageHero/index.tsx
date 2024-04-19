@@ -30,8 +30,8 @@ export default function HomePageHero({ locale }: { locale: LocaleCode }) {
           </p>
         </div>
         <div className="hero__action">
-          <button className="button button--primary">Light Whitepapers</button>
-          <button className="button button--outline">Get STC</button>
+          <a href="#" className="button button--primary">Light Whitepapers</a>
+          <a href="#" className="button button--outline">Get STC</a>
         </div>
         <StatisticsCard />
       </div>

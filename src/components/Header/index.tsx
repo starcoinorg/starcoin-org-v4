@@ -1,9 +1,8 @@
-import React from "react";
 import "./Header.css";
-import Social from "../Social";
-import Navigation from "../Navigation";
-import Hamburg from "../Hamburg";
-import LanguageDropdownMenu from "../LanguageDropdownMenu";
+import Social from "@/components/Social";
+import Navigation from "@/components/Navigation";
+import Hamburg from "@/components/Hamburg";
+import LanguageDropdownMenu from "@/components/LanguageDropdownMenu";
 
 import I18n, { type LocaleCode } from "@/i18n";
 
@@ -22,10 +21,12 @@ export default function Header({
             </svg>
           </a>
         </h1>
-        <Navigation />
-        <div className="item">
-          <Social />
-          <LanguageDropdownMenu locale={locale} />
+        <div className="nav--wrapper">
+          <Navigation />
+          <div className="item">
+            <Social />
+            <LanguageDropdownMenu locale={locale} />
+          </div>
         </div>
 
         <Hamburg />

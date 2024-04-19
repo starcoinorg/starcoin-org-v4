@@ -1,7 +1,7 @@
 import React from "react";
 import './StarMaskWallet.css';
 
-import Download from '../Download/index.tsx';
+import Download from '@/components/Download';
 
 export default function StarMaskWallet() {
   return (
