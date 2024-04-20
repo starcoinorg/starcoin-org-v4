@@ -5,6 +5,7 @@ ok: 'Ok'
 site:
   name: 'Starcoin'
   desc: ''
+  copyright: '2024 Starcoin.org. All Rights Reserved.'
 
 # Navigation menu
 nav:

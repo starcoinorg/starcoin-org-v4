@@ -2,7 +2,7 @@ import { useState, type MouseEvent } from "react";
 import clsx from "clsx";
 import I18n, { type LocaleCode } from "@/i18n";
 
-import nav_data, { type NavGroup } from "./nav-data";
+import nav_data, { type NavGroup } from "@/assets/nav-data";
 
 export default function Navigation({ locale }: { locale: LocaleCode }) {
   const t = I18n.create_trans(locale);

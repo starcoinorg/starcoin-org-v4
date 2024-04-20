@@ -5,6 +5,7 @@ ok: '好的'
 site:
   name: 'Starcoin'
   desc: ''
+  copyright: '2024 Starcoin.org. 保留一切权利.'
 
 # 导航菜单
 nav:
