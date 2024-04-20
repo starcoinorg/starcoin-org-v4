@@ -6,7 +6,8 @@ export default function StarcoinRoadmap() {
     <section className="section section--starcoin-roadmap">
       <div className="section__container starcoin-roadmap__container">
         <div className="section__title">
-          Starcoin <strong>Roadmap</strong>
+          <h3>Starcoin <strong>Roadmap</strong></h3>
+          
         </div>
         <div className="section__content">
           <div className="timeline">

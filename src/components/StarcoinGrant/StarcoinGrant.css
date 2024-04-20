@@ -1,0 +1,10 @@
+
+.section--starcoin-grant {
+    .section__content {
+        p {
+            margin-block-start: 0;
+            font-family: var(----font-PlusJakartaSans);
+        }
+    }
+}
+
