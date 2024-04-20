@@ -37,7 +37,7 @@
 .navigation--footer {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 
 
@@ -62,5 +62,24 @@
     .dropdown__toggle {
         font-family: var(--font-starcoin);
         font-size: 14px;
+    }
+}
+
+/* width >= 992px*/ 
+@media only screen and (min-width: 991.98px) {
+    .navigation--footer {
+
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    }
+}
+
+
+/* width >= 1024px*/ 
+@media only screen and (min-width: 1023.98px) {
+    .navigation--footer {
+
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+
     }
 }

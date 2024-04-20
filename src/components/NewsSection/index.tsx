@@ -20,7 +20,7 @@ export default function NewsSection() {
                 <h4 className="card__title">Resource Oriented-Move</h4>
                 <div className="card__date">2023.12.09</div>
                 <div className="card__action">
-                  <a href="#" className="button button--primary">View More</a>
+                  <a href="#" className="button button--primary">View More <svg className="icon--arrow-right-long"><use xlinkHref="#arrow-right-long" href="#arrow-right-long" /></svg></a>
                 </div>
               </div>
               

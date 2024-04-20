@@ -1,5 +1,3 @@
-import "./LanguageDropdownMenu.css"
-
 import clsx from "clsx";
 import I18n, { type LocaleCode } from "@/i18n";
 import { useState, useEffect, type MouseEvent } from "react";
@@ -47,12 +45,6 @@ export default function LanguageDropdownMenu({
           <use xlinkHref="#angle-down" href="#angle-down" />
         </svg>
       </button>
-
-      {/* 注释 待加功能
-        1. "--options" 根据 option 数量变化 
-        2. 选中的 option 需要添加类名 active
-        3. button 添加 click 事件，同时 dropdown__content 中 active 类名切换
-      */}
 
       <div
         className={clsx('dropdown__content', { active: open })}
