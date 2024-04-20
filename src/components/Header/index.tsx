@@ -15,13 +15,13 @@ export default function Header({
     <header className="page--header">
       <div className="header__container section__container">
         <h1 id="logo" className="logo">
-          <a href="/">
+          <a href="/en/">
             <svg>
               <use xlinkHref="#logo" href="#logo" />
             </svg>
           </a>
         </h1>
-        <div className="nav--wrapper">
+        <div className="nav--wrapper open">
           <Navigation />
           <div className="item">
             <Social />

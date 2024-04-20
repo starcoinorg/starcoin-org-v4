@@ -9,6 +9,7 @@ export default function NewTrails() {
           Blaze New <strong>Trails</strong>
         </div>
         <div className="section__content">
+          <input type="radio" className="sr-only"  />
           <ul className="news-lists">
             <li>State Storage</li>
             <li>Easy Gas</li>
@@ -71,6 +72,9 @@ export default function NewTrails() {
           </ul>
         </div>
       </div>
+      <figure className="news-trails__bg">
+      <img src="https://picsum.photos/1920/1024?random=4" alt="" />
+      </figure>
     </section>
   );
 }

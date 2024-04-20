@@ -58,7 +58,9 @@
     top: 100%;
     z-index: var(--layer-2);
     background-color: var(--black);
-    display: grid;
+
+
+    display: none; /* 默认为 none */
 
     .item {
         display: flex;
@@ -68,7 +70,13 @@
         padding-block: 16px;
     }
 
-    display: none;
+    /* 汉堡 icon 点击切换类名 open */
+
+    &.open {
+        display: grid;
+    }
+
+    
 }
 
 /* width >= 768px */
@@ -126,37 +134,47 @@
         }
     }
 
-    a {
+    .dropdown__toggle {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        min-height: 48px;
         padding-inline: 24px;
+        cursor: pointer;
+
+        &.active {
+            border-bottom-color: currentColor;
+            > a {
+                color: var(--link-color-active);
+            }
+        }
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        min-height: 48px;
+        flex: 1 1 0%;
         
         color: var(--link-color);
         transition: all .28s linear;
         font-size: 14px;
 
         &:focus,
-        &:hover,
-        &.active {
+        &:hover{
             color: var(--link-color-active);
         }
 
-        &.active {
-            border-bottom-color: currentColor;
-
-
-        }
     }
 
     .icon--arrow-right {
         display: block;
         aspect-ratio: 1;
-        width: 10px;
+        width: 44px;
         fill: currentColor;
         transform-origin: 50% 50%;
         transform-box: fill-box;
+        padding: 12px;
+        cursor: pointer;
     }
 
     .dropdown__content {
@@ -168,13 +186,14 @@
             border-bottom: none;
             font-family: var(--font-PlusJakartaSans);
             opacity: .7;
+            padding-inline: 24px;
 
             &:hover {
                 opacity: 1;
             }
         }
     }
-
+    
     .active {
         .icon--arrow-right {
             transform: rotate(90deg);
@@ -210,10 +229,10 @@
             position: relative;
             
 
-            > a {
+            > span {
                 padding: unset;
                 justify-content: flex-start;
-                gap: 8px;
+                gap: 0;
                 white-space: nowrap;
             }
 
@@ -221,6 +240,10 @@
                 margin-inline-start: unset;
                 transform: rotate(90deg);
                 flex-shrink: 0;
+            }
+
+            &:hover > .dropdown__content {
+                display: grid;
             }
         }
 
@@ -338,15 +361,16 @@
       background-color: rgb(0 0 0 / .85);
       border-radius: 6px;
       max-height: calc(var(--size) * var(--options));
-      overflow-y: auto;
+      overflow-y: hidden;
       transition: .4s linear .2s;
       height: 0;
       color: var(--color);
       min-width: 220px;
-  
+      opacity: 0;
   
       &.active {
           height: calc(var(--size) * var(--options));
+          opacity: 1;
         }
     }
   

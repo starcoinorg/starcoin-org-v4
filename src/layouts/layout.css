@@ -184,6 +184,7 @@ ul, li {
         justify-content: center;
         align-items: center;
         gap: 10px;
+        flex-wrap: wrap;
 
         .button {
             flex: 1 1 0%;

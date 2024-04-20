@@ -5,11 +5,16 @@ export default function FeatureSection() {
   return (
    <section className="section section--feature">
     <div className="section__container feature__container">
-      <div className="section__title">Features</div>
+      <div className="section__title">
+       <h3>Features</h3>
+       <small>Starcoin offers a reliable and future-proof blockchain solution that addresses the evolving needs of the digital economy.</small>
+      </div>
       <div className="section__content">
-        <p>Starcoin offers a reliable and future-proof blockchain solution that addresses the evolving needs of the digital economy.</p>
         <div className="cards cards--feacures">
           <div className="card">
+            <figure>
+              <img src="https://picsum.photos/800/600?random=4" alt="" />
+            </figure>
             <h4 className="card__title">
             Enhanced PoW Consensus
             </h4>
@@ -19,6 +24,9 @@ export default function FeatureSection() {
             </div>
           </div>
           <div className="card">
+          <figure>
+              <img src="https://picsum.photos/800/600?random=4" alt="" />
+            </figure>
             <h4 className="card__title">
             Move Smart Contract
             </h4>
@@ -28,6 +36,9 @@ export default function FeatureSection() {
 
           </div>
           <div className="card">
+          <figure>
+              <img src="https://picsum.photos/800/600?random=4" alt="" />
+            </figure>
             <h4 className="card__title">High-Performance Parallelization</h4>
             <div className="card__content">
               <p>Starcoin ensures unparalleled smart contract security by leveraging Move, a language renowned for its resource-oriented programming paradigm and comprehensive security features, revolutionizing the blockchain landscape and providing users with a secure, robust environment.</p>
@@ -35,7 +46,7 @@ export default function FeatureSection() {
                 <div className="sub-card">
                   <h5 className="sub-card__title">FlexiDAG</h5>
                   <figure className="sbu-card__media">
-                    <img src="http://i.pravatar.cc/500?img=1" alt="" />
+                  <img src="https://picsum.photos/800/600?random=4" alt="" />
                   </figure>
                   <div className="sub-card__content">
                     <p>Balancing Parallel Processing and Security</p>
@@ -52,7 +63,7 @@ export default function FeatureSection() {
                 <div className="sub-card">
                   <h5 className="sub-card__title">TurboSTM</h5>
                   <figure className="sbu-card__media">
-                    <img src="http://i.pravatar.cc/500?img=3" alt="" />
+                  <img src="https://picsum.photos/800/600?random=4" alt="" />
                   </figure>
                   <div className="sub-card__content">
                     <p>Reshaping the Execution of Smart Contracts</p>
