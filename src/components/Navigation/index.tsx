@@ -6,7 +6,7 @@ import nav_data, { type NavGroup } from "./nav-data";
 
 export default function Navigation({ locale }: { locale: LocaleCode }) {
   const t = I18n.create_trans(locale);
-  const [active_group, set_active_group] = useState(nav_data[0].group);
+  const [active_group, set_active_group] = useState<NavGroup['group']>();
 
   function change_active_group(evt: MouseEvent, ng: NavGroup) {
     evt.preventDefault();
