@@ -1,12 +1,16 @@
 import "./HomePageHero.css";
 import StatisticsCard from "@/components/StatisticsCard";
 
-import I18n, { type LocaleCode } from '@/i18n'
+import I18n, {type LocaleCode} from '@/i18n'
 
 import img_hhm from '@/images/home-hero-mobile.png'
 import img_hhd from '@/images/home-hero-desktop.png'
 
-export default function HomePageHero({ locale }: { locale: LocaleCode }) {
+export default function HomePageHero({
+  locale
+}: {
+  locale: LocaleCode
+}) {
   const t = I18n.create_trans(locale)
 
   return (

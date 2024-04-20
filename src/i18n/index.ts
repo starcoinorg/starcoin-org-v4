@@ -54,8 +54,8 @@ function t(
   return ret
 }
 
-function create_trans(local: LocaleCode = locale_config.default) {
-  return t.bind(null, local)
+function create_trans(locale: LocaleCode = locale_config.default) {
+  return t.bind(null, locale)
 }
 
 function pick_current_locale(locale?: LocaleCode) {
