@@ -8,9 +8,9 @@ import NewsSection from "@/components/NewsSection";
 import Dividers from "@/components/Dividers";
 
 import I18n, { type LocaleCode } from "@/i18n";
+
 const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
 const t = I18n.create_trans(locale);
-
 // import { getRelativeLocaleUrl as grlu } from "astro:i18n";
 ---
 

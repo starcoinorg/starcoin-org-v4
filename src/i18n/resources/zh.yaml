@@ -6,6 +6,45 @@ site:
   name: 'Starcoin'
   desc: ''
 
+# 导航菜单
+nav:
+  group:
+    home: '首页'
+    features: 'Features'
+    developers: '开发者'
+    getstc: 'Get stc'
+    community: '社区'
+    news: '新闻'
+  home:
+    get_started: 'Get Started on Starcoin'
+    feature: 'Starcoins Feature'
+    community: 'Community'
+    news: 'News'
+  features:
+    features: 'Features'
+    new_trails: 'Blaze New Trails'
+    starcoin_v2: 'Starcoin 2.0'
+    starcoin_foundation: 'Starcoin Foundation'
+    starcoin_grant: 'Starcoin Grant'
+    starcoin_roadmap: 'Starcoin Roadmap'
+  developers:
+    easy_building: 'Easy Building'
+    starcoin_grant: 'Starcoin Grant'
+  getstc:
+    node_mining: 'Node Mining'
+    starmask_wallet: 'StarMask Wallet'
+    geeks: 'Geeks'
+    hardcore_player: 'Hardcore Player'
+    one_chain_dao: 'One-chain DAO'
+  community:
+    star_dome: 'Star Dome'
+    one_chain_dao: 'One-chain DAO'
+    ecosystem_partners: 'Ecosystem Partners'
+    branding: 'Branding'
+  news:
+    news_blog: 'News & Blog'
+
+# 首页
 home:
   title: '首页'
   hero_title: '速度的力量'

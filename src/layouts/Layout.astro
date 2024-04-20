@@ -8,6 +8,7 @@ import SVGIcons from "@/components/SVGIcons/index.astro";
 
 import I18n, { type LocaleCode } from "@/i18n";
 const lng = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
+const t = I18n.create_trans(lng)
 ---
 
 <!doctype html>
