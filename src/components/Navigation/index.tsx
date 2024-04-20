@@ -6,12 +6,14 @@ import nav_data, { type NavGroup } from "./nav-data";
 
 export default function Navigation({ locale }: { locale: LocaleCode }) {
   const t = I18n.create_trans(locale);
-  const [active_group, set_active_group] = useState<NavGroup['group']>();
+  const [active_groups, set_active_groups] = useState<NavGroup['group'][]>([]);
 
   function change_active_group(evt: MouseEvent, ng: NavGroup) {
     evt.preventDefault();
-    if (ng.group !== active_group) {
-      set_active_group(ng.group);
+    if (active_groups.includes(ng.group)) {
+      set_active_groups(active_groups.filter(ag => ag !== ng.group));
+    } else {
+      set_active_groups([...active_groups, ng.group])
     }
   }
 
@@ -22,7 +24,7 @@ export default function Navigation({ locale }: { locale: LocaleCode }) {
           <li className="dropdown" key={o.group}>
             <span
               className={clsx("dropdown__toggle", {
-                active: o.group === active_group,
+                active: active_groups.includes(o.group),
               })}
             >
               <a href={o.href}>{t(o.t_key)}</a>

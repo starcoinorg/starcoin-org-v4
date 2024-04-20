@@ -1,17 +1,17 @@
-import { useState } from "react";
 import "./Hamburg.css";
 
 export default function Hamburg({
-  onChange
+  onChange,
+  pressed,
 }: {
-  onChange: (s: boolean) => void
+  onChange: (s: boolean) => void,
+  pressed: boolean,
 }) {
-  const [pressed, set_pressed] = useState(false);
 
   function toggle_pressed() {
-    set_pressed(!pressed)
     onChange(!pressed)
-  };
+  }
+
   return (
     <button className="hamburg" aria-pressed={pressed} onClick={toggle_pressed}>
       <svg aria-hidden="true" viewBox="0 0 24 24" className="icon--hamburg">
