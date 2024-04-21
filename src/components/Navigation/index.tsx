@@ -1,10 +1,14 @@
 import { useState, type MouseEvent } from "react";
 import clsx from "clsx";
-import I18n, { type LocaleCode } from "@/i18n";
+import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 
 import nav_data, { type NavGroup } from "@/assets/nav-data";
 
-export default function Navigation({ locale }: { locale: LocaleCode }) {
+export default function Navigation({
+  locale
+}: {
+  locale: LocaleCode
+}) {
   const t = I18n.create_trans(locale);
   const [active_groups, set_active_groups] = useState<NavGroup['group'][]>([]);
 
@@ -27,7 +31,9 @@ export default function Navigation({ locale }: { locale: LocaleCode }) {
                 active: active_groups.includes(o.group),
               })}
             >
-              <a href={o.href}>{t(o.t_key)}</a>
+              <a href={getRelativeLocaleUrl(locale, o.href)}>
+                {t(o.t_key)}
+                </a>
               <svg
                 className="icon--arrow-right"
                 onClick={(evt) => change_active_group(evt, o)}
@@ -39,7 +45,9 @@ export default function Navigation({ locale }: { locale: LocaleCode }) {
               {o.links.map((l) => {
                 return (
                   <li key={l.t_key}>
-                    <a href={l.href}>{t(l.t_key)}</a>
+                    <a href={getRelativeLocaleUrl(locale, o.href, l.href)}>
+                      {t(l.t_key)}
+                    </a>
                   </li>
                 );
               })}

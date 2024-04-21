@@ -6,7 +6,7 @@ import Download from '@/components/Download';
 export default function StarMaskWallet() {
   return (
     <section className="section section-star-mask-wallet">
-      <div className="section__container star-mask-wallet__container">
+      <div id="starmask-wallet" className="section__container star-mask-wallet__container">
         <div className="section__title">StarMask <strong>Wallet</strong></div>
         <div className="section__content">
           <p>The MetaMask equivalent for Move, a non-custodial Chrome extension wallet tailored for Starcoin. With support for DeFi/Web3 functionality, NFT galleries, on-chain asset management, and DID integration.</p>

@@ -1,21 +1,19 @@
 ---
-import Layout from '@/layouts/Layout.astro';
-import GetSTCPageHero from '@/components/GetSTCPageHero';
-import NodeMining from '@/components/NodeMining';
-import StarMaskWallet from '@/components/StarMaskWallet';
-import Geeks from '@/components/Geeks';
-import HardcorePlayer from '@/components/HardcorePlayer';
-import OneChainDAO from '@/components/OneChainDAO';
-import Dividers from '@/components/Dividers';
-
-
+import Layout from "@/layouts/Layout.astro";
+import GetSTCPageHero from "@/components/GetSTCPageHero";
+import NodeMining from "@/components/NodeMining";
+import StarMaskWallet from "@/components/StarMaskWallet";
+import Geeks from "@/components/Geeks";
+import HardcorePlayer from "@/components/HardcorePlayer";
+import OneChainDAO from "@/components/OneChainDAO";
+import Dividers from "@/components/Dividers";
 
 import I18n, { type LocaleCode } from "@/i18n";
 const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
 const t = I18n.create_trans(locale);
 ---
 
-<Layout title='individual'>
+<Layout>
 	<GetSTCPageHero />
 	<Dividers />
 	<NodeMining />
@@ -29,9 +27,9 @@ const t = I18n.create_trans(locale);
 	<OneChainDAO />
 
 	<Fragment slot="page-meta">
-		<title>{t("home.title")} - {t("site.name")}</title>
-		<!-- <meta name="description" content={desc} />
-		<link rel="canonical" href={site} />
+		<title>{t("getstc.title")} - {t("site.name")}</title>
+		<meta name="description" content={t("site.desc")} />
+		<!-- <link rel="canonical" href={site} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={desc} />
 		<meta property="og:type" content="website" />
@@ -39,7 +37,3 @@ const t = I18n.create_trans(locale);
 		<meta property="og:image" content={`${site}favicon.png`} /> -->
 	</Fragment>
 </Layout>
-
-<style>
-	
-</style>

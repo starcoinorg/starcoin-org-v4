@@ -11,7 +11,6 @@ import I18n, { type LocaleCode } from "@/i18n";
 
 const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
 const t = I18n.create_trans(locale);
-// import { getRelativeLocaleUrl as grlu } from "astro:i18n";
 ---
 
 <Layout>
@@ -27,8 +26,8 @@ const t = I18n.create_trans(locale);
 
 	<Fragment slot="page-meta">
 		<title>{t("home.title")} - {t("site.name")}</title>
-		<!-- <meta name="description" content={desc} />
-		<link rel="canonical" href={site} />
+		<meta name="description" content={t('site.desc')} />
+		<!-- <link rel="canonical" href={site} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={desc} />
 		<meta property="og:type" content="website" />

@@ -4,7 +4,7 @@ import "./StarcoinFoundation.css";
 export default function StarcoinFoundation() {
   return (
     <section className="section section--starcoin-foundation">
-      <div className="section__container starcoin-foundation__container">
+      <div id="starcoin-foundation" className="section__container starcoin-foundation__container">
         <div className="section__title">
           <h3>
             Starcoin

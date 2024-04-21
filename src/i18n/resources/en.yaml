@@ -4,7 +4,7 @@ ok: 'Ok'
 # Other language fields are organized by page or functional module
 site:
   name: 'Starcoin'
-  desc: ''
+  desc: 'Starcoin is a proof-of-work blockchain that enables secure smart contracts based on Move to power services in Web 3.0'
   copyright: '2024 Starcoin.org. All Rights Reserved.'
 
 # Navigation menu
@@ -50,3 +50,23 @@ home:
   title: 'Home'
   hero_title: 'power in speed'
   hero_subtitle: 'innovate with <strong>pow</strong>'
+
+# Features page
+features:
+  title: 'Features'
+
+# Developers page
+developers:
+  title: 'Developers'
+
+# Get stc page
+getstc:
+  title: 'Get stc'
+
+# Community page
+community:
+  title: 'Community'
+
+# News page
+news:
+  title: 'News'

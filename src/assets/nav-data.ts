@@ -16,19 +16,19 @@ nav_data.push({
   t_key: 'nav.group.home',
   links: [
     {
-      href: '/#',
+      href: '#get-started',
       t_key: 'nav.home.get_started'
     },
     {
-      href: '/#',
+      href: '#features',
       t_key: 'nav.home.feature'
     },
     {
-      href: '/#',
+      href: '#community',
       t_key: 'nav.home.community'
     },
     {
-      href: '/#',
+      href: '#news',
       t_key: 'nav.home.news'
     }
   ]
@@ -40,27 +40,27 @@ nav_data.push({
   t_key: 'nav.group.features',
   links: [
     {
-      href: '/#',
+      href: '#features',
       t_key: 'nav.features.features'
     },
     {
-      href: '/#',
+      href: '#new-trails',
       t_key: 'nav.features.new_trails'
     },
     {
-      href: '/#',
+      href: '#starcoin-v2',
       t_key: 'nav.features.starcoin_v2'
     },
     {
-      href: '/#',
+      href: '#starcoin-foundation',
       t_key: 'nav.features.starcoin_foundation'
     },
     {
-      href: '/#',
+      href: '#starcoin-grant',
       t_key: 'nav.features.starcoin_grant'
     },
     {
-      href: '/#',
+      href: '#starcoin-roadmap',
       t_key: 'nav.features.starcoin_roadmap'
     },
   ]
@@ -72,11 +72,11 @@ nav_data.push({
   t_key: 'nav.group.developers',
   links: [
     {
-      href: '/#',
+      href: '#easy-building',
       t_key: 'nav.developers.easy_building'
     },
     {
-      href: '/#',
+      href: '#starcoin-grant',
       t_key: 'nav.developers.starcoin_grant'
     },
   ]
@@ -88,23 +88,23 @@ nav_data.push({
   t_key: 'nav.group.getstc',
   links: [
     {
-      href: '/#',
+      href: '#node-mining',
       t_key: 'nav.getstc.node_mining'
     },
     {
-      href: '/#',
+      href: '#starmask-wallet',
       t_key: 'nav.getstc.starmask_wallet'
     },
     {
-      href: '/#',
+      href: '#geeks',
       t_key: 'nav.getstc.geeks'
     },
     {
-      href: '/#',
+      href: '#hardcore-player',
       t_key: 'nav.getstc.hardcore_player'
     },
     {
-      href: '/#',
+      href: '#one-chain-dao',
       t_key: 'nav.getstc.one_chain_dao'
     },
   ]
@@ -116,19 +116,19 @@ nav_data.push({
   t_key: 'nav.group.community',
   links: [
     {
-      href: '/#',
+      href: '#star-dome',
       t_key: 'nav.community.star_dome'
     },
     {
-      href: '/#',
+      href: '#one-chain-dao',
       t_key: 'nav.community.one_chain_dao'
     },
     {
-      href: '/#',
+      href: '#ecosystem-partners',
       t_key: 'nav.community.ecosystem_partners'
     },
     {
-      href: '/#',
+      href: '#branding',
       t_key: 'nav.community.branding'
     },
   ]
@@ -140,7 +140,7 @@ nav_data.push({
   t_key: 'nav.group.news',
   links: [
     {
-      href: '/#',
+      href: '#news-blog',
       t_key: 'nav.news.news_blog'
     },
   ]

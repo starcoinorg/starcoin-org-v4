@@ -4,7 +4,7 @@ import "./EasyBuilding.css";
 export default function EasyBuilding() {
   return (
     <section className="section section--easy-building">
-      <div className="section__container easy-building__container">
+      <div id="easy-building" className="section__container easy-building__container">
         <div className="section__title">
           Easy building <small>Simplicity</small>
         </div>

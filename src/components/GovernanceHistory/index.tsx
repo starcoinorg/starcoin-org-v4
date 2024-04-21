@@ -6,7 +6,7 @@ import './GovernanceHistory.css';
 export default function GovernanceHistory() {
   return (
     <section className="section section--governance-history">
-      <div className="section__container governance-history__container">
+      <div id="one-chain-dao" className="section__container governance-history__container">
         <div className="section__title">One-chain <strong>DAO</strong></div>
         <div className="section__content">
           <p>Starcoin is a community co-owned native club, Supported by sustainable incentives and transparent & verifiable systems. Serving stakeholders who can co-build on the future of the DAO.</p>

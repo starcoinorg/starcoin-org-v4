@@ -8,7 +8,7 @@ import InfiniteScrollingTexts from '@/components/InfiniteScrollingTexts';
 export default function CommunitySection() {
   return (
     <section className="section section--community">
-      <div className="section__container community__container">
+      <div id="community" className="section__container community__container">
         <div className="section__title">
           <h3>Community</h3> 
           <small>Existence Holds Value</small>

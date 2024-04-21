@@ -5,7 +5,7 @@ import Hamburg from "@/components/Hamburg";
 import LanguageDropdownMenu from "@/components/LanguageDropdownMenu";
 
 import { useState, useEffect, type MouseEvent } from "react";
-import I18n, { type LocaleCode } from "@/i18n";
+import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 import clsx from "clsx";
 
 export default function Header({
@@ -48,7 +48,7 @@ export default function Header({
     <header className="page--header">
       <div className="header__container section__container" onClick={stop_click}>
         <h1 id="logo" className="logo">
-          <a href="/en/">
+          <a href={getRelativeLocaleUrl(locale, '/')}>
             <svg>
               <use xlinkHref="#logo" href="#logo" />
             </svg>

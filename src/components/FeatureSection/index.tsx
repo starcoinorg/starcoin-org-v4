@@ -4,7 +4,7 @@ import './FeatureSection.css';
 export default function FeatureSection() {
   return (
    <section className="section section--feature">
-    <div className="section__container feature__container">
+      <div id="features" className="section__container feature__container">
       <div className="section__title">
        <h3>Features</h3>
        <small>Starcoin offers a reliable and future-proof blockchain solution that addresses the evolving needs of the digital economy.</small>

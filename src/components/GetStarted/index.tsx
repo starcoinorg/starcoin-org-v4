@@ -1,10 +1,9 @@
-import React from "react";
 import './GetStarted.css';
 
 export default function GetStarted() {
   return (
     <section className="section--getstarted section">
-      <div className="section__container getstarted__container">
+      <div id="get-started" className="section__container getstarted__container">
         <div className="section__title">
           <h3>Get Started on <strong>tarcoin</strong></h3>
         </div>

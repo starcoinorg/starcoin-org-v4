@@ -4,7 +4,7 @@ import './EcosystemPartners.css';
 export default function EcosystemPartners() {
   return (
     <section className="section section--ecosystem-partners">
-      <div className="section__container ecosystem-partners__container">
+      <div id="ecosystem-partners" className="section__container ecosystem-partners__container">
         <div className="section__title"><strong>Ecosystem</strong> Partners</div>
         <div className="section__content">
           <figure>

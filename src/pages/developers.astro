@@ -5,14 +5,12 @@ import EasyBuilding from "@/components/EasyBuilding";
 import StarcoinGrantDevelopers from "@/components/StarcoinGrantDevelopers";
 import Dividers from "@/components/Dividers";
 
-
-
 import I18n, { type LocaleCode } from "@/i18n";
 const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
 const t = I18n.create_trans(locale);
 ---
 
-<Layout title="Developers">
+<Layout>
 	<DevelopersPageHero />
 	<Dividers />
 	<EasyBuilding />
@@ -20,9 +18,9 @@ const t = I18n.create_trans(locale);
 	<StarcoinGrantDevelopers />
 
 	<Fragment slot="page-meta">
-		<title>{t("home.title")} - {t("site.name")}</title>
-		<!-- <meta name="description" content={desc} />
-		<link rel="canonical" href={site} />
+		<title>{t("developers.title")} - {t("site.name")}</title>
+		<meta name="description" content={t("site.desc")} />
+		<!-- <link rel="canonical" href={site} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={desc} />
 		<meta property="og:type" content="website" />
@@ -30,5 +28,3 @@ const t = I18n.create_trans(locale);
 		<meta property="og:image" content={`${site}favicon.png`} /> -->
 	</Fragment>
 </Layout>
-
-<style></style>

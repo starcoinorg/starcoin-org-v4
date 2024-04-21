@@ -1,6 +1,6 @@
 import nav_data, { type NavGroup } from "@/assets/nav-data";
 
-import I18n, { type LocaleCode } from "@/i18n";
+import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 
 export default function FooterMenu({
   locale
@@ -24,7 +24,7 @@ export default function FooterMenu({
               {ng.links.map((nl) => {
                 return (
                   <li key={nl.t_key}>
-                    <a href={nl.href}>
+                    <a href={getRelativeLocaleUrl(locale, ng.href, nl.href)}>
                       {t(nl.t_key)}
                     </a>
                   </li>

@@ -11,6 +11,7 @@ html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
+  scroll-behavior: smooth;
 }
 
 /* Remove default margin in favour of better control in authored CSS */
@@ -90,7 +91,7 @@ textarea:not([rows]) {
 /* @font-face */
 @font-face {
   font-family: 'PlusJakartaSansItalic';
-  src: url('../fonts/PlusJakartaSans-Italic-VariableFont_wght.woff2') format('woff2');
+  src: url('/fonts/PlusJakartaSans-Italic-VariableFont_wght.woff2') format('woff2');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -98,7 +99,7 @@ textarea:not([rows]) {
 
 @font-face {
   font-family: 'PlusJakartaSans';
-  src: url('../fonts/PlusJakartaSans-VariableFont_wght.woff2') format('woff2');
+  src: url('/fonts/PlusJakartaSans-VariableFont_wght.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -106,7 +107,7 @@ textarea:not([rows]) {
 
 @font-face {
   font-family: 'starcoin';
-  src: url('../fonts/starcoin.woff2') format('woff2');
+  src: url('/fonts/starcoin.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

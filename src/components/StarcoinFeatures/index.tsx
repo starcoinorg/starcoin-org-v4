@@ -6,7 +6,7 @@ import FeatureTable from '@/components/FeatureTable';
 export default function StarcoinFeatures() {
   return (
     <section className="section section--starcoin-features">
-      <div className="section__container starcoin-features__container">
+      <div id="features" className="section__container starcoin-features__container">
         <div className="section__title">
           <h3><strong>Starcoin</strong> Features</h3>
           <small>Innovative Upgrade 2.0. Elevating Your Experience.</small>

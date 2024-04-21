@@ -49,3 +49,23 @@ nav:
 home:
   title: '首页'
   hero_title: '速度的力量'
+
+# Features page
+features:
+  title: 'Features'
+
+# Developers page
+developers:
+  title: '开发者'
+
+# Get stc page
+getstc:
+  title: 'Get stc'
+
+# Community page
+community:
+  title: '社区'
+
+# News page
+news:
+  title: '新闻'

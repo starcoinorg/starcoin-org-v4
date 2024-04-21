@@ -4,7 +4,7 @@ import "./NewTrails.css";
 export default function NewTrails() {
   return (
     <section className="section section--new-trails">
-      <div className="section__container new-trails__container">
+      <div id="new-trails" className="section__container new-trails__container">
         <div className="section__title">
           Blaze New <strong>Trails</strong>
         </div>
