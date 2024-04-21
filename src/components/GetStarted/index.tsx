@@ -1,29 +1,32 @@
 import './GetStarted.css';
+import I18n, { type LocaleCode } from '@/i18n'
 
-export default function GetStarted() {
+export default function GetStarted({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+  const t = I18n.create_trans(locale)
+
   return (
     <section className="section--getstarted section">
       <div id="get-started" className="section__container getstarted__container">
         <div className="section__title">
-          <h3>Get Started on <strong>tarcoin</strong></h3>
+          <h3 dangerouslySetInnerHTML={{ __html: t('home.get_started.title') }}></h3>
         </div>
         <div className="section__content">
           <ul>
             <li>
-              <h4>Easy building<small>Your Launchpad to Move.</small></h4>
-              <p>Join us, the PoW consensus pioneers in the Move ecosystem.
-Get started with Starcoin, the leading platform for early developers in the Move ecology.</p>
+              <h4 dangerouslySetInnerHTML={{ __html: t('home.get_started.li_1.h4') }}></h4>
+              <p>{t('home.get_started.li_1.p')}</p>
             </li>
             <li>
-              <h4>Easy buying<small>Your Simple Gateway.</small></h4>
-              <p>Acquire STC Effortlessly at Gate.io, Coinex.
-For decentralized options, explore Starswap
-for easy trading, staking, farming, and earning yield.</p>
+              <h4 dangerouslySetInnerHTML={{ __html: t('home.get_started.li_2.h4') }}></h4>
+              <p>{t('home.get_started.li_2.p')}</p>
             </li>
             <li>
-              <h4>Blazing Block Mining<small>Your lightning-speed experience.</small></h4>
-              <p>Unlock the Power of Starcoin's PoW and DAG Structure with Move.
-Mine Faster, Earn More, Revolutionize with Blazing Blocks.</p>
+              <h4 dangerouslySetInnerHTML={{ __html: t('home.get_started.li_3.h4') }}></h4>
+              <p>{t('home.get_started.li_3.p')}</p>
             </li>
           </ul>
         </div>

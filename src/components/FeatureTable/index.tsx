@@ -1,69 +1,70 @@
-import React from "react";
 import "./FeatureTable.css";
 
-export default function FeatureTable() {
+import I18n, { type LocaleCode } from '@/i18n';
+
+export default function FeatureTable({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+  const t = I18n.create_trans(locale)
+
   return (
     <div className="card--table">
       <div className="table--feature">
         <div className="row row__title">
-          <div className="column">Feature</div>
-          <div className="column">Starcoin 1.0 (Excluding DAG)</div>
-          <div className="column">Starcoin 2.0 (Incorporating DAG)</div>
+          <div className="column">{t('home.features.table.row_1.0')}</div>
+          <div className="column">{t('home.features.table.row_1.1')}</div>
+          <div className="column">{t('home.features.table.row_1.2')}</div>
         </div>
 
         <div className="row row__content">
-          <div className="column">Structure</div>
+          <div className="column">{t('home.features.table.row_2.0')}</div>
           <div className="column">
-            Comprises a linear, sequential chain of blocks.
+            {t('home.features.table.row_2.1')}
           </div>
           <div className="column">
-            Combines a DAG with multiple subnets and blockchains for its
-            consensus layer.
-          </div>
-        </div>
-
-        <div className="row row__content">
-          <div className="column">Consensus Mechanism</div>
-          <div className="column">
-            -Proof of Work (PoW) <br />
-            -An enhance version of Nakamoto Consensus
-          </div>
-          <div className="column">
-            -Proof of Work (PoW) <br />
-            -An enhance version of Nakamoto Consensus combined with FlexiDAG
+            {t('home.features.table.row_2.2')}
           </div>
         </div>
 
         <div className="row row__content">
-          <div className="column">Scalability</div>
           <div className="column">
-            Constrained by block size and block creation time, potentially
-            causing bottlenecks.
+            {t('home.features.table.row_3.0')}
+          </div>
+          <div className="column" dangerouslySetInnerHTML={{ __html: t('home.features.table.row_3.1') }}></div>
+          <div className="column" dangerouslySetInnerHTML={{ __html: t('home.features.table.row_3.2') }}></div>
+        </div>
+
+        <div className="row row__content">
+          <div className="column">{t('home.features.table.row_4.0')}</div>
+          <div className="column">
+            {t('home.features.table.row_4.1')}
           </div>
           <div className="column">
-            Offers high scalability and throughput due to parallel transaction
-            processing.
+            {t('home.features.table.row_4.2')}
           </div>
         </div>
 
         <div className="row row__content">
-          <div className="column">Transaction Throughput</div>
+          <div className="column">{t('home.features.table.row_5.0')}</div>
           <div className="column">
-            Lower, as blocks are processed sequentially, about 1,000 TXs /
-            seconds.
+            {t('home.features.table.row_5.1')}
           </div>
           <div className="column">
-            Remarkably higher, thanks to the parallel processing of transactions
-            10 -20x faster.
+            {t('home.features.table.row_5.2')}
           </div>
         </div>
 
         <div className="row row__content">
-          <div className="column">Transaction Parallel Execution</div>
-          <div className="column">No</div>
           <div className="column">
-            Yes. Transactions are organized into blocks, increasing throughput
-            by 10 times through the use of TurboSTM.
+            {t('home.features.table.row_6.0')}
+          </div>
+          <div className="column">
+            {t('home.features.table.row_6.1')}
+          </div>
+          <div className="column">
+            {t('home.features.table.row_6.2')}
           </div>
         </div>
       </div>

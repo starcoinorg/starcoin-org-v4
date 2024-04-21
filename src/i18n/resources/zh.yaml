@@ -1,11 +1,13 @@
 # 公共语言字段直接放在第一层级
-ok: '好的'
+new: 新
+more: 更多
+view_more: 查看更多
 
 # 其它语言字段按页面或功能模块进行组织
 site:
   name: 'Starcoin'
-  desc: ''
-  copyright: '2024 Starcoin.org. 保留一切权利.'
+  desc: 'Starcoin is a proof-of-work blockchain that enables secure smart contracts based on Move to power services in Web 3.0'
+  copyright: '2024 Starcoin.org. All Rights Reserved.'
 
 # 导航菜单
 nav:
@@ -48,7 +50,8 @@ nav:
 # 首页
 home:
   title: '首页'
-  hero_title: '速度的力量'
+  hero:
+    title: 速度的力量
 
 # Features page
 features:
