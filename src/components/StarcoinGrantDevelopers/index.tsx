@@ -4,7 +4,7 @@ import "./StarcoinGrantDevelopers.css";
 export default function StarcoinGrantDevelopers() {
   return (
     <section className="section section--starcoin-grant-developers">
-      <div className="section__container starcoin-grant-developers__container">
+      <div id="starcoin-grant" className="section__container starcoin-grant-developers__container">
         <div className="section__title">
           <h4>Starcoin <strong>Grant</strong></h4>
           <small>Together we empower developers to build the ecosystem of Starcoin.</small>

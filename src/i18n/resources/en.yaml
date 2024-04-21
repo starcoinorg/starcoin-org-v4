@@ -1,10 +1,13 @@
 # Public language fields are placed directly at the first level
-ok: 'Ok'
+new: New
+more: More
+view_more: View More
 
 # Other language fields are organized by page or functional module
 site:
   name: 'Starcoin'
-  desc: ''
+  desc: 'Starcoin is a proof-of-work blockchain that enables secure smart contracts based on Move to power services in Web 3.0'
+  copyright: '2024 Starcoin.org. All Rights Reserved.'
 
 # Navigation menu
 nav:
@@ -46,6 +49,135 @@ nav:
 
 # Home page
 home:
-  title: 'Home'
-  hero_title: 'power in speed'
-  hero_subtitle: 'innovate with <strong>pow</strong>'
+  title: Home
+  hero:
+    title: power in speed
+    subtitle: innovate with <strong>pow</strong>
+    desc_p1: >
+      Since 2020, Starcoin has been pioneering
+      <strong> enhanced PoW </strong> consensus and <strong>Move smart contracts</strong>,
+      ensuring secure, scalable blockchain infrastructure.
+    desc_p2: >
+      Experience <strong>lightning-fast block</strong> generation with our <strong>FlexiDAG</strong> and
+      <strong>TurboSTM</strong> technologies, fostering efficiency and reliability for Web3
+      digital life, as we propel the digital economy forward with our
+      commitment to decentralization and security.
+    action:
+      whitepaper: Light Whitepapers
+      getstc: Get STC
+  stat_card:
+    title_1: Crazy Affordable
+    title_2: Rock-Solid Backing 
+    title_3: Huge Growth Prospects
+    dt_1: AVG COST PER TRANSACTION
+    dt_2: Current Hash Rate (Hash/s)
+    dt_3: Total Transactions
+    dt_4: Target Block Time(s)
+  get_started:
+    title: Get Started on <strong>tarcoin</strong>
+    li_1:
+      h4: Easy building<small>Your Launchpad to Move.</small>
+      p: >
+        Join us, the PoW consensus pioneers in the Move ecosystem.
+        Get started with Starcoin, the leading platform for early developers in the Move ecology.
+    li_2:
+      h4: Easy buying<small>Your Simple Gateway.</small>
+      p: >
+        Acquire STC Effortlessly at Gate.io, Coinex.
+        For decentralized options, explore Starswap
+        for easy trading, staking, farming, and earning yield.
+    li_3:
+      h4: Blazing Block Mining<small>Your lightning-speed experience.</small>
+      p: >
+        Unlock the Power of Starcoin's PoW and DAG Structure with Move.
+        Mine Faster, Earn More, Revolutionize with Blazing Blocks.
+  features:
+    title: <strong>Starcoin</strong> Features
+    subtitle: Innovative Upgrade 2.0. Elevating Your Experience. 
+    desc: >
+      Starcoin, launched in 2020, pioneers the integration of Satoshi Nakamoto's enhanced Proof of Work (PoW) consensus with the secure Move programming language for smart contracts. With the introduction of FlexiDAG and TurboSTM upgrades by 2023, Starcoin 2.0, or "Tempus," marks a significant performance boost. This upgrade underscores Starcoin's commitment to continuous innovation, shaping a secure, efficient, and agile decentralized system for Web3 digital life. Through industry-leading parallelization technology like TurboSTM and Directed Acyclic Graph consensus algorithm FlexiDAG, Starcoin enhances scalability and efficiency, envisioning a decentralized digital ecosystem that empowers users to control assets and transact securely and efficiently.
+    card_1:
+      h4: Enhanced PoW Consensus
+      p: >
+        Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    card_2:
+      h4: Move Smart Contract
+      p: >
+        Starcoin ensures unparalleled smart contract security by leveraging Move, a language renowned for its resource-oriented programming paradigm and comprehensive security features, revolutionizing the blockchain landscape and providing users with a secure, robust environment.
+    table:
+      title: High-Performance Parallelization
+      desc: In 2.0 phase, Starcoin achieves a significant transaction performance boost through industry-leading parallelization technology, TurboSTM, increasing transaction processing capacity by 17 times compared to the previous phase, coupled with FlexiDAG, the new Directed Acyclic Graph consensus algorithm, enhancing block generation speed by 10 times, thus enhancing network scalability and efficiency.
+      row_1:
+        - Feature
+        - Starcoin 1.0 (Excluding DAG)
+        - Starcoin 2.0 (Incorporating DAG)
+      row_2:
+        - Structure
+        - Comprises a linear, sequential chain of blocks.
+        - >
+          Combines a DAG with multiple subnets and blockchains for its
+          consensus layer.
+      row_3:
+        - Consensus Mechanism
+        - >
+          -Proof of Work (PoW) <br />
+          -An enhance version of Nakamoto Consensus
+        - >
+          -Proof of Work (PoW) <br />
+          -An enhance version of Nakamoto Consensus combined with FlexiDAG
+      row_4:
+        - Scalability
+        - >
+          Constrained by block size and block creation time, potentially
+          causing bottlenecks.
+        - >
+          Offers high scalability and throughput due to parallel transaction
+          processing.
+      row_5:
+        - Transaction Throughput
+        - Lower, as blocks are processed sequentially, about 1,000 TXs / seconds.
+        - Remarkably higher, thanks to the parallel processing of transactions 10 -20x faster.
+      row_6:
+        - Transaction Parallel Execution
+        - No
+        - >
+          Yes. Transactions are organized into blocks, increasing throughput
+          by 10 times through the use of TurboSTM.
+  community:
+    title: Community
+    subtitle: Existence Holds Value
+    article:
+      title: One-chain DAO
+      p1: Starcoin is a community co-owned native club.
+      p2: Supported by sustainable incentives and transparent & verifiable systems.
+      p3: Serving stakeholders who can co-build on the future of the DAO.
+    h4: Ecosystem projects
+  news:
+    title: News
+    subtitle: Catch the latest news
+    card_1:
+      title: Resource Oriented-Move
+    card_2:
+      title: 2024 Blockchain New Opportunities  
+    card_3:
+      title: 2024 Blockchain New Opportunities
+
+# Features page
+features:
+  title: 'Features'
+
+# Developers page
+developers:
+  title: 'Developers'
+
+# Get stc page
+getstc:
+  title: 'Get stc'
+
+# Community page
+community:
+  title: 'Community'
+
+# News page
+news:
+  title: 'News'

@@ -4,7 +4,7 @@ import './NewsCard.css';
 export default function NewsCard() {
   return (
     <section className="section section--news-card">
-      <div className="section__container news-card__container">
+      <div id="news-blog" className="section__container news-card__container">
         <div className="cards cards--news">
           <div className="card">
             <figure>

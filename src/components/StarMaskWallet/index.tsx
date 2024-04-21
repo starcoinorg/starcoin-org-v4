@@ -6,7 +6,7 @@ import Download from '@/components/Download';
 export default function StarMaskWallet() {
   return (
     <section className="section section-star-mask-wallet">
-      <div className="section__container star-mask-wallet__container">
+      <div id="starmask-wallet" className="section__container star-mask-wallet__container">
         <div className="section__title">
           <h3>StarMask <strong>Wallet</strong></h3>
         </div>

@@ -6,8 +6,7 @@ import './OneChainDAO.css';
 export default function OneChainDAO() {
   return (
     <section className="section section--one-chain-dao">
-      <div className="section__container one-chain-dao__container">
-        <div className="content">
+      <div id="one-chain-dao" className="section__container one-chain-dao__container">
         <div className="section__title">
           <small>Starcoin DAO</small>
           <h3>One  chain <strong>DAO</strong></h3>

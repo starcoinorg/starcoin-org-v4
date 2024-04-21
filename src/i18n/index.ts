@@ -1,4 +1,5 @@
 import { get, template, isString } from 'radash'
+import { getRelativeLocaleUrl as grlu, getAbsoluteLocaleUrl as galu, type GetLocaleOptions } from 'astro:i18n'
 
 import { locale_config } from './config';
 
@@ -34,11 +35,11 @@ function t(
 
   const keys = key.split('.')
   if (!keys.length) {
-    return ret  
+    return ret
   }
-  
+
   let r = get<string | number>(lang_resources[lng], key)
-  
+
   if (!r && r !== 0 && locale_config.default !== lng) {
     r = get<string | number>(lang_resources[locale_config.default], key)
   }
@@ -46,10 +47,12 @@ function t(
   if (r || r === 0) {
     ret = r
   }
-  
+
   if (data && isString(ret)) {
     ret = template(ret, data)
   }
+
+  ret = `${ret}`
 
   return ret
 }
@@ -87,11 +90,11 @@ function set_locale_path(lc: LocaleCode, cur_lc?: LocaleCode) {
     }
     pathname = pathname.replace(`/${locale_in_path}`, locale_path)
   } else if (pathname === '/') {
-    pathname = locale_path 
+    pathname = locale_path
   } else {
     pathname = locale_path + pathname
   }
-  
+
   location.pathname = pathname
 }
 
@@ -104,3 +107,19 @@ const I18n = {
 }
 
 export default I18n
+
+export { getLocaleByPath, getPathByLocale } from 'astro:i18n'
+
+export function getRelativeLocaleUrl(
+  locale: string, 
+  path?: string, 
+  hash?: string, 
+  options?: GetLocaleOptions
+) {
+  let url = grlu(locale, path, options)
+  if (hash) {
+    url = url + hash
+  }
+
+  return url
+}

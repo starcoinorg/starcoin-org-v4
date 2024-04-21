@@ -1,5 +1,5 @@
 ---
-import "../styles/global.css";
+import "@/styles/global.css";
 import "./layout.css";
 
 import Header from "@/components/Header";
@@ -51,6 +51,6 @@ const t = I18n.create_trans(lng)
 		<main>
 			<slot />
 		</main>
-		<Footer />
+		<Footer locale={lng} />
 	</body>
 </html>

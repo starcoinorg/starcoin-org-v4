@@ -1,4 +1,3 @@
-import React from "react";
 import "./Dividers.css";
 
 export default function Dividers() {

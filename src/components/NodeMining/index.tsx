@@ -6,7 +6,7 @@ import './NodeMining.css';
 export default function NodeMining() {
   return (
     <section className="section section--node-mining">
-      <div className="node-mining__container section__container">
+      <div id="node-mining" className="node-mining__container section__container">
         <div className="section__title">
           <h4>Node <strong>Mining</strong></h4>
           <small>Unlock STC rewards by safeguarding the network and validating transactions through mining to nodes or pools.</small>

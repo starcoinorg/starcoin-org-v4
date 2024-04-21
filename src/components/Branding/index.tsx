@@ -4,7 +4,7 @@ import "./Branding.css";
 export default function Branding() {
   return (
     <section className="section section--branding">
-      <div className="section__container branding__container">
+      <div id="branding" className="section__container branding__container">
         <div className="card--branding">
           <div className="branding__content">
             <h4>
