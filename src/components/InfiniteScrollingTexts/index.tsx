@@ -3,7 +3,7 @@ import './InfiniteScrollingTexts.css';
 
 export default function InfiniteScrollingTexts(props) {
   return (
-    <div className="marquee__container marquee--text">
+    <div className={`marquee__container marquee--text ${props.className}`}>
       <div className="marquee">
         <span>{props.text}</span>
         <span>{props.text}</span>

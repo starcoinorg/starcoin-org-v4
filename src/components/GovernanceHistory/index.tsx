@@ -7,9 +7,12 @@ export default function GovernanceHistory() {
   return (
     <section className="section section--governance-history">
       <div className="section__container governance-history__container">
-        <div className="section__title">One-chain <strong>DAO</strong></div>
+        <div className="section__title">
+          <h3>One-chain <strong>DAO</strong></h3>
+          <small>Starcoin is a community co-owned native club, Supported by sustainable incentives and transparent & verifiable systems. Serving stakeholders who can co-build on the future of the DAO.</small>
+        </div>
         <div className="section__content">
-          <p>Starcoin is a community co-owned native club, Supported by sustainable incentives and transparent & verifiable systems. Serving stakeholders who can co-build on the future of the DAO.</p>
+          
           <div className="history--info">
             <div className="item">
               <svg>
@@ -59,9 +62,9 @@ export default function GovernanceHistory() {
           <div className="history--links">
             <div className="history--links__title">Governance history</div>
             <ul className="history--links__link">
-              <li><a href="#">Proposal 13: upgrade onchain move...</a></li>
-              <li><a href="#">Proposal 12: upgrade starcoin stdlib to v11</a></li>
-              <li><a href="#">Proposal 11: :upgrade onchain config of move bytecode version to v4</a></li>
+              <li><a href="#">Proposal 13: upgrade onchain move...</a><svg><use xlinkHref="#arrowRight" href="#arrowRight" /></svg></li>
+              <li><a href="#">Proposal 12: upgrade starcoin stdlib to v11</a><svg><use xlinkHref="#arrowRight" href="#arrowRight" /></svg></li>
+              <li><a href="#">Proposal 11: :upgrade onchain config of move bytecode version to v4</a><svg><use xlinkHref="#arrowRight" href="#arrowRight" /></svg></li>
 
             </ul>
           </div>

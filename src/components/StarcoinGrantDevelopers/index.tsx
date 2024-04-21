@@ -7,7 +7,7 @@ export default function StarcoinGrantDevelopers() {
       <div className="section__container starcoin-grant-developers__container">
         <div className="section__title">
           <h4>Starcoin <strong>Grant</strong></h4>
-          <p>Together we empower developers to build the ecosystem of Starcoin.</p>
+          <small>Together we empower developers to build the ecosystem of Starcoin.</small>
         </div>
         <div className="section__content">
           <p>Our goal is to create long-term incentives for open-source developers working on building out the Starcoin ecosystem, 
@@ -15,6 +15,9 @@ especially public goods R&D, which are essential to Starcoin’s success. Reques
           <button className="button button--primary">More</button>
         </div>
       </div>
+      <figure>
+        <img src="https://picsum.photos/1920/1024?random=1" alt="" />
+      </figure>
     </section>
   );
 }

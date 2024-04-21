@@ -11,9 +11,24 @@ export default function Geeks() {
       <div className="section__content">
         <p>Dive into the technical realm of Starcoin by owning and operating your own node. Unlock a plethora of capabilities, from initiating polls to minting STC and monitoring account status. Explore our comprehensive guide to installing, initializing, and utilizing Starcoin nodes.</p>
         <div className="card">
-          <div className="column"><span>Node Installation</span></div>
-          <div className="column"><span>Initiate Your Node with Command Lines</span></div>
-          <div className="column"><span>Console Command Line Tutorials</span></div>
+          <div className="column">
+            <span>Node Installation</span>
+            <svg className="icon--arrow-right">
+              <use xlinkHref="#arrowRightLong" href="#arrowRightLong" />
+            </svg>
+            </div>
+          <div className="column">
+            <span>Initiate Your Node with Command Lines</span>
+            <svg className="icon--arrow-right">
+              <use xlinkHref="#arrowRightLong" href="#arrowRightLong" />
+            </svg>
+            </div>
+          <div className="column">
+            <span>Console Command Line Tutorials</span>
+            <svg className="icon--arrow-right">
+              <use xlinkHref="#arrowRightLong" href="#arrowRightLong" />
+            </svg>
+            </div>
         </div>
       </div>
       </div>

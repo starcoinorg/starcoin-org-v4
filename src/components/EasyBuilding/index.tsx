@@ -6,14 +6,18 @@ export default function EasyBuilding() {
     <section className="section section--easy-building">
       <div className="section__container easy-building__container">
         <div className="section__title">
-          Easy building <small>Simplicity</small>
+          <h3><strong>Easy building</strong></h3>
+         <small>Simplicity</small>
         </div>
         <div className="section__content">
           <div className="cards cards--easy-building">
             <div className="card">
               <figure>
+                <div className="figure--inner">
                 <img src="https://picsum.photos/124/186?random=1" alt="" />
                 <figcaption>01</figcaption>
+                </div>
+                
               </figure>
               <div className="card__content">
                 <h4 className="card__title">Node</h4>
@@ -23,12 +27,18 @@ export default function EasyBuilding() {
                   start, how nodes work, command line usage, and more!
                 </p>
               </div>
+              <svg className="icon--arrowRight">
+                <use xlinkHref="#arrowRight" href="#arrowRight" />
+              </svg>
             </div>
 
             <div className="card">
-              <figure>
-                <img src="https://picsum.photos/124/186?random=2" alt="" />
+            <figure>
+                <div className="figure--inner">
+                <img src="https://picsum.photos/124/186?random=1" alt="" />
                 <figcaption>02</figcaption>
+                </div>
+                
               </figure>
               <div className="card__content">
                 <h4 className="card__title">Move</h4>
@@ -40,12 +50,18 @@ export default function EasyBuilding() {
                   tools for robust contract security.
                 </p>
               </div>
+              <svg className="icon--arrowRight">
+                <use xlinkHref="#arrowRight" href="#arrowRight" />
+              </svg>
             </div>
 
             <div className="card">
-              <figure>
-                <img src="https://picsum.photos/124/186?random=3" alt="" />
+            <figure>
+                <div className="figure--inner">
+                <img src="https://picsum.photos/124/186?random=1" alt="" />
                 <figcaption>03</figcaption>
+                </div>
+                
               </figure>
               <div className="card__content">
                 <h4 className="card__title">DAPP</h4>
@@ -57,12 +73,18 @@ export default function EasyBuilding() {
                   the public chain.
                 </p>
               </div>
+              <svg className="icon--arrowRight">
+                <use xlinkHref="#arrowRight" href="#arrowRight" />
+              </svg>
             </div>
 
             <div className="card">
-              <figure>
-                <img src="https://picsum.photos/124/186?random=4" alt="" />
+            <figure>
+                <div className="figure--inner">
+                <img src="https://picsum.photos/124/186?random=1" alt="" />
                 <figcaption>04</figcaption>
+                </div>
+                
               </figure>
               <div className="card__content">
                 <h4 className="card__title">Examples</h4>
@@ -72,12 +94,18 @@ export default function EasyBuilding() {
                   for efficient and comprehensive development.
                 </p>
               </div>
+              <svg className="icon--arrowRight">
+                <use xlinkHref="#arrowRight" href="#arrowRight" />
+              </svg>
             </div>
 
             <div className="card">
-              <figure>
-                <img src="https://picsum.photos/124/186?random=5" alt="" />
+            <figure>
+                <div className="figure--inner">
+                <img src="https://picsum.photos/124/186?random=1" alt="" />
                 <figcaption>05</figcaption>
+                </div>
+                
               </figure>
               <div className="card__content">
                 <h4 className="card__title">Glossary</h4>
@@ -88,6 +116,9 @@ export default function EasyBuilding() {
                   concepts and key definitions.
                 </p>
               </div>
+              <svg className="icon--arrowRight">
+                <use xlinkHref="#arrowRight" href="#arrowRight" />
+              </svg>
             </div>
           </div>
         </div>

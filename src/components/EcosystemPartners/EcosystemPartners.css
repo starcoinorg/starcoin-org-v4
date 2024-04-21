@@ -1,0 +1,29 @@
+.section--ecosystem-partners {
+    .section__content {
+        display: grid;
+        gap: 32px;
+        place-content: center;
+
+        p {
+            text-align: center;
+            color: var(--primary-color);
+            font-family: var(--font-PlusJakartaSans);
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+    }
+}
+
+/* width >= 768px */
+@media only screen and (min-width: 767.98px) {
+    .section--ecosystem-partners {
+        .section__content {
+            gap: 64px;
+
+            p {
+                font-size: 24px;
+            }
+        }
+    }
+}

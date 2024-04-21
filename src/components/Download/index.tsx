@@ -4,7 +4,7 @@ import "./Download.css";
 export default function Download() {
   return (
     <div className="card card--download">
-      <div className="card__title"></div>
+      <div className="card__title">Download Starmask</div>
       <div className="card__content">
         <div className="column">
           <div className="card__media">
@@ -21,6 +21,9 @@ export default function Download() {
           </p>
           <div className="card__action">
             <a href="#">Download from Github</a>
+            <svg className="icon--download">
+              <use xlinkHref="#download" href="#download" />
+            </svg>
           </div>
         </div>
         <div className="column">
@@ -37,6 +40,9 @@ export default function Download() {
           </p>
           <div className="card__action">
             <a href="#">Download from Chrome</a>
+            <svg className="icon--download">
+              <use xlinkHref="#download" href="#download" />
+            </svg>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ export default function NodeMining() {
       <div className="node-mining__container section__container">
         <div className="section__title">
           <h4>Node <strong>Mining</strong></h4>
-          <p>Unlock STC rewards by safeguarding the network and validating transactions through mining to nodes or pools.</p>
+          <small>Unlock STC rewards by safeguarding the network and validating transactions through mining to nodes or pools.</small>
         </div>
         <div className="section__content">
           <div className="mining__data">

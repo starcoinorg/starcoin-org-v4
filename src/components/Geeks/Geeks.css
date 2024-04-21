@@ -1,0 +1,139 @@
+.section--geeks {
+    font-family: var(--font-PlusJakartaSans);
+
+    .section__title {
+        justify-content: start;
+        text-align: left;
+        gap: 0;
+    }
+
+    .section__content {
+        display: grid;
+        gap: 32px;
+        font-size: 12px;
+    }
+
+    .card {
+        margin: 18px 10px 0;
+        position: relative;
+        background: #000000;
+        border: 1px solid rgb(255 255 255 / 0.5);
+        box-shadow: 0px 32px 64px -12px rgb(111 238 135 / 0.43);
+        border-radius: 12px;
+        display: flex;
+        font-size: 15px;
+
+
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: -18px;
+            left: -10px;
+            right: -10px;
+            bottom: 18px;
+            background: linear-gradient(90deg, #6FEE87 0%, #D18989 50%, #006C14 100%);
+            border: 1px solid rgb(255 255 255 / 0.5);
+            border-radius: 16px;
+            z-index: -1;
+
+
+        }
+
+        .column {
+            background-color: #000;
+            display: grid;
+            place-content: center;
+            padding: 23px;
+            transition: all .28s linear;
+            position: relative;
+            gap: 4px;
+
+            &:first-child {
+                border-radius: 12px 0 0 12px;
+            }
+
+            &:last-child {
+                border-radius: 0 12px 12px 0;
+            }
+
+            &:hover {
+                background-color: rgb(217 217 217 / 0.3);
+
+                .icon--arrow-right {
+                    opacity: 1;
+                }
+
+            }
+
+            &:nth-child(2) {
+
+                &::before,
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 1px;
+                    top: 23px;
+                    bottom: 23px;
+                    background-color: currentColor;
+                }
+
+                &::before {
+                    left: 0px;
+                }
+
+                &::after {
+                    right: 0;
+                }
+            }
+
+            .icon--arrow-right {
+                display: block;
+                width: 46px;
+                aspect-ratio: 46 / 16;
+                opacity: 0;
+                transition: opacity .28s linear;
+            }
+        }
+    }
+}
+
+/* width >= 768px */
+@media only screen and (min-width: 767.98px) {
+    .section--geeks {
+        .section__content {
+            gap: 64px;
+            font-size: 16px;
+        }
+
+        .card {
+            margin: 36px 20px 0;
+            border-radius: 24px;
+            font-size: 30px;
+
+
+
+            &::before {
+                top: -36px;
+                left: -20px;
+                right: -20px;
+                bottom: 36px;
+                border-radius: 32px;
+
+
+            }
+
+            .column {
+                padding: 46px;
+
+                &:first-child {
+                    border-radius: 24px 0 0 24px;
+                }
+
+                &:last-child {
+                    border-radius: 0 24px 24px 0;
+                }
+            }
+        }
+    }
+}

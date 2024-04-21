@@ -1,0 +1,60 @@
+.section--starcoin-grant-developers {
+    position: relative;
+
+    figure {
+        margin: 0;
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+
+        img {
+            display: block;
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+
+.starcoin-grant-developers__container {
+    position: relative;
+    z-index: 2;
+    
+
+    .section__title {
+        max-width: 45%;
+        margin-left: auto;
+        text-align: right;
+    }
+
+    h4 {
+        display: grid;
+        
+    }
+
+    .section__content {
+        display: grid;
+        margin-right: auto;
+        width: 60%;
+        gap: 24px;
+        font-size: 12px;
+        font-family: var(--font-PlusJakartaSans);
+    }
+
+    .button--primary {
+        margin-right: auto;
+    }
+}
+
+/* width >= 575.98px */
+@media only screen and (min-width: 575.98px) {
+    .starcoin-grant-developers__container {
+        .section__content {
+            gap: 48px;
+            font-size: 24px;
+        }
+    }
+}
