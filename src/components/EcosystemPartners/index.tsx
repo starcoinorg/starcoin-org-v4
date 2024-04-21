@@ -3,7 +3,7 @@ import './EcosystemPartners.css';
 
 export default function EcosystemPartners() {
   return (
-    <section className="section section--ecosystem-partners">
+    <section className="section section--ecosystem-partners" id="ecosystem-partners">
       <div className="section__container ecosystem-partners__container">
         <div className="section__title">
           <h3><strong>Ecosystem</strong> Partners</h3>

@@ -5,7 +5,7 @@ import './OneChainDAO.css';
 
 export default function OneChainDAO() {
   return (
-    <section className="section section--one-chain-dao">
+    <section className="section section--one-chain-dao" id="one-chain-dao">
       <div id="one-chain-dao" className="section__container one-chain-dao__container">
         <div className="section__title">
           <small>Starcoin DAO</small>
@@ -20,7 +20,7 @@ export default function OneChainDAO() {
           </p>
           
         </div>
-        </div>
+    
         
         <figure>
             <img src="https://picsum.photos/400/400?random=4" alt="" />

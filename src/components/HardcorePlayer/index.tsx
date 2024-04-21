@@ -3,7 +3,7 @@ import './HardcorePlayer.css';
 
 export default function HardcorePlayer() {
   return (
-    <section className="section section--hardcore-player">
+    <section className="section section--hardcore-player" id="hardcore-player">
       <div className="section__container hardcore-player__container">
       <div className="section__title">
         <h3><strong>Hardcore</strong> Player</h3>
