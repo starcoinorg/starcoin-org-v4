@@ -4,15 +4,23 @@ import './CommunityPageHero.css';
 import img_hhm from '@/images/home-hero-mobile.png'
 import img_hhd from '@/images/home-hero-desktop.png'
 
-export default function CommunityPageHero() {
+import I18n, { type LocaleCode } from "@/i18n";
+
+export default function CommunityPageHero({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+  const t = I18n.create_trans(locale)
+
   return (
     <section className="hero hero--community">
       <div className="hero__container section__container">
         <h2 className="hero__title">
-          <p>Make <strong>Friends</strong> with</p>
-          <p>the Explorers <strong>Advocates</strong></p>
-          <p>and <strong>Forerunners</strong> </p>
-          <p>of WEB 3.0</p>
+          <p dangerouslySetInnerHTML={{ __html: t('community.hero.title.0') }}></p>
+          <p dangerouslySetInnerHTML={{ __html: t('community.hero.title.1') }}></p>
+          <p dangerouslySetInnerHTML={{ __html: t('community.hero.title.2') }}></p>
+          <p>{t('community.hero.title.3')}</p>
         </h2>
       </div>
       <picture>

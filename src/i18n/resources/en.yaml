@@ -5,8 +5,13 @@
 
 # Public language fields are placed directly at the first level
 new: New
+closed: Closed
 more: More
 view_more: View More
+coming_soon: Coming Soon
+learn_more: Learn More
+starcoin: Starcoin
+
 
 # Other language fields are organized by page or functional module
 site:
@@ -475,6 +480,51 @@ getstc:
 # Community page
 community:
   title: 'Community'
+  hero:
+    title:
+      - Make <strong>Friends</strong> with
+      - the Explorers <strong>Advocates</strong>
+      - and <strong>Forerunners</strong>
+      - of WEB 3.0
+  social_media:
+    title: Stacoin <strong>Social Media</strong>
+    desc: As a growing community, we've dedicated countless hours to refining our craft, catering to the discerning tastes of pioneers like you. Together, we're fostering an environment where support and progress thrive side by side. If you're aligned with our vision and see the potential in our project, we warmly invite you to join us on this journey.
+  dome:
+    title: STAR <strong>DOME</strong>
+    desc: Inspired by the unity of the StarDome image, a global collective of like-minded individuals is coming together to enact meaningful change. As Starcoin embarks on its journey of global expansion, we're privileged to collaborate with people from diverse backgrounds through the Star Dome Program. Join us as we take the next leap forward by officially launching the Starcoin Ambassador Program, The Star Dome Program.
+    action: Apply Online
+    card:
+      - title: Third
+        content: Cohort of Ambassadors
+      - title: Second
+        content: Cohort of Ambassadors
+      - title: First
+        content: Cohort of Ambassadors
+  # governance history
+  gh:
+    title: One-chain <strong>DAO</strong>
+    desc: Starcoin is a community co-owned native club, Supported by sustainable incentives and transparent & verifiable systems. Serving stakeholders who can co-build on the future of the DAO.
+    info:
+      - Self-Governance
+      - Democratic
+      - All-Access
+    card:
+      - POLL
+      - Airdrop
+    history:
+      - 'Proposal 13: upgrade onchain move...'
+      - 'Proposal 12: upgrade starcoin stdlib to v11'
+      - 'Proposal 11: :upgrade onchain config of move bytecode version to v4'
+  partners:
+    title: <strong>Ecosystem</strong> Partners
+    content: 
+      - Thank you to our ecosystem partners for your support!
+  branding:
+    title: Branding <small>To better convey our shared values</small>
+    content: MEDIA RELATIONS Media-Marketing inquiries can be sent to
+    action: Download our Logo
+
+
 
 # News page
 news:

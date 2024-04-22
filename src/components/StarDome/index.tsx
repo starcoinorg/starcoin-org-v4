@@ -1,33 +1,61 @@
 import React from "react";
 import './StarDome.css';
 
-export default function StarDome() {
+import I18n, { type LocaleCode } from "@/i18n";
+
+export default function StarDome({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+  const t = I18n.create_trans(locale)
+
   return (
     <section className="section section--star-dome">
       <div id="star-dome" className="section__container star-dome__container">
         <div className="section__title">
-          <h3>STAR <strong>DOME</strong></h3>
+          <h3 dangerouslySetInnerHTML={{__html: t('community.dome.title')}}></h3>
         </div>
         <div className="section__content">
-          <p>Inspired by the unity of the StarDome image, a global collective of like-minded individuals is coming together to enact meaningful change. As Starcoin embarks on its journey of global expansion, we're privileged to collaborate with people from diverse backgrounds through the Star Dome Program. Join us as we take the next leap forward by officially launching the Starcoin Ambassador Program, The Star Dome Program.</p>
+          <p>{t('community.dome.desc')}</p>
           <div className="action">
-            <button className="button button--primary">Apply Online</button>
+            <button className="button button--primary">
+              {t('community.dome.action')}
+            </button>
           </div>
           <div className="cards cards--star-dome">
             <div className="card">
-              <div className="badge badge--coming-soon">Coming Soon</div>
-              <div className="card__title">Third</div>
-              <div className="card__content">Cohort of Ambassadors</div>
+              <div className="badge badge--coming-soon">
+                {t('coming_soon')}
+                </div>
+              <div className="card__title">
+                {t('community.dome.card.0.title')}
+              </div>
+              <div className="card__content">
+                {t('community.dome.card.0.content')}
+              </div>
             </div>
             <div className="card">
-              <div className="badge">Closed</div>
-              <div className="card__title">Second</div>
-              <div className="card__content">Cohort of Ambassadors</div>
+              <div className="badge">
+                {t('closed')}
+              </div>
+              <div className="card__title">
+                {t('community.dome.card.1.title')}
+              </div>
+              <div className="card__content">
+                {t('community.dome.card.1.content')}
+              </div>
             </div>
             <div className="card">
-              <div className="badge">Closed</div>
-              <div className="card__title">First</div>
-              <div className="card__content">Cohort of Ambassadors</div>
+              <div className="badge">
+                {t('closed')}
+              </div>
+              <div className="card__title">
+                {t('community.dome.card.2.title')}
+              </div>
+              <div className="card__content">
+                {t('community.dome.card.2.content')}
+              </div>
             </div>
           </div>
         </div>

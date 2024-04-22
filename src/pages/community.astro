@@ -14,17 +14,17 @@ const t = I18n.create_trans(locale);
 ---
 
 <Layout>
-	<CommunityPageHero />
+	<CommunityPageHero locale={locale} />
 	<Dividers />
-	<SocialMediaSection />
+	<SocialMediaSection locale={locale} />
 	<Dividers />
-	<StarDome />
+	<StarDome locale={locale} />
 	<Dividers />
-	<GovernanceHistory />
+	<GovernanceHistory locale={locale} />
 	<Dividers />
-	<EcosystemPartners />
+	<EcosystemPartners locale={locale} />
 	<Dividers />
-	<Branding />
+	<Branding locale={locale} />
 
 	<Fragment slot="page-meta">
 		<title>{t("community.title")} - {t("site.name")}</title>
