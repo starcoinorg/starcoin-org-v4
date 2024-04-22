@@ -1,19 +1,21 @@
-import React from "react";
 import './GetSTCPageHero.css';
 
 import img_hhm from '@/images/home-hero-mobile.png'
 import img_hhd from '@/images/home-hero-desktop.png'
 
-export default function GetSTCPageHero() {
+import I18n, { type LocaleCode } from "@/i18n";
+
+export default function GetSTCPageHero({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+  const t = I18n.create_trans(locale)
+
   return (
-    <section class="hero hero--individual">
+    <section className="hero hero--individual">
       <div className="hero__container section__container">
-        <h2 className="hero__title">
-          <p>Easy Fun</p>
-          <p>
-          with <strong>Starcoin</strong>
-          </p>
-        </h2>
+        <h2 className="hero__title" dangerouslySetInnerHTML={{__html: t('getstc.hero.title')}}></h2>
       </div>
       <picture>
         <source

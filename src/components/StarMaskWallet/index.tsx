@@ -1,33 +1,49 @@
-import React from "react";
 import './StarMaskWallet.css';
 
 import Download from '@/components/Download';
 
-export default function StarMaskWallet() {
+import I18n, { type LocaleCode } from "@/i18n";
+
+export default function StarMaskWallet({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+  const t = I18n.create_trans(locale)
+  const onekey_url = 'https://www.onekey.so/'
+
   return (
     <section className="section section-star-mask-wallet">
       <div id="starmask-wallet" className="section__container star-mask-wallet__container">
         <div className="section__title">
-          <h3>StarMask <strong>Wallet</strong></h3>
+          <h3 dangerouslySetInnerHTML={{ __html: t('getstc.star_mask.title') }}></h3>
         </div>
         <div className="section__content">
           <div className="content">
-          <p>The MetaMask equivalent for Move, a non-custodial Chrome extension wallet tailored for Starcoin. With support for DeFi/Web3 functionality, NFT galleries, on-chain asset management, and DID integration.</p>
-
-<p>Get started with Starcoin swiftly using the Chrome browser wallet, StarMask. With StarMask, effortlessly manage your STC and NFTs on the Starcoin chain, and seamlessly navigate your accounts.</p>
+            <p>{t('getstc.star_mask.content.0')}</p>
+            <p>{t('getstc.star_mask.content.1')}</p>
           </div>
+
+          <Download locale={locale} />
           
-          <Download />
           <div className="actions">
-            <button className="button button--primary">How To Install</button>
-            <button className="button button--outline">How To Use</button>
+            <button className="button button--primary">
+              {t('getstc.star_mask.action.install')}
+            </button>
+            <button className="button button--outline">
+              {t('getstc.star_mask.action.use')}
+            </button>
           </div>
-          <h5>A hardware wallet that <strong>supports STC</strong></h5>
-          <p>After installing StarMask, for enhanced account security, consider using a hardware wallet like <a href="#">OneKey</a>. </p>
+          <h5 dangerouslySetInnerHTML={{ __html: t('getstc.star_mask.dt.0.title') }}></h5>
+          <p dangerouslySetInnerHTML={{
+            __html: t('getstc.star_mask.dt.0.desc', {
+              onekey_url
+            })
+          }}>
+          </p>
         </div>
-
-
       </div>
+
       <figure>
         <img src="https://picsum.photos/1920/1024?random=4" alt="" />
       </figure>

@@ -14,17 +14,17 @@ const t = I18n.create_trans(locale);
 ---
 
 <Layout>
-	<GetSTCPageHero />
+	<GetSTCPageHero locale={locale} />
 	<Dividers />
-	<NodeMining />
+	<NodeMining locale={locale} />
 	<Dividers />
-	<StarMaskWallet />
+	<StarMaskWallet locale={locale} />
 	<Dividers />
-	<Geeks />
+	<Geeks locale={locale} />
 	<Dividers />
-	<HardcorePlayer />
+	<HardcorePlayer locale={locale} />
 	<Dividers />
-	<OneChainDAO />
+	<OneChainDAO locale={locale} />
 
 	<Fragment slot="page-meta">
 		<title>{t("getstc.title")} - {t("site.name")}</title>

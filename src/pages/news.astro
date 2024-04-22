@@ -10,9 +10,9 @@ const t = I18n.create_trans(locale);
 ---
 
 <Layout>
-	<NewsPageHero />
+	<NewsPageHero locale={locale} />
 	<Dividers />
-	<NewsCard />
+	<NewsCard locale={locale} />
 
 	<Fragment slot="page-meta">
 		<title>{t("news.title")} - {t("site.name")}</title>

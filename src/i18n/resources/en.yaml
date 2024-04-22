@@ -1,7 +1,17 @@
+##
+# Notice
+# * Don't translate the `{{key}}` part
+##
+
 # Public language fields are placed directly at the first level
 new: New
+closed: Closed
 more: More
 view_more: View More
+coming_soon: Coming Soon
+learn_more: Learn More
+starcoin: Starcoin
+
 
 # Other language fields are organized by page or functional module
 site:
@@ -387,11 +397,151 @@ developers:
 # Get stc page
 getstc:
   title: 'Get stc'
+  hero:
+    title: >
+      <p>Easy Fun</p>
+      <p>
+        with <strong>Starcoin</strong>
+      </p>
+  node_mining:
+    title: Node <strong>Mining</strong>
+    subtitle: Unlock STC rewards by safeguarding the network and validating transactions through mining to nodes or pools.
+    data:
+      - name: Epoch Start Time
+        content: 1 minute ago
+      - name: Target Block Time(s)
+        content: 5
+      - name: Current Hash Rate(H/s)
+        content: 45,870,608
+      - 
+        name: Block per second
+        content: 0.2
+      - name: Start - End Block
+        content: 16,138,560 - 16,138,800
+      - name: Block Reward
+        content: 5
+    desc:
+      - Starcoin is the only proof-of-work (PoW) blockchain that utilizes the Move programming language and is coupled with the support for parallel block production through a Directed Acyclic Graph (DAG) structure.
+      - The mining of starcoin based on the CryptoNight-RS algorithm, a variant of the CryptoNight algorithm, which is known for its democratic mining features. This algorithm is designed to be fair and accessible, ensuring that a wide range of participants, including those with less powerful hardware, can contribute to the network's security and consensus. Starcoin supports a broad spectrum of mining hardware, including CPUs, GPUs, and ASICs. This inclusive approach to mining hardware compatibility makes it accessible for various miners, from hobbyists with basic equipment to more advanced miners with specialized hardware. This diversity in mining participation helps in maintaining the decentralized nature of the blockchain, ensuring that no single group holds too much control over the network.
+    card:
+      - title: CEX
+        content:
+          - Effortlessly acquire STC by purchasing it from reputable centralized exchanges like <a href="{{gate_url}}">Gate.io</a> and <a href="{{coinex_url}}">Coinex</a>.
+      - title: DEX
+        content:
+          - Engage in trading, staking, farming, and earning yields on <a href="{{starswap_url}}">Starswap</a>, the decentralized exchange powered by Starcoin!
+  star_mask:
+    title: StarMask <strong>Wallet</strong>
+    content:
+      - The MetaMask equivalent for Move, a non-custodial Chrome extension wallet tailored for Starcoin. With support for DeFi/Web3 functionality, NFT galleries, on-chain asset management, and DID integration.
+      - Get started with Starcoin swiftly using the Chrome browser wallet, StarMask. With StarMask, effortlessly manage your STC and NFTs on the Starcoin chain, and seamlessly navigate your accounts.
+    action:
+      install: How To Install
+      use: How To Use
+    download:
+      title: Download Starmask
+      card:
+        - media: Github download and install (recommended)
+          desc: >
+            Download the latest version of StarMask via the official Github
+            Repository that is accessible anywhere.
+          action: Download from Github
+        - media: Chrome Web Store Download
+          desc: >
+            It's easy and convenient to download from the app store on Google Chrome. Some areas may require internet access.
+          action: Download from Chrome
+          
+    dt:
+      - title: A hardware wallet that <strong>supports STC</strong>
+        desc: After installing StarMask, for enhanced account security, consider using a hardware wallet like <a href="{{onekey_url}}">OneKey</a>. 
+  geek:
+    title: Geeks <strong>Own Your Starcoin Nodes</strong>
+    desc: Dive into the technical realm of Starcoin by owning and operating your own node. Unlock a plethora of capabilities, from initiating polls to minting STC and monitoring account status. Explore our comprehensive guide to installing, initializing, and utilizing Starcoin nodes.    
+    card:
+      - Node Installation
+      - Initiate Your Node with Command Lines
+      - Console Command Line Tutorials
+  hc_player:
+    title: <strong>Hardcore</strong> Player
+    content: 
+      - As a hardcore player deeply involved with Starcoin, you will contribute your passion to drive the development of Starcoin in the following ways.
+      - Building Code
+  oc_dao:
+    title: One  chain <strong>DAO</strong>
+    subtitle: Starcoin DAO
+    content: 
+      - >
+        Starcoin is a community co-owned native club,
+        Supported by sustainable incentives and transparent & verifiable systems.
+        Serving stakeholders who can co-build on the future of the DAO.
+        Every STC holder can actively engage in on-chain governance,
+        leveraging their STC to steer the community towards progress.
 
 # Community page
 community:
   title: 'Community'
+  hero:
+    title:
+      - Make <strong>Friends</strong> with
+      - the Explorers <strong>Advocates</strong>
+      - and <strong>Forerunners</strong>
+      - of WEB 3.0
+  social_media:
+    title: Stacoin <strong>Social Media</strong>
+    desc: As a growing community, we've dedicated countless hours to refining our craft, catering to the discerning tastes of pioneers like you. Together, we're fostering an environment where support and progress thrive side by side. If you're aligned with our vision and see the potential in our project, we warmly invite you to join us on this journey.
+  dome:
+    title: STAR <strong>DOME</strong>
+    desc: Inspired by the unity of the StarDome image, a global collective of like-minded individuals is coming together to enact meaningful change. As Starcoin embarks on its journey of global expansion, we're privileged to collaborate with people from diverse backgrounds through the Star Dome Program. Join us as we take the next leap forward by officially launching the Starcoin Ambassador Program, The Star Dome Program.
+    action: Apply Online
+    card:
+      - title: Third
+        content: Cohort of Ambassadors
+      - title: Second
+        content: Cohort of Ambassadors
+      - title: First
+        content: Cohort of Ambassadors
+  # governance history
+  gh:
+    title: One-chain <strong>DAO</strong>
+    desc: Starcoin is a community co-owned native club, Supported by sustainable incentives and transparent & verifiable systems. Serving stakeholders who can co-build on the future of the DAO.
+    info:
+      - Self-Governance
+      - Democratic
+      - All-Access
+    card:
+      - POLL
+      - Airdrop
+    history:
+      - 'Proposal 13: upgrade onchain move...'
+      - 'Proposal 12: upgrade starcoin stdlib to v11'
+      - 'Proposal 11: :upgrade onchain config of move bytecode version to v4'
+  partners:
+    title: <strong>Ecosystem</strong> Partners
+    content: 
+      - Thank you to our ecosystem partners for your support!
+  branding:
+    title: Branding <small>To better convey our shared values</small>
+    content: MEDIA RELATIONS Media-Marketing inquiries can be sent to
+    action: Download our Logo
+
 
 # News page
 news:
   title: 'News'
+  hero:
+    title: NEWS & BLOG
+    desc: >
+      Stay informed about the latest developments, events, and updates for the Starcoin project right here.
+      For the most current and rapid access to project updates, join our Official Starcoin media community.
+  cards:
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+              

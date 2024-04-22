@@ -1,30 +1,35 @@
-import React from "react";
 import './Geeks.css';
 
+import I18n, { type LocaleCode } from "@/i18n";
 
+export default function Geeks({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+  const t = I18n.create_trans(locale)
 
-export default function Geeks() {
   return (
     <section className="section section--geeks">
       <div id="geeks" className="section__container geeks__container">
-      <div className="section__title">Geeks <strong>Own Your Starcoin Nodes</strong></div>
+      <div className="section__title" dangerouslySetInnerHTML={{__html: t('getstc.geek.title')}}></div>
       <div className="section__content">
-        <p>Dive into the technical realm of Starcoin by owning and operating your own node. Unlock a plethora of capabilities, from initiating polls to minting STC and monitoring account status. Explore our comprehensive guide to installing, initializing, and utilizing Starcoin nodes.</p>
+        <p>{t('getstc.geek.desc')}</p>
         <div className="card">
           <div className="column">
-            <span>Node Installation</span>
+              <span>{t('getstc.geek.card.0')}</span>
             <svg className="icon--arrow-right">
               <use xlinkHref="#arrowRightLong" href="#arrowRightLong" />
             </svg>
             </div>
           <div className="column">
-            <span>Initiate Your Node with Command Lines</span>
+              <span>{t('getstc.geek.card.1')}</span>
             <svg className="icon--arrow-right">
               <use xlinkHref="#arrowRightLong" href="#arrowRightLong" />
             </svg>
             </div>
           <div className="column">
-            <span>Console Command Line Tutorials</span>
+              <span>{t('getstc.geek.card.2')}</span>
             <svg className="icon--arrow-right">
               <use xlinkHref="#arrowRightLong" href="#arrowRightLong" />
             </svg>
