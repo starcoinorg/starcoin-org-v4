@@ -1,4 +1,4 @@
-import "./Header.css";
+
 import Social from "@/components/Social";
 import Navigation from "@/components/Navigation";
 import Hamburg from "@/components/Hamburg";

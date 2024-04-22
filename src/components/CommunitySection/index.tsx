@@ -1,4 +1,4 @@
-import './CommunitySection.css';
+
 
 import Social from '@/components/Social';
 import InfiniteScrollingLogos from '@/components/InfiniteScrollingLogos';

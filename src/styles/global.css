@@ -176,6 +176,104 @@ textarea:not([rows]) {
   --size-13: 30px;
   --size-14: 32px;
 
+
+  
+  --ideal-viewport-width: 750;
+  --current-viewport-width: 100vw;
+  --min-viewport-width: 375px;
+  --max-viewport-width: 1440px;
+  --clamped-viewport-width: clamp(
+      var(--min-viewport-width),
+      var(--current-viewport-width),
+      var(--max-viewport-width)
+  );
+    
+  --fs-size-2px: calc(2 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  /* --fs-size-4px: calc(4 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-6px: calc(6 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-8px: calc(8 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-10px: calc(10 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-12px: calc(12 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-14px: calc(14 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-16px: calc(16 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-18px: calc(18 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-20px: calc(20 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-22px: calc(22 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-24px: calc(24 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-26px: calc(26 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-28px: calc(28 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-30px: calc(30 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-32px: calc(32 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-34px: calc(34 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-36px: calc(36 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-38px: calc(38 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-40px: calc(40 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-42px: calc(42 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-44px: calc(44 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-46px: calc(46 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-48px: calc(48 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-50px: calc(50 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-52px: calc(52 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-54px: calc(54 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-56px: calc(56 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-58px: calc(58 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+  --fs-size-60px: calc(60 * var(--clamped-viewport-width) / var(--ideal-viewport-width)); */
+  --fs-size-2x: calc(var(--fs-size-2px) * 2);
+  --fs-size-3x: calc(var(--fs-size-2px) * 3);
+  --fs-size-4x: calc(var(--fs-size-2px) * 4);
+  --fs-size-5x: calc(var(--fs-size-2px) * 5);
+  --fs-size-6x: calc(var(--fs-size-2px) * 6);
+  --fs-size-7x: calc(var(--fs-size-2px) * 7);
+  --fs-size-8x: calc(var(--fs-size-2px) * 8);
+  --fs-size-9x: calc(var(--fs-size-2px) * 9);
+  --fs-size-10x: calc(var(--fs-size-2px) * 10);
+  --fs-size-11x: calc(var(--fs-size-2px) * 11);
+  --fs-size-12x: calc(var(--fs-size-2px) * 12);
+  --fs-size-13x: calc(var(--fs-size-2px) * 13);
+  --fs-size-14x: calc(var(--fs-size-2px) * 14);
+  --fs-size-15x: calc(var(--fs-size-2px) * 15);
+  --fs-size-16x: calc(var(--fs-size-2px) * 16);
+  --fs-size-17x: calc(var(--fs-size-2px) * 17);
+  --fs-size-18x: calc(var(--fs-size-2px) * 18);
+  --fs-size-19x: calc(var(--fs-size-2px) * 19);
+  --fs-size-20x: calc(var(--fs-size-2px) * 20);
+  --fs-size-21x: calc(var(--fs-size-2px) * 21);
+  --fs-size-22x: calc(var(--fs-size-2px) * 22);
+  --fs-size-23x: calc(var(--fs-size-2px) * 23);
+  --fs-size-24x: calc(var(--fs-size-2px) * 24);
+  --fs-size-25x: calc(var(--fs-size-2px) * 25);
+  --fs-size-26x: calc(var(--fs-size-2px) * 26);
+  --fs-size-27x: calc(var(--fs-size-2px) * 27);
+  --fs-size-28x: calc(var(--fs-size-2px) * 28);
+  --fs-size-29x: calc(var(--fs-size-2px) * 29);
+  --fs-size-30x: calc(var(--fs-size-2px) * 30);
+  --fs-size-31x: calc(var(--fs-size-2px) * 31);
+  --fs-size-32x: calc(var(--fs-size-2px) * 32);
+  --fs-size-33x: calc(var(--fs-size-2px) * 33);
+  --fs-size-34x: calc(var(--fs-size-2px) * 34);
+  --fs-size-35x: calc(var(--fs-size-2px) * 35);
+  --fs-size-36x: calc(var(--fs-size-2px) * 36);
+  --fs-size-37x: calc(var(--fs-size-2px) * 37);
+  --fs-size-38x: calc(var(--fs-size-2px) * 38);
+  --fs-size-39x: calc(var(--fs-size-2px) * 39);
+  --fs-size-40x: calc(var(--fs-size-2px) * 40);
+  --fs-size-41x: calc(var(--fs-size-2px) * 41);
+  --fs-size-42x: calc(var(--fs-size-2px) * 42);
+  --fs-size-43x: calc(var(--fs-size-2px) * 43);
+  --fs-size-44x: calc(var(--fs-size-2px) * 44);
+  --fs-size-45x: calc(var(--fs-size-2px) * 45);
+  --fs-size-46x: calc(var(--fs-size-2px) * 46);
+  --fs-size-47x: calc(var(--fs-size-2px) * 47);
+  --fs-size-48x: calc(var(--fs-size-2px) * 48);
+  --fs-size-49x: calc(var(--fs-size-2px) * 49);
+  --fs-size-50x: calc(var(--fs-size-2px) * 50);
+
+
+
+
+
+
+
   /* Aspect Ratio */
   --ratio-square: 1;
   --ratio-landscape: 4/3;

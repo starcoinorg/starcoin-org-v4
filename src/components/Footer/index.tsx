@@ -1,5 +1,3 @@
-import "./Footer.css";
-
 import FooterMenu from "@/components/FooterMenu";
 import Social from "@/components/Social";
 import I18n, { type LocaleCode } from "@/i18n";

@@ -1,5 +1,3 @@
-import "./NewTrails.css";
-
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function NewTrails({
@@ -12,7 +10,9 @@ export default function NewTrails({
   return (
     <section className="section section--new-trails">
       <div id="new-trails" className="section__container new-trails__container">
-        <div className="section__title" dangerouslySetInnerHTML={{ __html: t('features.new_trails.title') }}></div>
+        <div className="section__title" >
+          <h3 dangerouslySetInnerHTML={{ __html: t('features.new_trails.title') }}></h3>
+        </div>
         <div className="section__content">
           <input type="radio" className="sr-only" name="news" id="storage" />
           <input type="radio" className="sr-only" name="news" id="easy-gas" />
