@@ -47,6 +47,46 @@ nav:
   news:
     news_blog: 'News & Blog'
 
+# Feature table
+feature_table:
+  row_1:
+    - Feature
+    - Starcoin 1.0 (Excluding DAG)
+    - Starcoin 2.0 (Incorporating DAG)
+  row_2:
+    - Structure
+    - Comprises a linear, sequential chain of blocks.
+    - >
+      Combines a DAG with multiple subnets and blockchains for its
+      consensus layer.
+  row_3:
+    - Consensus Mechanism
+    - >
+      -Proof of Work (PoW) <br />
+      -An enhance version of Nakamoto Consensus
+    - >
+      -Proof of Work (PoW) <br />
+      -An enhance version of Nakamoto Consensus combined with FlexiDAG
+  row_4:
+    - Scalability
+    - >
+      Constrained by block size and block creation time, potentially
+      causing bottlenecks.
+    - >
+      Offers high scalability and throughput due to parallel transaction
+      processing.
+  row_5:
+    - Transaction Throughput
+    - Lower, as blocks are processed sequentially, about 1,000 TXs / seconds.
+    - Remarkably higher, thanks to the parallel processing of transactions 10 -20x faster.
+  row_6:
+    - Transaction Parallel Execution
+    - No
+    - >
+      Yes. Transactions are organized into blocks, increasing throughput
+      by 10 times through the use of TurboSTM.
+  
+
 # Home page
 home:
   title: Home
@@ -107,42 +147,6 @@ home:
     table:
       title: High-Performance Parallelization
       desc: In 2.0 phase, Starcoin achieves a significant transaction performance boost through industry-leading parallelization technology, TurboSTM, increasing transaction processing capacity by 17 times compared to the previous phase, coupled with FlexiDAG, the new Directed Acyclic Graph consensus algorithm, enhancing block generation speed by 10 times, thus enhancing network scalability and efficiency.
-      row_1:
-        - Feature
-        - Starcoin 1.0 (Excluding DAG)
-        - Starcoin 2.0 (Incorporating DAG)
-      row_2:
-        - Structure
-        - Comprises a linear, sequential chain of blocks.
-        - >
-          Combines a DAG with multiple subnets and blockchains for its
-          consensus layer.
-      row_3:
-        - Consensus Mechanism
-        - >
-          -Proof of Work (PoW) <br />
-          -An enhance version of Nakamoto Consensus
-        - >
-          -Proof of Work (PoW) <br />
-          -An enhance version of Nakamoto Consensus combined with FlexiDAG
-      row_4:
-        - Scalability
-        - >
-          Constrained by block size and block creation time, potentially
-          causing bottlenecks.
-        - >
-          Offers high scalability and throughput due to parallel transaction
-          processing.
-      row_5:
-        - Transaction Throughput
-        - Lower, as blocks are processed sequentially, about 1,000 TXs / seconds.
-        - Remarkably higher, thanks to the parallel processing of transactions 10 -20x faster.
-      row_6:
-        - Transaction Parallel Execution
-        - No
-        - >
-          Yes. Transactions are organized into blocks, increasing throughput
-          by 10 times through the use of TurboSTM.
   community:
     title: Community
     subtitle: Existence Holds Value
@@ -165,6 +169,159 @@ home:
 # Features page
 features:
   title: 'Features'
+  hero:
+    title: A Reliable, Flexible, and Progressible
+    subtitle: Web3 <strong>Infrastructure</strong>
+    desc: Pioneering Satoshi Nakamoto's enhanced PoW with Move smart contracts, Starcoin launched on the mainnet in 2021. To address scalability challenges,Its innovative parallelization technology, FlexiDAG and TurboSTM, optimizes transaction speeds, epitomizing the advancements of the Starkcoin 2.0 phase.This phase signifies our commitment to continuous innovation, delivering a secure, efficient, and agile decentralized system for the Web3 era.
+    action:
+      - Light Whitepapers
+      - Technical Whitepapers   
+      - Economic Whitepapers
+  features:
+    title: Features
+    desc: Starcoin offers a reliable and future-proof blockchain solution that addresses the evolving needs of the digital economy.
+    card_1:
+      title: Enhanced PoW Consensus
+      content_p1: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    card_2:
+      title: Move Smart Contract
+      content_p1: Starcoin ensures unparalleled smart contract security by leveraging Move, a language renowned for its resource-oriented programming paradigm and comprehensive security features, revolutionizing the blockchain landscape and providing users with a secure, robust environment.
+    card_3:
+      title: High-Performance Parallelization
+      content_p1: Starcoin ensures unparalleled smart contract security by leveraging Move, a language renowned for its resource-oriented programming paradigm and comprehensive security features, revolutionizing the blockchain landscape and providing users with a secure, robust environment.
+      sub_card_1:
+        title: FlexiDAG
+        content_p1: Balancing Parallel Processing and Security
+        content_ul:
+          - 'Parallel Block Creation: Allows multiple miners to make blocks simultaneously, boosting network efficiency.'
+          - 'Dynamic Block Adjustments: Tweaks block speed and size as needed for better security and user experience.'
+          - 'Community Control: Lets the community change consensus settings through governance and upgrades.'
+          - 'Simultaneous Block Addition: Adds all valid blocks to the blockchain at once, eliminating delays.'
+          - 'DAG Transformation: Shifts from a chain to a DAG structure, solving issues like block confirmation and security.'
+      sub_card_2:
+        title: TurboSTM
+        content_p1: Reshaping the Execution of Smart Contracts
+        content_ul:
+          - 'Multi-threaded Execution: TurboSTM employs a high-performance, multi-threaded in-memory computing engine, allowing simultaneous execution of multiple transactions.'
+          - 'MVCC and OCC: Utilizes Multi-Version Concurrency Control (MVCC) and optimistic concurrency control (OCC) for synchronous data reading and updates, reducing bottlenecks.'
+          - 'Executor Module: Responsible for executing transactions and handling transactional information.'
+          - 'Storage Module: Stores transaction information and execution results.'
+          - 'MoveVM Module: Executes Move code, computes execution results, and identifies resource modifications.'
+  new_trails:
+      title: Blaze New <strong>Trails</strong>
+      news_title:
+        - State Storage
+        - Easy Gas
+        - On-chain DAO governance
+        - State Billing
+        - Bootstrapped
+        - Stdlib
+        - Freely NFT
+        - Formal Verification
+      news_content:
+        - Enhancements streamline contract ownership and security by eliminating contract accounts, clarifying state ownership, and enabling a dynamic billing strategy based on user-held STC, ensuring efficient resource allocation and incentivizing responsible state management.
+        - Revolutionizes transaction experiences by allowing users to pay gas fees with any supported token, eliminating barriers to entry and enhancing user-friendliness. Seamlessly integrated on-chain, this innovation simplifies gas payments, ensuring wider adoption and setting new standards for transaction accessibility in the Web3 era.
+        - Promotes decentralized decision-making with a streamlined proposal process and modular implementation. Through token-based voting and a structured proposal lifecycle, it enhances transparency, efficiency, and community empowerment. Leveraging Move language capabilities, Starcoin sets new standards for democratic governance, ensuring adaptability and alignment with diverse community interests in the blockchain ecosystem.
+        - To tackle the challenge of state explosion in public blockchains, prioritizing valuable data retention while eliminating redundancy. This approach optimizes resource usage, enhances network performance, and ensures long-term sustainability, reflecting Starcoin's commitment to a robust and scalable blockchain infrastructure.
+        - To ensure top-notch security for smart contracts, reducing vulnerabilities and enhancing stability, thereby safeguarding user assets and fortifying the overall network security.
+        - Ensures sustainable growth and stability by introducing a fixed token supply, transparent distribution, and linear release mechanism, fostering trust and incentivizing network participation for long-term ecosystem development and financial self-sufficiency.
+        - Leverages its Stdlib (Standard Library) to streamline consensus management, offering a secure and scalable framework for developers. By implementing universal protocol standards and providing reusable components and user-friendly tools, Stdlib simplifies application development, fostering innovation and growth within the Starcoin ecosystem.
+        - Pioneers a new NFT standard, offering both security and scalability. With a focus on security, its protocol ensures NFTs cannot be copied or lost at the virtual machine level. Moreover, leveraging generics and batch operations, Starcoin's standard enables NFTs to be freely combined, providing scalability for diverse NFT scenarios.
+  starcoin_v2:
+    title: Starcoin 2.0
+  foundation:
+    title: Starcoin <strong>Foundation</strong>
+    subtitle: Guiding Excellence and Innovation
+    content_p1: >
+      The Starcoin Foundation is an independent standard-setting body
+      responsible for overseeing and advancing the Starcoin platform and
+      its flourishing ecosystem. As the guardian of the Starcoin protocol
+      and brand, the Foundation's role extends beyond supervision. It is
+      the driving force behind the adoption and collaboration strategies
+      that elevate Starcoin to a global focus. The Foundation's work aims
+      to expand the Starcoin community, influence legislative and
+      commercial standards, and uphold stakeholder responsibilities at all
+      levels.
+  grant:
+    title: Starcoin <strong>Grant</strong>
+    subtitle: The Incubation Center Behind Starcoin’s Technological Innovation
+    content_p1: >
+      Westar Labs is a vital technology incubator for the Starcoin
+      project, playing a central role in promoting innovation and
+      development within the blockchain ecosystem.
+  roadmap:
+    title: Starcoin <strong>Roadmap</strong>
+    timeline_1:
+      title: Foundations and Launch
+      ul:
+        - >
+          <strong>End of 2018</strong>: Publication of the first
+          Starcoin whitepaper, laying the foundation for a scalable
+          blockchain.
+        - >
+          <strong>2019-2020</strong>: Key developments including the
+          adoption of the Move language (Q4 2019) and the release of
+          Starcoin v0.1 (April 9, 2020).
+    timeline_2:
+      title: Milestones
+      ul:
+        - >
+          <strong>March 27, 2021</strong>: Release of Starcoin
+          v1.0.0.beta.
+        - >
+          <strong>May 18, 2021</strong>: Launch of the Starcoin
+          mainnet.
+        - >
+          <strong>June 24, 2021</strong>: Introduction of the first
+          Move Dapp and on-chain governance DAO.
+        - >
+          <strong>September 2021</strong>: Release of the Starcoin NFT
+          spec and the launch of Cyberrare, the first NFT marketplace.
+    timeline_3:
+      title: Ecosystem Practices
+      ul:
+        - >
+          <strong>January 2022</strong>: Launch of Arm Wrest War (AWW), a Play 2 Earn game.
+        - >
+          <strong>March 2022</strong>: Introduction of FAI, a stablecoin protocol by Bfly Finance; launch of Starswap, a general-purpose DEX; and implementation of Fai Liquidation.
+        - >
+          <strong>April 2022</strong>: Establishment of the first cross-chain bridge connecting Starcoin and Ethereum; launch of Bfly, an algorithmic currency protocol.
+        - >
+          <strong>July 2022</strong>: Launch of the first Lending Protocol, fly, on the mainnet.
+        - >
+          <strong>Q3-Q4 2022</strong>: Developments in DAO & governance, Layer1 & Layer 2 infrastructure, and the Move ecosystem.
+    timeline_4:
+      title: Innovating for the Future
+      p1: Enhancing PoW consensus
+      ul_1:
+        - PoW consensus algorithm improvement strengthens consensus security.
+        - Parallel-Chain Architecture
+        - Economic Proof of Work
+      p2: Increasing transaction performance
+      ul_2:
+        - We are increasing Layer 1 TPS by transaction parallel execution, etc.
+        - P2P network optimization improves network performance (e.g., RPC optimization, scoring mechanism).
+        - Network hole punching
+        - Support QUIC protocol for performance
+        - Light node, implemented as web assembly
+        - RPC on p2p network
+        - Incentive on p2p network
+      p3: Lowering validator threshold
+      ul_3:
+        - Provide offline import and export block function, and improve block import speed.
+        - Provide offline import and export snapshot data function and export support incremental export.
+        - Provide asynchronous write and batch read interfaces to improve DB read and write speed.
+        - Optimize accumulator write speed, and improve online synchronization block speed.
+        - Provide snapshot sync on p2p and block WriteSet sync
+        - Provide prune uncle block decrease storage size
+      p4: Improving the application development environment
+      ul_4:
+        - Introducing and supporting new features of Move.
+        - Provide U256 type to improve the convenience of dapp development.
+        - Cookbook improvement to help developers quickly understand Starcoin development.
+        - Using local node accounts to deploy contracts in remote nodes, facilitating developers to deploy mpm quickly provides integration test function, and mpm integration test provides custom parameters and deploys function, which is convenient for dapp developers to test.
+        - Provide useful move data struct like HashMap and BigVector to improve the convenience of dapp development.
+
 
 # Developers page
 developers:

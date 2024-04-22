@@ -1,29 +1,38 @@
-import React from "react";
 import './FeaturesPageHero.css';
 
 import img_hhm from '@/images/home-hero-mobile.png'
 import img_hhd from '@/images/home-hero-desktop.png'
 
-export default function FeaturesPageHero() {
+import I18n, { type LocaleCode } from "@/i18n";
+
+export default function FeaturesPageHero({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+
+  const t = I18n.create_trans(locale);
+
   return (
     <section className="hero hero--features">
       <div className="hero__container section__container">
         <h2 className="hero__title">
-          <p>A Reliable, Flexible, and Progressible</p>
-          <p>
-          Web3 <strong>Infrastructure</strong>
-          </p>
+          <p>{t('features.hero.title')}</p>
+          <p dangerouslySetInnerHTML={{__html: t('features.hero.subtitle')}}></p>
         </h2>
         <div className="hero__content">
-          <p>
-          Pioneering Satoshi Nakamoto's enhanced PoW with Move smart contracts, Starcoin launched on the mainnet in 2021. To address scalability challenges,Its innovative parallelization technology, FlexiDAG and TurboSTM, optimizes transaction speeds, epitomizing the advancements of the Starkcoin 2.0 phase.This phase signifies our commitment to continuous innovation, delivering a secure, efficient, and agile decentralized system for the Web3 era.
-          </p>
-          
+          <p>{t('features.hero.desc')}</p>
         </div>
         <div className="hero__action">
-          <button className="button button--primary">Light Whitepapers</button>
-          <button className="button button--outline">Technical Whitepapers</button>
-          <button className="button button--outline">Economic Whitepapers</button>
+          <button className="button button--primary">
+            {t('features.hero.action.0')}
+          </button>
+          <button className="button button--outline">
+            {t('features.hero.action.1')}
+          </button>
+          <button className="button button--outline">
+            {t('features.hero.action.2')}
+          </button>
         </div>
       </div>
       <picture>

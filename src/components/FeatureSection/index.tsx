@@ -1,79 +1,117 @@
-import React from "react";
 import './FeatureSection.css';
 
-export default function FeatureSection() {
+import I18n, { type LocaleCode } from "@/i18n";
+
+export default function FeatureSection({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+
+  const t = I18n.create_trans(locale);
+
   return (
-   <section className="section section--feature">
+    <section className="section section--feature">
       <div id="features" className="section__container feature__container">
-      <div className="section__title">
-       <h3>Features</h3>
-       <small>Starcoin offers a reliable and future-proof blockchain solution that addresses the evolving needs of the digital economy.</small>
-      </div>
-      <div className="section__content">
-        <div className="cards cards--feacures">
-          <div className="card">
-            <figure>
-              <img src="https://picsum.photos/800/600?random=4" alt="" />
-            </figure>
-            <h4 className="card__title">
-            Enhanced PoW Consensus
-            </h4>
-            <div className="card__content">
-            <p>Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.</p>
-
+        <div className="section__title">
+          <h3>{t('features.features.title')}</h3>
+          <small>{t('features.features.desc')}</small>
+        </div>
+        <div className="section__content">
+          <div className="cards cards--feacures">
+            <div className="card">
+              <figure>
+                <img src="https://picsum.photos/800/600?random=4" alt="" />
+              </figure>
+              <h4 className="card__title">
+                {t('features.features.card_1.title')}
+              </h4>
+              <div className="card__content">
+                <p>
+                  {t('features.features.card_1.content_p1')}
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="card">
-          <figure>
-              <img src="https://picsum.photos/800/600?random=4" alt="" />
-            </figure>
-            <h4 className="card__title">
-            Move Smart Contract
-            </h4>
-            <div className="card__content">
-            <p>Starcoin ensures unparalleled smart contract security by leveraging Move, a language renowned for its resource-oriented programming paradigm and comprehensive security features, revolutionizing the blockchain landscape and providing users with a secure, robust environment.</p>
+            <div className="card">
+              <figure>
+                <img src="https://picsum.photos/800/600?random=4" alt="" />
+              </figure>
+              <h4 className="card__title">
+                {t('features.features.card_2.title')}
+              </h4>
+              <div className="card__content">
+                <p>{t('features.features.card_2.content_p1')}</p>
+              </div>
             </div>
 
-          </div>
-          <div className="card">
-          <figure>
-              <img src="https://picsum.photos/800/600?random=4" alt="" />
-            </figure>
-            <h4 className="card__title">High-Performance Parallelization</h4>
-            <div className="card__content">
-              <p>Starcoin ensures unparalleled smart contract security by leveraging Move, a language renowned for its resource-oriented programming paradigm and comprehensive security features, revolutionizing the blockchain landscape and providing users with a secure, robust environment.</p>
-              <div className="sub-cards sub-cards--features">
-                <div className="sub-card">
-                  <h5 className="sub-card__title">FlexiDAG</h5>
-                  <figure className="sbu-card__media">
-                  <img src="https://picsum.photos/800/600?random=4" alt="" />
-                  </figure>
-                  <div className="sub-card__content">
-                    <p>Balancing Parallel Processing and Security</p>
-                    <ul>
-                      <li>Parallel Block Creation: Allows multiple miners to make blocks simultaneously, boosting network efficiency.</li>
-                      <li>Dynamic Block Adjustments: Tweaks block speed and size as needed for better security and user experience.</li>
-                      <li>Community Control: Lets the community change consensus settings through governance and upgrades.</li>
-                      <li>Simultaneous Block Addition: Adds all valid blocks to the blockchain at once, eliminating delays.</li>
-                      <li>DAG Transformation: Shifts from a chain to a DAG structure, solving issues like block confirmation and security.</li>
-                    </ul>
+            <div className="card">
+              <figure>
+                <img src="https://picsum.photos/800/600?random=4" alt="" />
+              </figure>
+              <h4 className="card__title">
+                {t('features.features.card_3.title')}
+              </h4>
+              <div className="card__content">
+                <p>{t('features.features.card_3.content_p1')}</p>
+                <div className="sub-cards sub-cards--features">
+                  <div className="sub-card">
+                    <h5 className="sub-card__title">
+                      {t('features.features.card_3.sub_card_1.title')}
+                    </h5>
+                    <figure className="sbu-card__media">
+                      <img src="https://picsum.photos/800/600?random=4" alt="" />
+                    </figure>
+                    <div className="sub-card__content">
+                      <p>
+                        {t('features.features.card_3.sub_card_1.content_p1')}
+                      </p>
+                      <ul>
+                        <li>
+                          {t('features.features.card_3.sub_card_1.content_ul.0')}
+                        </li>
+                        <li>
+                          {t('features.features.card_3.sub_card_1.content_ul.1')}
+                        </li>
+                        <li>
+                          {t('features.features.card_3.sub_card_1.content_ul.2')}
+                        </li>
+                        <li>
+                          {t('features.features.card_3.sub_card_1.content_ul.3')}
+                        </li>
+                        <li>
+                          {t('features.features.card_3.sub_card_1.content_ul.4')}
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
 
-                <div className="sub-card">
-                  <h5 className="sub-card__title">TurboSTM</h5>
-                  <figure className="sbu-card__media">
-                  <img src="https://picsum.photos/800/600?random=4" alt="" />
-                  </figure>
-                  <div className="sub-card__content">
-                    <p>Reshaping the Execution of Smart Contracts</p>
-                    <ul>
-                      <li>Multi-threaded Execution: TurboSTM employs a high-performance, multi-threaded in-memory computing engine, allowing simultaneous execution of multiple transactions.</li>
-                      <li>MVCC and OCC: Utilizes Multi-Version Concurrency Control (MVCC) and optimistic concurrency control (OCC) for synchronous data reading and updates, reducing bottlenecks.</li>
-                      <li>Executor Module: Responsible for executing transactions and handling transactional information.</li>
-                      <li>Storage Module: Stores transaction information and execution results.</li>
-                      <li>MoveVM Module: Executes Move code, computes execution results, and identifies resource modifications.</li>
-                    </ul>
+                  <div className="sub-card">
+                    <h5 className="sub-card__title">
+                      {t('features.features.card_3.sub_card_2.title')}
+                    </h5>
+                    <figure className="sbu-card__media">
+                      <img src="https://picsum.photos/800/600?random=4" alt="" />
+                    </figure>
+                    <div className="sub-card__content">
+                      <p>{t('features.features.card_3.sub_card_2.content_p1')}</p>
+                      <ul>
+                        <li>
+                          {t('features.features.card_3.sub_card_2.content_ul.0')}
+                        </li>
+                        <li>
+                          {t('features.features.card_3.sub_card_2.content_ul.1')}
+                        </li>
+                        <li>
+                          {t('features.features.card_3.sub_card_2.content_ul.2')}
+                        </li>
+                        <li>
+                          {t('features.features.card_3.sub_card_2.content_ul.3')}
+                        </li>
+                        <li>
+                          {t('features.features.card_3.sub_card_2.content_ul.4')}
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -81,7 +119,6 @@ export default function FeatureSection() {
           </div>
         </div>
       </div>
-    </div>
-   </section>
+    </section>
   );
 }
