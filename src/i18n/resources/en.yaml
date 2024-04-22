@@ -525,7 +525,23 @@ community:
     action: Download our Logo
 
 
-
 # News page
 news:
   title: 'News'
+  hero:
+    title: NEWS & BLOG
+    desc: >
+      Stay informed about the latest developments, events, and updates for the Starcoin project right here.
+      For the most current and rapid access to project updates, join our Official Starcoin media community.
+  cards:
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+              

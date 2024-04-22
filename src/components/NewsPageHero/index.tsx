@@ -1,19 +1,25 @@
-import React from "react";
 import './NewsPageHero.css';
 
 import img_hhm from '@/images/home-hero-mobile.png'
 import img_hhd from '@/images/home-hero-desktop.png'
 
-export default function NewsPageHero() {
+import I18n, { type LocaleCode } from "@/i18n";
+
+export default function NewsPageHero({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+  const t = I18n.create_trans(locale)
+
   return (
     <section className="hero hero--news">
       <div className="hero__container section__container">
         <h2 className="hero__title">
-          <p>NEWS & BLOG</p>
+          <p>{t('news.hero.title')}</p>
         </h2>
         <div className="hero__content">
-          <p>Stay informed about the latest developments, events, and updates for the Starcoin project right here.
- For the most current and rapid access to project updates, join our Official Starcoin media community.</p>
+          <p>{t('news.hero.desc')}</p>
         </div>
       </div>
       <picture>
