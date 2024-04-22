@@ -1,10 +1,19 @@
-import React from "react";
 import "./Download.css";
 
-export default function Download() {
+import I18n, { type LocaleCode } from "@/i18n";
+
+export default function Download({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+  const t = I18n.create_trans(locale)
+
   return (
     <div className="card card--download">
-      <div className="card__title">Download Starmask</div>
+      <div className="card__title">
+        {t('getstc.star_mask.download.title')}
+      </div>
       <div className="card__content">
         <div className="column">
           <div className="card__media">
@@ -12,15 +21,12 @@ export default function Download() {
               <use xlinkHref="#github2" href="#github2" />
             </svg>
             <div className="card__media__content">
-              <p>Github download and install (recommended)</p>
+              <p>{t('getstc.star_mask.download.card.0.media')}</p>
             </div>
           </div>
-          <p>
-            Download the latest version of StarMask via the official Github
-            Repository that is accessible anywhere.
-          </p>
+          <p>{t('getstc.star_mask.download.card.0.desc')}</p>
           <div className="card__action">
-            <a href="#">Download from Github</a>
+            <a href="#">{t('getstc.star_mask.download.card.0.action')}</a>
             <svg className="icon--download">
               <use xlinkHref="#download" href="#download" />
             </svg>
@@ -32,14 +38,12 @@ export default function Download() {
               <use xlinkHref="#chrome" href="#chrome" />
             </svg>
             <div className="card__media__content">
-              <p>Chrome Web Store Download</p>
+              <p>{t('getstc.star_mask.download.card.1.media')}</p>
             </div>
           </div>
-          <p>
-          It's easy and convenient to download from the app store on Google Chrome. Some areas may require internet access.
-          </p>
+          <p>{t('getstc.star_mask.download.card.1.desc')}</p>
           <div className="card__action">
-            <a href="#">Download from Chrome</a>
+            <a href="#">{t('getstc.star_mask.download.card.1.action')}</a>
             <svg className="icon--download">
               <use xlinkHref="#download" href="#download" />
             </svg>
