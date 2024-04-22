@@ -1,5 +1,3 @@
-import './StarMaskWallet.css';
-
 import Download from '@/components/Download';
 
 import I18n, { type LocaleCode } from "@/i18n";

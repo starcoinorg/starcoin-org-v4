@@ -1,5 +1,3 @@
-import './OneChainDAO.css';
-
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function OneChainDAO({
@@ -12,6 +10,7 @@ export default function OneChainDAO({
   return (
     <section className="section section--one-chain-dao" id="one-chain-dao">
       <div id="one-chain-dao" className="section__container one-chain-dao__container">
+        <div className="content">
         <div className="section__title">
           <small>{t('getstc.oc_dao.subtitle')}</small>
           <h3 dangerouslySetInnerHTML={{ __html: t('getstc.oc_dao.title') }}></h3>
@@ -19,7 +18,7 @@ export default function OneChainDAO({
         <div className="section__content">
           <p>{t('getstc.oc_dao.content.0')}</p>
         </div>
-
+        </div>
         <figure>
           <img src="https://picsum.photos/400/400?random=4" alt="" />
         </figure>

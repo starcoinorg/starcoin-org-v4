@@ -1,5 +1,3 @@
-import './NodeMining.css';
-
 import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 
 export default function NodeMining({
