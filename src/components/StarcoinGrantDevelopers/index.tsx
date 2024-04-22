@@ -1,18 +1,26 @@
-import React from "react";
 import "./StarcoinGrantDevelopers.css";
 
-export default function StarcoinGrantDevelopers() {
+import I18n, { type LocaleCode } from "@/i18n";
+
+export default function StarcoinGrantDevelopers({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+  const t = I18n.create_trans(locale)
+
   return (
     <section className="section section--starcoin-grant-developers">
       <div id="starcoin-grant" className="section__container starcoin-grant-developers__container">
         <div className="section__title">
-          <h4>Starcoin <strong>Grant</strong></h4>
-          <small>Together we empower developers to build the ecosystem of Starcoin.</small>
+          <h4 dangerouslySetInnerHTML={{ __html: t('developers.grant.title') }}></h4>
+          <small>{t('developers.grant.subtitle')}</small>
         </div>
         <div className="section__content">
-          <p>Our goal is to create long-term incentives for open-source developers working on building out the Starcoin ecosystem, 
-especially public goods R&D, which are essential to Starcoin’s success. Request funds for your Starcoin project.</p>
-          <button className="button button--primary">More</button>
+          <p>{t('developers.grant.content.0')}</p>
+          <button className="button button--primary">
+            {t('more')}
+          </button>
         </div>
       </div>
       <figure>

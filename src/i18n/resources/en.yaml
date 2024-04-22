@@ -326,6 +326,63 @@ features:
 # Developers page
 developers:
   title: 'Developers'
+  hero:
+    title: >
+      <p><strong>Launchpad</strong></p>
+      <p>to Move</p>
+    desc_p1: >
+      Starcoin has pioneered the establishment of the first Move language developer community since July 2020.
+      As the first permissionless PoW blockchain based on the Move smart contract,
+    desc_p2: >
+      Starcoin boasts rich implementations including the <strong>U256 type, token/NFT/SBT standard, one-chain DAO governance system,EasyGas</strong>, and many other innovative features.
+    action:
+      - Resources & Tutorials
+      - Github
+  easy_building:
+    title: Easy building
+    subtitle: Simplicity
+    card_1:
+      title: Node
+      content: >
+        The best way to understand Starcoin is to start a node
+        first.Get all content on Starcoin nodes, including a quick
+        start, how nodes work, command line usage, and more!
+    card_2:
+      title: Move
+      content: >
+        More in-depth knowledge on Move, Unlock Move smart contract
+        development with our comprehensive module, exploring its
+        security-centric design, resource-oriented and
+        generalization-oriented programming, and formal verification
+        tools for robust contract security.
+    card_3:
+      title: DAPP
+      content: >
+        Explore comprehensive resources for DApp development on
+        Starcoin's Layer1 technology, covering everything from setting
+        up a development environment and SDK to RPC and DApp examples,
+        ensuring seamless contract development and interaction with
+        the public chain.
+    card_4:
+      title: Examples
+      content: >
+        Access streamlined DApp development resources in the Starcoin
+        ecosystem, featuring Move contract and StarMask call examples
+        for efficient and comprehensive development.
+    card_5:
+      title: Glossary
+      content: >
+        Gain comprehensive insights into Starcoin's Layer 1
+        technologies, including Stdlib, NFT protocol, Oracle protocol,
+        DAO, SIP, and more, to better understand the platform's core
+        concepts and key definitions.
+  grant:
+    title: Starcoin <strong>Grant</strong>
+    subtitle: Together we empower developers to build the ecosystem of Starcoin.
+    content:
+      - >
+        Our goal is to create long-term incentives for open-source developers working on building out the Starcoin ecosystem, 
+        especially public goods R&D, which are essential to Starcoin’s success. Request funds for your Starcoin project.
 
 # Get stc page
 getstc:

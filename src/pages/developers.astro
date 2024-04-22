@@ -11,11 +11,11 @@ const t = I18n.create_trans(locale);
 ---
 
 <Layout>
-	<DevelopersPageHero />
+	<DevelopersPageHero locale={locale} />
 	<Dividers />
-	<EasyBuilding />
+	<EasyBuilding locale={locale} />
 	<Dividers />
-	<StarcoinGrantDevelopers />
+	<StarcoinGrantDevelopers locale={locale} />
 
 	<Fragment slot="page-meta">
 		<title>{t("developers.title")} - {t("site.name")}</title>

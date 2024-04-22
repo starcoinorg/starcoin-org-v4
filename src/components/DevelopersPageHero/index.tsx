@@ -1,30 +1,35 @@
-import React from "react";
 import './DevelopersPageHero.css';
 
 import img_hhm from '@/images/home-hero-mobile.png'
 import img_hhd from '@/images/home-hero-desktop.png'
 
-export default function DevelopersPageHero() {
+import I18n, { type LocaleCode } from "@/i18n";
+
+export default function DevelopersPageHero({
+  locale
+}: {
+  locale: LocaleCode
+}) {
+  const t = I18n.create_trans(locale)
+
   return (
     <section className="hero hero--developers">
       <div className="hero__container section__container">
-        <h2 className="hero__title">
-          <p><strong>Launchpad</strong></p>
-          <p>
-          to Move
-          </p>
-        </h2>
+        <h2 className="hero__title" dangerouslySetInnerHTML={{ __html: t('developers.hero.title') }}></h2>
         <div className="hero__content">
           <p>
-          Starcoin has pioneered the establishment of the first Move language developer community since July 2020.
-As the first permissionless PoW blockchain based on the Move smart contract,
+            {t('developers.hero.desc_p1')}
           </p>
-          <p>Starcoin boasts rich implementations including the <strong>U256 type, token/NFT/SBT standard, one-chain DAO governance system,EasyGas</strong>, and many other innovative features.</p>
-          
+          <p dangerouslySetInnerHTML={{ __html: t('developers.hero.desc_p2') }}></p>
+
         </div>
         <div className="hero__action">
-          <button className="button button--primary">Resources & Tutorials</button>
-          <button className="button button--outline">Github</button>
+          <button className="button button--primary">
+            {t('developers.hero.action.0')}
+          </button>
+          <button className="button button--outline">
+            {t('developers.hero.action.1')}
+          </button>
         </div>
       </div>
       <picture>
