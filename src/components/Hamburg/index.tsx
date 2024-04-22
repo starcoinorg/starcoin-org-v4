@@ -1,4 +1,3 @@
-import "./Hamburg.css";
 
 export default function Hamburg({
   onChange,

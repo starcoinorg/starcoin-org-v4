@@ -1,4 +1,3 @@
-import './StatisticsCard.css';
 
 import I18n, { type LocaleCode } from '@/i18n'
 import { useAvgGas, useBlockTime, useChainInfo, useHashRate } from './index.service';

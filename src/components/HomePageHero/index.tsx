@@ -1,4 +1,3 @@
-import "./HomePageHero.css";
 import StatisticsCard from "@/components/StatisticsCard";
 
 import I18n, {type LocaleCode} from '@/i18n'

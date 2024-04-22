@@ -1,5 +1,3 @@
-import './FeaturesPageHero.css';
-
 import img_hhm from '@/images/home-hero-mobile.png'
 import img_hhd from '@/images/home-hero-desktop.png'
 
@@ -24,15 +22,15 @@ export default function FeaturesPageHero({
           <p>{t('features.hero.desc')}</p>
         </div>
         <div className="hero__action">
-          <button className="button button--primary">
+          <a href="#" className="button button--primary">
             {t('features.hero.action.0')}
-          </button>
-          <button className="button button--outline">
+          </a>
+          <a href="#" className="button button--outline">
             {t('features.hero.action.1')}
-          </button>
-          <button className="button button--outline">
+          </a>
+          <a href="#" className="button button--outline">
             {t('features.hero.action.2')}
-          </button>
+          </a>
         </div>
       </div>
       <picture>
