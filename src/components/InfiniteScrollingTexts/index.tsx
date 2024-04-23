@@ -1,7 +1,6 @@
-import React from "react";
 import './InfiniteScrollingTexts.css';
 
-export default function InfiniteScrollingTexts(props) {
+export default function InfiniteScrollingTexts(props: any) {
   return (
     <div className={`marquee__container marquee--text ${props.className}`}>
       <div className="marquee">

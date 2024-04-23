@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import I18n, { type LocaleCode } from "@/i18n";
-import { useState, useEffect, type MouseEvent } from "react";
+import { useState, useEffect } from "react";
+import type { MouseEvent, CSSProperties } from "react";
 
 export default function LanguageDropdownMenu({
   locale
@@ -45,10 +46,10 @@ export default function LanguageDropdownMenu({
           <use xlinkHref="#angle-down" href="#angle-down" />
         </svg>
       </button>
-
+      
       <div
         className={clsx('dropdown__content', { active: open })}
-        style={{ '--options': locale_list.length }}
+        style={{ '--options': locale_list.length } as CSSProperties}
       >
         {locale_list.map((lc) => {
           return (

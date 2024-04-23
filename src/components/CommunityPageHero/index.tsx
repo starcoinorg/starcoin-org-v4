@@ -1,4 +1,3 @@
-import React from "react";
 import './CommunityPageHero.css';
 
 import img_hhm from '@/images/home-hero-mobile.png'

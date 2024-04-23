@@ -8,7 +8,7 @@ import SVGIcons from "@/components/SVGIcons/index.astro";
 
 import I18n, { type LocaleCode } from "@/i18n";
 const lng = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
-const t = I18n.create_trans(lng)
+
 ---
 
 <!doctype html>
@@ -17,6 +17,7 @@ const t = I18n.create_trans(lng)
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" href="/favicon.svg" />
+		<link rel="sitemap" href="/sitemap-index.xml" />
 
 		<link
 			rel="preload"
@@ -44,8 +45,6 @@ const t = I18n.create_trans(lng)
 	</head>
 
 	<body>
-		
-		
 		<SVGIcons />
 		<Header locale={lng} client:load />
 		<main>

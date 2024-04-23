@@ -1,4 +1,4 @@
-import nav_data, { type NavGroup } from "@/assets/nav-data";
+import nav_data from "@/assets/nav-data";
 
 import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 

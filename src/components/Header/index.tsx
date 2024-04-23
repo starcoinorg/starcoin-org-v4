@@ -5,7 +5,7 @@ import Hamburg from "@/components/Hamburg";
 import LanguageDropdownMenu from "@/components/LanguageDropdownMenu";
 
 import { useState, useEffect, type MouseEvent } from "react";
-import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
+import { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 import clsx from "clsx";
 
 export default function Header({
@@ -25,7 +25,7 @@ export default function Header({
   }
 
   useEffect(() => {
-    let close_timer: number
+    let close_timer: NodeJS.Timeout
     function close() {
       clearTimeout(close_timer)
       close_timer = setTimeout(() => {

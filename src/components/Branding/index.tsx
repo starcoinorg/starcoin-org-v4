@@ -1,4 +1,3 @@
-import React from "react";
 import "./Branding.css";
 
 import I18n, { type LocaleCode } from "@/i18n";

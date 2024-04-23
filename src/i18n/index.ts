@@ -1,5 +1,5 @@
 import { get, template, isString } from 'radash'
-import { getRelativeLocaleUrl as grlu, getAbsoluteLocaleUrl as galu, type GetLocaleOptions } from 'astro:i18n'
+import { getRelativeLocaleUrl as grlu, type GetLocaleOptions } from 'astro:i18n'
 
 import { locale_config } from './config';
 

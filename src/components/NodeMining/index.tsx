@@ -1,4 +1,4 @@
-import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
+import I18n, { type LocaleCode } from "@/i18n";
 
 export default function NodeMining({
   locale
