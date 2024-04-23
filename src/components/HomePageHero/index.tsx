@@ -1,6 +1,6 @@
 import StatisticsCard from "@/components/StatisticsCard";
 
-import I18n, {type LocaleCode} from '@/i18n'
+import I18n, {getRelativeLocaleUrl, type LocaleCode} from '@/i18n'
 
 import img_hhm from '@/images/home-hero-mobile.png'
 import img_hhd from '@/images/home-hero-desktop.png'
@@ -24,10 +24,10 @@ export default function HomePageHero({
           <p dangerouslySetInnerHTML={{__html: t('home.hero.desc_p2')}} />
         </div>
         <div className="hero__action">
-          <a href="#" className="button button--primary">
+          <a href="https://starcoin.org/downloads/Starcoin_Whitepaper.pdf" className="button button--primary">
             {t('home.hero.action.whitepaper')}
           </a>
-          <a href="#" className="button button--outline">
+          <a href={getRelativeLocaleUrl(locale, '/getstc')} className="button button--outline">
             {t('home.hero.action.getstc')}
           </a>
         </div>
