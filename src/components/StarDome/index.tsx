@@ -1,5 +1,5 @@
 import I18n, { type LocaleCode } from "@/i18n";
-import communityDome from  '@/images/community-dome.mov';
+import communityDome from  '@/images/community-dome.mp4';
 
 export default function StarDome({
   locale

@@ -1,5 +1,5 @@
 import I18n, { type LocaleCode } from "@/i18n";
-import communityBranding from '@/images/community-branding.mov';
+import communityBranding from '@/images/community-branding.mp4';
 
 export default function Branding({
   locale

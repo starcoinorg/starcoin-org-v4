@@ -1,4 +1,4 @@
-import developersBanner from '@/images/developers-banner.mov';
+import developersBanner from '@/images/developers-banner.mp4';
 
 import I18n, { type LocaleCode } from "@/i18n";
 

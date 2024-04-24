@@ -1,6 +1,6 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
-import developersGrand from '@/images/developers-grand.mov'
+import developersGrand from '@/images/developers-grand.mp4'
 
 export default function StarcoinGrantDevelopers({
   locale

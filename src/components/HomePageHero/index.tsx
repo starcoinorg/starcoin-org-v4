@@ -2,10 +2,8 @@ import StatisticsCard from "@/components/StatisticsCard";
 
 import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 
-// import img_hhm from '@/images/home-hero-mobile.png'
-// import img_hhd from '@/images/home-hero-desktop.png'
 
-import homebanner from "@/images/Homebanner01.mov";
+import homebanner from "@/images/Homebanner01.mp4";
 
 export default function HomePageHero({ locale }: { locale: LocaleCode }) {
   const t = I18n.create_trans(locale);

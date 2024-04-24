@@ -1,4 +1,4 @@
-import newsBanner from '@/images/news-banner.mov';
+import newsBanner from '@/images/news-banner.mp4';
 
 import I18n, { type LocaleCode } from "@/i18n";
 

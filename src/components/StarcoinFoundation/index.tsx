@@ -1,6 +1,6 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
-import featuresFoundation from '@/images/features-foundation.mov';
+import featuresFoundation from '@/images/features-foundation.mp4';
 
 export default function StarcoinFoundation({
   locale

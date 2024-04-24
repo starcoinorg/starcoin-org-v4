@@ -1,5 +1,5 @@
 import I18n, { type LocaleCode } from '@/i18n';
-import homenews from '@/images/homenews.mov';
+import homenews from '@/images/homenews.mp4';
 
 import testImage from '@/images/home_01EnhancedPowConsensus.png';
 

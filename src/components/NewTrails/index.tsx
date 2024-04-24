@@ -1,5 +1,5 @@
 import I18n, { type LocaleCode } from "@/i18n";
-import featuresTrails from '@/images/features-trails.mov'
+import featuresTrails from '@/images/features-trails.mp4'
 
 export default function NewTrails({
   locale

@@ -1,4 +1,4 @@
-import communityBanner from '@/images/community-banner.mov'
+import communityBanner from '@/images/community-banner.mp4'
 
 import I18n, { type LocaleCode } from "@/i18n";
 
