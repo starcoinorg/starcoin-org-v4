@@ -1,5 +1,7 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
+import testImage from '@/images/Home_01EnhancedPowConsensus.png';
+
 export default function OneChainDAO({
   locale
 }: {
@@ -20,7 +22,7 @@ export default function OneChainDAO({
         </div>
         </div>
         <figure>
-          <img src="https://picsum.photos/400/400?random=4" alt="" />
+          <img src={testImage.src} alt="" />
         </figure>
       </div>
     </section>

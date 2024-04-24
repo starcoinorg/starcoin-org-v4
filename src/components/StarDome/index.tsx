@@ -1,6 +1,5 @@
-import './StarDome.css';
-
 import I18n, { type LocaleCode } from "@/i18n";
+import communityDome from  '@/images/community-dome.mov';
 
 export default function StarDome({
   locale
@@ -59,9 +58,11 @@ export default function StarDome({
           </div>
         </div>
       </div>
-      <figure>
-        <img src="https://picsum.photos/1920/1024?random=3" alt="" />
-      </figure>
+      <div className="video--container">
+        <video className="background-video" autoPlay loop muted poster="">
+          <source src={communityDome} type="video/mp4" />
+        </video>
+      </div>
     </section>
   );
 }

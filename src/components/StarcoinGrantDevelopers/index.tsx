@@ -1,5 +1,7 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
+import developersGrand from '@/images/developers-grand.mov'
+
 export default function StarcoinGrantDevelopers({
   locale
 }: {
@@ -21,9 +23,11 @@ export default function StarcoinGrantDevelopers({
           </button>
         </div>
       </div>
-      <figure>
-        <img src="https://picsum.photos/1920/1024?random=1" alt="" />
-      </figure>
+      <div className="video--container">
+        <video className="background-video" autoPlay loop muted poster="">
+          <source src={developersGrand} type="video/mp4" />
+        </video>
+      </div>
     </section>
   );
 }

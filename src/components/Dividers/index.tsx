@@ -1,5 +1,3 @@
-import "./Dividers.css";
-
 export default function Dividers() {
   return (
     <section className="section section--dividers">

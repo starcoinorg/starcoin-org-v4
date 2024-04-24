@@ -1,7 +1,5 @@
-import './GovernanceHistory.css';
-
 import I18n, { type LocaleCode } from "@/i18n";
-
+import testImage from '@/images/Home_01EnhancedPowConsensus.png';
 export default function GovernanceHistory({
   locale
 }: {
@@ -10,7 +8,7 @@ export default function GovernanceHistory({
   const t = I18n.create_trans(locale)
 
   return (
-    <section className="section section--governance-history">
+    <section className="section section--governance-history" id="one-chain-dao">
       <div className="section__container governance-history__container">
         <div className="section__title">
           <h3 dangerouslySetInnerHTML={{ __html: t('community.gh.title') }}></h3>
@@ -40,7 +38,7 @@ export default function GovernanceHistory({
           <div className="cards cards--history">
             <div className="card">
               <figure className="card__media">
-                <img src="https://picsum.photos/400/400?random=3" alt="" />
+                <img src={testImage.src} alt="" />
               </figure>
               <div className="card__content">
                 <div className="card__title">
@@ -52,7 +50,7 @@ export default function GovernanceHistory({
             </div>
             <div className="card">
               <figure className="card__media">
-                <img src="https://picsum.photos/400/400?random=2" alt="" />
+                <img src={testImage.src} alt="" />
               </figure>
               <div className="card__content">
                 <div className="card__title">

@@ -1,5 +1,3 @@
-import './SocialMediaSection.css';
-
 import InfiniteScrollingTexts from '@/components/InfiniteScrollingTexts';
 import Social from '@/components/Social';
 

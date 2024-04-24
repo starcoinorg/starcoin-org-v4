@@ -1,53 +1,47 @@
 import StatisticsCard from "@/components/StatisticsCard";
 
-import I18n, {getRelativeLocaleUrl, type LocaleCode} from '@/i18n'
+import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 
-import img_hhm from '@/images/home-hero-mobile.png'
-import img_hhd from '@/images/home-hero-desktop.png'
+// import img_hhm from '@/images/home-hero-mobile.png'
+// import img_hhd from '@/images/home-hero-desktop.png'
 
-export default function HomePageHero({
-  locale
-}: {
-  locale: LocaleCode
-}) {
-  const t = I18n.create_trans(locale)
+import homebanner from "@/images/Homebanner01.mov";
+
+export default function HomePageHero({ locale }: { locale: LocaleCode }) {
+  const t = I18n.create_trans(locale);
 
   return (
     <section className="hero hero--home">
       <div className="hero__container section__container">
         <h2 className="hero__title">
-          <p> {t('home.hero.title')} </p>
-          <p dangerouslySetInnerHTML={{ __html: t('home.hero.subtitle') }} />
+          <p> {t("home.hero.title")} </p>
+          <p dangerouslySetInnerHTML={{ __html: t("home.hero.subtitle") }} />
         </h2>
         <div className="hero__content">
-          <p dangerouslySetInnerHTML={{__html: t('home.hero.desc_p1')}} />
-          <p dangerouslySetInnerHTML={{__html: t('home.hero.desc_p2')}} />
+          <p dangerouslySetInnerHTML={{ __html: t("home.hero.desc_p1") }} />
+          <p dangerouslySetInnerHTML={{ __html: t("home.hero.desc_p2") }} />
         </div>
         <div className="hero__action">
-          <a href="https://starcoin.org/downloads/Starcoin_Whitepaper.pdf" className="button button--primary">
-            {t('home.hero.action.whitepaper')}
+          <a
+            href="https://starcoin.org/downloads/Starcoin_Whitepaper.pdf"
+            className="button button--primary"
+          >
+            {t("home.hero.action.whitepaper")}
           </a>
-          <a href={getRelativeLocaleUrl(locale, '/getstc')} className="button button--outline">
-            {t('home.hero.action.getstc')}
+          <a
+            href={getRelativeLocaleUrl(locale, "/getstc")}
+            className="button button--outline"
+          >
+            {t("home.hero.action.getstc")}
           </a>
         </div>
         <StatisticsCard locale={locale} />
       </div>
-      <picture>
-        <source
-          media="(max-width: 768px)"
-          srcSet={img_hhm.src}
-          type="image/png"
-        />
-
-        <source
-          media="(min-width: 769px)"
-          srcSet={img_hhd.src}
-          type="image/png"
-        />
-
-        <img src={img_hhd.src} alt="" />
-      </picture>
+      <div className="video--container">
+        <video className="background-video" autoPlay loop muted poster="">
+          <source src={homebanner} type="video/mp4" />
+        </video>
+      </div>
     </section>
   );
 }

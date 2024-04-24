@@ -1,7 +1,4 @@
-import './GetSTCPageHero.css';
-
-import img_hhm from '@/images/home-hero-mobile.png'
-import img_hhd from '@/images/home-hero-desktop.png'
+import getstcBanner from '@/images/getstc-banner.mp4';
 
 import I18n, { type LocaleCode } from "@/i18n";
 
@@ -17,21 +14,11 @@ export default function GetSTCPageHero({
       <div className="hero__container section__container">
         <h2 className="hero__title" dangerouslySetInnerHTML={{__html: t('getstc.hero.title')}}></h2>
       </div>
-      <picture>
-        <source
-          media="(max-width: 768px)"
-          srcSet={img_hhm.src}
-          type="image/png"
-        />
-
-        <source
-          media="(min-width: 769px)"
-          srcSet={img_hhd.src}
-          type="image/png"
-        />
-
-        <img src={img_hhd.src} alt="" />
-      </picture>
+      <div className="video--container">
+        <video className="background-video" autoPlay loop muted poster="">
+          <source src={getstcBanner} type="video/mp4" />
+        </video>
+      </div>
     </section>
   );
 }

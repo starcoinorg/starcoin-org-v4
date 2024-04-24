@@ -1,6 +1,7 @@
 import Download from '@/components/Download';
 
 import I18n, { type LocaleCode } from "@/i18n";
+import getstcWallet from '@/images/getstc-wallet.mov';
 
 export default function StarMaskWallet({
   locale
@@ -42,9 +43,11 @@ export default function StarMaskWallet({
         </div>
       </div>
 
-      <figure>
-        <img src="https://picsum.photos/1920/1024?random=4" alt="" />
-      </figure>
+      <div className="video--container">
+        <video className="background-video" autoPlay loop muted poster="">
+          <source src={getstcWallet} type="video/mp4" />
+        </video>
+      </div>
     </section>
   );
 }

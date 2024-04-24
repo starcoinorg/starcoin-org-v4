@@ -1,4 +1,7 @@
 import I18n, { type LocaleCode } from "@/i18n";
+import featureCardImage from '@/images/home_03HighPerformance.png';
+import featureFlexi from '@/images/features_flexi.png';
+import featureTurbo from '@/images/feature_turbo_stm.png';
 
 export default function FeatureSection({
   locale
@@ -19,7 +22,7 @@ export default function FeatureSection({
           <div className="cards cards--feacures">
             <div className="card">
               <figure>
-                <img src="https://picsum.photos/800/600?random=4" alt="" />
+                <img src={featureCardImage.src} alt="" />
               </figure>
               <h4 className="card__title">
                 {t('features.features.card_1.title')}
@@ -32,7 +35,7 @@ export default function FeatureSection({
             </div>
             <div className="card">
               <figure>
-                <img src="https://picsum.photos/800/600?random=4" alt="" />
+                <img src={featureCardImage.src} alt="" />
               </figure>
               <h4 className="card__title">
                 {t('features.features.card_2.title')}
@@ -44,7 +47,7 @@ export default function FeatureSection({
 
             <div className="card">
               <figure>
-                <img src="https://picsum.photos/800/600?random=4" alt="" />
+                <img src={featureCardImage.src} alt="" />
               </figure>
               <h4 className="card__title">
                 {t('features.features.card_3.title')}
@@ -57,7 +60,7 @@ export default function FeatureSection({
                       {t('features.features.card_3.sub_card_1.title')}
                     </h5>
                     <figure className="sbu-card__media">
-                      <img src="https://picsum.photos/800/600?random=4" alt="" />
+                      <img src={featureFlexi.src} alt="" />
                     </figure>
                     <div className="sub-card__content">
                       <p>
@@ -88,7 +91,7 @@ export default function FeatureSection({
                       {t('features.features.card_3.sub_card_2.title')}
                     </h5>
                     <figure className="sbu-card__media">
-                      <img src="https://picsum.photos/800/600?random=4" alt="" />
+                      <img src={featureTurbo.src} alt="" />
                     </figure>
                     <div className="sub-card__content">
                       <p>{t('features.features.card_3.sub_card_2.content_p1')}</p>

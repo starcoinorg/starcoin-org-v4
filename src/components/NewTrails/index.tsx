@@ -1,4 +1,5 @@
 import I18n, { type LocaleCode } from "@/i18n";
+import featuresTrails from '@/images/features-trails.mov'
 
 export default function NewTrails({
   locale
@@ -132,9 +133,11 @@ export default function NewTrails({
           </ul>
         </div>
       </div>
-      <figure className="news-trails__bg">
-        <img src="https://picsum.photos/1920/1024?random=4" alt="" />
-      </figure>
+      <div className="video--container">
+        <video className="background-video" autoPlay loop muted poster="">
+          <source src={featuresTrails} type="video/mp4" />
+        </video>
+      </div>
     </section>
   );
 }

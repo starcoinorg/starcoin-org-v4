@@ -1,6 +1,9 @@
 import FeatureTable from '@/components/FeatureTable';
 import I18n, { type LocaleCode } from '@/i18n';
 
+import homeEnhanced from '@/images/home_01EnhancedPowConsensus.png'
+import homeMove from '@/images/home_02MoveSmartContract.png'
+
 export default function StarcoinFeatures({
   locale
 }: {
@@ -20,7 +23,7 @@ export default function StarcoinFeatures({
           <div className="cards cards--features">
             <div className="card">
               <figure className="card__media">
-                <img src="http://i.pravatar.cc/200?img=2" alt="" />
+                <img src={homeEnhanced.src} alt="" />
               </figure>
               <div className="card__content">
                 <h4 className="card__title">{t('home.features.card_1.h4')}</h4>
@@ -29,7 +32,7 @@ export default function StarcoinFeatures({
             </div>
             <div className="card">
               <figure className="card__media">
-                <img src="http://i.pravatar.cc/200?img=2" alt="" />
+                <img src={homeMove.src} alt="" />
               </figure>
               <div className="card__content">
                 <h4 className="card__title">{t('home.features.card_2.h4')}</h4>

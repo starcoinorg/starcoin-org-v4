@@ -1,7 +1,7 @@
-import './NewsSection.css';
-
-
 import I18n, { type LocaleCode } from '@/i18n';
+import homenews from '@/images/homenews.mov';
+
+import testImage from '@/images/Home_01EnhancedPowConsensus.png';
 
 export default function NewsSection({
   locale
@@ -21,7 +21,7 @@ export default function NewsSection({
           <div className="cards cards--news">
             <div className="card">
               <figure>
-                <img src="http://i.pravatar.cc/500?img=12" alt="" />
+                <img src={testImage.src} alt="" />
               </figure>
               <div className="card__content">
                 <div className="card__badge">
@@ -42,7 +42,7 @@ export default function NewsSection({
             </div>
             <div className="card">
               <figure>
-                <img src="http://i.pravatar.cc/300?img=2" alt="" />
+                <img src={testImage.src} alt="" />
               </figure>
               <div className="card__content">
                 <h4 className="card__title">
@@ -53,7 +53,7 @@ export default function NewsSection({
             </div>
             <div className="card">
               <figure>
-                <img src="http://i.pravatar.cc/300?img=14" alt="" />
+                <img src={testImage.src} alt="" />
               </figure>
               <div className="card__content">
                 <h4 className="card__title">
@@ -64,6 +64,11 @@ export default function NewsSection({
             </div>
           </div>
         </div>
+      </div>
+      <div className="video--container">
+        <video className="background-video" autoPlay loop muted poster="">
+          <source src={homenews} type="video/mp4" />
+        </video>
       </div>
     </section>
   );

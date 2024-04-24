@@ -1,5 +1,7 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
+import testImg from '@/images/Home_01EnhancedPowConsensus.png';
+
 export default function EasyBuilding({
   locale
 }: {
@@ -23,7 +25,7 @@ export default function EasyBuilding({
             <div className="card">
               <figure>
                 <div className="figure--inner">
-                  <img src="https://picsum.photos/124/186?random=1" alt="" />
+                  <img src={testImg.src} alt="" />
                   <figcaption>01</figcaption>
                 </div>
 
@@ -44,7 +46,7 @@ export default function EasyBuilding({
             <div className="card">
               <figure>
                 <div className="figure--inner">
-                  <img src="https://picsum.photos/124/186?random=1" alt="" />
+                  <img src={testImg.src} alt="" />
                   <figcaption>02</figcaption>
                 </div>
 
@@ -65,7 +67,7 @@ export default function EasyBuilding({
             <div className="card">
               <figure>
                 <div className="figure--inner">
-                  <img src="https://picsum.photos/124/186?random=1" alt="" />
+                  <img src={testImg.src} alt="" />
                   <figcaption>03</figcaption>
                 </div>
 
@@ -86,7 +88,7 @@ export default function EasyBuilding({
             <div className="card">
               <figure>
                 <div className="figure--inner">
-                  <img src="https://picsum.photos/124/186?random=1" alt="" />
+                  <img src={testImg.src} alt="" />
                   <figcaption>04</figcaption>
                 </div>
 
@@ -107,7 +109,7 @@ export default function EasyBuilding({
             <div className="card">
               <figure>
                 <div className="figure--inner">
-                  <img src="https://picsum.photos/124/186?random=1" alt="" />
+                  <img src={testImg.src} alt="" />
                   <figcaption>05</figcaption>
                 </div>
 

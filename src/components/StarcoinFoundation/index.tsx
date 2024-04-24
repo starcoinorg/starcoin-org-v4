@@ -1,5 +1,7 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
+import featuresFoundation from '@/images/features-foundation.mov';
+
 export default function StarcoinFoundation({
   locale
 }: {
@@ -20,9 +22,11 @@ export default function StarcoinFoundation({
           </p>
         </div>
       </div>
-      <figure>
-        <img src="https://picsum.photos/1920/1024?random=2" alt="" />
-      </figure>
+      <div className="video--container">
+        <video className="background-video" autoPlay loop muted poster="">
+          <source src={featuresFoundation} type="video/mp4" />
+        </video>
+      </div>
     </section>
   );
 }

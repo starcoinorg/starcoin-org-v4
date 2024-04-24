@@ -1,5 +1,7 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
+import testImage from '@/images/Home_03HighPerformance.png';
+
 export default function NodeMining({
   locale
 }: {
@@ -52,7 +54,7 @@ export default function NodeMining({
           </div>
           <div className="cards cards--mining">
             <figure>
-              <img src="https://picsum.photos/1024/186?random=4" alt="" />
+              <img src={testImage.src} alt="" />
             </figure>
             <div className="card">
               <div className="card__media">

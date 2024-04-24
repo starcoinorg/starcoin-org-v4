@@ -1,5 +1,3 @@
-import './StarcoinTwoFeatures.css';
-
 import FeatureTable from '@/components/FeatureTable';
 
 import I18n, { type LocaleCode } from '@/i18n';

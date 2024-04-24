@@ -1,6 +1,5 @@
-import "./Branding.css";
-
 import I18n, { type LocaleCode } from "@/i18n";
+import communityBranding from '@/images/community-branding.mov';
 
 export default function Branding({
   locale
@@ -30,9 +29,11 @@ export default function Branding({
           </a>
         </div>
       </div>
-      <figure>
-        <img src="https://picsum.photos/1920/1024?random=12" alt="" />
-      </figure>
+      <div className="video--container">
+        <video className="background-video" autoPlay loop muted poster="">
+          <source src={communityBranding} type="video/mp4" />
+        </video>
+      </div>
     </section>
   );
 }

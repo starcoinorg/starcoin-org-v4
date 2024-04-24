@@ -1,6 +1,6 @@
-import './NewsCard.css';
-
 import I18n, { type LocaleCode } from "@/i18n";
+
+import testImage from '@/images/Home_01EnhancedPowConsensus.png'
 
 export default function NewsCard({
   locale
@@ -15,7 +15,7 @@ export default function NewsCard({
         <div className="cards cards--news">
           <div className="card">
             <figure>
-              <img src="https://picsum.photos/400/400?random=1" alt="" />
+              <img src={testImage.src} alt="" />
             </figure>
             <div className="card__content">
               <h4>{t('news.cards.0.title')}</h4>
@@ -29,7 +29,7 @@ export default function NewsCard({
           </div>
           <div className="card">
             <figure>
-              <img src="https://picsum.photos/400/400?random=2" alt="" />
+              <img src={testImage.src} alt="" />
             </figure>
             <div className="card__content">
               <h4>{t('news.cards.1.title')}</h4>
@@ -43,7 +43,7 @@ export default function NewsCard({
           </div>
           <div className="card">
             <figure>
-              <img src="https://picsum.photos/400/400?random=3" alt="" />
+              <img src={testImage.src} alt="" />
             </figure>
             <div className="card__content">
               <h4>{t('news.cards.2.title')}</h4>
@@ -57,7 +57,7 @@ export default function NewsCard({
           </div>
           <div className="card">
             <figure>
-              <img src="https://picsum.photos/400/400?random=4" alt="" />
+              <img src={testImage.src} alt="" />
             </figure>
             <div className="card__content">
               <h4>{t('news.cards.3.title')}</h4>
@@ -71,7 +71,7 @@ export default function NewsCard({
           </div>
           <div className="card">
             <figure>
-              <img src="https://picsum.photos/400/400?random=5" alt="" />
+              <img src={testImage.src} alt="" />
             </figure>
             <div className="card__content">
               <h4>{t('news.cards.4.title')}</h4>
