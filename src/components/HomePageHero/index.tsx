@@ -3,7 +3,7 @@ import StatisticsCard from "@/components/StatisticsCard";
 import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 
 
-import homebanner from "@/images/Homebanner01.mp4";
+import homebanner from "@/images/homebanner01.mp4";
 
 export default function HomePageHero({ locale }: { locale: LocaleCode }) {
   const t = I18n.create_trans(locale);

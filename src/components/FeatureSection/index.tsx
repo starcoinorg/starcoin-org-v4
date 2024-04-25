@@ -1,5 +1,7 @@
 import I18n, { type LocaleCode } from "@/i18n";
-import featureCardImage from '@/images/home_03HighPerformance.png';
+import feature1 from '@/images/features_01EnhancedPowConsensus.png';
+import feature2 from '@/images/features_02Movesmart.png'
+import feature3 from '@/images/features_03High.png';
 import featureFlexi from '@/images/features_flexi.png';
 import featureTurbo from '@/images/feature_turbo_stm.png';
 
@@ -22,7 +24,7 @@ export default function FeatureSection({
           <div className="cards cards--feacures">
             <div className="card">
               <figure>
-                <img src={featureCardImage.src} alt="" />
+                <img src={feature1.src} alt="" />
               </figure>
               <h4 className="card__title">
                 {t('features.features.card_1.title')}
@@ -35,7 +37,7 @@ export default function FeatureSection({
             </div>
             <div className="card">
               <figure>
-                <img src={featureCardImage.src} alt="" />
+                <img src={feature2.src} alt="" />
               </figure>
               <h4 className="card__title">
                 {t('features.features.card_2.title')}
@@ -47,7 +49,7 @@ export default function FeatureSection({
 
             <div className="card">
               <figure>
-                <img src={featureCardImage.src} alt="" />
+                <img src={feature3.src} alt="" />
               </figure>
               <h4 className="card__title">
                 {t('features.features.card_3.title')}
