@@ -24,7 +24,7 @@ export default function Download({
           </div>
           <p>{t('getstc.star_mask.download.card.0.desc')}</p>
           <div className="card__action">
-            <a href="#">{t('getstc.star_mask.download.card.0.action')}</a>
+            <a href="https://github.com/starcoinorg/starmask-extension" target="_blank">{t('getstc.star_mask.download.card.0.action')}</a>
             <svg className="icon--download">
               <use xlinkHref="#download" href="#download" />
             </svg>
@@ -41,7 +41,7 @@ export default function Download({
           </div>
           <p>{t('getstc.star_mask.download.card.1.desc')}</p>
           <div className="card__action">
-            <a href="#">{t('getstc.star_mask.download.card.1.action')}</a>
+            <a href="https://chromewebstore.google.com/detail/starmask/mfhbebgoclkghebffdldpobeajmbecfk" target="_blank">{t('getstc.star_mask.download.card.1.action')}</a>
             <svg className="icon--download">
               <use xlinkHref="#download" href="#download" />
             </svg>

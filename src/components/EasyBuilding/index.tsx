@@ -22,7 +22,7 @@ export default function EasyBuilding({
         </div>
         <div className="section__content">
           <div className="cards cards--easy-building">
-            <div className="card">
+            <a href="https://starcoin.org/en/developers/node/" target="_blank" className="card">
               <figure>
                 <div className="figure--inner">
                   <img src={testImg.src} alt="" />
@@ -41,9 +41,9 @@ export default function EasyBuilding({
               <svg className="icon--arrowRight">
                 <use xlinkHref="#arrowRight" href="#arrowRight" />
               </svg>
-            </div>
+            </a>
 
-            <div className="card">
+            <a href="https://starcoin.org/en/developers/move/" target="_blank" className="card">
               <figure>
                 <div className="figure--inner">
                   <img src={testImg.src} alt="" />
@@ -62,9 +62,9 @@ export default function EasyBuilding({
               <svg className="icon--arrowRight">
                 <use xlinkHref="#arrowRight" href="#arrowRight" />
               </svg>
-            </div>
+            </a>
 
-            <div className="card">
+            <a href="https://starcoin.org/en/developers/dapp/" target="_blank" className="card">
               <figure>
                 <div className="figure--inner">
                   <img src={testImg.src} alt="" />
@@ -83,9 +83,9 @@ export default function EasyBuilding({
               <svg className="icon--arrowRight">
                 <use xlinkHref="#arrowRight" href="#arrowRight" />
               </svg>
-            </div>
+            </a>
 
-            <div className="card">
+            <a href="https://starcoin.org/en/developers/examples/" target="_blank" className="card">
               <figure>
                 <div className="figure--inner">
                   <img src={testImg.src} alt="" />
@@ -104,9 +104,9 @@ export default function EasyBuilding({
               <svg className="icon--arrowRight">
                 <use xlinkHref="#arrowRight" href="#arrowRight" />
               </svg>
-            </div>
+            </a>
 
-            <div className="card">
+            <a href="https://starcoin.org/en/developers/others/" target="_blank" className="card">
               <figure>
                 <div className="figure--inner">
                   <img src={testImg.src} alt="" />
@@ -125,7 +125,7 @@ export default function EasyBuilding({
               <svg className="icon--arrowRight">
                 <use xlinkHref="#arrowRight" href="#arrowRight" />
               </svg>
-            </div>
+            </a>
           </div>
         </div>
       </div>

@@ -1,10 +1,14 @@
 
 
 import Social from '@/components/Social';
-import InfiniteScrollingLogos from '@/components/InfiniteScrollingLogos';
-import InfiniteScrollingTexts from '@/components/InfiniteScrollingTexts';
-
+import type { CSSProperties } from "react";
 import I18n, { type LocaleCode } from '@/i18n';
+
+import starmaskLogo from '@/images/starmask-logo.png';
+import westarlabLogo from '@/images/westarlab-logo.png';
+import gateLogo from '@/images/gate-logo.png';
+import coinxLogo from '@/images/coinx-logo.png';
+import starcoinLogo from '@/images/starcoin-logo.png';
 
 export default function CommunitySection({
   locale
@@ -36,8 +40,38 @@ export default function CommunitySection({
         </div>
         <h4>{t('home.community.h4')}</h4>
       </div>
-      <InfiniteScrollingTexts text="Wallet-Dex-Exchange-Mining Pool⎻-NFT Marketplace⎻-Stablecoin" />
-      <InfiniteScrollingLogos />
+
+      <div className='marquee__container' style={{ '--count': 7,  '--speed': 60} as CSSProperties}>
+        <div className="marquee marquee--text">
+          <div className="marquee__item" style={{ '--index': 0 } as CSSProperties}>{t('home.community.infiniteScrollText')}</div>
+          <div className="marquee__item" style={{ '--index': 1 } as CSSProperties}>{t('home.community.infiniteScrollText')}</div>
+          <div className="marquee__item" style={{ '--index': 2 } as CSSProperties}>{t('home.community.infiniteScrollText')}</div>
+          <div className="marquee__item" style={{ '--index': 3 } as CSSProperties}>{t('home.community.infiniteScrollText')}</div>
+          <div className="marquee__item" style={{ '--index': 4 } as CSSProperties}>{t('home.community.infiniteScrollText')}</div>
+          <div className="marquee__item" style={{ '--index': 5 } as CSSProperties}>{t('home.community.infiniteScrollText')}</div>
+          <div className="marquee__item" style={{ '--index': 6 } as CSSProperties}>{t('home.community.infiniteScrollText')}</div>
+        </div>
+      </div>
+
+      <div className='marquee__container' style={{ '--count': 5,  '--speed': 30} as CSSProperties}>
+        <div className="marquee marquee--logo">
+          <div className="marquee__item" style={{ '--index': 0 } as CSSProperties}>
+            <img src={starmaskLogo.src} alt="" />
+          </div>
+          <div className="marquee__item" style={{ '--index': 1 } as CSSProperties}>
+            <img src={westarlabLogo.src} alt="" />
+          </div>
+          <div className="marquee__item" style={{ '--index': 2 } as CSSProperties}>
+            <img src={gateLogo.src} alt="" />
+          </div>
+          <div className="marquee__item" style={{ '--index': 3 } as CSSProperties}>
+            <img src={coinxLogo.src} alt="" />
+          </div>
+          <div className="marquee__item" style={{ '--index': 4 } as CSSProperties}>
+            <img src={starcoinLogo.src} alt="" />
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

@@ -8,8 +8,8 @@ export default function GovernanceHistory({
   const t = I18n.create_trans(locale)
 
   return (
-    <section className="section section--governance-history" id="one-chain-dao">
-      <div className="section__container governance-history__container">
+    <section className="section section--governance-history">
+      <div className="section__container governance-history__container" id="one-chain-dao">
         <div className="section__title">
           <h3 dangerouslySetInnerHTML={{ __html: t('community.gh.title') }}></h3>
           <small>{t('community.gh.desc')}</small>
@@ -45,7 +45,7 @@ export default function GovernanceHistory({
                   <small>{t('starcoin')}</small>
                   {t('community.gh.card.0')}
                 </div>
-                <button className="button button--primary">Learn More</button>
+                <a href="https://poll.starcoin.org/polls/1?network=main" target="_blank" className="button button--primary">Learn More</a>
               </div>
             </div>
             <div className="card">
@@ -57,7 +57,7 @@ export default function GovernanceHistory({
                   <small>{t('starcoin')}</small>
                   {t('community.gh.card.1')}
                 </div>
-                <button className="button button--primary">Learn More</button>
+                <a href="https://airdrop.starcoin.org/" target="_blank" className="button button--primary">Learn More</a>
               </div>
             </div>
           </div>
@@ -65,15 +65,15 @@ export default function GovernanceHistory({
             <div className="history--links__title">Governance history</div>
             <ul className="history--links__link">
               <li>
-                <a href="#">{t('community.gh.history.0')}</a>
+                <a href="https://poll.starcoin.org/polls/1?network=main">{t('community.gh.history.0')}</a>
                 <svg><use xlinkHref="#arrowRight" href="#arrowRight" /></svg>
               </li>
               <li>
-                <a href="#">{t('community.gh.history.1')}</a>
+                <a href="https://poll.starcoin.org/polls/1?network=main">{t('community.gh.history.1')}</a>
                 <svg><use xlinkHref="#arrowRight" href="#arrowRight" /></svg>
               </li>
               <li>
-                <a href="#">{t('community.gh.history.2')}</a>
+                <a href="https://poll.starcoin.org/polls/1?network=main">{t('community.gh.history.2')}</a>
                 <svg><use xlinkHref="#arrowRight" href="#arrowRight" /></svg>
               </li>
             </ul>

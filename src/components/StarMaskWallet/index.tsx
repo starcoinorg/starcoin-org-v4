@@ -26,12 +26,12 @@ export default function StarMaskWallet({
           <Download locale={locale} />
           
           <div className="actions">
-            <button className="button button--primary">
+            <a href="https://github.com/starcoinorg/starmask-extension/blob/main/docs/en/how-to-install.md" target="_blank" className="button button--primary">
               {t('getstc.star_mask.action.install')}
-            </button>
-            <button className="button button--outline">
+            </a>
+            <a href="https://github.com/starcoinorg/starmask-extension/blob/main/docs/en/how-to-use.md" target="_blank" className="button button--outline">
               {t('getstc.star_mask.action.use')}
-            </button>
+            </a>
           </div>
           <h5 dangerouslySetInnerHTML={{ __html: t('getstc.star_mask.dt.0.title') }}></h5>
           <p dangerouslySetInnerHTML={{

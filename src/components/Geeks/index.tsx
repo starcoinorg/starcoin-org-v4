@@ -14,24 +14,24 @@ export default function Geeks({
       <div className="section__content">
         <p>{t('getstc.geek.desc')}</p>
         <div className="card">
-          <div className="column">
+          <a href="https://starcoin.org/en/developers/node/install/" target="_blank" className="column">
               <span>{t('getstc.geek.card.0')}</span>
             <svg className="icon--arrow-right">
               <use xlinkHref="#arrowRightLong" href="#arrowRightLong" />
             </svg>
-            </div>
-          <div className="column">
+            </a>
+          <a href="https://starcoin.org/en/developers/node/command/" target="_blank" className="column">
               <span>{t('getstc.geek.card.1')}</span>
             <svg className="icon--arrow-right">
               <use xlinkHref="#arrowRightLong" href="#arrowRightLong" />
             </svg>
-            </div>
-          <div className="column">
+            </a>
+          <a href="https://starcoin.org/en/developers/node/command/console/" target="_blank" className="column">
               <span>{t('getstc.geek.card.2')}</span>
             <svg className="icon--arrow-right">
               <use xlinkHref="#arrowRightLong" href="#arrowRightLong" />
             </svg>
-            </div>
+            </a>
         </div>
       </div>
       </div>

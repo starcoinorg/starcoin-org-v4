@@ -16,8 +16,10 @@ export default function GetStarted({
         <div className="section__content">
           <ul>
             <li>
-              <h4 dangerouslySetInnerHTML={{ __html: t('home.get_started.li_1.h4') }}></h4>
+              <h4 dangerouslySetInnerHTML={{ __html: t('home.get_started.li_1.h4') }}>
+              </h4>
               <p>{t('home.get_started.li_1.p')}</p>
+              
             </li>
             <li>
               <h4 dangerouslySetInnerHTML={{ __html: t('home.get_started.li_2.h4') }}></h4>

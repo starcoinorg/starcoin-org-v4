@@ -16,9 +16,9 @@ export default function HardcorePlayer({
         </div>
         <div className="section__content">
           <p>{t('getstc.hc_player.content.0')}</p>
-          <button className="button button--outline">
+          <a href="https://github.com/starcoinorg" target="_blank" className="button button--outline">
             {t('getstc.hc_player.content.1')}
-          </button>
+          </a>
         </div>
       </div>
     </section>

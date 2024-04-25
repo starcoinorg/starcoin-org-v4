@@ -21,12 +21,15 @@ export default function DevelopersPageHero({
 
         </div>
         <div className="hero__action">
-          <button className="button button--primary">
+          <a href="https://starcoin.org/en/developers/node/" target="_blank" className="button button--primary">
             {t('developers.hero.action.0')}
-          </button>
-          <button className="button button--outline">
+          </a>
+          <a href="https://github.com/starcoinorg" target="_blank" className="button button--outline">
             {t('developers.hero.action.1')}
-          </button>
+          </a>
+          <a href="https://stcscan.io/" target="_blank" className="button button--outline">
+            {t('developers.hero.action.2')}
+          </a>
         </div>
       </div>
       <div className="video--container">

@@ -166,6 +166,7 @@ home:
       p2: Supported by sustainable incentives and transparent & verifiable systems.
       p3: Serving stakeholders who can co-build on the future of the DAO.
     h4: Ecosystem projects
+    infiniteScrollText: Wallet-Dex-Exchange-Mining Pool⎻-NFT Marketplace⎻-Stablecoin
   news:
     title: News
     subtitle: Catch the latest news
@@ -348,6 +349,7 @@ developers:
     action:
       - Resources & Tutorials
       - Github
+      - Explorer
   easy_building:
     title: Easy building
     subtitle: Simplicity
@@ -489,6 +491,8 @@ community:
   social_media:
     title: Stacoin <strong>Social Media</strong>
     desc: As a growing community, we've dedicated countless hours to refining our craft, catering to the discerning tastes of pioneers like you. Together, we're fostering an environment where support and progress thrive side by side. If you're aligned with our vision and see the potential in our project, we warmly invite you to join us on this journey.
+    infiniteScrollingTexts1: JOIN OUR COMMUNITY TODAY! JOIN OUR COMMUNITY
+    infiniteScrollingTexts2: Where the Cool People Hang Out! Where the Cool People Hang Out!
   dome:
     title: STAR <strong>DOME</strong>
     desc: Inspired by the unity of the StarDome image, a global collective of like-minded individuals is coming together to enact meaningful change. As Starcoin embarks on its journey of global expansion, we're privileged to collaborate with people from diverse backgrounds through the Star Dome Program. Join us as we take the next leap forward by officially launching the Starcoin Ambassador Program, The Star Dome Program.
