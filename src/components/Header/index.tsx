@@ -4,7 +4,7 @@ import Navigation from "@/components/Navigation";
 import Hamburg from "@/components/Hamburg";
 import LanguageDropdownMenu from "@/components/LanguageDropdownMenu";
 
-import { useState, useEffect, type MouseEvent } from "react";
+import { useState, useEffect } from "react";
 import { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 import clsx from "clsx";
 
@@ -20,33 +20,27 @@ export default function Header({
     set_nav_show(s)
   }
 
-  function stop_click(evt: MouseEvent) {
-    evt.stopPropagation()
-  }
-
   useEffect(() => {
-    let close_timer: NodeJS.Timeout
     function close() {
-      clearTimeout(close_timer)
-      close_timer = setTimeout(() => {
-        set_nav_show(false)
-      }, 50)
+      set_nav_show(false);
     }
 
     window.addEventListener('click', close)
-    window.addEventListener('scroll', close, {
-      passive: true
-    })
+    window.addEventListener('touchend', close)
 
     return () => {
       window.removeEventListener('click', close)
-      window.removeEventListener('scroll', close)
+      window.removeEventListener('touchend', close)
     }
   }, [])
 
   return (
     <header className="page--header">
-      <div className="header__container section__container" onClick={stop_click}>
+      <div 
+      className="header__container section__container" 
+      onClick={evt => evt.stopPropagation()}
+      onTouchEnd={evt => evt.stopPropagation()}
+      >
         <h1 id="logo" className="logo">
           <a href={getRelativeLocaleUrl(locale, '/')}>
             <svg>

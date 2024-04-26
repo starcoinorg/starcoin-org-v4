@@ -1,6 +1,6 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
-import testImg from '@/images/Home_01EnhancedPowConsensus.png';
+import testImg from '@/images/home_01EnhancedPowConsensus.png';
 
 export default function EasyBuilding({
   locale

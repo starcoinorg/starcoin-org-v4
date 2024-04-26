@@ -1,6 +1,6 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
-import testImage from '@/images/Home_03HighPerformance.png';
+import testImage from '@/images/home_03HighPerformance.png';
 
 export default function NodeMining({
   locale
