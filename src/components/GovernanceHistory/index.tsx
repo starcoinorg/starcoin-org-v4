@@ -1,5 +1,5 @@
 import I18n, { type LocaleCode } from "@/i18n";
-import testImage from '@/images/Home_01EnhancedPowConsensus.png';
+import testImage from '@/images/home_01EnhancedPowConsensus.png';
 export default function GovernanceHistory({
   locale
 }: {

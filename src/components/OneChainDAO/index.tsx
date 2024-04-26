@@ -1,7 +1,7 @@
 // import I18n, { type LocaleCode } from "@/i18n";
 import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 
-import testImage from '@/images/Home_01EnhancedPowConsensus.png';
+import testImage from '@/images/home_01EnhancedPowConsensus.png';
 
 export default function OneChainDAO({
   locale
