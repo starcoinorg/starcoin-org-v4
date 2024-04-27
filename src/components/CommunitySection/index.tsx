@@ -9,6 +9,7 @@ import westarlabLogo from '@/images/westarlab-logo.png';
 import gateLogo from '@/images/gate-logo.png';
 import coinxLogo from '@/images/coinx-logo.png';
 import starcoinLogo from '@/images/starcoin-logo.png';
+import homeCommunity from '@/images/home-community.png';
 
 export default function CommunitySection({
   locale
@@ -35,7 +36,7 @@ export default function CommunitySection({
             <p>{t('home.community.article.p3')}</p>
           </div>
           <div className="column">
-            <img src="http://i.pravatar.cc/500?img=9" alt="" />
+            <img src={homeCommunity.src} alt="" />
           </div>
         </div>
         <h4>{t('home.community.h4')}</h4>

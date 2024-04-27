@@ -873,16 +873,16 @@ img {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 20px;
+    gap: 10px;
 }
 
 .navigation--footer .dropdown {
     display: grid;
-    gap: 20px;
+    gap: 10px;
     align-items: start;
     align-content: start;
-    font-family: var(--font-PlusJakartaSans);
-    font-size: 12px;
+    /* font-family: var(--font-PlusJakartaSans);
+    font-size: 12px; */
 }
 
 .navigation--footer .dropdown__content {
@@ -891,11 +891,12 @@ img {
     align-content: start;
     align-items: start;
     opacity: .8;
+    font-size: 10px;
 }
 
 .navigation--footer .dropdown__toggle {
     font-family: var(--font-starcoin);
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
@@ -964,6 +965,7 @@ img {
     align-items: center;
     gap: 8px;
     flex-wrap: wrap;
+    margin-top: 8px;
 }
 
 
@@ -1321,15 +1323,16 @@ img {
 
 /* HomePage: SectionCommunity */
 
-.section--community {
-    gap: 0;
+.community__container {
+    gap: 16px;
+    padding-block-end: 24px;
 }
 
 .section--community .section__title {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-
+    gap: 16px;
 }
 
 .section--community .section__title small {
@@ -1346,34 +1349,41 @@ img {
 
 .section--community .section__content {
     display: grid;
-    gap: var(--fs-size-15x);
+    gap: 24px;
 
 }
 
+.section--community .social {
+    --size: 16px;
+    --gap: 32px;
+}
+
+.section--community .icon {
+    width: 100%;
+}
 
 .section--community .title {
     font-size: 16px;
     color: var(--primary-color);
     font-family: var(--font-starcoin);
-    margin-block-start: var(--fs-size-11x);
-    margin-block-end: var(--fs-size-4x);
+    margin-block-start: 42px;
+    margin-block-end: 16px;
 }
 
 .section--community p {
-    margin-block-start: 0;
+    /* margin-block-start: 0; */
     font-size: 10px;
-    font-family: var(--font-PlusJakartaSans);
 }
 
 .section--community .column:nth-child(2) {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.5px solid rgb(255 255 255 / 0.5);
+    /* border: 0.5px solid rgb(255 255 255 / 0.5); */
     filter: drop-shadow(0px 4px 4px rgb(111 238 135 / 0.2));
-    border-radius: var(--fs-size-8x);
-    overflow: hidden;
-    max-height: 120px;
+    /* border-radius: var(--fs-size-8x); */
+    /* overflow: hidden; */
+    /* max-height: 120px; */
 }
 
 .section--community h4 {
@@ -1384,21 +1394,21 @@ img {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-size: 16px;
-
+    margin-top: 26px;
 
 }
 
 .marquee--logo {
-    margin-block-end: var(--fs-size-15x);
-    margin-block-start: var(--fs-size-8x);
+    margin-block-end: 66px;
+    margin-block-start: 8px;
 }
 
 .marquee--logo .marquee__item {
-    width: 200px;
+    width: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 65px;
+    height: 14px;
     animation-direction: reverse;
     translate: var(--origin-x) var(--origin-y)
 }
@@ -1530,17 +1540,17 @@ img {
     border: 1px solid rgb(255 255 255 / 0.5);
     backdrop-filter: blur(4px);
     box-shadow: 0px 32px 64px -12px rgb(111 238 135 / 0.43);
-    border-radius: 16px;
-    padding-inline: 16px;
-    padding-block: 16px;
-    padding-block-start: 32px;
+    border-radius: 12px;
+    padding-inline: 20px;
+    padding-block: 20px;
+    padding-block-start: 36px;
     font-family: var(--font-PlusJakartaSans);
-    font-size: 12px;
+    font-size: 8px;
     transition: all .28s linear;
     position: relative;
     overflow: hidden;
     display: grid;
-    gap: 8px;
+    gap: 12px;
 }
 
 .cards--feacures .card>figure {
@@ -1566,29 +1576,28 @@ img {
 
 .cards--feacures .card__title {
     font-family: var(--font-starcoin);
-    font-size: 14px;
-    margin-block-start: 0;
+    font-size: 12px;
 }
 
-.cards--feacures p {
+/* .cards--feacures p {
     margin-block-start: 0;
-}
+} */
 
 
 .sub-cards--features {
     margin-block-start: 8px;
     display: grid;
-    gap: 10px;
+    gap: 14px;
 }
 
 .sub-cards--features .sub-card {
     background-color: rgb(217 217 217 / 0.05);
     border-radius: 12px;
     padding-block: 20px;
-    padding-inline: 20px;
+    padding-inline: 30px;
     transition: all .28s linear;
     display: grid;
-    gap: 10px;
+    gap: 22px;
 }
 
 .sub-cards--features .sub-card:hover {
@@ -1596,8 +1605,8 @@ img {
 }
 
 .sub-cards--features h5 {
-    margin: 0;
-    font-size: 12px;
+    /* margin: 0; */
+    font-size: 10px;
 }
 
 .sub-cards--features .sbu-card__media {
@@ -1642,7 +1651,7 @@ img {
     padding-block-start: 8px;
     padding-block-end: 12px;
     font-family: var(--font-starcoin);
-    font-size: 12px;
+    font-size: 8px;
     text-transform: uppercase;
     color: var(--primary-color);
     position: relative;
@@ -1692,9 +1701,9 @@ img {
 }
 
 .cards--new p {
-    margin-block-start: 0;
-    font-size: 12px;
-    font-family: var(----font-PlusJakartaSans);
+    /* margin-block-start: 0; */
+    font-size: 8px;
+    /* font-family: var(----font-PlusJakartaSans); */
 }
 
 
@@ -1755,7 +1764,27 @@ img {
 #freely-nft:checked~.news-lists>#news__item--freely-nft,
 #verification:checked~.news-lists>#news__item--verification {
     color: #fff;
-    font-size: 14px;
+    font-size: 10px;
+}
+
+#storage~.news-lists>#news__item--storage::before,
+#easy-gas~.news-lists>#news__item--easy-gas::before,
+#dao~.news-lists>#news__item--dao::before,
+#billing~.news-lists>#news__item--billing::before,
+#bootstrapped~.news-lists>#news__item--bootstrapped::before,
+#stdlib~.news-lists>#news__item--stdlib::before,
+#freely-nft~.news-lists>#news__item--freely-nft::before,
+#verification~.news-lists>#news__item--verification::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 70%;
+    background-color: var(--primary-color);
+    top: -2px;
+    transform-origin: left center;
+    transform: scaleX(0);
+    transition: all .2s linear;
 }
 
 #storage:checked~.news-lists>#news__item--storage::before,
@@ -1766,13 +1795,7 @@ img {
 #stdlib:checked~.news-lists>#news__item--stdlib::before,
 #freely-nft:checked~.news-lists>#news__item--freely-nft::before,
 #verification:checked~.news-lists>#news__item--verification::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 3px;
-    width: 70%;
-    background-color: var(--primary-color);
-    top: -2px;
+    transform: scaleX(1);
 }
 
 /* FeaturePage: StarcoinFoundation */
@@ -1814,7 +1837,7 @@ img {
 .timeline {
     display: grid;
     gap: 32px;
-    padding-inline-start: 44px;
+    padding-inline-start: 50px;
     position: relative;
 }
 
@@ -1839,7 +1862,7 @@ img {
     content: "";
     position: absolute;
     top: 0;
-    left: -44px;
+    left: -50px;
     width: 6px;
     height: 58px;
     background: linear-gradient(180deg, #6FEE87 0%, #3F884D 100%);
@@ -1853,18 +1876,23 @@ img {
 }
 
 .timeline__title {
-    font-family: var(--font-PlusJakartaSans);
+    /* font-family: var(--font-PlusJakartaSans); */
     font-size: 16px;
 }
 
 .timeline ul {
     display: grid;
     gap: 4px;
+    font-size: 8px;
 }
 
 .timeline li {
     list-style: outside disc;
     margin-inline-start: 1rem;
+}
+
+.timeline li strong {
+    font-weight: 900;
 }
 
 /* Developers Page*/
@@ -1875,7 +1903,7 @@ img {
 
 .cards--easy-building {
     display: grid;
-    gap: 20px;
+    gap: 21px;
 }
 
 .cards--easy-building .card {
@@ -1910,8 +1938,8 @@ img {
 
 .cards--easy-building figure {
     margin: 0;
-    width: 120px;
-    min-height: 184px;
+    width: 62px;
+    min-height: 92px;
     display: grid;
     flex-shrink: 0;
     border-radius: 14px;
@@ -1945,7 +1973,7 @@ img {
 
 .cards--easy-building .icon--arrowRight {
     position: absolute;
-    width: 12px;
+    width: 10px;
     aspect-ratio: 1;
     top: 12px;
     right: 12px;
@@ -1956,12 +1984,12 @@ img {
 .cards--easy-building .card__content {
     display: grid;
     gap: 8px;
-    font-size: 12px;
+    /* font-size: 8px; */
 }
 
-.cards--easy-building h4, .cards--easy-building p {
+/* .cards--easy-building h4, .cards--easy-building p {
     margin-block-start: 0;
-}
+} */
 
 .cards--easy-building .card__title {
     font-size: 16px;
@@ -1980,23 +2008,32 @@ img {
 
 
 .starcoin-grant-developers__container .section__title {
-    max-width: 45%;
+
     margin-left: auto;
     text-align: right;
+    font-size: 24px;
 }
 
 .starcoin-grant-developers__container h4 {
     display: grid;
+    max-width: 45%;
+    justify-self: end;
+}
 
+.starcoin-grant-developers__container small {
+    font-size: 8px;
+    max-width: 75%;
+    justify-self: end;
+    font-family: var(--font-PlusJakartaSans);
 }
 
 .starcoin-grant-developers__container .section__content {
     display: grid;
     margin-right: auto;
-    width: 60%;
+    max-width: 90%;
     gap: 24px;
     font-size: 12px;
-    font-family: var(--font-PlusJakartaSans);
+    /* font-family: var(--font-PlusJakartaSans); */
 }
 
 .starcoin-grant-developers__container .button--primary {
@@ -2011,20 +2048,31 @@ img {
     background: linear-gradient(180deg, rgb(111 238 135 / 0.2) 0%, rgb(111 238 135 / 0.116) 85%, rgb(111 238 135 / 0) 100%);
 }
 
+.node-mining__container {
+    gap: 16px;
+}
+
 .section--node-mining .section__title {
     text-align: left;
-    max-width: 60%;
+    justify-self: start;
+    /* max-width: 60%; */
+    /* font-size: 12px; */
+}
+
+.section--node-mining small {
+    font-size: 8px;
+    font-family: var(--font-PlusJakartaSans);
 }
 
 .section--node-mining .section__content {
     display: grid;
-    gap: 12px;
-    font-family: var(--font-PlusJakartaSans);
+    gap: 22px;
+    /* font-family: var(--font-PlusJakartaSans); */
 }
 
 .mining__data ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100% - 1rem, 200px), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100% - 1rem, 160px), 1fr));
     gap: 12px;
 }
 
@@ -2034,7 +2082,7 @@ img {
 }
 
 .mining__data p {
-    font-size: 500;
+    font-weight: 500;
     font-size: 16px;
     background: linear-gradient(180deg, #6FEE87 0%, #006C14 100%);
     -webkit-text-fill-color: transparent;
@@ -2068,7 +2116,7 @@ img {
     display: grid;
     padding-inline: 20px;
     padding-block: 16px;
-    gap: 5px;
+    gap: 16px;
     background-color: rgb(217 217 217 / 0.2);
     border-radius: 4px;
     transition: all .28s linear;
@@ -2096,6 +2144,10 @@ img {
     aspect-ratio: 1;
 }
 
+.cards--mining .card__content {
+    font-size: 8px;
+}
+
 .cards--mining a {
     color: var(--link-color-active);
     text-decoration: underline;
@@ -2117,7 +2169,9 @@ img {
 .star-mask-wallet__container .section__content {
     display: grid;
     gap: 16px;
-    font-family: var(--font-PlusJakartaSans);
+    /* font-family: var(--font-PlusJakartaSans); */
+
+
 }
 
 .star-mask-wallet__container .section__content>p {
@@ -2134,6 +2188,8 @@ img {
     display: grid;
     gap: 10px;
     text-align: center;
+    font-size: 8px;
+    color: rgb(255 255 255 / .6);
 }
 
 .star-mask-wallet__container .actions {
@@ -2145,9 +2201,10 @@ img {
 .star-mask-wallet__container h5 {
     margin: 0;
     font-family: var(--font-starcoin);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 900;
     text-align: center;
+    margin-top: 16px;
 }
 
 .star-mask-wallet__container h5 strong {
@@ -2250,12 +2307,17 @@ img {
     justify-content: start;
     text-align: left;
     gap: 0;
+    font-size: 24px;
+}
+
+.section--geeks .section__title strong {
+    font-size: 16px;
 }
 
 .section--geeks .section__content {
     display: grid;
     gap: 32px;
-    /* font-size: 12px; */
+    font-size: 8px;
 }
 
 .section--geeks .card {
@@ -2293,6 +2355,7 @@ img {
     transition: all .28s linear;
     position: relative;
     gap: 4px;
+    font-size: 15px;
 }
 
 .section--geeks .column:first-child {
@@ -2362,7 +2425,7 @@ img {
 /* One Chain Dao*/
 .one-chain-dao__container {
     display: flex;
-    gap: 60px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -2375,13 +2438,19 @@ img {
 .one-chain-dao__container .section__title {
     justify-content: start;
     text-align: left;
+    font-size: 24px;
+}
+
+.one-chain-dao__container .section__title small {
+    font-size: 8px;
+    font-family: var(--font-PlusJakartaSans);
 }
 
 .one-chain-dao__container figure {
-    width: 158px;
-    height: 126px;
-    border: 1px solid rgb(243 243 243 / 0.5);
-    border-radius: 16px;
+    width: 140px;
+    height: 140px;
+    /* border: 1px solid rgb(243 243 243 / 0.5); */
+    /* border-radius: 16px; */
     overflow: hidden;
     flex-shrink: 0;
 }
@@ -2389,6 +2458,10 @@ img {
 /* Community Page */
 
 /* Social Media Section */
+
+.social__container {
+    gap: 38px;
+}
 
 .section--social .marquee--text {
     -webkit-text-stroke-color: var(--white);
@@ -2405,11 +2478,16 @@ img {
 
 .section--social .content {
     display: grid;
-    gap: 32px;
+    gap: 16px;
     place-content: center;
     text-align: center;
     font-family: var(--font-PlusJakartaSans);
-    margin-block: 12px;
+    /* margin-block: 12px; */
+    font-size: 8px;
+}
+
+.section--social .section__title {
+    font-size: 24px;
 }
 
 .section--social .social {
@@ -2466,7 +2544,7 @@ img {
     backdrop-filter: blur(2px);
 }
 
-.cards--star-dome .card .card__title {
+.cards--star-dome .card__title {
     font-size: 16px;
     font-weight: 900;
 }
@@ -2493,13 +2571,22 @@ img {
     background: linear-gradient(180deg, rgb(111 238 135 / 0.2) 0%, rgb(107 230 131 / 0.185) 50%, rgb(63 136 77 / 0) 100%);
 }
 
+.governance-history__container {
+    gap: 32px;
+}
+
 .section--governance-history .section__content {
-    font-family: var(--font-PlusJakartaSans);
-    font-size: 12px;
+    /* font-family: var(--font-PlusJakartaSans); */
+    font-size: 8px;
     display: grid;
     gap: 32px;
 }
 
+.section--governance-history .section__title small {
+    font-family: var(--font-PlusJakartaSans);
+    color: #fff;
+    font-size: 8px;
+}
 
 
 .history--info {
@@ -2558,7 +2645,7 @@ img {
 
 
 .cards--history .card__media {
-    width: 84px;
+    width: 75px;
     height: 95px;
     border-radius: 4px;
     overflow: hidden;
@@ -2582,8 +2669,13 @@ img {
     display: grid;
     font-size: 16px;
     font-weight: 900;
+    font-family: var(--font-starcoin);
 }
-
+.cards--history .card__title small {
+    font-family: var(--font-PlusJakartaSans); 
+    font-size: 8px;
+    color: rgb(255 255 255  / .6);
+}
 
 .history--links {
     display: grid;
@@ -2607,6 +2699,7 @@ img {
     gap: 10px;
     justify-content: space-between;
     align-items: center;
+    font-size: 12px;
 }
 
 .history--links__link svg {
@@ -2625,10 +2718,32 @@ img {
     place-content: center;
 }
 
+.partners {
+    position: relative;
+}
+
+.partners svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+} 
+
+.partners path {
+    stroke-dasharray: 4;
+
+    animation: pathOffset 20s linear infinite alternate;
+}
+
+@keyframes pathOffset {
+    to {
+        stroke-dashoffset: 300;
+    }
+}
+
 .section--ecosystem-partners p {
     text-align: center;
     color: var(--primary-color);
-
+    font-size: 12px;
     text-transform: uppercase;
     font-weight: 900;
 }
@@ -2834,20 +2949,6 @@ img {
 
 
 @media only screen and (min-width: 575.98px) {
-    .section--community .section__content {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-    }
-
-    .section--community .column {
-        flex: 1 1 50%;
-    }
-
-    .section--community .column:nth-child(2) {
-        max-width: 400px;
-        max-height: unset;
-    }
 
 
 
@@ -2927,7 +3028,7 @@ img {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .cards--feacures .card :last-child {
+    .cards--feacures .card:last-child {
         grid-column: span 2;
     }
 
@@ -3152,6 +3253,7 @@ img {
 
     .hero__action {
         gap: 30px;
+        margin-top: ;
     }
 
     .card--statistics {
@@ -3273,69 +3375,134 @@ img {
         font-size: 20px;
     }
 
+    .community__container {
+        gap: 42px;
+        padding-block-end: 68px;
+    }
+
+    .section--community .section__title small {
+        font-size: 24px;
+    }
+
+    .section--community .section__content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .section--community .social {
+        --size: 64px;
+        --gap: 32px;
+    }
+
+    .section--community .icon {
+        width: 85%;
+    }
+
+
+    .section--community .column {
+        flex: 1 1 50%;
+    }
+
+    .section--community .column:nth-child(2) {
+        width: 384px;
+    }
+
+
+
+
     .section--community .title {
         font-size: 32px;
+        margin-block-start: 96px;
     }
 
     .section--community p {
-        font-size: var(--fs-size-4x);
+        font-size: 16px;
     }
 
     .section--community h4 {
-        font-size: var(--fs-size-8x);
+        font-size: 32px;
+        margin-top: 22px;
     }
 
     .section--community .marquee--text {
-        font-size: var(--fs-size-13x);
+        font-size: 48px;
     }
 
+    .marquee--logo {
+        margin-block-start: 32px;
+        margin-block-end: 128px;
+    }
+
+    .marquee--logo .marquee__item {
+        height: 40px;
+        width: 220px;
+    }
+
+    .navigation--footer {
+        gap: 20px;
+    }
+
+    .navigation--footer .dropdown__toggle {
+        font-size: 14px;
+    }
+
+    .navigation--footer .dropdown {
+        gap: 20px;
+        font-size: 12px;
+    }
+
+    .page--footer .social {
+        --size: 42px;
+    }
 
     .cards--feacures {
-        gap: var(--fs-size-9x);
+        gap: 32px;
     }
 
     .cards--feacures .card {
-        border-radius: var(--fs-size-9x);
-        padding-inline: var(--fs-size-9x);
-        padding-block: var(--fs-size-9x);
-        padding-block-start: var(--fs-size-18x);
-        gap: var(--fs-size-4x);
-
+        border-radius: 24px;
+        padding-inline: 40px;
+        padding-block: 40px;
+        padding-block-start: 72px;
+        gap: 24px;
+        font-size: 14px;
     }
 
     .cards--feacures .card>figure {
-        height: var(--fs-size-9x);
+        height: 32px;
     }
 
     .cards--feacures .card__title {
-        font-size: var(--fs-size-6x);
+        font-size: 24px;
     }
 
 
     .sub-cards--features {
-        margin-block-start: var(--fs-size-4x);
+        margin-block-start: 26px;
+        gap: 28px;
     }
 
     .sub-cards--features .sub-card {
-        border-radius: var(--fs-size-6x);
-        padding-block: var(--fs-size-11x);
-        padding-inline: var(--fs-size-11x);
-        gap: var(--fs-size-5x);
+        border-radius: 26px;
+        padding-block: 40px;
+        padding-inline: 60px;
+        gap: 44px;
 
     }
 
     .sub-cards--features h5 {
-        font-size: var(--fs-size-6x);
+        font-size: 20px;
 
     }
 
     .sub-cards--features .sbu-card__media {
-        border-radius: var(--fs-size-4x);
+        border-radius: 16px;
     }
 
-    .sub-cards--features li {
+    /* .sub-cards--features li {
         padding-inline-start: var(--fs-size-5x);
-    }
+    } */
 
 
     .section--new-trails .section__content {
@@ -3343,9 +3510,9 @@ img {
     }
 
     .section--new-trails .news-lists li {
-        font-size: var(--fs-size-4x);
-        padding-block-start: var(--fs-size-3x);
-        padding-block-end: var(--fs-size-4x);
+        font-size: 16px;
+        padding-block-start: 16px;
+        padding-block-end: 24px;
     }
 
 
@@ -3358,168 +3525,190 @@ img {
     #stdlib:checked~.news-lists>#news__item--stdlib,
     #freely-nft:checked~.news-lists>#news__item--freely-nft,
     #verification:checked~.news-lists>#news__item--verification {
-        font-size: var(--fs-size-5x);
+        font-size: 20px;
     }
 
 
     .cards--new>li {
-        border-radius: var(--fs-size-9x);
-        padding-inline: var(--fs-size-13x);
-        padding-block: var(--fs-size-13x);
-        gap: var(--fs-size-9x);
+        border-radius: 32px;
+        padding-inline: 48px;
+        padding-block: 48px;
+        gap: 32px;
     }
 
     .cards--new svg {
 
-        width: var(--fs-size-17x);
+        width: 64px;
     }
 
     .cards--new p {
-        font-size: var(--fs-size-5x);
+        font-size: 16px;
     }
 
-
+    /* 
 
     .news-lists li {
         padding-block-start: var(--fs-size-5x);
         padding-block-end: var(--fs-size-7x);
         font-size: var(--fs-size-7x);
-    }
+    } */
 
 
 
     .timeline {
-        gap: var(--fs-size-17x);
-        padding-inline-start: var(--fs-size-23x);
+        gap: 64px;
+        padding-inline-start: 100;
     }
 
     .timeline .timeline__item {
-        gap: var(--fs-size-2x);
+        gap: 8px;
     }
 
     .timeline .timeline__item::before {
         content: "";
-        left: calc(-1 * var(--fs-size-23x));
-        width: var(--fs-size-3x);
-        height: var(--fs-size-32x);
+        left: -50px;
+        width: 12px;
+        height: 116px;
     }
 
 
     .timeline .timeline__time {
-        font-size: var(--fs-size-8x);
+        font-size: 32px;
     }
 
     .timeline .timeline__title {
-        font-size: var(--fs-size-8x);
+        font-size: 32px;
     }
 
+    .timeline ul {
+        font-size: 16px;
+    }
 
     .cards--easy-building {
-        gap: var(--fs-size-11x);
+        gap: 42px;
     }
 
     .cards--easy-building .card {
-        border-radius: var(--fs-size-8x);
-        gap: var(--fs-size-16x);
+        border-radius: 32px;
+        gap: 60px;
     }
 
     .cards--easy-building .card figure {
-        border-radius: var(--fs-size-7x);
+        border-radius: 26px;
+        width: 124px;
+        min-height: 184px;
     }
 
     .cards--easy-building .card .icon--arrowRight {
-        width: var(--fs-size-6x);
-        top: var(--fs-size-6x);
-        right: var(--fs-size-6x);
+        width: 20px;
+        top: 20px;
+        right: 20px;
     }
 
 
     .cards--easy-building .card__content {
-        gap: var(--fs-size-5x);
-        font-size: var(--fs-size-5x);
+        gap: 24px;
+        /* font-size: 16px; */
     }
 
     .cards--easy-building .card__title {
-        font-size: var(--fs-size-8x);
+        font-size: 32px;
     }
 
+    /* .section--node-mining .section__title {
+        font-size: 48px;
+    } */
+
     .section--node-mining .section__content {
-        gap: var(--fs-size-7x);
+        gap: 64px;
+        grid-template-columns: 2fr 1fr;
     }
 
 
     .section--node-mining .mining__data ul {
+        grid-template-columns: repeat(auto-fit, minmax(min(100% - 1rem, 290px), 1fr));
+        gap: 24px;
+    }
 
-        gap: var(--fs-size-7x);
+    .mining__data h5 {
+        font-size: 10px;
     }
 
     .section--node-mining .mining__data p {
-        font-size: var(--fs-size-9x);
+        font-size: 32px;
     }
 
 
-    .section--node-mining .cards--mining {
-        border-radius: var(--fs-size-4x);
-        padding: var(--fs-size-7x);
-        gap: var(--fs-size-7x);
-    }
-
-    .section--node-mining .cards--mining figure {
-        border-radius: var(--fs-size-5x);
-        max-height: var(--fs-size-25x);
+    .cards--mining {
+        border-radius: 16px;
+        padding: 24px;
+        gap: 24px;
         grid-column: span 2;
     }
 
-    .section--node-mining .cards--mining .card {
-        padding-inline: var(--fs-size-11x);
-        padding-block: var(--fs-size-9x);
-
-        gap: var(--fs-size-3x);
-
-        border-radius: var(--fs-size-2x);
+    .cards--mining figure {
+        border-radius: 18px;
+        max-height: 96px;
+        grid-column: span 2;
     }
 
-    .section--node-mining .cards--mining .card h5 {
+    .cards--mining .card {
+        padding-inline: 40px;
+        padding-block: 32px;
+
+        gap: 32px;
+
+        border-radius: 8px;
+    }
+
+
+
+    .cards--mining .card h5 {
         font-size: var(--fs-size-9x);
     }
 
 
 
-    .section--node-mining .cards--mining .card__media {
-        gap: var(--fs-size-9x);
+    .cards--mining .card__media {
+        gap: 32px;
     }
 
-    .section--node-mining .cards--mining .card__media svg {
-        width: var(--fs-size-19x);
+    .cards--mining .card__media svg {
+        width: 72px;
     }
 
+
+    .cards--mining .card__content {
+        font-size: 16px;
+    }
 
 
 
     .star-mask-wallet__container .section__content {
-        gap: var(--fs-size-9x);
+        gap: 64px;
     }
 
     .star-mask-wallet__container h5 {
-        font-size: var(--fs-size-9x);
+        font-size: 32px;
     }
 
 
     .card--download {
-        border-radius: var(--fs-size-9x);
-        padding-inline: var(--fs-size-7x);
-        padding-block: var(--fs-size-7x);
-        gap: var(--fs-size-9x);
-        font-size: var(--fs-size-5x);
+        border-radius: 32px;
+        padding-inline: 50px;
+        padding-block: 46px;
+        gap: 32px;
+        font-size: 14px;
+        color: #E5E7EB;
     }
 
     .card--download .card__title {
-        font-size: var(--fs-size-9x);
+        font-size: 32px;
     }
 
     .card--download .card__content {
         display: flex;
-        gap: var(--fs-size-11x);
+        gap: 120px;
     }
 
     .card--download .card__content::before {
@@ -3533,186 +3722,221 @@ img {
 
 
     .card--download .column {
-        gap: var(--fs-size-9x);
+        gap: 32px;
     }
 
 
 
     .card--download .card__media {
-        gap: var(--fs-size-5x);
+        gap: 32px;
     }
 
     .card--download .card__media svg {
-        width: var(--fs-size-19x);
+        width: 72px;
     }
 
 
     .section--geeks .section__content {
-        gap: var(--fs-size-17x);
+        gap: 64px;
+        font-size: 16px;
+    }
+
+    .section--geeks .section__title {
+        font-size: 48px;
+    }
+
+    .section--geeks .section__title strong {
+        font-size: 32px;
     }
 
     .section--geeks .card {
-        margin-block-start: var(--fs-size-10px);
-        border-radius: var(--fs-size-7x);
-        font-size: var(--fs-size-8x);
+        margin-block-start: 32px;
+        border-radius: 24px;
+
 
     }
 
     .section--geeks .card::before {
-        top: calc(-1 * var(--fs-size-10x));
-        left: calc(-1 * var(--fs-size-6x));
-        right: calc(-1 * var(--fs-size-6x));
-        bottom: var(--fs-size-10x);
-        border-radius: var(--fs-size-9x);
+        top: -36px;
+        left: -20px;
+        right: -20px;
+        bottom: 36px;
+        border-radius: 24px;
 
 
     }
 
     .section--geeks .card .column {
-        padding: var(--fs-size-12x);
+        padding: 40px;
+        font-size: 30px;
+        flex: 1 1 0%;
+        min-width: 0;
     }
 
     .section--geeks .card .column:first-child {
-        border-radius: var(--fs-size-7x) 0 0 var(--fs-size-7x);
+        border-radius: 24px 0 0 24px;
     }
 
     .section--geeks .card .column:last-child {
-        border-radius: 0 var(--fs-size-7x) var(--fs-size-7x) 0;
+        border-radius: 0 24px 24px 0;
     }
 
 
 
 
     .section--hardcore-player .section__content {
-        gap: var(--fs-size-9x);
+        gap: 32px;
+
     }
 
 
     .one-chain-dao__container {
-        gap: var(--fs-size-32x);
+        justify-content: space-between;
+        gap: 120px;
     }
 
     .one-chain-dao__container .content {
         display: grid;
-        gap: var(--fs-size-17x);
+        gap: 64px;
+        font-size: 16px;
+    }
+
+    .one-chain-dao__container .section__title {
+        font-size: 48px;
+    }
+
+    .one-chain-dao__container .section__title small {
+        font-size: 16px;
     }
 
     .one-chain-dao__container figure {
-        width: calc(var(--fs-size-55x) * 3);
-        height: calc(var(--fs-size-44x) * 3);
-        border-radius: var(--fs-size-9x);
+        width: 280px;
+        height: 280px;
     }
 
 
-    .section--star-dome {
-        .section__content {
-            font-size: var(--fs-size-6x);
-            gap: var(--fs-size-17x);
-        }
+    .section--star-dome .section__content {
+        /* font-size: var(--fs-size-6x); */
+        gap: 32px;
+
     }
 
     .cards--star-dome {
 
-        gap: var(--fs-size-11x);
+        gap: 40px;
 
     }
 
     .cards--star-dome .card {
-        padding: var(--fs-size-7x);
-        gap: var(--fs-size-3x);
+        padding: 28px;
+        gap:10px;
 
 
-        border-radius: var(--fs-size-6x);
+        border-radius: 24px;
 
 
 
     }
 
     .cards--star-dome .badge {
-        padding: var(--fs-size-2x) var(--fs-size-6x);
-        gap: var(--fs-size-3x);
+        padding: 6px 24px;
+        /* gap: var(--fs-size-3x); */
 
 
     }
 
     .cards--star-dome .card__title {
-        font-size: var(--fs-size-9x);
+        font-size: 32px;
+    }
+
+    .section--governance-history .section__title small {
+        font-size: 16px;
     }
 
 
     .section--governance-history .section__content {
-        gap: var(--fs-size-17x);
+        gap: 64px;
     }
 
     .cards--history {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: var(--fs-size-6x);
+        gap: 20px;
     }
 
     .cards--history .card {
-        border-radius: var(--fs-size-4x);
-        padding: var(--fs-size-5x);
-        gap: var(--fs-size-6x);
+        border-radius: 16px;
+        padding: 18px;
+        gap: 20px;
     }
 
     .cards--history .card__media {
-        width: var(--fs-size-45x);
-        height: var(--fs-size-50x);
-        border-radius: var(--fs-size-2x);
+        width: 168px;
+        height: 190px;
+        border-radius: 8px;
+    }
+
+    .cards--history .card__title {
+        font-size: 32px;
+    }
+
+    .cards--history .card__title small {
+        font-size: 16px;
+        color: rgb(255 255 255 / .6);
     }
 
 
 
     .history--info .item {
-        gap: var(--fs-size-8x);
+        gap: 32px;
     }
 
     .history--info svg {
-        width: var(--fs-size-29x);
+        width: 112px;
     }
 
     .history--info h5 {
-        font-size: var(--fs-size-7x);
+        font-size: 24px;
     }
 
 
     .history--links {
-        gap: var(--fs-size-6x);
-        grid-template-columns: calc(var(--fs-size-37x) * 2) 60%;
+        gap: 200px;
+        grid-template-columns: 300px 60%;
         align-items: start;
         justify-content: space-between;
     }
 
     .history--links__title {
-        font-size: var(--fs-size-10x);
+        font-size: 36px;
     }
 
+    
 
     .history--links__link li {
-        padding-block: var(--fs-size-7x);
-        font-size: var(--fs-size-7x);
+        padding-block: 24px;
+        font-size: 24px;
     }
 
     .history--links__link svg {
-        width: var(--fs-size-6x);
+        width: 22px;
     }
 
 
-    .section--ecosystem-partners .section__content {
+    /* .section--ecosystem-partners .section__content {
         gap: var(--fs-size-17x);
-    }
+    } */
 
     .section--ecosystem-partners p {
-        font-size: var(--fs-size-6x);
+        font-size: 24px;
     }
 
 
     .card--branding {
-        gap: var(--fs-size-6x);
-        border-radius: var(--fs-size-9x);
-        padding-inline: var(--fs-size-18x);
-        padding-block: var(--fs-size-12x);
-        font-size: var(--fs-size-7x);
+        gap: 160px;
+        border-radius: 32px;
+        padding-inline: 64px;
+        padding-block: 48px;
+        font-size: 24px;
     }
 
     .card--branding a {
@@ -3720,33 +3944,43 @@ img {
     }
 
     .card--branding a span {
-        padding-inline: var(--fs-size-6x);
+        padding-inline: 8px;
     }
 
 
     .card--branding .icon--send {
-        width: var(--fs-size-16x);
-        padding: var(--fs-size-6x);
+        width: 60px;
+        padding: 20px;
     }
 
     .branding__content {
-        gap: var(--fs-size-9x);
+        gap: 32px;
     }
 
     .branding__content h4 {
-        gap: var(--fs-size-8x);
-        font-size: var(--fs-size-12x);
+        gap:16px;
+        font-size: 48px;
     }
 
+    .social__container {
+        gap: 76px;
+    }
 
-
+    .section--social .social {
+        --size: 64px;
+        --gap: 32px;
+    }
 
 
     .section--social .content {
-        gap: var(--fs-size-20x);
-        margin-block: var(--fs-size-3x);
+        gap: 32px;
+        font-size: 16px;
+        /* margin-block: var(--fs-size-3x); */
     }
 
+    .section--social .section__title {
+        font-size: 48px;
+    }
 
     .section--news-card .cards--news {
         gap: var(--fs-size-9x);
@@ -3802,11 +4036,18 @@ img {
     }
 
 
+    .starcoin-grant-developers__container .section__title {
+        font-size: 24px;
+    }
 
+    .starcoin-grant-developers__container small {
+        font-size: 16px;
+    }
 
     .starcoin-grant-developers__container .section__content {
-        gap: var(--fs-size-13x);
-        font-size: var(--fs-size-6x);
+        gap: 48px;
+        font-size: 24px;
+        max-width: 70%;
     }
 
 }
