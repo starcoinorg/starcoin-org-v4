@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import I18n, { type LocaleCode } from "@/i18n";
 import { useState, useEffect } from "react";
-import type { MouseEvent, CSSProperties } from "react";
+import type { CSSProperties } from "react";
 
 export default function LanguageDropdownMenu({
   locale,

@@ -22,6 +22,52 @@ Compile and package the project. The packaged files will be output to the `dist`
 ### `pnpm preview`
 Preview project compilation and packaging files locally.
 
+## ⚠️ 注：关于 `news` 写作
+### 文档目录
+不同框架设计所致，文档目录由以前的 `/content/news/post` 移到了 `/src/content/post`。
+
+### 关于文档头部的元信息定义
+以前文档头部元信息定义使用如下的 `toml` 格式:
+
+```markdown
++++
+title = "2022 Starcoin Year in Review (1)-Where it all began"
+date = "2022-12-21"
+summary = "With Christmas just around the corner, we are happy ..."
+author = "Starcoin"
+tags = [
+    "Starcoin"
+]
+archives="2022"
+
++++
+```
+
+此种格式的问题是 **包括本框架和 Github 在内的很多系统不认识它**，所以换成了更通用的 `yaml` 格式：
+
+```markdown
+---
+title: "2022 STARCOIN Roadmap Update｜Stepping Solidly Forward"
+date: 2022-07-12
+summary: "More important than keeping achievements alive is ..."
+author: "Starcoin"
+tags: [
+    "Starcoin"
+]
+archives: "2022"
+image: https://cdn.pixabay.com/photo/2024/04/04/03/08/ai-generated-8674235_1280.png
+draft: true
+---
+```
+
+同时，相关字段也有所变化：
+
+* `title`,`date`,`summary` 3 个字段 **必填**
+* `date` 字段 **不要加引号**
+* `image` 字段 **请使用绝对路径**，相对路径图片使用方式很麻烦
+* 增加了一个 `draft` 可选字段，如果**把它设置为 `true`**, 则代表文档处于 **草稿状态，不会被发布到线上**
+
+
 ## ⚠️ 注：关于部署
 - 项目编译打包需要 `Node.js` 和 `pnpm`，关于如何安装/启用 `pnpm` 请参阅 [pnpm installation](https://pnpm.io/installation)
 

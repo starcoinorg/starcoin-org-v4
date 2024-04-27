@@ -1,0 +1,30 @@
+---
+import Page from "@/pages/news/index.astro";
+
+import I18n from "@/i18n";
+import { reorganizePosts } from "@/assets/reorganize-tools";
+
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const locale = I18n.config.locale_dict["en"].code;
+  let posts = await getCollection("post");
+  posts = reorganizePosts(posts, locale);
+
+  const paths = [];
+  paths.push({
+    params: { page: undefined },
+  });
+
+  const totalPage = Math.ceil(posts.length / 10);
+  for (let i = 1; i < totalPage; i++) {
+    paths.push({
+      params: { page: `page/${i + 1}` },
+    });
+  }
+
+  return paths;
+}
+---
+
+<Page />

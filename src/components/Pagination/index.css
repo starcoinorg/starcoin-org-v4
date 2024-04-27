@@ -1,0 +1,21 @@
+.pagination {
+  display: flex;
+  font-size: 16px;
+}
+
+.pagination .pagination-link,
+.pagination .pagination-ellipsis {
+  padding: 6px 8px;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+.pagination .pagination-link {
+  color: blue;
+  background: white;
+}
+
+.pagination .pagination-link.active {
+  color: white;
+  background-color: blue;
+}
