@@ -2,14 +2,18 @@
 
 import Social from '@/components/Social';
 import type { CSSProperties } from "react";
-import I18n, { type LocaleCode } from '@/i18n';
+import I18n, {getRelativeLocaleUrl, type LocaleCode } from '@/i18n';
 
 import starmaskLogo from '@/images/starmask-logo.png';
 import westarlabLogo from '@/images/westarlab-logo.png';
+import bixinLogo from '@/images/bixin-logo.png';
 import gateLogo from '@/images/gate-logo.png';
 import coinxLogo from '@/images/coinx-logo.png';
 import starcoinLogo from '@/images/starcoin-logo.png';
+import movebitLogo from '@/images/movebit-logo.png';
 import homeCommunity from '@/images/home-community.png';
+
+
 
 export default function CommunitySection({
   locale
@@ -22,21 +26,28 @@ export default function CommunitySection({
     <section className="section section--community">
       <div id="community" className="section__container community__container">
         <div className="section__title">
-          <h3>{t('home.community.title')}</h3>
+          <h3>
+            <a href={getRelativeLocaleUrl(locale, "/community")} target="_blank">{t('home.community.title')}</a>
+            </h3>
           <small>{t('home.community.subtitle')}</small>
         </div>
         <div className="section__content">
           <div className="column">
             <Social />
             <div className="title">
+              <a href={getRelativeLocaleUrl(locale, "/community", "#one-chain-dao")} target="_blank">
               {t('home.community.article.title')}
+              </a>
+              
             </div>
             <p>{t('home.community.article.p1')}</p>
             <p>{t('home.community.article.p2')}</p>
             <p>{t('home.community.article.p3')}</p>
           </div>
           <div className="column">
+          <a href={getRelativeLocaleUrl(locale, "/community")} target="_blank">
             <img src={homeCommunity.src} alt="" />
+            </a>
           </div>
         </div>
         <h4>{t('home.community.h4')}</h4>
@@ -54,7 +65,7 @@ export default function CommunitySection({
         </div>
       </div>
 
-      <div className='marquee__container' style={{ '--count': 5,  '--speed': 30} as CSSProperties}>
+      <div className='marquee__container' style={{ '--count': 6,  '--speed': 30} as CSSProperties}>
         <div className="marquee marquee--logo">
           <div className="marquee__item" style={{ '--index': 0 } as CSSProperties}>
             <img src={starmaskLogo.src} alt="" />
@@ -63,12 +74,18 @@ export default function CommunitySection({
             <img src={westarlabLogo.src} alt="" />
           </div>
           <div className="marquee__item" style={{ '--index': 2 } as CSSProperties}>
-            <img src={gateLogo.src} alt="" />
+            <img src={bixinLogo.src} alt="" />
           </div>
           <div className="marquee__item" style={{ '--index': 3 } as CSSProperties}>
-            <img src={coinxLogo.src} alt="" />
+            <img src={gateLogo.src} alt="" />
           </div>
           <div className="marquee__item" style={{ '--index': 4 } as CSSProperties}>
+            <img src={coinxLogo.src} alt="" />
+          </div>
+          <div className="marquee__item" style={{ '--index': 5 } as CSSProperties}>
+            <img src={movebitLogo.src} alt="" />
+          </div>
+          <div className="marquee__item" style={{ '--index': 6 } as CSSProperties}>
             <img src={starcoinLogo.src} alt="" />
           </div>
         </div>

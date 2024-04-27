@@ -82,7 +82,7 @@ export default function NewsSection({
         </div>
       </div>
       <div className="video--container">
-        <video className="background-video" autoPlay loop muted poster="">
+        <video className="background-video" autoPlay loop playsInline muted poster="">
           <source src={homenews} type="video/mp4" />
         </video>
       </div>

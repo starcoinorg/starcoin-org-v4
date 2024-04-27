@@ -36,7 +36,7 @@ export default function HomePageHero({ locale }: { locale: LocaleCode }) {
         <StatisticsCard locale={locale} />
       </div>
       <div className="video--container">
-        <video className="background-video" autoPlay loop muted poster="">
+        <video className="background-video" autoPlay loop muted playsInline poster="">
           <source src={homebanner} type="video/mp4" />
         </video>
       </div>

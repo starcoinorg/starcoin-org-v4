@@ -17,12 +17,12 @@ export default function StarDome({
         <div className="section__content">
           <p>{t('community.dome.desc')}</p>
           <div className="action">
-            <button className="button button--primary">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjz736VwrpnCvFg8oUuapTx32-sMpFrbUZ-20bMF0qmsnpJw/viewform" target="_blank" className="button button--primary">
               {t('community.dome.action')}
-            </button>
+            </a>
           </div>
           <div className="cards cards--star-dome">
-            <div className="card">
+            <a className="card" href="#">
               <div className="badge badge--coming-soon">
                 {t('coming_soon')}
                 </div>
@@ -32,8 +32,8 @@ export default function StarDome({
               <div className="card__content">
                 {t('community.dome.card.0.content')}
               </div>
-            </div>
-            <div className="card">
+            </a>
+            <a className="card" href="https://starcoin.medium.com/starcoin-ambassador-program-star-dome-2-0-launch-87484457ccf" target="_blank">
               <div className="badge">
                 {t('closed')}
               </div>
@@ -43,8 +43,8 @@ export default function StarDome({
               <div className="card__content">
                 {t('community.dome.card.1.content')}
               </div>
-            </div>
-            <div className="card">
+            </a>
+            <a className="card" href="https://starcoin.medium.com/join-the-starcoin-ambassador-program-star-dome-program-12f1ea41aa1a" target="_blank">
               <div className="badge">
                 {t('closed')}
               </div>
@@ -54,12 +54,12 @@ export default function StarDome({
               <div className="card__content">
                 {t('community.dome.card.2.content')}
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
       <div className="video--container">
-        <video className="background-video" autoPlay loop muted poster="">
+        <video className="background-video" playsInline autoPlay loop muted poster="">
           <source src={communityDome} type="video/mp4" />
         </video>
       </div>

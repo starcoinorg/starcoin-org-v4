@@ -30,7 +30,7 @@ export default function Branding({
         </div>
       </div>
       <div className="video--container">
-        <video className="background-video" autoPlay loop muted poster="">
+        <video className="background-video" autoPlay loop muted playsInline poster="">
           <source src={communityBranding} type="video/mp4" />
         </video>
       </div>

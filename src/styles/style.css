@@ -378,6 +378,7 @@ img {
     font-size: 12px;
     font-weight: 900;
     color: rgb(255 255 255 / .6);
+    font-family: var(--font-PlusJakartaSans);
 }
 
 
@@ -1179,7 +1180,7 @@ img {
 .section--getstarted small {
     font-size: 16px;
     color: #d9d9d9;
-
+    font-family: var(--font-PlusJakartaSans);
 }
 
 .section--getstarted li {
@@ -1208,6 +1209,11 @@ img {
 .section--starcoin-features {
 
     background: linear-gradient(180deg, rgb(111 238 135 / 0.3) 0%, rgb(85 183 104 / 0.18) 81.5%, rgb(63 136 77 / 0) 100%);
+}
+
+.starcoin-features__container:hover{
+    color: unset;
+    text-decoration: none;
 }
 
 .section--starcoin-features .section__content {
@@ -1350,7 +1356,7 @@ img {
 .section--community .section__content {
     display: grid;
     gap: 24px;
-
+    background: url('../images/community-bg.png') no-repeat right center / 50%;
 }
 
 .section--community .social {
@@ -2427,6 +2433,7 @@ img {
     display: flex;
     gap: 20px;
     align-items: center;
+    background: url('../images//community-bg.png') no-repeat right center / 50%;
 }
 
 .one-chain-dao__container .content {
@@ -2542,6 +2549,7 @@ img {
     border-color: rgb(255 255 255 / 0.5);
     box-shadow: 0px 4px 4px rgb(111 238 135 / 0.2);
     backdrop-filter: blur(2px);
+    color: unset;
 }
 
 .cards--star-dome .card__title {
@@ -3682,10 +3690,15 @@ img {
         font-size: 16px;
     }
 
-
+    
 
     .star-mask-wallet__container .section__content {
         gap: 64px;
+    }
+
+    .star-mask-wallet__container .content {
+        font-size: 16px;
+        gap: 20px;
     }
 
     .star-mask-wallet__container h5 {
@@ -4050,6 +4063,14 @@ img {
         max-width: 70%;
     }
 
+
+    .footer__container {
+        padding-block: 64px;
+        gap: 38px;
+    }
+    .navigation--footer .dropdown__content {
+        font-size: 12px;
+    }
 }
 
 

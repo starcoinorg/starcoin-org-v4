@@ -25,7 +25,9 @@ export default function OneChainDAO({
         </div>
         </div>
         <figure>
+        <a href={getRelativeLocaleUrl(locale, "/community","#one-chain-dao")} >
           <img src={oneChainDao.src} alt="" />
+          </a>
         </figure>
       </div>
     </section>

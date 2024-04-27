@@ -23,7 +23,7 @@ export default function StarcoinFoundation({
         </div>
       </div>
       <div className="video--container">
-        <video className="background-video" autoPlay loop muted poster="">
+        <video className="background-video" autoPlay loop muted playsInline poster="">
           <source src={featuresFoundation} type="video/mp4" />
         </video>
       </div>

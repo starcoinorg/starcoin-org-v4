@@ -20,7 +20,7 @@ export default function CommunityPageHero({
         </h2>
       </div>
       <div className="video--container">
-        <video className="background-video" autoPlay loop muted poster="">
+        <video className="background-video" autoPlay loop muted playsInline poster="">
           <source src={communityBanner} type="video/mp4" />
         </video>
       </div>

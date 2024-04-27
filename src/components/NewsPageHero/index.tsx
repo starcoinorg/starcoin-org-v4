@@ -20,7 +20,7 @@ export default function NewsPageHero({
         </div>
       </div>
       <div className="video--container">
-        <video className="background-video" autoPlay loop muted poster="">
+        <video className="background-video" autoPlay playsInline loop muted poster="">
           <source src={newsBanner} type="video/mp4" />
         </video>
       </div>
