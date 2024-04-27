@@ -134,7 +134,7 @@ export default function NewTrails({
         </div>
       </div>
       <div className="video--container">
-        <video className="background-video" autoPlay loop muted poster="">
+        <video className="background-video" autoPlay playsInline loop muted poster="">
           <source src={featuresTrails} type="video/mp4" />
         </video>
       </div>

@@ -33,7 +33,7 @@ export default function FeaturesPageHero({
         </div>
       </div>
       <div className="video--container">
-        <video className="background-video" autoPlay loop muted poster="">
+        <video className="background-video" autoPlay loop muted playsInline poster="">
           <source src={featuresBanner} type="video/mp4" />
         </video>
       </div>

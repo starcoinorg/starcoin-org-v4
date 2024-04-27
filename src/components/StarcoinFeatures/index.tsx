@@ -1,5 +1,5 @@
 import FeatureTable from '@/components/FeatureTable';
-import I18n, { type LocaleCode } from '@/i18n';
+import I18n, {getRelativeLocaleUrl, type LocaleCode } from '@/i18n';
 
 
 import home1 from '@/images/home_01EnhancedPowConsensus.png';
@@ -15,7 +15,7 @@ export default function StarcoinFeatures({
 
   return (
     <section className="section section--starcoin-features">
-      <div id="features" className="section__container starcoin-features__container">
+      <a id="features" className="section__container starcoin-features__container" href={getRelativeLocaleUrl(locale, "/features")} target="_blank">
         <div className="section__title">
           <h3 dangerouslySetInnerHTML={{ __html: t('home.features.title') }}></h3>
           <small>{t('home.features.subtitle')}</small>
@@ -52,7 +52,7 @@ export default function StarcoinFeatures({
             </div>
           </div>
         </div>
-      </div>
+      </a>
     </section>
   );
 }

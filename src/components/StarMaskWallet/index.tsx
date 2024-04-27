@@ -44,7 +44,7 @@ export default function StarMaskWallet({
       </div>
 
       <div className="video--container">
-        <video className="background-video" autoPlay loop muted poster="">
+        <video className="background-video" playsInline autoPlay loop muted poster="">
           <source src={getstcWallet} type="video/mp4" />
         </video>
       </div>

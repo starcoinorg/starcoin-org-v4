@@ -1,7 +1,7 @@
 // import I18n, { type LocaleCode } from "@/i18n";
 import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 
-import testImage from '@/images/home_01EnhancedPowConsensus.png';
+import oneChainDao from '@/images/onechaindao.png';
 
 export default function OneChainDAO({
   locale
@@ -25,7 +25,9 @@ export default function OneChainDAO({
         </div>
         </div>
         <figure>
-          <img src={testImage.src} alt="" />
+        <a href={getRelativeLocaleUrl(locale, "/community","#one-chain-dao")} >
+          <img src={oneChainDao.src} alt="" />
+          </a>
         </figure>
       </div>
     </section>

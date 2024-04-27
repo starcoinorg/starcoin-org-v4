@@ -12,8 +12,8 @@ export default function HomePageHero({ locale }: { locale: LocaleCode }) {
     <section className="hero hero--home">
       <div className="hero__container section__container">
         <h2 className="hero__title">
-          <p> {t("home.hero.title")} </p>
-          <p dangerouslySetInnerHTML={{ __html: t("home.hero.subtitle") }} />
+          <div> {t("home.hero.title")} </div>
+          <div dangerouslySetInnerHTML={{ __html: t("home.hero.subtitle") }} />
         </h2>
         <div className="hero__content">
           <p dangerouslySetInnerHTML={{ __html: t("home.hero.desc_p1") }} />
@@ -36,7 +36,7 @@ export default function HomePageHero({ locale }: { locale: LocaleCode }) {
         <StatisticsCard locale={locale} />
       </div>
       <div className="video--container">
-        <video className="background-video" autoPlay loop muted poster="">
+        <video className="background-video" autoPlay loop muted playsInline poster="">
           <source src={homebanner} type="video/mp4" />
         </video>
       </div>
