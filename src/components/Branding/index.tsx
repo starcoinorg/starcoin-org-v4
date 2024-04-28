@@ -12,8 +12,11 @@ export default function Branding({
     <section className="section section--branding">
       <div id="branding" className="section__container branding__container">
         <div className="card--branding">
+          <div className="branding__title">
+          <h4 dangerouslySetInnerHTML={{ __html: t('community.branding.title') }}></h4>
+          </div>
           <div className="branding__content">
-            <h4 dangerouslySetInnerHTML={{ __html: t('community.branding.title') }}></h4>
+           
             <p>{t('community.branding.content')}</p>
             <button className="button button--outline">
               {t('community.branding.action')}
