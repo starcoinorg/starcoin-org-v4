@@ -2,8 +2,6 @@ import { Fragment } from "react";
 import clsx from "clsx";
 import { reorganizePageNumber } from "@/assets/reorganize-tools.js";
 
-
-
 export default function Pagination({
   total,
   page,
@@ -15,7 +13,7 @@ export default function Pagination({
   page: number | string | undefined;
   pageSize?: number;
   path: string;
-  slug?: string
+  slug?: string;
 }) {
   page = reorganizePageNumber(page);
 
@@ -37,10 +35,23 @@ export default function Pagination({
   const pageStep = Math.ceil(queueLinkNumber / 2);
 
   const start = Math.max(2, page - pageStep);
-  const end = Math.min(Math.max(totalPage - 1, 1), Math.max(page + pageStep -1, queueLinkNumber));
+  const end = Math.min(
+    Math.max(totalPage - 1, 1),
+    Math.max(page + pageStep - 1, queueLinkNumber)
+  );
 
   // If there is no more than one page, no paging is displayed
   if (totalPage) {
+    if (page > 1) {
+      const prevNumber = page - 1;
+      const prevHref =
+        prevNumber === 1 ? `${path}` : `${path}${slug}${page - 1}`;
+      pages.push({
+        number: prevNumber,
+        href: prevHref,
+        content: "Prev",
+      });
+    }
     // Add the more specific first page first
     pages.push({
       number: 1,
@@ -65,11 +76,19 @@ export default function Pagination({
         ellipsis: "end",
       });
     }
-    
+
     if (totalPage > 1) {
       pages.push({
         number: totalPage,
         href: `${path}${slug}${totalPage}`,
+      });
+    }
+
+    if (page < totalPage) {
+      pages.push({
+        number: page + 1,
+        href: `${path}${slug}${page + 1}`,
+        content: "Next",
       });
     }
   }
@@ -89,19 +108,13 @@ export default function Pagination({
                   })}
                   href={p.href}
                 >
-                  {p.number}
+                  {p.content || p.number}
                 </a>
               )}
             </Fragment>
           );
         })}
       </div>
-
-      {/* {pages.length ? (
-        <div className="pagination-aside">
-          Total: <strong>{totalPage}</strong>
-        </div>
-      ) : null} */}
     </div>
   );
 }
