@@ -873,7 +873,7 @@ img {
 .navigation--footer {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 10px;
 }
 
@@ -2882,7 +2882,7 @@ img {
 
 .section--news-card .cards--news {
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
     gap: 9px;
     
 }
@@ -3165,7 +3165,6 @@ img {
         position: unset;
         background-color: unset;
         align-items: center;
-        
     }
 
     .nav--wrapper .item {
