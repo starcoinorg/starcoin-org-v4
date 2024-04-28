@@ -65,7 +65,7 @@ export default function CommunitySection({
         </div>
       </div>
 
-      <div className='marquee__container' style={{ '--count': 6,  '--speed': 30} as CSSProperties}>
+      <div className='marquee__container' style={{ '--count': 7,  '--speed': 30} as CSSProperties}>
         <div className="marquee marquee--logo">
           <div className="marquee__item" style={{ '--index': 0 } as CSSProperties}>
             <img src={starmaskLogo.src} alt="" />
