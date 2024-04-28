@@ -38,38 +38,73 @@ posts = reorganizeItemsByPage(posts, page_number);
 
   <section class="section section--news-card">
     <div id="news-blog" class="section__container news-card__container">
-      <div class="cards--news__banner">
-        <figure>
-          <img src={newCard1.src} alt="">
-        </figure>
-        <div class="card__content">
-          <h4>Starcoin 2.0 Sneak Peek: FlexiDAG Early Explorers Unite!</h4>
-          <div class="date">Published at October 31, 2023 By Starcoin.</div>
-          <a href="#" target="_blank" class="button button--primary">Read Article</a>
-        </div>
-      </div>
-      <div class="cards cards--news">
-        {
-          posts.map((p) => {
+      {
+        posts.map((p, index) => {
+          if (index === 0) {
             return (
-              <a class="card" href={getRelativeLocaleUrl(locale,`/news/post/${reorganizePostSlug(p)}`)}>
+              <div class="cards--news__banner">
                 <figure>
                   <img src={p.data.image || newCard1.src} alt={p.data.title} />
                 </figure>
                 <div class="card__content">
                   <h4>{p.data.title}</h4>
-                  <p>
+                  <div class="date">
                     Published at {dayjs(p.data.date).format("MMMM D, YYYY")}
                     <span> · </span>
                     {readingTime(p.body).text}
-                  </p>
-                  <p>{p.data.summary}</p>
-                  <svg>
-                    <use xlink:href="#arrow-right-long" href="#arrow-right-long" />
-                  </svg>
+                  </div>
+                  <a
+                    href={getRelativeLocaleUrl(
+                      locale,
+                      `/news/post/${reorganizePostSlug(p)}`
+                    )}
+                    target="_blank"
+                    class="button button--primary"
+                  >
+                    Read Article
+                  </a>
                 </div>
-              </a>
+              </div>
             );
+          }
+        })
+      }
+      <div class="cards cards--news">
+        {
+          posts.map((p, index) => {
+            if (index > 0) {
+              return (
+                <a
+                  class="card"
+                  href={getRelativeLocaleUrl(
+                    locale,
+                    `/news/post/${reorganizePostSlug(p)}`
+                  )}
+                >
+                  <figure>
+                    <img
+                      src={p.data.image || newCard1.src}
+                      alt={p.data.title}
+                    />
+                  </figure>
+                  <div class="card__content">
+                    <h4>{p.data.title}</h4>
+                    <p>
+                      Published at {dayjs(p.data.date).format("MMMM D, YYYY")}
+                      <span> · </span>
+                      {readingTime(p.body).text}
+                    </p>
+                    <p>{p.data.summary}</p>
+                    <svg>
+                      <use
+                        xlink:href="#arrow-right-long"
+                        href="#arrow-right-long"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              );
+            }
           })
         }
       </div>
@@ -77,7 +112,6 @@ posts = reorganizeItemsByPage(posts, page_number);
       <Pagination total={total} page={page} path={page_path} />
     </div>
   </section>
-
 
   <Fragment slot="page-meta">
     <title>{t("news.title")} - {t("site.name")}</title>

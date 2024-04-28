@@ -3005,6 +3005,94 @@ img {
     border-color: var(--primary-color);
 }
 
+
+.toolbar a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+    text-transform: capitalize;
+    opacity: .8;
+    transition: all .2s linear;
+}
+
+.toolbar a:hover {
+    opacity: 1;
+}
+
+.toolbar svg {
+    display: block;
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+
+.section--post article {
+    display: grid;
+    gap: 32px;
+    font-size: 14px;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.8;
+    background: linear-gradient(180deg, rgb(111 238 135 / 0.2) 0%, rgb(107 230 131 / 0.185) 50%, rgb(63 136 77 / 0) 100%);
+
+box-shadow: 0px 32px 64px -12px rgba(111, 238, 135, 0.43);
+
+}
+
+.section--post article header {
+    display: grid;
+    gap: 10px;
+    border-bottom: 1px solid rgb(255 255 255 / .05);
+    padding-bottom: 24px;
+    font-size: 12px;
+}
+
+.section--post article header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section--post article main {
+    display: grid;
+    gap: 1rem;
+}
+
+
+.section--post article main ul,
+.section--post article main ol {
+    display: grid;
+    gap: 10px;
+}
+.section--post article main ul li {
+    list-style: disc;
+}
+.section--post article main ol li {
+    list-style: decimal-leading-zero;
+}
+.section--post article main h1 {
+    font-size: 1.65rem;
+    font-weight: bold;
+    margin-block: 1rem;
+}
+.section--post article main h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-block: 1rem;
+}
+
+.section--post article main h3 {
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin-block: 1rem;
+}
+
+.section--post article main h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-block: 1rem;
+}
+
 @media only screen and (min-width: 575.98px) {
 
 
@@ -4115,6 +4203,56 @@ img {
 }
 
 
+
+.section--post article {
+    gap: 64px;
+    font-size: 14px;
+    padding: 40px;
+    border-radius: 20px;
+   
+
+}
+
+.section--post article header {
+    gap: 20px;
+    padding-bottom: 48px;
+    font-size: 24px;
+}
+
+.section--post article header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.section--post article main {
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+.section--post article main ul,
+.section--post article main ol {
+    display: grid;
+    gap: 20px;
+}
+.section--post article main h1 {
+    font-size: 1.85rem;
+    margin-block: 1.2rem;
+}
+.section--post article main h2 {
+    font-size: 1.7rem;
+    margin-block: 1.2rem;
+}
+
+.section--post article main h3 {
+    font-size: 1.55rem;
+    margin-block: 1.2rem;
+}
+
+.section--post article main h4 {
+    font-size: 1.4rem;
+    margin-block: 1.2rem;
+}
 
     .section--new-trails .section__content {
         grid-template-columns: repeat(2, minmax(0, 1fr));

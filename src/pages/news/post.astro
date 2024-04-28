@@ -21,27 +21,35 @@ const Content = renderEntry?.Content;
 
 <Layout>
   <section class="section section--post">
-    <div class="toolbar" style="margin-top: 100px">
-      <a href={getRelativeLocaleUrl(locale, "news")}> Back </a>
+    <div class="section__container section--post__container">
+      <div class="toolbar">
+        <a href={getRelativeLocaleUrl(locale, "news")}> 
+          <svg class="icon--back">
+            <use href="#back" />
+          </svg>
+          Back 
+        </a>
+      </div>
+      <article>
+        <header>
+          {
+            entry ? (
+              <>
+                <h1>{entry.data.title}</h1>
+                <p>
+                  Published at {dayjs(entry.data.date).format("MMMM D, YYYY")}
+                  {entry.data.author ? `By ${entry.data.author}` : ""}.
+                </p>
+              </>
+            ) : null
+          }
+        </header>
+        <main>
+          {Content ? <Content /> : null}
+        </main>
+      </article>
     </div>
-    <article>
-      <header>
-        {
-          entry ? (
-            <>
-              <h1>{entry.data.title}</h1>
-              <p>
-                Published at {dayjs(entry.data.date).format("MMMM D, YYYY")}
-                {entry.data.author ? `By ${entry.data.author}` : ""}.
-              </p>
-            </>
-          ) : null
-        }
-      </header>
-      <main>
-        {Content ? <Content /> : null}
-      </main>
-    </article>
+    
   </section>
 
   <Fragment slot="page-meta">
