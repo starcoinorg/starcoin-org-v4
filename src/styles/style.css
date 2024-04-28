@@ -3463,7 +3463,7 @@ img {
 
 
     .section--new-trails .section__content {
-        gap: var(--fs-size-34x);
+        gap: 130px;
     }
 
     .section--new-trails .news-lists li {
@@ -3611,7 +3611,7 @@ img {
 
 
     .cards--mining .card h5 {
-        font-size: var(--fs-size-9x);
+        font-size: 32px;
     }
 
 
@@ -3887,7 +3887,7 @@ img {
     }
 
     .card--branding a {
-        padding: var(--fs-size-4x);
+        padding: 8px;
     }
 
     .card--branding a span {
@@ -3943,11 +3943,11 @@ img {
         gap: 48px;
         padding: 32px;
 
-        border-radius: var(--fs-size-9x);
+        border-radius: 32pz;
     }
 
     .section--news-card .cards--news .card a {
-        border-radius: var(--fs-size-9x);
+        border-radius: 32px;
         padding: 16px;
     }
 
