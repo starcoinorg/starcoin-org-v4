@@ -6,6 +6,7 @@ author: "Starcoin"
 tags: [
     "Starcoin"
 ]
+image: https://miro.medium.com/v2/resize:fit:1400/1*cNoHz03yZtIYQPlW2chCNw.jpeg
 archives: "2022"
 
 ---

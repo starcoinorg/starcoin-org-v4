@@ -7,7 +7,7 @@ tags: [
     "Starcoin"
 ]
 archives: "2023"
-
+image: https://miro.medium.com/v2/resize:fit:1400/1*r3gcmuS68tAE7CcVHZOZdA.png
 ---
 
 ![img](https://miro.medium.com/v2/resize:fit:1400/1*r3gcmuS68tAE7CcVHZOZdA.png)

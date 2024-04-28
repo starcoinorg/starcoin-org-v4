@@ -6,7 +6,7 @@ author: "Starcoin"
 tags: [
     "Starcoin"
 ]
-image: https://cdn.pixabay.com/photo/2024/04/04/03/08/ai-generated-8674235_1280.png
+image: https://miro.medium.com/v2/resize:fit:1400/1*cNoHz03yZtIYQPlW2chCNw.jpeg
 archives: "2023"
 
 ---

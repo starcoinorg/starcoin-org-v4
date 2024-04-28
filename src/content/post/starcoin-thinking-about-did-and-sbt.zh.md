@@ -7,6 +7,7 @@ tags: [
     "Starcoin"
 ]
 archives: "2022"
+image: https://miro.medium.com/max/700/1*NLdo2bWsNLplt7MrUbmeOQ.jpeg
 ---
 
 ![img](https://miro.medium.com/max/700/1*NLdo2bWsNLplt7MrUbmeOQ.jpeg)
