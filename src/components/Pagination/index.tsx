@@ -3,7 +3,6 @@ import clsx from "clsx";
 import { reorganizePageNumber } from "@/assets/reorganize-tools.js";
 
 
-import "./index.css";
 
 export default function Pagination({
   total,
@@ -98,11 +97,11 @@ export default function Pagination({
         })}
       </div>
 
-      {pages.length ? (
+      {/* {pages.length ? (
         <div className="pagination-aside">
           Total: <strong>{totalPage}</strong>
         </div>
-      ) : null}
+      ) : null} */}
     </div>
   );
 }

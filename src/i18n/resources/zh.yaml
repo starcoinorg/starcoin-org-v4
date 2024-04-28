@@ -1,74 +1,537 @@
-# 公共语言字段直接放在第一层级
-new: 新
-more: 更多
-view_more: 查看更多
+##
+# Notice
+# * Don't translate the `{{key}}` part
+##
 
-# 其它语言字段按页面或功能模块进行组织
+# Public language fields are placed directly at the first level
+new: New
+closed: Closed
+more: More
+view_more: View More
+coming_soon: Coming Soon
+learn_more: Learn More
+starcoin: Starcoin
+
+
+# Other language fields are organized by page or functional module
 site:
   name: 'Starcoin'
   desc: 'Starcoin is a proof-of-work blockchain that enables secure smart contracts based on Move to power services in Web 3.0'
   copyright: '2024 Starcoin.org. All Rights Reserved.'
 
-# 导航菜单
+# Navigation menu
 nav:
   group:
     home: '首页'
-    features: 'Features'
+    features: '特性'
     developers: '开发者'
-    getstc: 'Get stc'
+    getstc: '获取 stc'
     community: '社区'
-    news: '新闻'
+    news: '消息'
   home:
-    get_started: 'Get Started on Starcoin'
-    feature: 'Starcoins Feature'
-    community: 'Community'
-    news: 'News'
+    get_started: '从这里解锁 Starcoin'
+    feature: 'Starcoins 特性'
+    community: '社区'
+    news: '最新消息'
   features:
-    features: 'Features'
-    new_trails: 'Blaze New Trails'
+    features: '特性'
+    new_trails: '创新实践'
     starcoin_v2: 'Starcoin 2.0'
-    starcoin_foundation: 'Starcoin Foundation'
-    starcoin_grant: 'Starcoin Grant'
-    starcoin_roadmap: 'Starcoin Roadmap'
+    starcoin_foundation: 'Starcoin 基金会'
+    starcoin_grant: 'Starcoin 资助'
+    starcoin_roadmap: 'Starcoin 路线图'
   developers:
-    easy_building: 'Easy Building'
-    starcoin_grant: 'Starcoin Grant'
+    easy_building: '轻松搭建'
+    starcoin_grant: 'Starcoin 资助'
   getstc:
-    node_mining: 'Node Mining'
-    starmask_wallet: 'StarMask Wallet'
-    geeks: 'Geeks'
-    hardcore_player: '硬核玩家'
-    one_chain_dao: 'One-chain DAO'
+    node_mining: '节点挖矿'
+    starmask_wallet: 'StarMask 钱包'
+    geeks: '极客玩家'
+    hardcore_player: '骨灰级玩家'
+    one_chain_dao: '一链式 DAO'
   community:
-    star_dome: 'Star Dome'
-    one_chain_dao: 'One-chain DAO'
-    ecosystem_partners: 'Ecosystem Partners'
-    branding: 'Branding'
+    star_dome: '星穹计划'
+    one_chain_dao: '一链式 DAO'
+    ecosystem_partners: '生态合作伙伴'
+    branding: '品牌'
   news:
-    news_blog: 'News & Blog'
+    news_blog: '消息 & 博客'
 
-# 首页
+# Feature table
+feature_table:
+  row_1:
+    - 特性
+    - Starcoin 1.0 (不包含 DAG)
+    - Starcoin 2.0 (包含 DAG)
+  row_2:
+    - 结构
+    - 由线性、连续的区块链组成。
+    - >
+      将 DAG 与多个子网和区块链相结合，作为其共识层。
+  row_3:
+    - 共识机制
+    - >
+      -工作量证明 (PoW) <br />
+      -增强版中本聪共识
+    - >
+      -工作量证明 (PoW) <br />
+      -结合了FlexiDAG 的增强版中本聪共识
+  row_4:
+    - 扩展性
+    - >
+      受区块大小和区块创建时间的限制，可能造成瓶颈。
+    - >
+      由于采用并行事务处理方式，因此具有很高的可扩展性和吞吐量。
+  row_5:
+    - 交易吞吐量
+    - 较低，因为区块是按顺序处理的，约为 1,000 个 TX/秒。
+    - 由于并行处理交易的速度提高了 10-20 倍，交易量显著增加。
+  row_6:
+    - 交易并行执行
+    - 不
+    - >
+      是的。交易被组织成块，通过使用 TurboSTM，吞吐量提高了 10 倍。
+  
+
+# Home page
 home:
-  title: '首页'
+  title: 首页
   hero:
-    title: 速度的力量
+    title: power in speed
+    subtitle: innovate with <strong>pow</strong>
+    desc_p1: >
+      自 2020 年以来, Starcoin 一直在开拓
+      <strong> 增强型 PoW </strong> 共识和 <strong>Move 智能合约</strong>,
+      确保安全, 可扩展的区块链基础设施.
+    desc_p2: >
+      体验 <strong>闪电般快速的区块</strong> 生成用 <strong>FlexiDAG</strong> 和
+      <strong>TurboSTM</strong> 技术, 提高 Web3 数字生活的效率和可靠性，我们致力于去中心化和安全性，助力数字经济向前发展。
+    action:
+      whitepaper: 白皮书
+      getstc: 获取 STC
+  stat_card:
+    title_1: 疯狂的性价比
+    title_2: 坚实的后盾
+    title_3: 巨大的增长潜力
+    dt_1: 每笔交易平均成本
+    dt_2: 当前哈希率 (Hash/s)
+    dt_3: 总交易
+    dt_4: 目标区块时间(s)
+  get_started:
+    title: 从这里解锁 <strong>Starcoin</strong>
+    li_1:
+      h4: 轻松便捷搭建<small>通向Move的发射台</small>
+      p: >
+        加入我们，Move 生态系统中的 PoW 共识先锋。
+        从这里启动 Starcoin, Move生态中最早期的先锋平台.
+    li_2:
+      h4: 轻松搭建<small>您的简易通道</small>
+      p: >
+        在交易所轻松获取STC：Gate.io, Coinex.
+        去中性化交易所, 请探索 Starswap，
+        便于交易、押注、赚取收益。
+    li_3:
+      h4: 炽热的区块采矿<small>闪电般极速体验</small>
+      p: >
+        解锁Starcoin基于Move智能合约的PoW共识和DAG技术的体验。
+        极速挖矿, 赚取更多, 极速出块的革命性体验
+  features:
+    title: <strong>Starcoin</strong> 特性
+    subtitle: 创新升级 2.0。提升您的体验。
+    desc: >
+      Starcoin 于 2020 年推出，率先将中本聪的增强型工作量证明（PoW）共识与用于智能合约的安全 Move 编程语言整合在一起。随着 2023 年 FlexiDAG 和 TurboSTM 升级的推出，Starcoin 2.0（或称 "Tempus"）标志着性能的显著提升。此次升级彰显了 Starcoin 不断创新的承诺，为 Web3 数字生活打造了一个安全、高效、灵活的去中心化系统。通过业界领先的并行化技术（如 TurboSTM 和有向无环图共识算法 FlexiDAG），Starcoin 增强了可扩展性和效率，构想了一个去中心化的数字生态系统，使用户能够安全高效地控制资产和进行交易。
+    card_1:
+      h4: 增强型中本聪（PoW）共识
+      p: >
+        Starcoin的创新共识机制可动态调整关键网络参数，利用实时数据加速区块生产，减少交易确认时间，提高网络效率，最终最大限度地减少用户等待时间。
+    card_2:
+      h4: Move 智能合约
+      p: >
+        Move语言以其面向资源的编程范式和全面的安全功能而闻名，Starcoin利用Move语言确保了无与伦比的智能合约安全性，彻底改变了区块链的格局，为用户提供了一个安全、稳健的环境。
+    table:
+      title: 高性能并行化
+      desc: 在 2.0 阶段，Starcoin 通过业界领先的并行化技术 TurboSTM 实现了交易性能的大幅提升，交易处理能力比前一阶段提高了 17 倍，加上新的有向无环图共识算法 FlexiDAG，区块生成速度提高了 10 倍，从而增强了网络的可扩展性和效率。
+  community:
+    title: 社区
+    subtitle: 存在即是价值
+    article:
+      title: 一链式 DAO
+      p1: Starcoin 是一个社区共同拥有的原生俱乐部，
+      p2: Supported由可持续的激励机制和透明及可验证的系统支持。
+      p3: 为那些能够共同建设DAO未来的利益相关者服务。
+    h4: 生态项目
+    infiniteScrollText: Wallet-Dex-Exchange-Mining Pool⎻-NFT Marketplace⎻-Stablecoin
+  news:
+    title: 消息
+    subtitle: 掌握最新消息
+    card_1:
+      title: Starcoin区块链功能修复更新
+    card_2:
+      title: Move生态系统中的首个FlexiDAG POW共识区块链 
+    card_3:
+      title: Starcoin 2.0:使用PoW DAG进行革命性创新。加入我们的测试网络，体验高效挖矿！
 
 # Features page
 features:
   title: 'Features'
+  hero:
+    title: 可靠的, 灵活的, 可持续发展的
+    subtitle: Web3 <strong>基础设施</strong>
+    desc: Starcoin率先采用了增强版中本聪共识PoW 与 Move 智能合约，并于 2021 年在主网上推出。为了应对可扩展性挑战，其创新并行化技术 FlexiDAG 和 TurboSTM 优化了交易速度，进入了Starcoin 2.0 阶段。
+    action:
+      - 白皮书
+      - 技术白皮书 
+      - 经济白皮书
+  features:
+    title: 特性
+    desc: Starcoin提供了一个可靠且面向未来的区块链解决方案，以满足数字经济不断发展的需求。
+    card_1:
+      title: 增强版PoW共识
+      content_p1: Starcoin的创新共识机制可动态调整关键网络参数，利用实时数据加速区块生产，减少交易确认时间，提高网络效率，最终最大限度地减少用户等待时间。
+    card_2:
+      title: Move智能合约
+      content_p1: Move语言以其面向资源的编程范式和全面的安全功能而闻名，Starcoin利用Move语言确保了无与伦比的智能合约安全性，彻底改变了区块链的格局，为用户提供了一个安全、稳健的环境。
+    card_3:
+      title: 高性能并行化
+      content_p1: Move语言以其面向资源的编程范式和全面的安全功能而闻名，Starcoin利用Move语言确保了无与伦比的智能合约安全性，彻底改变了区块链的格局，为用户提供了一个安全、稳健的环境。
+      sub_card_1:
+        title: FlexiDAG
+        content_p1: 兼顾并行处理和安全性
+        content_ul:
+          - '并行区块创建： 允许多个矿工同时创建区块，提高网络效率。'
+          - '动态区块调整： 根据需要调整区块速度和大小，以获得更好的安全性和用户体验。'
+          - '社区控制： 让社区通过治理和升级来改变共识设置。'
+          - '同时添加区块： 一次性向区块链添加所有有效区块，消除延迟。'
+      sub_card_2:
+        title: TurboSTM
+        content_p1: 重塑智能合约的执行方式
+        content_ul:
+          - '多线程执行： TurboSTM 采用高性能、多线程内存计算引擎，允许同时执行多个事务。'
+          - 'MVCC和OCC： 利用多版本并发控制（MVCC）和乐观并发控制（OCC）进行同步数据读取和更新，减少瓶颈。'
+          - '执行模块： 负责执行交易和处理交易信息。'
+          - '存储模块： 存储事务信息和执行结果。'
+          - 'MoveVM模块： 执行 Move 代码、计算执行结果并识别资源修改。'
+  new_trails:
+      title: 创新 <strong>实践</strong>
+      news_title:
+        - 状态存储
+        - Easy Gas
+        - 一链式DAO
+        - 状态计费
+        - Bootstrapped引导式
+        - 标准数据库
+        - Freely NFT
+        - 形式化验证
+      news_content:
+        - 通过取消合同账户、明确国家所有权、根据用户持有的 STC 启用动态计费策略等改进措施，简化了合同所有权和安全性，确保了高效的资源分配，并激励了负责任的国家管理。
+        - 允许用户使用任何受支持的代币支付Gas费，消除了进入门槛，提高了用户友好性，从而彻底改变了交易体验。通过在链上无缝集成，这一创新简化了Gas费支付，确保了更广泛的应用，并为 Web3 时代的交易可访问性设定了新标准。
+        - 通过简化提案流程和模块化实施，促进去中心化决策。通过基于代币的投票和结构化的提案生命周期，它提高了透明度、效率和社区赋权。利用移动语言功能，Starcoin 为民主治理设定了新标准，确保了区块链生态系统的适应性和与不同社区利益的一致性。
+        - 应对公共区块链中状态爆炸的挑战，优先保留有价值的数据，同时消除冗余。这种方法优化了资源使用，提高了网络性能，确保了长期可持续性，体现了 Starcoin 致力于建立稳健、可扩展的区块链基础设施的承诺。
+        - 确保智能合约的顶级安全性，减少漏洞，提高稳定性，从而保护用户资产，加强整体网络安全。
+        - 通过引入固定的代币供应、透明的分配和线性释放机制，促进信任并激励网络参与，以实现长期的生态系统发展和财务自给自足，从而确保可持续增长和稳定性。
+        - 利用其 Stdlib（标准库）简化共识管理，为开发人员提供安全、可扩展的框架。通过实施通用协议标准、提供可重复使用的组件和用户友好型工具，Stdlib 简化了应用程序开发，促进了Starcoin生态系统的创新和发展。
+        - 开创了一种新的 NFT 标准，兼具安全性和可扩展性。其协议以安全性为重点，确保 NFT 在虚拟机层面上不会被复制或丢失。此外，Starcoin 的标准利用泛型和批处理操作，使 NFT 可以自由组合，为各种 NFT 场景提供可扩展性。
+  starcoin_v2:
+    title: Starcoin 2.0
+  foundation:
+    title: Starcoin <strong>基金会</strong>
+    subtitle: 引导卓越与创新
+    content_p1: >
+      Starcoin基金会是一个独立的标准制定机构
+      负责监督和推进斯塔克币平台及其蓬勃发展的生态系统。
+      及其蓬勃发展的生态系统。作为Starcoin协议和品牌的守护者
+      和品牌的守护者，基金会的职责不仅仅是监督。
+      它是采用和合作战略背后的推动力。
+      基金会的工作旨在扩大Starcoin社区，影响立法和商业标准，维护利益相关者的责任。
+  grant:
+    title: Westar <strong>实验室</strong>
+    subtitle: Starcoin技术创新背后的孵化中心
+    content_p1: >
+      Westar 实验室是 Starcoin 项目的重要技术孵化器。
+      项目的重要技术孵化器，在促进区块链生态系统的创新和发展方面发挥着核心作用。
+  roadmap:
+    title: Starcoin <strong>路线图</strong>
+    timeline_1:
+      title: 创建和启动
+      ul:
+        - >
+          <strong>End of 2018</strong>: 发布第一份星币白皮书，为可扩展区块链奠定基础
+        - >
+          <strong>2019-2020</strong>: 主要发展包括
+          采用 Move 语言（2019 年第四季度）和发布
+          Starcoin v0.1（2020 年 4 月 9 日）。
+    timeline_2:
+      title: Milestones
+      ul:
+        - >
+          <strong>March 27, 2021</strong>: 发布 Starcoin
+          v1.0.0.beta.
+        - >
+          <strong>May 18, 2021</strong>: Starcoin 主网上线。
+        - >
+          <strong>June 24, 2021</strong>: 推出首个
+          Move Dapp 和链上治理 DAO。
+        - >
+          <strong>September 2021</strong>:发布 Starcoin NFT
+          spec 和上线 Cyberrare, 第一个NFT交易市场.
+    timeline_3:
+      title: 生态实践
+      ul:
+        - >
+          <strong>January 2022</strong>: 上线 Arm Wrest War (AWW), 一个边玩儿边赚的game.
+        - >
+          <strong>March 2022</strong>: 推出 Bfly Finance 的稳定币协议 FAI；推出通用 DEX Starswap；以及实施 Fai 清算。
+        - >
+          <strong>April 2022</strong>: 建立首个连接Starcoin和以太坊的跨链桥梁；推出算法货币协议 Bfly。
+        - >
+          <strong>July 2022</strong>: 在主网上推出首个借贷协议--"Fly"。
+        - >
+          <strong>Q3-Q4 2022</strong>: DAO 和治理、Layer1 和 Layer2 基础设施以及 Move 生态系统的发展。
+    timeline_4:
+      title: 创新未来
+      p1: 增强PoW共识
+      ul_1:
+        - PoW 共识算法的改进加强了共识的安全性。
+        - 并行链架构
+        - 经济的工作量证明
+      p2: 提高交易性能
+      ul_2:
+        - 我们正在通过事务并行执行等方式提高第 1 层的 TPS。
+        - P2P 网络优化可提高网络性能（如 RPC 优化、评分机制）。
+        - 网络补丁
+        - 支持 QUIC 协议，提高性能
+        - 轻节点，作为网络组件实施
+        - p2p 网络上的 RPC
+        - P2P 网络的激励机制
+      p3: 降低验证器阈值
+      ul_3:
+        - 提供离线导入和导出区块功能，提高区块导入速度。
+        - 提供离线导入和导出快照数据功能，并支持增量导出。
+        - 提供异步写入和批量读取接口，提高数据库读写速度。
+        - 优化累加器写入速度，提高在线同步块速度。
+        - 提供 p2p 快照同步和块 WriteSet 同步
+        - 提供 "剪枝叔叔 "区块，缩小存储空间
+      p4: 改善应用程序开发环境
+      ul_4:
+        - 介绍和支持 Move 的新功能。
+        - 提供 U256 类型，提高 dapp 开发的便利性。
+        - 改进烹饪手册，帮助开发人员快速了解 Starcoin 开发。
+        - 使用本地节点账户在远程节点部署合约，方便开发人员快速部署 mpm，提供集成测试功能，mpm 集成测试提供自定义参数和部署功能，方便 dapp 开发人员测试。
+        - 提供有用的移动数据结构，如 HashMap 和 BigVector，以提高 dapp 开发的便利性。 
+
 
 # Developers page
 developers:
-  title: '开发者'
+  title: 'Developers'
+  hero:
+    title: >
+      <p><strong>Launchpad</strong></p>
+      <p>to Move</p>
+    desc_p1: >
+      Starcoin has pioneered the establishment of the first Move language developer community since July 2020.
+      As the first permissionless PoW blockchain based on the Move smart contract,
+    desc_p2: >
+      Starcoin boasts rich implementations including the <strong>U256 type, token/NFT/SBT standard, one-chain DAO governance system,EasyGas</strong>, and many other innovative features.
+    action:
+      - Resources & Tutorials
+      - Github
+      - Explorer
+  easy_building:
+    title: Easy building
+    subtitle: Simplicity
+    card_1:
+      title: Node
+      content: >
+        The best way to understand Starcoin is to start a node
+        first.Get all content on Starcoin nodes, including a quick
+        start, how nodes work, command line usage, and more!
+    card_2:
+      title: Move
+      content: >
+        More in-depth knowledge on Move, Unlock Move smart contract
+        development with our comprehensive module, exploring its
+        security-centric design, resource-oriented and
+        generalization-oriented programming, and formal verification
+        tools for robust contract security.
+    card_3:
+      title: DAPP
+      content: >
+        Explore comprehensive resources for DApp development on
+        Starcoin's Layer1 technology, covering everything from setting
+        up a development environment and SDK to RPC and DApp examples,
+        ensuring seamless contract development and interaction with
+        the public chain.
+    card_4:
+      title: Examples
+      content: >
+        Access streamlined DApp development resources in the Starcoin
+        ecosystem, featuring Move contract and StarMask call examples
+        for efficient and comprehensive development.
+    card_5:
+      title: Glossary
+      content: >
+        Gain comprehensive insights into Starcoin's Layer 1
+        technologies, including Stdlib, NFT protocol, Oracle protocol,
+        DAO, SIP, and more, to better understand the platform's core
+        concepts and key definitions.
+  grant:
+    title: Starcoin <strong>Grant</strong>
+    subtitle: Together we empower developers to build the ecosystem of Starcoin.
+    content:
+      - >
+        Our goal is to create long-term incentives for open-source developers working on building out the Starcoin ecosystem, 
+        especially public goods R&D, which are essential to Starcoin’s success. Request funds for your Starcoin project.
 
 # Get stc page
 getstc:
   title: 'Get stc'
+  hero:
+    title: >
+      <p>Easy Fun</p>
+      <p>
+        with <strong>Starcoin</strong>
+      </p>
+  node_mining:
+    title: Node <strong>Mining</strong>
+    subtitle: Unlock STC rewards by safeguarding the network and validating transactions through mining to nodes or pools.
+    data:
+      - name: Epoch Start Time
+        content: 1 minute ago
+      - name: Target Block Time(s)
+        content: 5
+      - name: Current Hash Rate(H/s)
+        content: 45,870,608
+      - 
+        name: Block per second
+        content: 0.2
+      - name: Start - End Block
+        content: 16,138,560 - 16,138,800
+      - name: Block Reward
+        content: 5
+    desc:
+      - Starcoin is the only proof-of-work (PoW) blockchain that utilizes the Move programming language and is coupled with the support for parallel block production through a Directed Acyclic Graph (DAG) structure.
+      - The mining of starcoin based on the CryptoNight-RS algorithm, a variant of the CryptoNight algorithm, which is known for its democratic mining features. This algorithm is designed to be fair and accessible, ensuring that a wide range of participants, including those with less powerful hardware, can contribute to the network's security and consensus. Starcoin supports a broad spectrum of mining hardware, including CPUs, GPUs, and ASICs. This inclusive approach to mining hardware compatibility makes it accessible for various miners, from hobbyists with basic equipment to more advanced miners with specialized hardware. This diversity in mining participation helps in maintaining the decentralized nature of the blockchain, ensuring that no single group holds too much control over the network.
+    card:
+      - title: CEX
+        content:
+          - Effortlessly acquire STC by purchasing it from reputable centralized exchanges like <a href="{{gate_url}}">Gate.io</a> and <a href="{{coinex_url}}">Coinex</a>.
+      - title: DEX
+        content:
+          - Engage in trading, staking, farming, and earning yields on <a href="{{starswap_url}}">Starswap</a>, the decentralized exchange powered by Starcoin!
+  star_mask:
+    title: StarMask <strong>Wallet</strong>
+    content:
+      - The MetaMask equivalent for Move, a non-custodial Chrome extension wallet tailored for Starcoin. With support for DeFi/Web3 functionality, NFT galleries, on-chain asset management, and DID integration.
+      - Get started with Starcoin swiftly using the Chrome browser wallet, StarMask. With StarMask, effortlessly manage your STC and NFTs on the Starcoin chain, and seamlessly navigate your accounts.
+    action:
+      install: How To Install
+      use: How To Use
+    download:
+      title: Download Starmask
+      card:
+        - media: Github download and install (recommended)
+          desc: >
+            Download the latest version of StarMask via the official Github
+            Repository that is accessible anywhere.
+          action: Download from Github
+        - media: Chrome Web Store Download
+          desc: >
+            It's easy and convenient to download from the app store on Google Chrome. Some areas may require internet access.
+          action: Download from Chrome
+          
+    dt:
+      - title: A hardware wallet that <strong>supports STC</strong>
+        desc: After installing StarMask, for enhanced account security, consider using a hardware wallet like <a href="{{onekey_url}}">OneKey</a>. 
+  geek:
+    title: Geeks <strong>Own Your Starcoin Nodes</strong>
+    desc: Dive into the technical realm of Starcoin by owning and operating your own node. Unlock a plethora of capabilities, from initiating polls to minting STC and monitoring account status. Explore our comprehensive guide to installing, initializing, and utilizing Starcoin nodes.    
+    card:
+      - Node Installation
+      - Initiate Your Node with Command Lines
+      - Console Command Line Tutorials
+  hc_player:
+    title: <strong>Hardcore</strong> Player
+    content: 
+      - As a hardcore player deeply involved with Starcoin, you will contribute your passion to drive the development of Starcoin in the following ways.
+      - Building Code
+  oc_dao:
+    title: One  chain <strong>DAO</strong>
+    subtitle: Starcoin DAO
+    content: 
+      - >
+        Starcoin is a community co-owned native club,
+        Supported by sustainable incentives and transparent & verifiable systems.
+        Serving stakeholders who can co-build on the future of the DAO.
+        Every STC holder can actively engage in on-chain governance,
+        leveraging their STC to steer the community towards progress.
 
 # Community page
 community:
-  title: '社区'
+  title: 'Community'
+  hero:
+    title:
+      - Make <strong>Friends</strong> with
+      - the Explorers <strong>Advocates</strong>
+      - and <strong>Forerunners</strong>
+      - of WEB 3.0
+  social_media:
+    title: Stacoin <strong>Social Media</strong>
+    desc: As a growing community, we've dedicated countless hours to refining our craft, catering to the discerning tastes of pioneers like you. Together, we're fostering an environment where support and progress thrive side by side. If you're aligned with our vision and see the potential in our project, we warmly invite you to join us on this journey.
+    infiniteScrollingTexts1: JOIN OUR COMMUNITY TODAY! JOIN OUR COMMUNITY
+    infiniteScrollingTexts2: Where the Cool People Hang Out! Where the Cool People Hang Out!
+  dome:
+    title: STAR <strong>DOME</strong>
+    desc: Inspired by the unity of the StarDome image, a global collective of like-minded individuals is coming together to enact meaningful change. As Starcoin embarks on its journey of global expansion, we're privileged to collaborate with people from diverse backgrounds through the Star Dome Program. Join us as we take the next leap forward by officially launching the Starcoin Ambassador Program, The Star Dome Program.
+    action: Apply Online
+    card:
+      - title: Third
+        content: Cohort of Ambassadors
+      - title: Second
+        content: Cohort of Ambassadors
+      - title: First
+        content: Cohort of Ambassadors
+  # governance history
+  gh:
+    title: One-chain <strong>DAO</strong>
+    desc: Starcoin is a community co-owned native club, Supported by sustainable incentives and transparent & verifiable systems. Serving stakeholders who can co-build on the future of the DAO.
+    info:
+      - Self-Governance
+      - Democratic
+      - All-Access
+    card:
+      - POLL
+      - Airdrop
+    history:
+      - 'Proposal 13: upgrade onchain move...'
+      - 'Proposal 12: upgrade starcoin stdlib to v11'
+      - 'Proposal 11: :upgrade onchain config of move bytecode version to v4'
+  partners:
+    title: <strong>Ecosystem</strong> Partners
+    content: 
+      - Thank you to our ecosystem partners for your support!
+  branding:
+    title: Branding <small>To better convey our shared values</small>
+    content: MEDIA RELATIONS Media-Marketing inquiries can be sent to
+    action: Download our Logo
+
 
 # News page
 news:
-  title: '新闻'
+  title: 'News'
+  hero:
+    title: NEWS & BLOG
+    desc: >
+      Stay informed about the latest developments, events, and updates for the Starcoin project right here.
+      For the most current and rapid access to project updates, join our Official Starcoin media community.
+  cards:
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+    - title: Enhanced PoW Consensus
+      content: Starcoin's innovative consensus mechanism dynamically adjusts key network parameters, leveraging real-time data to accelerate block production, reduce transaction confirmation times, and enhance network efficiency, ultimately minimizing user wait times.
+              

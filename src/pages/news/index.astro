@@ -38,34 +38,37 @@ posts = reorganizeItemsByPage(posts, page_number);
 
   <section class="section section--news-card">
     <div id="news-blog" class="section__container news-card__container">
+      <div class="cards--news__banner">
+        <figure>
+          <img src={newCard1.src} alt="">
+        </figure>
+        <div class="card__content">
+          <h4>Starcoin 2.0 Sneak Peek: FlexiDAG Early Explorers Unite!</h4>
+          <div class="date">Published at October 31, 2023 By Starcoin.</div>
+          <a href="#" target="_blank" class="button button--primary">Read Article</a>
+        </div>
+      </div>
       <div class="cards cards--news">
         {
           posts.map((p) => {
             return (
-              <div class="card">
+              <a class="card" href={getRelativeLocaleUrl(locale,`/news/post/${reorganizePostSlug(p)}`)}>
                 <figure>
                   <img src={p.data.image || newCard1.src} alt={p.data.title} />
                 </figure>
                 <div class="card__content">
                   <h4>{p.data.title}</h4>
-                  <p>{p.data.summary}</p>
                   <p>
                     Published at {dayjs(p.data.date).format("MMMM D, YYYY")}
                     <span> · </span>
                     {readingTime(p.body).text}
                   </p>
-                </div>
-                <a
-                  href={getRelativeLocaleUrl(
-                    locale,
-                    `/news/post/${reorganizePostSlug(p)}`
-                  )}
-                >
+                  <p>{p.data.summary}</p>
                   <svg>
-                    <use xlink:href="#arrowRight" href="#arrowRight" />
+                    <use xlink:href="#arrow-right-long" href="#arrow-right-long" />
                   </svg>
-                </a>
-              </div>
+                </div>
+              </a>
             );
           })
         }
@@ -75,7 +78,6 @@ posts = reorganizeItemsByPage(posts, page_number);
     </div>
   </section>
 
-  <!-- <NewsCard locale={locale} posts={posts} /> -->
 
   <Fragment slot="page-meta">
     <title>{t("news.title")} - {t("site.name")}</title>
