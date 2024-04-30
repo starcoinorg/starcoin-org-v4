@@ -1,7 +1,7 @@
 
-export default function Social(props) {
+export default function Social() {
   return (
-    <ul className="social" data-aos={props.animation}>
+    <ul className="social">
       <li>
         <a href="http://t.me/Starcoin_STC" target="_blank">
           <svg className="icon icon--telegram">

@@ -32,7 +32,9 @@ export default function CommunitySection({
         </div>
         <div className="section__content">
           <div className="column">
-            <Social animation="fade-up"/>
+            <div data-aos="fade-up">
+            <Social />
+            </div>
             <div className="title" data-aos="fade-up">
               <a href={getRelativeLocaleUrl(locale, "/community", "#one-chain-dao")} target="_blank">
               {t('home.community.article.title')}
