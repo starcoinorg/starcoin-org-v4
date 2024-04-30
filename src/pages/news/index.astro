@@ -42,7 +42,7 @@ posts = reorganizeItemsByPage(posts, page_number);
         posts.map((p, index) => {
           if (index === 0) {
             return (
-              <div class="cards--news__banner">
+              <div class="cards--news__banner" data-aos="fade-up">
                 <figure>
                   <img src={p.data.image || newCard1.src} alt={p.data.title} />
                 </figure>
@@ -80,7 +80,7 @@ posts = reorganizeItemsByPage(posts, page_number);
                     locale,
                     `/news/post/${reorganizePostSlug(p)}`
                   )}
-                >
+                  data-aos="fade-up">
                   <figure>
                     <img
                       src={p.data.image || newCard1.src}

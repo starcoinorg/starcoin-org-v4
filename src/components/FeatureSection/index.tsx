@@ -17,12 +17,12 @@ export default function FeatureSection({
     <section className="section section--feature">
       <div id="features" className="section__container feature__container">
         <div className="section__title">
-          <h3>{t('features.features.title')}</h3>
-          <small>{t('features.features.desc')}</small>
+          <h3 data-aos="fade-up">{t('features.features.title')}</h3>
+          <small data-aos="fade-up">{t('features.features.desc')}</small>
         </div>
         <div className="section__content">
           <div className="cards cards--feacures">
-            <div className="card">
+            <div className="card" data-aos="fade-right">
               <figure>
                 <img src={feature1.src} alt="" />
               </figure>
@@ -35,7 +35,7 @@ export default function FeatureSection({
                 </p>
               </div>
             </div>
-            <div className="card">
+            <div className="card" data-aos="fade-left">
               <figure>
                 <img src={feature2.src} alt="" />
               </figure>
@@ -47,7 +47,7 @@ export default function FeatureSection({
               </div>
             </div>
 
-            <div className="card">
+            <div className="card" data-aos="fade-up">
               <figure>
                 <img src={feature3.src} alt="" />
               </figure>

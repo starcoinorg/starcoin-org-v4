@@ -10,10 +10,10 @@ export default function Geeks({
   return (
     <section className="section section--geeks">
       <div id="geeks" className="section__container geeks__container">
-      <div className="section__title" dangerouslySetInnerHTML={{__html: t('getstc.geek.title')}}></div>
+      <div className="section__title" dangerouslySetInnerHTML={{__html: t('getstc.geek.title')}} data-aos="fade-right"></div>
       <div className="section__content">
-        <p>{t('getstc.geek.desc')}</p>
-        <div className="card">
+        <p data-aos="fade-right">{t('getstc.geek.desc')}</p>
+        <div className="card" data-aos="fade-up">
           <a href="https://starcoin.org/en/developers/node/install/" target="_blank" className="column">
               <span>{t('getstc.geek.card.0')}</span>
             <svg className="icon--arrow-right">

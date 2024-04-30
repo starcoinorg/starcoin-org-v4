@@ -16,11 +16,11 @@ export default function NodeMining({
     <section className="section section--node-mining">
       <div id="node-mining" className="node-mining__container section__container">
         <div className="section__title">
-          <h4 dangerouslySetInnerHTML={{ __html: t('getstc.node_mining.title') }}></h4>
-          <small>{t('getstc.node_mining.subtitle')}</small>
+          <h4 dangerouslySetInnerHTML={{ __html: t('getstc.node_mining.title') }} data-aos="fade-up"></h4>
+          <small data-aos="fade-up">{t('getstc.node_mining.subtitle')}</small>
         </div>
         <div className="section__content">
-          <div className="mining__data">
+          <div className="mining__data" data-aos="fade-up">
             <ul>
               <li>
                 <h5>{t('getstc.node_mining.data.0.name')}</h5>
@@ -48,11 +48,11 @@ export default function NodeMining({
               </li>
             </ul>
           </div>
-          <div className="mining__des">
+          <div className="mining__des" data-aos="fade-up">
             <p>{t('getstc.node_mining.desc.0')}</p>
             <p>{t('getstc.node_mining.desc.1')}</p>
           </div>
-          <div className="cards cards--mining">
+          <div className="cards cards--mining" data-aos="fade-up">
             <figure>
               <img src={testImage.src} alt="" />
             </figure>

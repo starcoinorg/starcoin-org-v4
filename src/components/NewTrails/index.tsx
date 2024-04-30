@@ -11,19 +11,19 @@ export default function NewTrails({
   return (
     <section className="section section--new-trails">
       <div id="new-trails" className="section__container new-trails__container">
-        <div className="section__title" >
+        <div className="section__title" data-aos="fade-up">
           <h3 dangerouslySetInnerHTML={{ __html: t('features.new_trails.title') }}></h3>
         </div>
-        <div className="section__content">
-          <input type="radio" className="sr-only" name="news" id="storage" />
+        <div className="section__content" >
+          <input type="radio" className="sr-only" name="news" id="storage" checked />
           <input type="radio" className="sr-only" name="news" id="easy-gas" />
-          <input type="radio" className="sr-only" name="news" id="dao" checked />
+          <input type="radio" className="sr-only" name="news" id="dao"  />
           <input type="radio" className="sr-only" name="news" id="billing" />
           <input type="radio" className="sr-only" name="news" id="bootstrapped" />
           <input type="radio" className="sr-only" name="news" id="stdlib" />
           <input type="radio" className="sr-only" name="news" id="freely-nft" />
           <input type="radio" className="sr-only" name="news" id="verification" />
-          <ul className="news-lists">
+          <ul className="news-lists" data-aos="fade-right">
             <li id="news__item--storage">
               <label htmlFor="storage">
                 {t('features.new_trails.news_title.0')}
@@ -65,7 +65,7 @@ export default function NewTrails({
               </label>
             </li>
           </ul>
-          <ul className="cards--new">
+          <ul className="cards--new" data-aos="fade-left">
             <li id="card--storage">
               <svg>
                 <use xlinkHref="#card1" href="#card1" />

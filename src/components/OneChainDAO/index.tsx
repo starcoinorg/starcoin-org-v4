@@ -1,7 +1,7 @@
 // import I18n, { type LocaleCode } from "@/i18n";
 import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 
-import oneChainDao from '@/images/onechaindao.png';
+import oneChainDao from '@/images/communityimage.png';
 
 export default function OneChainDAO({
   locale
@@ -13,8 +13,8 @@ export default function OneChainDAO({
   return (
     <section className="section section--one-chain-dao" id="one-chain-dao">
       <div id="one-chain-dao" className="section__container one-chain-dao__container">
-        <div className="content">
-        <div className="section__title">
+        <div className="content" data-aos="fade-right">
+        <div className="section__title" >
           <small>{t('getstc.oc_dao.subtitle')}</small>
           <h3>
             <a href={getRelativeLocaleUrl(locale, "/community","#one-chain-dao")} dangerouslySetInnerHTML={{ __html: t('getstc.oc_dao.title') }}></a>
@@ -24,7 +24,7 @@ export default function OneChainDAO({
           <p>{t('getstc.oc_dao.content.0')}</p>
         </div>
         </div>
-        <figure>
+        <figure data-aos="fade-left">
         <a href={getRelativeLocaleUrl(locale, "/community","#one-chain-dao")} >
           <img src={oneChainDao.src} alt="" />
           </a>

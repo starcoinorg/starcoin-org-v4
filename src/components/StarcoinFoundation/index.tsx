@@ -12,12 +12,12 @@ export default function StarcoinFoundation({
   return (
     <section className="section section--starcoin-foundation">
       <div id="starcoin-foundation" className="section__container starcoin-foundation__container">
-        <div className="section__title">
-          <h3 dangerouslySetInnerHTML={{__html: t('features.foundation.title')}}></h3>
+        <div className="section__title" data-aos="fade-right">
+          <h3 dangerouslySetInnerHTML={{__html: t('features.foundation.title')}} ></h3>
           <small>{t('features.foundation.subtitle')}</small>
         </div>
         <div className="section__content">
-          <p>
+          <p data-aos="fade-left">
             {t('features.foundation.content_p1')}
           </p>
         </div>

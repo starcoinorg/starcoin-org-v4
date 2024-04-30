@@ -1,55 +1,63 @@
 ---
 import "@/styles/style.css";
 
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SVGIcons from "@/components/SVGIcons/index.astro";
 
 import I18n, { type LocaleCode } from "@/i18n";
 const lng = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
-
 ---
 
 <!doctype html>
 <html lang={lng}>
-	<head prefix="og: https://ogp.me/ns#">
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" href="/favicon.svg" />
-		<link rel="sitemap" href="/sitemap-index.xml" />
+  <head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
 
-		<link
-			rel="preload"
-			href="/fonts/starcoin.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link
-			rel="preload"
-			href="/fonts/PlusJakartaSans-Italic-VariableFont_wght.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link
-			rel="preload"
-			href="/fonts/PlusJakartaSans-VariableFont_wght.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
+    <link
+      rel="preload"
+      href="/fonts/starcoin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/PlusJakartaSans-Italic-VariableFont_wght.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/PlusJakartaSans-VariableFont_wght.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <slot name="page-meta" />
+  </head>
 
-		<slot name="page-meta" />
-	</head>
-
-	<body>
-		<SVGIcons />
-		<Header locale={lng} client:load />
-		<main>
-			<slot />
-		</main>
-		<Footer locale={lng} />
-	</body>
+  <body>
+    <SVGIcons />
+    <Header locale={lng} client:load />
+    <main>
+      <slot />
+    </main>
+    <Footer locale={lng} />
+    <script is:inline src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+		
+        debounceDelay: 50,
+        throttleDelay: 99,
+        offset: 200,
+        duration: 1000
+      });
+    </script>
+  </body>
 </html>

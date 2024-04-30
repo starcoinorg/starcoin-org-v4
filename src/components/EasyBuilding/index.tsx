@@ -1,6 +1,11 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
-import testImg from '@/images/home_01EnhancedPowConsensus.png';
+import node1 from '@/images/developers-node1.png';
+import node2 from '@/images/developers-node2.png';
+import node3 from '@/images/developers-node3.png';
+import node4 from '@/images/developers-node4.png';
+import node5 from '@/images/developers-node5.png';
+
 
 export default function EasyBuilding({
   locale
@@ -13,19 +18,19 @@ export default function EasyBuilding({
     <section className="section section--easy-building">
       <div id="easy-building" className="section__container easy-building__container">
         <div className="section__title">
-          <h3>
+          <h3 data-aos="fade-up">
             <strong>
               {t('developers.easy_building.title')}
             </strong>
           </h3>
-          <small>{t('developers.easy_building.subtitle')}</small>
+          <small data-aos="fade-up">{t('developers.easy_building.subtitle')}</small>
         </div>
         <div className="section__content">
           <div className="cards cards--easy-building">
-            <a href="https://starcoin.org/en/developers/node/" target="_blank" className="card">
+            <a href="https://starcoin.org/en/developers/node/" target="_blank" className="card" data-aos="fade-right">
               <figure>
                 <div className="figure--inner">
-                  <img src={testImg.src} alt="" />
+                  <img src={node1.src} alt="" />
                   <figcaption>01</figcaption>
                 </div>
 
@@ -43,10 +48,10 @@ export default function EasyBuilding({
               </svg>
             </a>
 
-            <a href="https://starcoin.org/en/developers/move/" target="_blank" className="card">
+            <a href="https://starcoin.org/en/developers/move/" target="_blank" className="card" data-aos="fade-left">
               <figure>
                 <div className="figure--inner">
-                  <img src={testImg.src} alt="" />
+                  <img src={node2.src} alt="" />
                   <figcaption>02</figcaption>
                 </div>
 
@@ -64,10 +69,10 @@ export default function EasyBuilding({
               </svg>
             </a>
 
-            <a href="https://starcoin.org/en/developers/dapp/" target="_blank" className="card">
+            <a href="https://starcoin.org/en/developers/dapp/" target="_blank" className="card" data-aos="fade-right">
               <figure>
                 <div className="figure--inner">
-                  <img src={testImg.src} alt="" />
+                  <img src={node3.src} alt="" />
                   <figcaption>03</figcaption>
                 </div>
 
@@ -85,10 +90,10 @@ export default function EasyBuilding({
               </svg>
             </a>
 
-            <a href="https://starcoin.org/en/developers/examples/" target="_blank" className="card">
+            <a href="https://starcoin.org/en/developers/examples/" target="_blank" className="card" data-aos="fade-left">
               <figure>
                 <div className="figure--inner">
-                  <img src={testImg.src} alt="" />
+                  <img src={node4.src} alt="" />
                   <figcaption>04</figcaption>
                 </div>
 
@@ -106,10 +111,10 @@ export default function EasyBuilding({
               </svg>
             </a>
 
-            <a href="https://starcoin.org/en/developers/others/" target="_blank" className="card">
+            <a href="https://starcoin.org/en/developers/others/" target="_blank" className="card" data-aos="fade-right">
               <figure>
                 <div className="figure--inner">
-                  <img src={testImg.src} alt="" />
+                  <img src={node5.src} alt="" />
                   <figcaption>05</figcaption>
                 </div>
 

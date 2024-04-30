@@ -12,7 +12,7 @@ export default function StarcoinTwoFeatures({
   return (
     <section className="section section--starcoin-two-features">
       <div id="starcoin-v2" className="section__container starcoin-two-features__container">
-        <div className="section__title">
+        <div className="section__title" data-aos="fade-up">
           {t('features.starcoin_v2.title')}
         </div>
         <div className="section__content">

@@ -94,7 +94,7 @@ export default function Pagination({
   }
 
   return (
-    <div className="pagination">
+    <div className="pagination" data-aos="fade-up">
       <div className="pagination-main">
         {pages.map((p) => {
           return (

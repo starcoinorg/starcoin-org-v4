@@ -9,13 +9,13 @@ export default function EcosystemPartners({ locale }: { locale: LocaleCode }) {
       id="ecosystem-partners"
     >
       <div className="section__container ecosystem-partners__container">
-        <div className="section__title">
+        <div className="section__title" data-aos="fade-up">
           <h3
             dangerouslySetInnerHTML={{ __html: t("community.partners.title") }}
           ></h3>
         </div>
         <div className="section__content">
-          <div className="partners">
+          <div className="partners" data-aos="fade-up">
             <svg viewBox="0 0 924 348" width="924" height="348" fill="none">
               <path
                 stroke="#EFEFEF"
@@ -339,7 +339,7 @@ export default function EcosystemPartners({ locale }: { locale: LocaleCode }) {
               />
             </svg>
           </div>
-          <p>{t("community.partners.content.0")}</p>
+          <p data-aos="fade-up">{t("community.partners.content.0")}</p>
         </div>
       </div>
     </section>

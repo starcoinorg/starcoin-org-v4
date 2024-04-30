@@ -21,13 +21,13 @@ export default function FeaturesPageHero({
           <p>{t('features.hero.desc')}</p>
         </div>
         <div className="hero__action">
-          <a href="https://starcoin.org/downloads/Starcoin_Whitepaper.pdf" target="_blank" className="button button--primary">
+          <a href="https://starcoin.org/downloads/Starcoin_Whitepaper.pdf" target="_blank" className="button button--primary" data-aos="fade-up">
             {t('features.hero.action.0')}
           </a>
-          <a href="https://starcoin.org/en/overview/technology_whitepaper/" target='_blank' className="button button--outline">
+          <a href="https://starcoin.org/en/overview/technology_whitepaper/" target='_blank' className="button button--outline" data-aos="fade-up" data-aos-delay="100">
             {t('features.hero.action.1')}
           </a>
-          <a href="https://starcoin.org/en/overview/economy_whitepaper/" target="_blank" className="button button--outline">
+          <a href="https://starcoin.org/en/overview/economy_whitepaper/" target="_blank" className="button button--outline" data-aos="fade-up" data-aos-delay="200">
             {t('features.hero.action.2')}
           </a>
         </div>

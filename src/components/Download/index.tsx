@@ -8,7 +8,7 @@ export default function Download({
   const t = I18n.create_trans(locale)
 
   return (
-    <div className="card card--download">
+    <div className="card card--download" data-aos="fade-up">
       <div className="card__title">
         {t('getstc.star_mask.download.title')}
       </div>

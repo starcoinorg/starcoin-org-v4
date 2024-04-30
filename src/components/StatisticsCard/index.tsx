@@ -15,7 +15,7 @@ export default function StatisticsCard({
   const { avg_gas } = useAvgGas()
 
   return (
-    <div className="card card--statistics">
+    <div className="card card--statistics" data-aos="fade-up" data-aos-delay="300">
       <div className="card__title">
         <span>{t('home.stat_card.title_1')}</span>
         <span>{t('home.stat_card.title_2')}</span>
@@ -27,16 +27,17 @@ export default function StatisticsCard({
           <dd>{avg_gas || '-'}</dd>
         </dl>
         <dl>
-          <dt>{t('home.stat_card.dt_2')}</dt>
-          <dd>{hash_rate || '-'}</dd>
+          <dt>{t('home.stat_card.dt_4')}</dt>
+          <dd>{block_time || '-'}</dd>
         </dl>
+        
         <dl>
           <dt>{t('home.stat_card.dt_3')}</dt>
           <dd>{total_trans || '-'}</dd>
         </dl>
         <dl>
-          <dt>{t('home.stat_card.dt_4')}</dt>
-          <dd>{block_time || '-'}</dd>
+          <dt>{t('home.stat_card.dt_2')}</dt>
+          <dd>{hash_rate || '-'}</dd>
         </dl>
       </div>
     </div>

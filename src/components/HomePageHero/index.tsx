@@ -23,13 +23,13 @@ export default function HomePageHero({ locale }: { locale: LocaleCode }) {
           <a
             href="https://starcoin.org/downloads/Starcoin_Whitepaper.pdf"
             className="button button--primary"
-          >
+            data-aos="fade-up">
             {t("home.hero.action.whitepaper")}
           </a>
           <a
             href={getRelativeLocaleUrl(locale, "/getstc")}
             className="button button--outline"
-          >
+            data-aos="fade-up" data-aos-delay="150">
             {t("home.hero.action.getstc")}
           </a>
         </div>

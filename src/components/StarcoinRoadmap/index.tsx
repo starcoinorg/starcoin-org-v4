@@ -11,12 +11,12 @@ export default function StarcoinRoadmap({
   return (
     <section className="section section--starcoin-roadmap">
       <div id="starcoin-roadmap" className="section__container starcoin-roadmap__container">
-        <div className="section__title">
+        <div className="section__title" data-aos="fade-up">
           <h3 dangerouslySetInnerHTML={{__html: t('features.roadmap.title')}}></h3>
         </div>
         <div className="section__content">
           <div className="timeline">
-            <div className="timeline__item">
+            <div className="timeline__item" data-aos="fade-up">
               <div className="timeline__time">2018-2020</div>
               <div className="timeline__title">
                 {t('features.roadmap.timeline_1.title')}
@@ -29,7 +29,7 @@ export default function StarcoinRoadmap({
               </div>
             </div>
 
-            <div className="timeline__item">
+            <div className="timeline__item" data-aos="fade-up">
               <div className="timeline__time">2021</div>
               <div className="timeline__title">
                 {t('features.roadmap.timeline_2.title')}
@@ -45,7 +45,7 @@ export default function StarcoinRoadmap({
             </div>
 
 
-            <div className="timeline__item">
+            <div className="timeline__item" data-aos="fade-up">
               <div className="timeline__time">2022</div>
               <div className="timeline__title">
                 {t('features.roadmap.timeline_3.title')}
@@ -61,7 +61,7 @@ export default function StarcoinRoadmap({
               </div>
             </div>
 
-            <div className="timeline__item">
+            <div className="timeline__item" data-aos="fade-up">
               <div className="timeline__time">2023</div>
               <div className="timeline__title">
                 {t('features.roadmap.timeline_4.title')}

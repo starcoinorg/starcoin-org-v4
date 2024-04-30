@@ -9,7 +9,7 @@ export default function FeatureTable({
   const t = I18n.create_trans(locale)
 
   return (
-    <div className="card--table">
+    <div className="card--table" data-aos="fade-up">
       <div className="table--feature">
         <div className="row row__title">
           <div className="column">{t('feature_table.row_1.0')}</div>

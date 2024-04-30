@@ -11,12 +11,12 @@ export default function HardcorePlayer({
   return (
     <section className="section section--hardcore-player" id="hardcore-player">
       <div className="section__container hardcore-player__container">
-        <div className="section__title">
+        <div className="section__title" data-aos="fade-up">
           <h3 dangerouslySetInnerHTML={{__html: t('getstc.hc_player.title')}}></h3>
         </div>
         <div className="section__content">
-          <p>{t('getstc.hc_player.content.0')}</p>
-          <a href="https://github.com/starcoinorg" target="_blank" className="button button--outline">
+          <p data-aos="fade-up">{t('getstc.hc_player.content.0')}</p>
+          <a href="https://github.com/starcoinorg" target="_blank" className="button button--outline" data-aos="fade-up">
             {t('getstc.hc_player.content.1')}
           </a>
         </div>

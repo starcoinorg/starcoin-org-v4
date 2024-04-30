@@ -11,7 +11,7 @@ export default function Branding({
   return (
     <section className="section section--branding">
       <div id="branding" className="section__container branding__container">
-        <div className="card--branding">
+        <div className="card--branding" data-aos="flip-up">
           <div className="branding__title">
           <h4 dangerouslySetInnerHTML={{ __html: t('community.branding.title') }}></h4>
           </div>
