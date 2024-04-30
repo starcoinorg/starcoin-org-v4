@@ -50,7 +50,7 @@ const lng = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
     </main>
     <Footer locale={lng} />
     <script is:inline src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
+    <script is:inline>
       AOS.init({
         debounceDelay: 50,
         throttleDelay: 99,
