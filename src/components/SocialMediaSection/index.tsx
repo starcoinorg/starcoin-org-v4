@@ -1,5 +1,4 @@
 import Social from '@/components/Social';
-import type { CSSProperties } from "react";
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function SocialMediaSection({

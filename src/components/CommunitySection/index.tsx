@@ -1,7 +1,6 @@
 
 
 import Social from '@/components/Social';
-import type { CSSProperties } from "react";
 import I18n, {getRelativeLocaleUrl, type LocaleCode } from '@/i18n';
 
 import starmaskLogo from '@/images/starMask-logo.png';
@@ -9,7 +8,6 @@ import westarlabLogo from '@/images/westarlab-logo.png';
 import bixinLogo from '@/images/bixin-logo.png';
 import gateLogo from '@/images/gate-logo.png';
 import coinxLogo from '@/images/coinx-logo.png';
-import starcoinLogo from '@/images/starcoin-logo.png';
 import movebitLogo from '@/images/movebit-logo.png';
 import homeCommunity from '@/images/communityimage.png';
 
