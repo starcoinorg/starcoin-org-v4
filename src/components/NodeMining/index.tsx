@@ -78,7 +78,7 @@ export default function NodeMining({
                 <svg>
                   <use xlinkHref="#card10" href="#card10" />
                 </svg>
-                <h5>{t('getstc.node_mining.card.0.title')}</h5>
+                <h5>{t('getstc.node_mining.card.1.title')}</h5>
               </div>
               <div className="card__content">
                 <p dangerouslySetInnerHTML={{

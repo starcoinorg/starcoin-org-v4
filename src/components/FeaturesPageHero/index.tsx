@@ -32,7 +32,7 @@ export default function FeaturesPageHero({
           </a>
         </div>
       </div>
-      <div className="video--container">
+      <div className="video--container" id="js-test3">
         <video className="background-video" autoPlay loop muted playsInline poster="">
           <source src={featuresBanner} type="video/mp4" />
         </video>

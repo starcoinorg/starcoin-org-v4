@@ -1,5 +1,5 @@
 import I18n, { type LocaleCode } from '@/i18n';
-import homenews from '@/images/homenews.mp4';
+// import homenews from '@/images/homenews.mp4';
 
 import newCardImage1 from '@/images/news01.png';
 import newCardImage2 from '@/images/news02.png';
@@ -81,11 +81,11 @@ export default function NewsSection({
           </div>
         </div>
       </div>
-      <div className="video--container">
+      {/* <div className="video--container">
         <video className="background-video" autoPlay loop playsInline muted poster="">
           <source src={homenews} type="video/mp4" />
         </video>
-      </div>
+      </div> */}
     </section>
   );
 }

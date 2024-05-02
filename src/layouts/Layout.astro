@@ -58,6 +58,27 @@ const lng = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
         duration: 1000,
       });
     </script>
-    
+    <script is:inline>
+      window.addEventListener("scroll", function () {
+        // 获取滚动位置
+        const scrollPosition = window.scrollY;
+        // 计算视差强度
+        const parallaxStrength = 0.05; // 视差效果的强度，根据需求调整
+        // 计算 transform 值
+        const translateY = scrollPosition * parallaxStrength * -1; // 根据滚动位置和视差强度计算 translateY 值
+        // 应用 transform
+        const videos = document.querySelectorAll(".background-video");
+        // const video2 = document.querySelector("#js-test2 .background-video");
+        if (scrollPosition < 400) {
+          // video1.style.transform = `translate3d(0, ${translateY}px, 0)`;
+          // video2.style.transform = `translate3d(0, ${translateY}px, 0)`;
+          videos.forEach(video => {
+            video.style.transform = `translate3d(0, ${translateY}px, 0)`;
+          })
+        } 
+        
+      });
+
+    </script>
   </body>
 </html>

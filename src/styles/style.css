@@ -156,8 +156,11 @@ a {
 
 a:focus,
 a:hover {
+    outline: none;
     color: var(--link-color-active);
 }
+
+
 
 
 ul, li {
@@ -184,13 +187,99 @@ img {
 
 .background-video {
     position: absolute;
-    inset: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    height: 120%; /*test*/
     object-fit: cover;
     object-position: center;
+    z-index: 1;
 }
 
+
+
+/* text vide*/
+/* .video--container {
+    clip-path: rect(0 auto auto 0);
+} */
+#js-test3 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+#js-test {
+    
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    perspective: 1200px;
+    
+
+}
+
+.video--container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 110%;
+    width: 100%;
+    background-color: rgb(175 50 50 / .35);
+    backface-visibility: hidden;
+    z-index: 2;
+}
+
+#js-test .background-video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    transition: transform 2s linear;
+    transform-style: preserve-3d;
+}
+
+.clip-view {
+    clip-path: rect(0 auto auto 0);
+}
+#js-test2 {
+    
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    perspective: 1200px;
+    
+    
+}
+#js-test2::before {
+    background-color: rgb(235 10 190 / .3);
+}
+#js-test2 .background-video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    transition: transform 2s linear 1s;
+    transform-style: preserve-3d;
+    transform: translate3d(0, 200px, 0);
+    border: 2px solid red;
+}
+
+.clip-view .background-video {
+    height: 100vh !important;
+}
 
 /* Button */
 .button {
@@ -244,8 +333,9 @@ img {
     display: grid;
     position: relative;
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
+
 
 .section__container {
     padding-block: 66px;
@@ -414,6 +504,7 @@ img {
     text-transform: uppercase;
     font-family: var(--font-starcoin);
     -webkit-text-fill-color: transparent;
+    --_animation-duration: 100s;
 }
 
 .marquee__item {
@@ -753,6 +844,8 @@ img {
     display: flex;
     justify-content: center;
     padding-inline: var(--padding-inline);
+    position: relative;
+    z-index: 2;
 }
 
 .page--footer .social {
@@ -1310,6 +1403,10 @@ img {
 
 /* Home Page: Section News*/
 
+.section--news {
+    background-color: #000;
+}
+
 .section--news .section__title {
     color: var(--primary-color);
 }
@@ -1377,13 +1474,18 @@ border: 1px solid rgb(255 255 255 / .8);
 
 .section--news .cards--news .button--primary,
 .section--news .cards--news .card__badge {
-    display: none;
+    pointer-events: all;
 }
 
 .section--news .cards--news .card__title {
     margin-block-start: 0;
     font-weight: 900;
     font-size: 14px;
+    pointer-events: all;
+}
+.section--news .cards--news .card:hover .card__title a,
+.section--news .cards--news .card__title a:hover {
+    color: var(--primary-color);
 }
 
 .section--news .cards--news .card__date {
@@ -1421,8 +1523,10 @@ border: 1px solid rgb(255 255 255 / .8);
 /* Features Page: SectionFeature*/
 .section--feature {
     background: linear-gradient(180deg, rgb(111 238 135 / 0.3) 0%, rgba(111 238 135 / 0.147) 87%, rgb(63 136 77 / 0.048) 100%);
-
+    background-color: #000; /*test*/
 }
+
+
 
 .cards--feacures {
     display: grid;
@@ -1556,6 +1660,10 @@ border: 1px solid rgb(255 255 255 / .8);
 .new-trails__container {
     position: relative;
     z-index: 2;
+}
+
+.section--starcoin-two-features {
+    background-color: #000; /*test*/
 }
 
 .cards--new {
@@ -1715,6 +1823,16 @@ border: 1px solid rgb(255 255 255 / .8);
 
 
 /* FeaturePage: StarcoinGrant */
+.section--starcoin-grant {
+    background-color: #000; /*test*/
+}
+.starcoin-grant__container {
+    gap: 10px;
+}
+
+.section--starcoin-grant .section__title {
+    gap: 4px;
+}
 .section--starcoin-grant .section__content p {
     text-align: center;
 }
@@ -1724,6 +1842,7 @@ border: 1px solid rgb(255 255 255 / .8);
 
 .section--starcoin-roadmap {
     background: url('../images/bg-timeline.png') no-repeat center / 100% 100%;
+    background-color: #000; /*test*/
 }
 
 
@@ -1791,6 +1910,7 @@ border: 1px solid rgb(255 255 255 / .8);
 
 .section--easy-building {
     background: linear-gradient(180deg, rgb(111 238 135 / 0.2) 0%, rgb(111 238 135 / 0.098) 87%, rgb(63 136 77 / 0.032) 100%);
+    background-color: #000; /*test*/
 }
 
 .cards--easy-building {
@@ -1926,6 +2046,30 @@ border: 1px solid rgb(255 255 255 / .8);
     max-width: 90%;
     gap: 24px;
     font-size: 12px;
+    position: relative;
+}
+
+.starcoin-grant-developers__container .section__content::before,
+.starcoin-grant-developers__container .section__content::after {
+    position: absolute;
+    content: "“";
+    left: 0;
+font-family: var(--font-starcoin);
+font-weight: 400;
+font-size: 64px;
+line-height: 70px;
+
+top: -50px;
+color: var(--primary-color);
+
+}
+
+.starcoin-grant-developers__container .section__content::after{
+    content: "“";
+    top: auto;
+    bottom: -50px;
+    left: auto;
+    right: 60px;
 }
 
 .starcoin-grant-developers__container .button--primary {
@@ -2295,6 +2439,10 @@ border: 1px solid rgb(255 255 255 / .8);
     background: url('../images/bg-player.png') no-repeat center / cover;
 }
 
+.hardcore-player__container {
+    gap: 16px;
+}
+
 .section--hardcore-player .section__content {
     display: grid;
     gap: 16px;
@@ -2659,7 +2807,7 @@ border: 1px solid rgb(255 255 255 / .8);
 
 .section--branding .branding__container {
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .card--branding {
@@ -2712,12 +2860,19 @@ border: 1px solid rgb(255 255 255 / .8);
 
 .card--branding a {
     background: rgb(217 217 217 / 0.25);
+    border: 1px solid transparent;
     border-radius: 999rem;
     padding: 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     order: 2;
+    transition: all .2s linear;
+}
+
+.card--branding a:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .card--branding a span {
@@ -2732,6 +2887,7 @@ border: 1px solid rgb(255 255 255 / .8);
     justify-content: center;
     align-items: center;
     background-color: var(--primary-color);
+    border: 1px solid transparent;
     width: 30px;
     padding: 10px;
     aspect-ratio: 1;
@@ -2745,6 +2901,17 @@ border: 1px solid rgb(255 255 255 / .8);
     width: 100%;
     height: 100%;
     stroke: #000;
+    transition: all .2s linear;
+}
+
+.card--branding a:hover .icon--send {
+    background-color: transparent;
+    border-color: var(--primary-color);
+}
+
+.card--branding a:hover .icon--send svg {
+    stroke: var(--primary-color);
+    color: var(--primary-color);
 }
 
 /* News Page */
@@ -3272,6 +3439,7 @@ border: 1px solid rgb(255 255 255 / .8);
 
     .hero__content {
         font-size: 14px;
+        max-width: 80vw;
     }
 
     .hero__action {
@@ -3368,6 +3536,11 @@ border: 1px solid rgb(255 255 255 / .8);
         gap: 32px;
         font-size: 16px;
     }
+    .card--parallelization:hover {
+        background-color: rgb(255 255 255 / 0.15);
+        border-color: #FFFFFF;
+    }
+    
 
 
     .card--parallelization::before {
@@ -3810,7 +3983,9 @@ border: 1px solid rgb(255 255 255 / .8);
         border-radius: 0 24px 24px 0;
     }
 
-
+    .hardcore-player__container {
+        gap: 32px;
+    }
 
 
     .section--hardcore-player .section__content {
@@ -4016,6 +4191,8 @@ border: 1px solid rgb(255 255 255 / .8);
     .section--social .content {
         gap: 32px;
         font-size: 16px;
+        max-width: 70vw;
+        margin-inline: auto;
     }
 
     .section--social .section__title {
@@ -4169,6 +4346,10 @@ border: 1px solid rgb(255 255 255 / .8);
 
     .section--new-trails .news-lists {
         order: unset;
+    }
+
+    .starcoin-grant__container {
+        gap: 20px;
     }
 
 
