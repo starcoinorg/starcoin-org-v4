@@ -23,8 +23,8 @@ export default function StarcoinGrantDevelopers({
           </button>
         </div>
       </div>
-      <div className="video--container clip-view" id="js-test2">
-        <div className="test-wrapper">
+      <div className="video--container">
+        <div className="video--wrapper">
         <video className="background-video" playsInline autoPlay loop muted poster="">
           <source src={developersGrand} type="video/mp4" />
         </video>

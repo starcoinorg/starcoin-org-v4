@@ -1,25 +1,24 @@
 import I18n, { type LocaleCode } from "@/i18n";
-import communityBranding from '@/images/community-branding.mp4';
+import communityBranding from "@/images/community-branding.mp4";
 
-export default function Branding({
-  locale
-}: {
-  locale: LocaleCode
-}) {
-  const t = I18n.create_trans(locale)
+export default function Branding({ locale }: { locale: LocaleCode }) {
+  const t = I18n.create_trans(locale);
 
   return (
     <section className="section section--branding">
       <div id="branding" className="section__container branding__container">
         <div className="card--branding" data-aos="flip-up">
           <div className="branding__title">
-          <h4 dangerouslySetInnerHTML={{ __html: t('community.branding.title') }}></h4>
+            <h4
+              dangerouslySetInnerHTML={{
+                __html: t("community.branding.title"),
+              }}
+            ></h4>
           </div>
           <div className="branding__content">
-           
-            <p>{t('community.branding.content')}</p>
+            <p>{t("community.branding.content")}</p>
             <button className="button button--outline">
-              {t('community.branding.action')}
+              {t("community.branding.action")}
             </button>
           </div>
           <a href="mailto:hr@westar.io">
@@ -33,9 +32,18 @@ export default function Branding({
         </div>
       </div>
       <div className="video--container">
-        <video className="background-video" autoPlay loop muted playsInline poster="">
-          <source src={communityBranding} type="video/mp4" />
-        </video>
+        <div className="video--wrapper">
+          <video
+            className="background-video"
+            autoPlay
+            loop
+            muted
+            playsInline
+            poster=""
+          >
+            <source src={communityBranding} type="video/mp4" />
+          </video>
+        </div>
       </div>
     </section>
   );

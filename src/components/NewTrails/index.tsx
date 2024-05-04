@@ -1,5 +1,5 @@
 import I18n, { type LocaleCode } from "@/i18n";
-// import featuresTrails from '@/images/features-trails.mp4'
+import featuresTrails from '@/images/features-trails.mp4'
 
 export default function NewTrails({
   locale
@@ -133,11 +133,13 @@ export default function NewTrails({
           </ul>
         </div>
       </div>
-      {/* <div className="video--container">
+      <div className="video--container">
+        <div className="video--wrapper">
         <video className="background-video" autoPlay playsInline loop muted poster="">
           <source src={featuresTrails} type="video/mp4" />
         </video>
-      </div> */}
+        </div>
+      </div>
     </section>
   );
 }

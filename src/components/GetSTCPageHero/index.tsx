@@ -15,9 +15,11 @@ export default function GetSTCPageHero({
         <h2 className="hero__title" dangerouslySetInnerHTML={{__html: t('getstc.hero.title')}}></h2>
       </div>
       <div className="video--container">
+        <div className="video--wrapper">
         <video className="background-video" autoPlay loop playsInline muted poster="">
           <source src={getstcBanner} type="video/mp4" />
         </video>
+      </div>
       </div>
     </section>
   );

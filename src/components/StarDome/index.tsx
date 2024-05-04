@@ -59,9 +59,11 @@ export default function StarDome({
         </div>
       </div>
       <div className="video--container">
+        <div className="video--wrapper">
         <video className="background-video" playsInline autoPlay loop muted poster="">
           <source src={communityDome} type="video/mp4" />
         </video>
+        </div>
       </div>
     </section>
   );

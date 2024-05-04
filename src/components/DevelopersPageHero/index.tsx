@@ -32,8 +32,8 @@ export default function DevelopersPageHero({
           </a>
         </div>
       </div>
-      <div className="video--container clip-view" id="js-test">
-        <div className="test-wrapper">
+      <div className="video--container">
+        <div className="video--wrapper">
         <video className="background-video" autoPlay loop muted playsInline poster="">
           <source src={developersBanner} type="video/mp4" />
         </video>
