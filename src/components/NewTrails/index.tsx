@@ -15,14 +15,14 @@ export default function NewTrails({
           <h3 dangerouslySetInnerHTML={{ __html: t('features.new_trails.title') }}></h3>
         </div>
         <div className="section__content" >
-          <input type="radio" className="sr-only" name="news" id="storage" checked />
-          <input type="radio" className="sr-only" name="news" id="easy-gas" />
-          <input type="radio" className="sr-only" name="news" id="dao"  />
-          <input type="radio" className="sr-only" name="news" id="billing" />
-          <input type="radio" className="sr-only" name="news" id="bootstrapped" />
-          <input type="radio" className="sr-only" name="news" id="stdlib" />
-          <input type="radio" className="sr-only" name="news" id="freely-nft" />
-          <input type="radio" className="sr-only" name="news" id="verification" />
+          <input type="radio" className="sr-only" name="news" id="storage" defaultChecked value="storage" />
+          <input type="radio" className="sr-only" name="news" id="easy-gas" value="easy-gas" />
+          <input type="radio" className="sr-only" name="news" id="dao"  value="dao" />
+          <input type="radio" className="sr-only" name="news" id="billing"  value="billing" />
+          <input type="radio" className="sr-only" name="news" id="bootstrapped"  value="bootstrapped" />
+          <input type="radio" className="sr-only" name="news" id="stdlib" value="stdlib" />
+          <input type="radio" className="sr-only" name="news" id="freely-nft"  value="freely-nft"/>
+          <input type="radio" className="sr-only" name="news" id="verification"  value="verification" />
           <ul className="news-lists" data-aos="fade-right">
             <li id="news__item--storage">
               <label htmlFor="storage">
