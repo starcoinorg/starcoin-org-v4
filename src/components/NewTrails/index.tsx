@@ -1,13 +1,11 @@
 import I18n, { type LocaleCode } from "@/i18n";
 import featuresTrails from '@/images/features-trails.mp4'
-
 export default function NewTrails({
   locale
 }: {
   locale: LocaleCode
 }) {
   const t = I18n.create_trans(locale);
-
   return (
     <section className="section section--new-trails">
       <div id="new-trails" className="section__container new-trails__container">
@@ -15,7 +13,7 @@ export default function NewTrails({
           <h3 dangerouslySetInnerHTML={{ __html: t('features.new_trails.title') }}></h3>
         </div>
         <div className="section__content" >
-          <input type="radio" className="sr-only" name="news" id="storage" defaultChecked value="storage" />
+          <input type="radio" className="sr-only" name="news" id="storage" checked={true} value="storage" />
           <input type="radio" className="sr-only" name="news" id="easy-gas" value="easy-gas" />
           <input type="radio" className="sr-only" name="news" id="dao"  value="dao" />
           <input type="radio" className="sr-only" name="news" id="billing"  value="billing" />
