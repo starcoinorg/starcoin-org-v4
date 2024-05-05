@@ -1353,19 +1353,15 @@ img {
 }
 
 .marquee--logo .marquee__item {
-    /* width: 72px; */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 32px;
     width: auto;
-    /* animation-direction: reverse; */
-    /* translate: var(--origin-x) var(--origin-y); */
-    /* transform: translate(var(--origin-x), var(--origin-y)); */
 }
 
 .marquee--logo img {
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: contain;
 }
