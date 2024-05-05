@@ -192,10 +192,8 @@ const t = I18n.create_trans(locale);
 
   titles.forEach((title, index) => {
     title.addEventListener("click", () => {
-      console.log(cards[index]);
       titles.forEach((item) => item.classList.remove("active"));
       cards.forEach((item) => item.classList.remove("active"));
-      // 为当前点击的 li 添加 active 类名
       title.classList.add("active");
       cards[index].classList.add("active");
     });
