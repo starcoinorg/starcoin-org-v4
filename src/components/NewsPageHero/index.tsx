@@ -16,7 +16,8 @@ export default function NewsPageHero({
           <p>{t('news.hero.title')}</p>
         </h2>
         <div className="hero__content">
-          <p>{t('news.hero.desc')}</p>
+          {/* <p>{t('news.hero.desc')}</p> */}
+          <p dangerouslySetInnerHTML={{ __html: t("news.hero.desc") }} />
         </div>
       </div>
       <div className="video--container">

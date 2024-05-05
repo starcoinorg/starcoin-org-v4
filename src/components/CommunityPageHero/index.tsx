@@ -18,7 +18,7 @@ export default function CommunityPageHero({ locale }: { locale: LocaleCode }) {
           <p
             dangerouslySetInnerHTML={{ __html: t("community.hero.title.2") }}
           ></p>
-          <p>{t("community.hero.title.3")}</p>
+          {/* <p>{t("community.hero.title.3")}</p> */}
         </h2>
       </div>
       <div className="video--container">

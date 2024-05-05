@@ -22,6 +22,7 @@ export default function OneChainDAO({
         </div>
         <div className="section__content">
           <p>{t('getstc.oc_dao.content.0')}</p>
+          <p>{t('getstc.oc_dao.content.1')}</p>
         </div>
         </div>
         <figure data-aos="fade-left">
