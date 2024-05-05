@@ -1722,14 +1722,7 @@ border: 1px solid rgb(255 255 255 / .8);
     font-size: 10px;
 }
 
-#storage~.news-lists>#news__item--storage::before,
-#easy-gas~.news-lists>#news__item--easy-gas::before,
-#dao~.news-lists>#news__item--dao::before,
-#billing~.news-lists>#news__item--billing::before,
-#bootstrapped~.news-lists>#news__item--bootstrapped::before,
-#stdlib~.news-lists>#news__item--stdlib::before,
-#freely-nft~.news-lists>#news__item--freely-nft::before,
-#verification~.news-lists>#news__item--verification::before {
+.news-lists li::before {
     content: "";
     position: absolute;
     left: 0;
