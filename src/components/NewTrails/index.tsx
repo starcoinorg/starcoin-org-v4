@@ -36,7 +36,7 @@ export default function NewTrails({
           <input type="radio" className="sr-only" name="news" id="verification"  value="verification"  checked={card === "verification"}
                 onChange={onRadioChange}/>
           <ul className="news-lists" data-aos="fade-right">
-            <li id="news__item--storage">
+            <li id="news__item--storage" >
               <label htmlFor="storage">
                 {t('features.new_trails.news_title.0')}
               </label>

@@ -1687,6 +1687,7 @@ border: 1px solid rgb(255 255 255 / .8);
     animation: slideOutLeft .2s cubic-bezier(0.8, 0, 0.6, 1) both;
 }
 
+.cards--new > li.active,
 #storage:checked~.cards--new>#card--storage,
 #easy-gas:checked~.cards--new>#card--easy-gas,
 #dao:checked~.cards--new>#card--dao,
@@ -1697,19 +1698,9 @@ border: 1px solid rgb(255 255 255 / .8);
 #verification:checked~.cards--new>#card--verification {
     animation: slideInRight .28s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
-/* 
-#storage:not(:checked)~.cards--new>#card--storage,
-#easy-gas:not(:checked)~.cards--new>#card--easy-gas,
-#dao:not(:checked)~.cards--new>#card--dao,
-#billing:not(:checked)~.cards--new>#card--billing,
-#bootstrapped:not(:checked)~.cards--new>#card--bootstrapped,
-#stdlib:not(:checked)~.cards--new>#card--stdlib,
-#freely-nft:not(:checked)~.cards--new>#card--freely-nft,
-#verification:not(:checked)~.cards--new>#card--verification {
-    animation: slideOutLeft .2s cubic-bezier(0.8, 0, 0.6, 1) both;
-} */
 
-.news-lists li:hover,
+.news-lists > li.active,
+.news-lists > li:hover,
 #storage:checked~.news-lists>#news__item--storage,
 #easy-gas:checked~.news-lists>#news__item--easy-gas,
 #dao:checked~.news-lists>#news__item--dao,
@@ -1735,7 +1726,7 @@ border: 1px solid rgb(255 255 255 / .8);
     transition: all .2s linear;
 }
 
-
+.news-lists > li.active::before,
 #storage:checked~.news-lists>#news__item--storage::before,
 #dao:checked~.news-lists>#news__item--dao::before,
 #easy-gas:checked~.news-lists>#news__item--easy-gas::before,

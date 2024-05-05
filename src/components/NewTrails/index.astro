@@ -69,7 +69,7 @@ const t = I18n.create_trans(locale);
         value="verification"
       />
       <ul class="news-lists" data-aos="fade-right">
-        <li id="news__item--storage">
+        <li id="news__item--storage" class="active">
           <label for="storage">
             {t("features.new_trails.news_title.0")}
           </label>
@@ -111,7 +111,7 @@ const t = I18n.create_trans(locale);
         </li>
       </ul>
       <ul class="cards--new" data-aos="fade-left">
-        <li id="card--storage">
+        <li id="card--storage" class="active">
           <svg>
             <use xlink:href="#card1" href="#card1"></use>
           </svg>
@@ -186,3 +186,18 @@ const t = I18n.create_trans(locale);
     </div>
   </div>
 </section>
+<script>
+  const titles = document.querySelectorAll(".news-lists > li");
+  const cards = document.querySelectorAll(".cards--new > li");
+
+  titles.forEach((title, index) => {
+    title.addEventListener("click", () => {
+      console.log(cards[index]);
+      titles.forEach((item) => item.classList.remove("active"));
+      cards.forEach((item) => item.classList.remove("active"));
+      // 为当前点击的 li 添加 active 类名
+      title.classList.add("active");
+      cards[index].classList.add("active");
+    });
+  });
+</script>
