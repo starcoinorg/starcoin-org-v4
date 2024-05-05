@@ -420,16 +420,11 @@ img {
 
 @keyframes marquee {
     to {
-          translate: calc(-50% - var(--gap) / 2);
+          transform: translate(calc(-50% - var(--gap) / 2));
     }
 }
 
 
-@keyframes slide {
-    100% {
-        transform: translate(var(--destination-x), var(--destination-y));
-    }
-}
 
 .marquee {
     --gap: 24px;
