@@ -1,11 +1,16 @@
 import I18n, { type LocaleCode } from "@/i18n";
 import featuresTrails from '@/images/features-trails.mp4'
+import React, { useState } from 'react';
 export default function NewTrails({
   locale
 }: {
   locale: LocaleCode
 }) {
   const t = I18n.create_trans(locale);
+  const [card, setCard] = useState('storage');
+  const onRadioChange = (e) => {
+    setCard(e.target.value);
+  };
   return (
     <section className="section section--new-trails">
       <div id="new-trails" className="section__container new-trails__container">
@@ -13,14 +18,22 @@ export default function NewTrails({
           <h3 dangerouslySetInnerHTML={{ __html: t('features.new_trails.title') }}></h3>
         </div>
         <div className="section__content" >
-          <input type="radio" className="sr-only" name="news" id="storage" checked={true} value="storage" />
-          <input type="radio" className="sr-only" name="news" id="easy-gas" value="easy-gas" />
-          <input type="radio" className="sr-only" name="news" id="dao"  value="dao" />
-          <input type="radio" className="sr-only" name="news" id="billing"  value="billing" />
-          <input type="radio" className="sr-only" name="news" id="bootstrapped"  value="bootstrapped" />
-          <input type="radio" className="sr-only" name="news" id="stdlib" value="stdlib" />
-          <input type="radio" className="sr-only" name="news" id="freely-nft"  value="freely-nft"/>
-          <input type="radio" className="sr-only" name="news" id="verification"  value="verification" />
+          <input type="radio" className="sr-only" name="news" id="storage" value="storage"  checked={card === "storage"}
+                onChange={onRadioChange} />
+          <input type="radio" className="sr-only" name="news" id="easy-gas" value="easy-gas" checked={card === "easy-gas"}
+                onChange={onRadioChange}/>
+          <input type="radio" className="sr-only" name="news" id="dao"  value="dao" checked={card === "dao"}
+                onChange={onRadioChange}/>
+          <input type="radio" className="sr-only" name="news" id="billing"  value="billing" checked={card === "billing"}
+                onChange={onRadioChange}/>
+          <input type="radio" className="sr-only" name="news" id="bootstrapped"  value="bootstrapped" checked={card === "bootstrapped"}
+                onChange={onRadioChange}/>
+          <input type="radio" className="sr-only" name="news" id="stdlib" value="stdlib" checked={card === "stdlib"}
+                onChange={onRadioChange}/>
+          <input type="radio" className="sr-only" name="news" id="freely-nft"  value="freely-nft" checked={card === "freely-nft"}
+                onChange={onRadioChange}/>
+          <input type="radio" className="sr-only" name="news" id="verification"  value="verification"  checked={card === "verification"}
+                onChange={onRadioChange}/>
           <ul className="news-lists" data-aos="fade-right">
             <li id="news__item--storage">
               <label htmlFor="storage">
