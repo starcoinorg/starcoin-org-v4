@@ -9,6 +9,7 @@ export default function NewTrails({
   const t = I18n.create_trans(locale);
   const [card, setCard] = useState('storage');
   const onRadioChange = (e:any) => {
+    console.log(e.target.value);
     setCard(e.target.value);
   };
   return (
