@@ -1,6 +1,6 @@
 import I18n, { type LocaleCode } from "@/i18n";
 import featuresTrails from '@/images/features-trails.mp4'
-import React, { useState } from 'react';
+import  { useState } from 'react';
 export default function NewTrails({
   locale
 }: {
@@ -8,7 +8,7 @@ export default function NewTrails({
 }) {
   const t = I18n.create_trans(locale);
   const [card, setCard] = useState('storage');
-  const onRadioChange = (e) => {
+  const onRadioChange = (e:any) => {
     setCard(e.target.value);
   };
   return (
