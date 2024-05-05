@@ -1683,17 +1683,7 @@ border: 1px solid rgb(255 255 255 / .8);
     }
 }
 
-#storage:checked ~ .news-lists #news__item--storage,
-#easy-gas:checked ~ .news-lists #news__item--easy-gas {
-    color: #fff;
-    font-size: 10px;
-}
 
-#storage:checked ~ .cards--new #card--storage,
-#easy-gas:checked ~ .cards--new #card--easy-gas {
-    animation: slideInRight .28s cubic-bezier(0.4, 0, 0.2, 1) both;
-}
-/* 
 #storage:checked~.cards--new>#card--storage,
 #easy-gas:checked~.cards--new>#card--easy-gas,
 #dao:checked~.cards--new>#card--dao,
@@ -1759,7 +1749,7 @@ border: 1px solid rgb(255 255 255 / .8);
 #freely-nft:checked~.news-lists>#news__item--freely-nft::before,
 #verification:checked~.news-lists>#news__item--verification::before {
     transform: scaleX(1);
-} */
+} 
 
 .news-lists li:hover::before {
     transform: scaleX(1) !important;
