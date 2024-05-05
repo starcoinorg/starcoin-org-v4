@@ -27,7 +27,15 @@
     "typescript": "^5.4.5"
   },
   "devDependencies": {
-    "@rollup/plugin-yaml": "^4.1.2"
+    "@rollup/plugin-yaml": "^4.1.2",
+    "autoprefixer": "^10.4.19",
+    "postcss-csso": "^6.0.1",
+    "postcss-preset-env": "^9.5.11"
   },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "not dead"
+  ],
   "packageManager": "pnpm@9.0.2+sha256.d6fc013639b81658ff175829ebb9435bcb89eff206769e460fd3ae27c2054df6"
 }
