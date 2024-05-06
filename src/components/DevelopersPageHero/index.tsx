@@ -1,5 +1,5 @@
 import developersBanner from '@/images/developers-banner.mp4';
-
+import developerVideoPoster1 from "@/images/developers-video-1.png";
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function DevelopersPageHero({
@@ -34,7 +34,7 @@ export default function DevelopersPageHero({
       </div>
       <div className="video--container">
         <div className="video--wrapper">
-        <video className="background-video" autoPlay loop muted playsInline poster="">
+        <video className="background-video" autoPlay loop muted playsInline poster={developerVideoPoster1.src}>
           <source src={developersBanner} type="video/mp4" />
         </video>
         </div>

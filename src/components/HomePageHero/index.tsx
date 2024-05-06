@@ -4,6 +4,7 @@ import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 
 
 import homebanner from "@/images/homebanner01.mp4";
+import homeVideoPoster from "@/images/home-video-1.png";
 
 export default function HomePageHero({ locale }: { locale: LocaleCode }) {
   const t = I18n.create_trans(locale);
@@ -37,7 +38,7 @@ export default function HomePageHero({ locale }: { locale: LocaleCode }) {
       </div>
       <div className="video--container">
         <div className="video--wrapper">
-        <video className="background-video" autoPlay loop muted playsInline poster="">
+        <video className="background-video" autoPlay loop muted playsInline poster={homeVideoPoster.src}>
           <source src={homebanner} type="video/mp4" />
         </video>
       </div>

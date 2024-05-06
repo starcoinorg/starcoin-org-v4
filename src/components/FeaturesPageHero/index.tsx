@@ -1,5 +1,5 @@
 import featuresBanner from '@/images/features-banner.mp4';
-
+import featureVidePoster1 from '@/images/features-video-1.png';
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function FeaturesPageHero({
@@ -34,7 +34,7 @@ export default function FeaturesPageHero({
       </div>
       <div className="video--container">
         <div className="video--wrapper">
-        <video className="background-video" autoPlay loop muted playsInline poster="">
+        <video className="background-video" autoPlay loop muted playsInline poster={featureVidePoster1.src}>
           <source src={featuresBanner} type="video/mp4" />
         </video>
         </div>

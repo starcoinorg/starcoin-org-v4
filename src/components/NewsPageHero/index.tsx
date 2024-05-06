@@ -1,5 +1,5 @@
 import newsBanner from '@/images/news-banner.mp4';
-
+import newsVideoPoster from "@/images/news-video-1.png";
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function NewsPageHero({
@@ -22,7 +22,7 @@ export default function NewsPageHero({
       </div>
       <div className="video--container">
         <div className="video--wrapper">
-        <video className="background-video" autoPlay playsInline loop muted poster="">
+        <video className="background-video" autoPlay playsInline loop muted poster={newsVideoPoster.src}>
           <source src={newsBanner} type="video/mp4" />
         </video>
         </div>

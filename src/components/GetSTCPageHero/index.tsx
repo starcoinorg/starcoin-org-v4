@@ -1,5 +1,5 @@
 import getstcBanner from '@/images/getstc-banner.mp4';
-
+import getstcVideoPoster1 from "@/images/getstc-video-1.png";
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function GetSTCPageHero({
@@ -16,7 +16,7 @@ export default function GetSTCPageHero({
       </div>
       <div className="video--container">
         <div className="video--wrapper">
-        <video className="background-video" autoPlay loop playsInline muted poster="">
+        <video className="background-video" autoPlay loop playsInline muted poster={getstcVideoPoster1.src}>
           <source src={getstcBanner} type="video/mp4" />
         </video>
       </div>

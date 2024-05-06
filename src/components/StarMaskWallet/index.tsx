@@ -2,7 +2,7 @@ import Download from '@/components/Download';
 
 import I18n, { type LocaleCode } from "@/i18n";
 import getstcWallet from '@/images/getstc-wallet.mp4';
-
+import getstcVideoPoster2 from "@/images/getstc-video-2.png";
 export default function StarMaskWallet({
   locale
 }: {
@@ -45,7 +45,7 @@ export default function StarMaskWallet({
 
       <div className="video--container">
         <div className="video--wrapper">
-        <video className="background-video" playsInline autoPlay loop muted poster="">
+        <video className="background-video" playsInline autoPlay loop muted poster={getstcVideoPoster2.src}>
           <source src={getstcWallet} type="video/mp4" />
         </video>
         </div>

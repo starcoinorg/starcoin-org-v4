@@ -1,7 +1,7 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
 import developersGrand from '@/images/developers-grand.mp4'
-
+import developersVideoPoster2 from "@/images/developers-video-2.png";
 export default function StarcoinGrantDevelopers({
   locale
 }: {
@@ -31,7 +31,7 @@ export default function StarcoinGrantDevelopers({
       </div>
       <div className="video--container">
         <div className="video--wrapper">
-        <video className="background-video" playsInline autoPlay loop muted poster="">
+        <video className="background-video" playsInline autoPlay loop muted poster={developersVideoPoster2.src}>
           <source src={developersGrand} type="video/mp4" />
         </video>
         </div>

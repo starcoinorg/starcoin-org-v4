@@ -1,7 +1,7 @@
 ---
 import I18n, { type LocaleCode } from "@/i18n";
 import featuresTrails from "@/images/features-trails.mp4";
-
+import featureVideoPoster2 from "@/images/features-video-2.png";
 interface Props {
   locale: LocaleCode;
 }
@@ -180,7 +180,7 @@ const t = I18n.create_trans(locale);
   </div>
   <div class="video--container">
     <div class="video--wrapper">
-      <video class="background-video" autoplay playsinline loop muted poster="">
+      <video class="background-video" autoplay playsinline loop muted poster={featureVideoPoster2.src}>
         <source src={featuresTrails} type="video/mp4" />
       </video>
     </div>

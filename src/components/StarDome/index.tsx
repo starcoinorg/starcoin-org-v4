@@ -1,6 +1,6 @@
 import I18n, { type LocaleCode } from "@/i18n";
 import communityDome from  '@/images/community-dome.mp4';
-
+import communityVideoPoster2 from "@/images/community-video-2.png";
 export default function StarDome({
   locale
 }: {
@@ -60,7 +60,7 @@ export default function StarDome({
       </div>
       <div className="video--container">
         <div className="video--wrapper">
-        <video className="background-video" playsInline autoPlay loop muted poster="">
+        <video className="background-video" playsInline autoPlay loop muted poster={communityVideoPoster2.src}>
           <source src={communityDome} type="video/mp4" />
         </video>
         </div>

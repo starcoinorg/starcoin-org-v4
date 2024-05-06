@@ -1,5 +1,5 @@
 import communityBanner from "@/images/community-banner.mp4";
-
+import communityVideoPoster1 from "@/images/community-video-1.png";
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function CommunityPageHero({ locale }: { locale: LocaleCode }) {
@@ -29,7 +29,7 @@ export default function CommunityPageHero({ locale }: { locale: LocaleCode }) {
             loop
             muted
             playsInline
-            poster=""
+            poster={communityVideoPoster1.src}
           >
             <source src={communityBanner} type="video/mp4" />
           </video>

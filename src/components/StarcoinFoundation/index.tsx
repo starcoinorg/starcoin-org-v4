@@ -1,7 +1,7 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
 import featuresFoundation from '@/images/features-foundation.mp4';
-
+import featureVidePoster3 from "@/images/features-video-3.png";
 export default function StarcoinFoundation({
   locale
 }: {
@@ -24,7 +24,7 @@ export default function StarcoinFoundation({
       </div>
       <div className="video--container">
         <div className="video--wrapper">
-        <video className="background-video" autoPlay loop muted playsInline poster="">
+        <video className="background-video" autoPlay loop muted playsInline poster={featureVidePoster3.src}>
           <source src={featuresFoundation} type="video/mp4" />
         </video>
         </div>
