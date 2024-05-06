@@ -41,6 +41,9 @@ nav:
     starcoin_grant: 'Starcoin Grant'
     starcoin_roadmap: 'Starcoin Roadmap'
   developers:
+    resources_tutorials: 'Resources & Tutorials'
+    github: 'GitHub'
+    explorer: 'Explorer'
     easy_building: 'Easy Building'
     starcoin_grant: 'Starcoin Grant'
   getstc:

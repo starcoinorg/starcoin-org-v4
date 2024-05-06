@@ -72,6 +72,18 @@ nav_data.push({
   t_key: 'nav.group.developers',
   links: [
     {
+      href: 'https://starcoin.org/en/developers/node/',
+      t_key: 'nav.developers.resources_tutorials'
+    },
+    {
+      href: 'https://github.com/starcoinorg',
+      t_key: 'nav.developers.github'
+    },
+    {
+      href: 'https://stcscan.io/',
+      t_key: 'nav.developers.explorer'
+    },
+    {
       href: '#easy-building',
       t_key: 'nav.developers.easy_building'
     },

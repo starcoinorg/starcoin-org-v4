@@ -17,10 +17,16 @@ export default function StarcoinGrantDevelopers({
           <small>{t('developers.grant.subtitle')}</small>
         </div>
         <div className="section__content" data-aos="fade-right">
+          <svg className="icon--quote-left">
+              <use xlinkHref="#qoute" href="#qoute" />
+          </svg>
           <p>{t('developers.grant.content.0')}</p>
           <button className="button button--primary">
             {t('more')}
           </button>
+          <svg className="icon--quote-right">
+              <use xlinkHref="#qoute" href="#qoute" />
+          </svg>
         </div>
       </div>
       <div className="video--container">
