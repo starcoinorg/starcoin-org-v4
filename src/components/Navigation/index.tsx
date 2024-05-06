@@ -1,6 +1,10 @@
 import { useState, useEffect, type MouseEvent } from "react";
 import clsx from "clsx";
-import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
+import I18n, {
+  getRelativeLocaleUrl,
+  isAbsoluteUrl,
+  type LocaleCode,
+} from "@/i18n";
 
 import nav_data, { type NavGroup } from "@/assets/nav-data";
 
@@ -38,7 +42,7 @@ export default function Navigation({ locale }: { locale: LocaleCode }) {
             <span
               className={clsx("dropdown__toggle", {
                 open: active_groups.includes(o.group),
-                active: cur_nav === o.href
+                active: cur_nav === o.href,
               })}
             >
               <a href={getRelativeLocaleUrl(locale, o.href)}>{t(o.t_key)}</a>
@@ -53,7 +57,13 @@ export default function Navigation({ locale }: { locale: LocaleCode }) {
               {o.links.map((l) => {
                 return (
                   <li key={l.t_key}>
-                    <a href={getRelativeLocaleUrl(locale, o.href, l.href)}>
+                    <a
+                      href={
+                        isAbsoluteUrl(l.href)
+                          ? l.href
+                          : getRelativeLocaleUrl(locale, o.href, l.href)
+                      }
+                    >
                       {t(l.t_key)}
                     </a>
                   </li>

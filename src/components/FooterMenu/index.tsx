@@ -1,12 +1,12 @@
 import nav_data from "@/assets/nav-data";
 
-import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
+import I18n, {
+  getRelativeLocaleUrl,
+  isAbsoluteUrl,
+  type LocaleCode,
+} from "@/i18n";
 
-export default function FooterMenu({
-  locale
-}: {
-  locale: LocaleCode
-}) {
+export default function FooterMenu({ locale }: { locale: LocaleCode }) {
   const t = I18n.create_trans(locale);
 
   return (
@@ -17,22 +17,26 @@ export default function FooterMenu({
             {/* <a href="/en/" className="dropdown__toggle">
               {t(ng.t_key)}
             </a> */}
-            <div className="dropdown__toggle">
-              {t(ng.t_key)}
-            </div>
+            <div className="dropdown__toggle">{t(ng.t_key)}</div>
             <ul className="dropdown__content">
               {ng.links.map((nl) => {
                 return (
                   <li key={nl.t_key}>
-                    <a href={getRelativeLocaleUrl(locale, ng.href, nl.href)}>
+                    <a
+                      href={
+                        isAbsoluteUrl(nl.href)
+                          ? nl.href
+                          : getRelativeLocaleUrl(locale, ng.href, nl.href)
+                      }
+                    >
                       {t(nl.t_key)}
                     </a>
                   </li>
-                )
+                );
               })}
             </ul>
           </li>
-        )
+        );
       })}
     </ul>
   );

@@ -1,25 +1,28 @@
-import { get, template, isString } from 'radash'
-import { getRelativeLocaleUrl as grlu, type GetLocaleOptions } from 'astro:i18n'
+import { get, template, isString } from "radash";
+import {
+  getRelativeLocaleUrl as grlu,
+  type GetLocaleOptions,
+} from "astro:i18n";
 
-import { locale_config } from './config';
+import { locale_config } from "./config";
 
-import lr_en from './resources/en.yaml';
-import lr_zh from './resources/zh.yaml';
+import lr_en from "./resources/en.yaml";
+import lr_zh from "./resources/zh.yaml";
 
-export type LocaleCode = typeof locale_config.locales[number]
+export type LocaleCode = (typeof locale_config.locales)[number];
 
 const lang_resources: Record<LocaleCode, any> = {
   en: lr_en,
-  zh: lr_zh
-}
+  zh: lr_zh,
+};
 
 /**
- * 
- * @param lng 
- * @param key 
- * @param data 
+ *
+ * @param lng
+ * @param key
+ * @param data
  * @returns
- * 
+ *
  * ```ts
  *  t('home.title') -> '首页'
  *  t('hello_world') -> 'Hello {{world}} !'
@@ -28,74 +31,74 @@ const lang_resources: Record<LocaleCode, any> = {
  */
 function t(
   lng: LocaleCode,
-  key: string = '',
+  key: string = "",
   data?: Record<string, string | number>
 ) {
-  let ret: string | number = ''
+  let ret: string | number = "";
 
-  const keys = key.split('.')
+  const keys = key.split(".");
   if (!keys.length) {
-    return ret
+    return ret;
   }
 
-  let r = get<string | number>(lang_resources[lng], key)
+  let r = get<string | number>(lang_resources[lng], key);
 
   if (!r && r !== 0 && locale_config.default !== lng) {
-    r = get<string | number>(lang_resources[locale_config.default], key)
+    r = get<string | number>(lang_resources[locale_config.default], key);
   }
 
   if (r || r === 0) {
-    ret = r
+    ret = r;
   }
 
   if (data && isString(ret)) {
-    ret = template(ret, data)
+    ret = template(ret, data);
   }
 
-  ret = `${ret}`
+  ret = `${ret}`;
 
-  return ret
+  return ret;
 }
 
 function create_trans(locale: LocaleCode = locale_config.default) {
-  return t.bind(null, locale)
+  return t.bind(null, locale);
 }
 
 function pick_current_locale(locale?: LocaleCode) {
-  let ret: LocaleCode = locale_config.default
+  let ret: LocaleCode = locale_config.default;
   if (!locale) {
-    return ret
+    return ret;
   }
   if (locale_config.locales.indexOf(locale)) {
-    ret = locale
+    ret = locale;
   }
-  return ret
+  return ret;
 }
 
 function set_locale_path(lc: LocaleCode, cur_lc?: LocaleCode) {
-  const locales = locale_config.locales
+  const locales = locale_config.locales;
   if (!lc || !locales.includes(lc)) {
-    return
+    return;
   }
   if (cur_lc && cur_lc === lc) {
-    return
+    return;
   }
 
-  let pathname = location.pathname
-  const locale_path = `/${lc}`
-  const locale_in_path = locales.find(c => pathname.indexOf(`/${c}`) === 0)
+  let pathname = location.pathname;
+  const locale_path = `/${lc}`;
+  const locale_in_path = locales.find((c) => pathname.indexOf(`/${c}`) === 0);
   if (locale_in_path) {
     if (locale_in_path === lc) {
-      return
+      return;
     }
-    pathname = pathname.replace(`/${locale_in_path}`, locale_path)
-  } else if (pathname === '/') {
-    pathname = locale_path
+    pathname = pathname.replace(`/${locale_in_path}`, locale_path);
+  } else if (pathname === "/") {
+    pathname = locale_path;
   } else {
-    pathname = locale_path + pathname
+    pathname = locale_path + pathname;
   }
 
-  location.pathname = pathname
+  location.pathname = pathname;
 }
 
 const I18n = {
@@ -104,22 +107,33 @@ const I18n = {
   pick_current_locale,
   create_trans,
   set_locale_path,
-}
+};
 
-export default I18n
+export default I18n;
 
-export { getLocaleByPath, getPathByLocale } from 'astro:i18n'
+export { getLocaleByPath, getPathByLocale } from "astro:i18n";
 
 export function getRelativeLocaleUrl(
-  locale: string, 
-  path?: string, 
-  hash?: string, 
+  locale: string,
+  path?: string,
+  hash?: string,
   options?: GetLocaleOptions
 ) {
-  let url = grlu(locale, path, options)
+  let url = grlu(locale, path, options);
   if (hash) {
-    url = url + hash
+    url = url + hash;
   }
 
-  return url
+  return url;
+}
+
+/**
+ * Determining if an url is a complete absolute URL
+ */
+export function isAbsoluteUrl(url = "") {
+  let ret = false;
+  if (/^(http:|https:|\/\/)/i.test(url)) {
+    ret = true;
+  }
+  return ret;
 }
