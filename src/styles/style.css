@@ -4125,6 +4125,10 @@ img {
 /* width >= 1200px */
 @media only screen and (min-width: 1199.98px) {
     
+  .hero__content {
+    max-width: 50vw;
+  }
+
   .section__container {
     padding-left: 0;
     padding-right: 0;
