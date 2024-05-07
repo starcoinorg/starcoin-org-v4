@@ -1,5 +1,6 @@
 import I18n, { type LocaleCode } from "@/i18n";
-import testImage from '@/images/home_01EnhancedPowConsensus.png';
+// import enhancedPowConsensus from '@/images/home_01EnhancedPowConsensus.png';
+import enhancedPowConsensus from "@/images/home_01EnhancedPowConsensus.webp";
 export default function GovernanceHistory({
   locale
 }: {
@@ -38,7 +39,7 @@ export default function GovernanceHistory({
           <div className="cards cards--history" >
             <div className="card" data-aos="fade-right">
               <figure className="card__media">
-                <img src={testImage.src} alt="" />
+                <img src={enhancedPowConsensus.src} alt="" />
               </figure>
               <div className="card__content">
                 <div className="card__title">
@@ -50,7 +51,7 @@ export default function GovernanceHistory({
             </div>
             <div className="card" data-aos="fade-left">
               <figure className="card__media">
-                <img src={testImage.src} alt="" />
+                <img src={enhancedPowConsensus.src} alt="" />
               </figure>
               <div className="card__content">
                 <div className="card__title">

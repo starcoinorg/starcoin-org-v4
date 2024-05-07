@@ -173,11 +173,14 @@ home:
     title: News
     subtitle: Catch the latest news
     card_1:
-      title: Resource Oriented-Move
+      title: 'Starcoin Blockchain Functionality Restoration Update'
+      date: 'Mar 8, 2024'
     card_2:
-      title: 2024 Blockchain New Opportunities  
+      title: 'First FlexiDAG POW Blockchain in Move Ecosystem'
+      date: 'Feb 7, 2024'
     card_3:
-      title: 2024 Blockchain New Opportunities
+      title: 'Starcoin 2.0: Revolutionizing with PoW DAG. Join our Testnet to experience efficient mining!'
+      date: 'Feb 1, 2024'
 
 # Features page
 features:
@@ -332,7 +335,7 @@ developers:
     desc_p1: >
       Starcoin has pioneered the establishment of the first Move language developer community since July 2020. As the first permissionless PoW blockchain based on the Move smart contract, 
     desc_p2: >
-      Starcoin boasts rich implementations including <strong>the U256 type, token/NFT/SBT standard, one-chain DAO governance system,EasyGas,</strong>, and many other innovative features.
+      Starcoin boasts rich implementations including <strong>the U256 type, token/NFT/SBT standard, one-chain DAO governance system,EasyGas,</strong> and many other innovative features.
     action:
       - Resources & Tutorials
       - Github
@@ -395,7 +398,7 @@ getstc:
         content: 5
     desc:
       - Starcoin is the only proof-of-work (PoW) blockchain that utilizes the Move programming language and is coupled with the support for parallel block production through a Directed Acyclic Graph (DAG) structure. 
-      - The mining of starcoin based on the CryptoNight-RS algorithm, a variant of the CryptoNight algorithm, which is known for its democratic mining features. This algorithm is designed to be fair and accessible, ensuring that a wide range of participants, including those with less powerful hardware, can contribute to the network's security and consensus. Starcoin supports a broad spectrum of mining hardware, including CPUs, GPUs, and ASICs. This inclusive approach to mining hardware compatibility makes it accessible for various miners, from hobbyists with basic equipment to more advanced miners with specialized hardware. This diversity in mining participation helps in maintaining the decentralized nature of the blockchain, ensuring that no single group holds too much control over the network.
+      - The is mining of starcoin based on the CryptoNight-RS algorithm, a variant of the CryptoNight algorithm, which is known for its democratic mining features. This algorithm is designed to be fair and accessible, ensuring that a wide range of participants, including those with less powerful hardware, can contribute to the network's security and consensus. Starcoin supports a broad spectrum of mining hardware, including CPUs, GPUs, and ASICs. This inclusive approach to mining hardware compatibility makes it accessible for various miners, from hobbyists with basic equipment to more advanced miners with specialized hardware. This diversity in mining participation helps in maintaining the decentralized nature of the blockchain, ensuring that no single group holds too much control over the network.
     card:
       - title: CEX
         content:
@@ -455,7 +458,7 @@ community:
   hero:
     title:
       - Make <strong>Friends</strong> with
-      - the Explorers <strong>Advocates</strong> and
+      - the Explorers, <strong>Advocates</strong> and
       - <strong>Forerunners</strong> of WEB 3.0
   social_media:
     title: Starcoin <strong>Social Media</strong>

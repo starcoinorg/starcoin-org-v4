@@ -1,10 +1,15 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
-import node1 from '@/images/developers-node1.png';
-import node2 from '@/images/developers-node2.png';
-import node3 from '@/images/developers-node3.png';
-import node4 from '@/images/developers-node4.png';
-import node5 from '@/images/developers-node5.png';
+// import node1 from '@/images/developers-node1.png';
+import node1 from "@/images/developers-node1.webp";
+// import node2 from '@/images/developers-node2.png';
+import node2 from "@/images/developers-node2.webp";
+// import node3 from '@/images/developers-node3.png';
+import node3 from "@/images/developers-node3.webp";
+// import node4 from '@/images/developers-node4.png';
+import node4 from "@/images/developers-node4.webp";
+// import node5 from '@/images/developers-node5.png';
+import node5 from "@/images/developers-node5.webp";
 
 
 export default function EasyBuilding({

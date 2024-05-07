@@ -2,8 +2,10 @@ import FeatureTable from '@/components/FeatureTable';
 import I18n, {getRelativeLocaleUrl, type LocaleCode } from '@/i18n';
 
 
-import home1 from '@/images/home_01EnhancedPowConsensus.png';
-import home2 from '@/images/home_02MoveSmartContract.png';
+// import home1 from '@/images/home_01EnhancedPowConsensus.png';
+import home1 from "@/images/home_01EnhancedPowConsensus.webp";
+// import home2 from '@/images/home_02MoveSmartContract.png';
+import home2 from "@/images/home_02MoveSmartContract.webp";
 
 
 export default function StarcoinFeatures({

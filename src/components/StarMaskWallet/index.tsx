@@ -2,7 +2,8 @@ import Download from '@/components/Download';
 
 import I18n, { type LocaleCode } from "@/i18n";
 import getstcWallet from '@/images/getstc-wallet.mp4';
-import getstcVideoPoster2 from "@/images/getstc-video-2.png";
+// import getstcVideoPoster2 from "@/images/getstc-video-2.png";
+import getstcVideoPoster2 from "@/images/getstc-video-2.webp";
 export default function StarMaskWallet({
   locale
 }: {

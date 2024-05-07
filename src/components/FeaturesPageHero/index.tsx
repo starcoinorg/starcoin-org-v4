@@ -1,5 +1,6 @@
 import featuresBanner from '@/images/features-banner.mp4';
-import featureVidePoster1 from '@/images/features-video-1.png';
+// import featureVidePoster1 from '@/images/features-video-1.png';
+import featureVidePoster1 from "@/images/features-video-1.webp";
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function FeaturesPageHero({

@@ -1,9 +1,12 @@
 import I18n, { type LocaleCode } from '@/i18n';
 // import homenews from '@/images/homenews.mp4';
 
-import newCardImage1 from '@/images/news01.png';
-import newCardImage2 from '@/images/news02.png';
-import newCardImage3 from '@/images/news03.png';
+// import newCardImage1 from '@/images/news01.png';
+import newCardImage1 from "@/images/news01.webp";
+// import newCardImage2 from '@/images/news02.png';
+import newCardImage2 from "@/images/news02.webp";
+// import newCardImage3 from '@/images/news03.png';
+import newCardImage3 from "@/images/news03.webp";
 
 export default function NewsSection({
   locale
@@ -37,7 +40,7 @@ export default function NewsSection({
                   </a>
                   
                 </h4>
-                <div className="card__date">2023.12.09</div>
+                <div className="card__date">{t('home.news.card_1.date')}</div>
                 <div className="card__action">
                   <a href="https://starcoin.medium.com/starcoin-blockchain-functionality-restoration-update-8404dcb0ec79" target="_blank" className="button button--primary">
                     {t('view_more')} 
@@ -60,22 +63,22 @@ export default function NewsSection({
                   </a>
                   
                 </h4>
-                <div className="card__date">2023.09.24</div>
+                <div className="card__date">{t('home.news.card_2.date')}</div>
               </div>
             </div>
             <div className="card" data-aos="fade-up">
               <figure>
-              <a href="https://starcoin.medium.com/starcoin-2-0-revolutionizing-with-pow-dag-join-our-testnet-to-experience-efficient-mining-71b832dda341" target="_blank">
+              <a href="http://v4.starcoin.org/en/news/" target="_blank">
                 <img src={newCardImage3.src} alt="" />
                 </a>
               </figure>
               <div className="card__content">
                 <h4 className="card__title">
-                  <a href="https://starcoin.medium.com/starcoin-2-0-revolutionizing-with-pow-dag-join-our-testnet-to-experience-efficient-mining-71b832dda341" target="_blank">
+                  <a href="http://v4.starcoin.org/en/news/" target="_blank">
                   {t('home.news.card_3.title')}
                   </a>
                 </h4>
-                <div className="card__date">2023.09.24</div>
+                <div className="card__date">{t('home.news.card_3.date')}</div>
               </div>
             </div>
           </div>

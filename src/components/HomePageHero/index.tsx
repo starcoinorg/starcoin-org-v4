@@ -4,7 +4,8 @@ import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 
 
 import homebanner from "@/images/homebanner01.mp4";
-import homeVideoPoster from "@/images/home-video-1.png";
+// import homeVideoPoster from "@/images/home-video-1.png";
+import homeVideoPoster from "@/images/home-video-1.webp";
 
 export default function HomePageHero({ locale }: { locale: LocaleCode }) {
   const t = I18n.create_trans(locale);

@@ -1,5 +1,6 @@
 import developersBanner from '@/images/developers-banner.mp4';
-import developerVideoPoster1 from "@/images/developers-video-1.png";
+// import developerVideoPoster1 from "@/images/developers-video-1.png";
+import developerVideoPoster1 from "@/images/developers-video-1.webp";
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function DevelopersPageHero({

@@ -1,15 +1,20 @@
-
-
 import Social from '@/components/Social';
 import I18n, {getRelativeLocaleUrl, type LocaleCode } from '@/i18n';
 
-import starmaskLogo from '@/images/starMask-logo.png';
-import westarlabLogo from '@/images/westarlab-logo.png';
-import bixinLogo from '@/images/bixin-logo.png';
-import gateLogo from '@/images/gate-logo.png';
-import coinxLogo from '@/images/coinx-logo.png';
-import movebitLogo from '@/images/movebit-logo.png';
-import homeCommunity from '@/images/communityimage.png';
+// import starmaskLogo from '@/images/starMask-logo.png';
+import starmaskLogo from "@/images/starMask-logo.webp";
+// import westarlabLogo from '@/images/westarlab-logo.png';
+import westarlabLogo from "@/images/westarlab-logo.webp";
+// import bixinLogo from '@/images/bixin-logo.png';
+import bixinLogo from "@/images/bixin-logo.webp";
+// import gateLogo from '@/images/gate-logo.png';
+import gateLogo from "@/images/gate-logo.webp";
+// import coinxLogo from '@/images/coinx-logo.png';
+import coinxLogo from "@/images/coinx-logo.webp";
+// import movebitLogo from '@/images/movebit-logo.png';
+import movebitLogo from "@/images/movebit-logo.webp";
+// import homeCommunity from '@/images/communityimage.png'; 
+import homeCommunity from "@/images/communityimage.webp";
 
 
 

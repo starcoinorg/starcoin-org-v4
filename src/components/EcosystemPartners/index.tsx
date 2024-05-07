@@ -79,7 +79,7 @@ export default function EcosystemPartners({ locale }: { locale: LocaleCode }) {
                 cy="25.9173"
                 rx="23.9314"
                 ry="23.6634"
-                fill="#BEFFCA"
+                fill="#2FF554"
               />
               <ellipse
                 cx="578.203"
@@ -339,21 +339,21 @@ export default function EcosystemPartners({ locale }: { locale: LocaleCode }) {
               />
               <mask
                 id="mask0_633_6723"
-                style={{ maskType: "alpha" }}
+                style={{maskType: 'alpha'}}
                 maskUnits="userSpaceOnUse"
-                x="544"
-                y="7"
-                width="39"
-                height="39"
+                x="775"
+                y="136"
+                width="27"
+                height="27"
               >
-                <circle cx="563.5" cy="26.5" r="19.5" fill="#D9D9D9" />
+                <circle cx="788.5" cy="149.5" r="13.5" fill="#D9D9D9" />
               </mask>
               <g mask="url(#mask0_633_6723)">
                 <rect
-                  x="544"
-                  y="7"
-                  width="39.0238"
-                  height="39"
+                  x="775"
+                  y="136"
+                  width="27.0165"
+                  height="27"
                   fill="url(#pattern0_633_6723)"
                 />
               </g>
@@ -400,10 +400,10 @@ export default function EcosystemPartners({ locale }: { locale: LocaleCode }) {
                 />
               </g>
               <rect
-                x="293"
-                y="196"
-                width="35"
-                height="35"
+                x="555"
+                y="113"
+                width="46"
+                height="46"
                 fill="url(#pattern1_633_6723)"
               />
               <rect

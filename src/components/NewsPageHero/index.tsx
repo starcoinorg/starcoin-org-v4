@@ -1,5 +1,6 @@
 import newsBanner from '@/images/news-banner.mp4';
-import newsVideoPoster from "@/images/news-video-1.png";
+// import newsVideoPoster from "@/images/news-video-1.png";
+import newsVideoPoster from "@/images/news-video-1.webp";
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function NewsPageHero({

@@ -36,6 +36,10 @@ body {
   padding: 0;
 }
 
+[lang="zh"] boyd {
+  line-height: 1.8;
+}
+
 h1,
 h2,
 h3,
@@ -45,6 +49,18 @@ input,
 label {
   line-height: 1.1;
 }
+
+
+[lang="zh"] h1,
+[lang="zh"] h2,
+[lang="zh"] h3,
+[lang="zh"] h4,
+[lang="zh"] button,
+[lang="zh"] input,
+[lang="zh"] label {
+  line-height: 1.5;
+}
+
 
 h1,
 h2,
@@ -861,6 +877,10 @@ img {
   line-height: 1.6;
 }
 
+[lang="zh"] .hero__content {
+  line-height: 1.8;
+}
+
 .hero__action {
   display: flex;
   justify-content: center;
@@ -1219,7 +1239,8 @@ img {
   bottom: 0;
   height: 36px;
   border-radius: 16px 16px 0 0;
-  background: url("../images/features_03High.png") no-repeat center / cover;
+  /* background: url("../images/features_03High.png") no-repeat center / cover; */
+  background: url("../images/features_03High.webp") no-repeat center / cover;
 }
 
 .card--parallelization .card__title {
@@ -1264,7 +1285,8 @@ img {
 .section--community .section__content {
   display: grid;
   gap: 24px;
-  background: url("../images/community-bg.png") no-repeat right center / 50%;
+  /* background: url("../images/community-bg.png") no-repeat right center / 50%; */
+  background: url("../images/community-bg.webp") no-repeat right center / 50%;
 }
 
 .section--community .social {
@@ -1714,6 +1736,10 @@ img {
   line-height: 1.2;
 }
 
+[lang="zh"] .section--starcoin-foundation .section__title  {
+  line-height: 1.6;
+}
+
 .section--starcoin-foundation .section__title h3 {
   display: grid;
 }
@@ -1738,8 +1764,8 @@ img {
 /* FeaturePage: StarcoinRoadmap */
 
 .section--starcoin-roadmap {
-  background: var(--black) url("../images/bg-timeline.png") no-repeat center /
-    100% 100%;
+  /* background: var(--black) url("../images/bg-timeline.png") no-repeat center / 100% 100%; */
+  background: var(--black) url("../images/bg-timeline.webp") no-repeat center / 100% 100%;
 }
 
 .timeline {
@@ -2313,8 +2339,8 @@ img {
 
 /* Hardcore Player */
 .section--hardcore-player {
-  background: var(--black) url("../images/bg-player.png") no-repeat center /
-    cover;
+  /* background: var(--black) url("../images/bg-player.png") no-repeat center / cover; */
+  background: var(--black) url("../images//bg-player.webp") no-repeat center / cover;
 }
 
 .hardcore-player__container {
@@ -2341,7 +2367,8 @@ img {
   display: flex;
   gap: 20px;
   align-items: center;
-  background: url("../images//community-bg.png") no-repeat right center / 50%;
+  /* background: url("../images//community-bg.png") no-repeat right center / 50%; */
+  background: url("../images/community-bg.webp") no-repeat right center / 50%;
 }
 
 .one-chain-dao__container .content {
@@ -2847,23 +2874,28 @@ img {
   width: 100%;
   max-height: 92px;
   flex-shrink: 0;
-  background: url("../images/new1.png") no-repeat center / cover;
+  /* background: url("../images/new1.png") no-repeat center / cover; */
+  background: url("../images/new1.webp") no-repeat center / cover;
 }
 
 .section--news-card .cards--news .card:nth-child(2n) figure {
-  background-image: url("../images/new2.png");
+  /* background-image: url("../images/new2.png"); */
+  background-image: url("../images//new2.webp");
 }
 
 .section--news-card .cards--news .card:nth-child(3n) figure {
-  background-image: url("../images/new3.png");
+  /* background-image: url("../images/new3.png"); */
+  background-image: url("../images/new3.webp");
 }
 
 .section--news-card .cards--news .card:nth-child(4n) figure {
-  background-image: url("../images/new4.png");
+  /* background-image: url("../images/new4.png"); */
+  background-image: url("../images/new4.webp");
 }
 
 .section--news-card .cards--news .card:nth-child(5n) figure {
   background-image: url("../images/new5.png");
+  background-image: url("../images//new5.webp");
 }
 
 .section--news-card .card__content {
@@ -2953,6 +2985,10 @@ img {
   );
 
   box-shadow: 0px 32px 64px -12px rgba(111, 238, 135, 0.43);
+}
+
+[lang="zh"] .section--post article {
+  line-height: 2;
 }
 
 .section--post article header {
@@ -3104,6 +3140,31 @@ img {
     order: 2;
     align-self: center;
   }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero__container {
+        text-align: left;
+    }
+    .hero__container>*{
+      justify-self: start;
+    }
+    .hero__title {
+        text-align: left;      
+        justify-self: start;  
+    }
+
+    .hero__title > * {
+        justify-self: start;
+    }
+    .section__title {
+        text-align: left;
+        justify-content: start;
+    }
+
+    .section__content > p {
+        text-align: left !important;
+    }
 }
 
 /* width >= 768px */
@@ -3300,6 +3361,7 @@ img {
     font-size: 10px;
     grid-template-columns: repeat(4, -webkit-max-content);
     grid-template-columns: repeat(4, max-content);
+    gap: 40px;
   }
 
   .card--statistics dt {
@@ -3563,7 +3625,7 @@ img {
 
   .timeline .timeline__item::before {
     content: "";
-    left: -50px;
+    left: -100px;
     width: 12px;
     height: 116px;
   }
@@ -3593,6 +3655,7 @@ img {
   .cards--easy-building .card figure {
     border-radius: 26px;
     width: 124px;
+    min-height: 140px;
   }
 
   .cards--easy-building .card figure img {

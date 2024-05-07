@@ -1,7 +1,8 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
 import developersGrand from '@/images/developers-grand.mp4'
-import developersVideoPoster2 from "@/images/developers-video-2.png";
+// import developersVideoPoster2 from "@/images/developers-video-2.png";
+import developersVideoPoster2 from "@/images/developers-video-2.webp";
 export default function StarcoinGrantDevelopers({
   locale
 }: {

@@ -1,9 +1,14 @@
 import I18n, { type LocaleCode } from "@/i18n";
-import feature1 from '@/images/features_01EnhancedPowConsensus.png';
-import feature2 from '@/images/features_02Movesmart.png'
-import feature3 from '@/images/features_03High.png';
-import featureFlexi from '@/images/features_flexi.png';
-import featureTurbo from '@/images/feature_turbo_stm.png';
+// import feature1 from '@/images/features_01EnhancedPowConsensus.png';
+import feature1 from "@/images/features_01EnhancedPowConsensus.webp";
+// import feature2 from '@/images/features_02Movesmart.png'
+import feature2 from "@/images/features_02Movesmart.webp";
+// import feature3 from '@/images/features_03High.png';
+import feature3 from "@/images/features_03High.webp";
+// import featureFlexi from '@/images/features_flexi.png';
+import featureFlexi from "@/images/features_flexi.webp";
+// import featureTurbo from '@/images/feature_turbo_stm.png';
+import featureTurbo from "@/images/feature_turbo_stm.webp";
 
 export default function FeatureSection({
   locale

@@ -1,6 +1,7 @@
 import I18n, { type LocaleCode } from "@/i18n";
 
-import testImage from '@/images/home_03HighPerformance.png';
+// import testImage from '@/images/home_03HighPerformance.png';
+import highPerformance from "@/images/home_03HighPerformance.webp";
 
 export default function NodeMining({
   locale
@@ -54,7 +55,7 @@ export default function NodeMining({
           </div>
           <div className="cards cards--mining" data-aos="fade-up">
             <figure>
-              <img src={testImage.src} alt="" />
+              <img src={highPerformance.src} alt="" />
             </figure>
             <div className="card">
               <div className="card__media">

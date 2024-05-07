@@ -1,6 +1,7 @@
 import I18n, { type LocaleCode } from "@/i18n";
 import communityBranding from "@/images/community-branding.mp4";
-import communityVideoPoster3 from "@/images/community-video-3.png";
+// import communityVideoPoster3 from "@/images/community-video-3.png";
+import communityVideoPoster3 from "@/images/community-video-3.webp";
 export default function Branding({ locale }: { locale: LocaleCode }) {
   const t = I18n.create_trans(locale);
 

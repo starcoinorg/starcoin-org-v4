@@ -1,5 +1,6 @@
 import communityBanner from "@/images/community-banner.mp4";
-import communityVideoPoster1 from "@/images/community-video-1.png";
+// import communityVideoPoster1 from "@/images/community-video-1.png";
+import communityVideoPoster1 from "@/images/community-video-1.webp";
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function CommunityPageHero({ locale }: { locale: LocaleCode }) {

@@ -1,5 +1,6 @@
 import getstcBanner from '@/images/getstc-banner.mp4';
-import getstcVideoPoster1 from "@/images/getstc-video-1.png";
+// import getstcVideoPoster1 from "@/images/getstc-video-1.png";
+import getstcVideoPoster1 from "@/images/getstc-video-1.webp";
 import I18n, { type LocaleCode } from "@/i18n";
 
 export default function GetSTCPageHero({
