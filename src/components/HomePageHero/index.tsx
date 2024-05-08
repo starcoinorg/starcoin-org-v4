@@ -23,10 +23,12 @@ export default function HomePageHero({ locale }: { locale: LocaleCode }) {
         </div>
         <div className="hero__action">
           <a
+            target="_blank"
             href={whitePaper}
             className="button button--primary"
             data-aos="fade-up">
             {t("home.hero.action.whitepaper")}
+          
           </a>
           <a
             href={getRelativeLocaleUrl(locale, "/getstc")}
