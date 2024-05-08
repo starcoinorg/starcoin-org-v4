@@ -1,5 +1,5 @@
 import StatisticsCard from "@/components/StatisticsCard";
-
+import whitePaper from "@/images/whitepaper.pdf";
 import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
 
 
@@ -23,7 +23,7 @@ export default function HomePageHero({ locale }: { locale: LocaleCode }) {
         </div>
         <div className="hero__action">
           <a
-            href="https://starcoin.org/downloads/Starcoin_Whitepaper.pdf"
+            href={whitePaper}
             className="button button--primary"
             data-aos="fade-up">
             {t("home.hero.action.whitepaper")}
