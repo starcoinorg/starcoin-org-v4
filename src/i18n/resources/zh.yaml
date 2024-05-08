@@ -13,11 +13,12 @@ learn_more: Learn More
 starcoin: Starcoin
 
 
-# Other language fields are organized by page or functional module
+# 其他语言字段按页面或功能模块组织
 site:
   name: 'Starcoin'
-  desc: 'Starcoin is a proof-of-work blockchain that enables secure smart contracts based on Move to power services in Web 3.0'
-  copyright: '2024 Starcoin.org. All Rights Reserved.'
+  desc: 'Starcoin是一种工作量证明区块链，可实现基于 Move 的安全智能合约，为 Web 3.0 服务提供动力'
+  copyright: '2024 Starcoin.org。保留所有权利。'
+
 
 # Navigation menu
 nav:
@@ -41,9 +42,9 @@ nav:
     starcoin_grant: 'Starcoin 资助'
     starcoin_roadmap: 'Starcoin 路线图'
   developers:
-    resources_tutorials: 'Resources & Tutorials'
+    resources_tutorials: '资源与教程'
     github: 'GitHub'
-    explorer: 'Explorer'
+    explorer: '浏览器'
     easy_building: '轻松搭建'
     starcoin_grant: 'Starcoin 资助'
   getstc:
@@ -101,7 +102,7 @@ home:
   title: 首页
   hero:
     title: 速度赋能
-    subtitle: 为<strong>pow</strong>创新活力
+    subtitle: 为<strong>PoW</strong>创新活力
     desc_p1: >  
       自 2020 年以来, Starcoin 一直在开拓
       <strong> 增强型 PoW </strong> 共识 和 <strong>Move 智能合约 </strong>,
@@ -263,7 +264,7 @@ features:
       title: 创建和启动
       ul:
         - >
-          <strong>End of 2018</strong>:  发布第一份星币白皮书，为可扩展区块链奠定基础
+          <strong>End of 2018</strong>:  发布第一份Starcoin白皮书，为可扩展区块链奠定基础
         - >
           <strong>2019-2020</strong>: 主要发展包括
           采用 Move 语言（2019 年第四季度）和发布
@@ -414,7 +415,7 @@ getstc:
     title: StarMask <strong>钱包</strong>
     content:
       - Move 的MetaMask等效产品，是为Starcoin量身定制的非托管Chrome插件钱包。支持 DeFi/Web3 功能、NFT 画廊、链上资产管理和 DID 集成。
-      - 使用 Chrome 浏览器钱包 StarMask 快速开始使用Starcoin。借助 StarMask，轻松管理星币链上的 STC 和 NFT，并无缝浏览您的账户。
+      - 使用 Chrome 浏览器钱包 StarMask 快速开始使用Starcoin。借助 StarMask，轻松管理Starcoin链上的 STC 和 NFT，并无缝浏览您的账户。
     action:
       install: 如何安装
       use: 如何使用
@@ -434,8 +435,8 @@ getstc:
       - title: <strong>支持 STC</strong> 的硬件钱包
         desc: 安装 StarMask 后，为了增强账户安全，请考虑使用硬件钱包，例如 <a href="{{onekey_url}}">OneKey</a>。
   geek:
-    title: 极客 <strong>拥有你的星币节点</strong>
-    desc: 通过拥有并操作您自己的节点，深入星币的技术领域。解锁各种功能，从发起投票到铸造 STC 并监控账户状态。请参阅我们全面的指南，了解如何安装、初始化和使用星币节点。
+    title: 极客 <strong>拥有你的Starcoin节点</strong>
+    desc: 通过拥有并操作您自己的节点，深入Starcoin的技术领域。解锁各种功能，从发起投票到铸造 STC 并监控账户状态。请参阅我们全面的指南，了解如何安装、初始化和使用Starcoin节点。
     card:
       - 节点安装
       - 使用命令行启动您的节点
@@ -443,11 +444,11 @@ getstc:
   hc_player:
     title: <strong>骨灰级</strong>玩家
     content: 
-      - 作为深入参与星币的骨灰级玩家，您将通过以下方式贡献您的热情，推动星币的发展。
+      - 作为深入参与Starcoin的骨灰级玩家，您将通过以下方式贡献您的热情，推动Starcoin的发展。
       - 编写代码
   oc_dao:
     title: 一链 <strong>DAO</strong>
-    subtitle: 星币 DAO
+    subtitle: Starcoin DAO
     content: 
       - >
         Starcoin是一个由社区共同拥有的原生俱乐部， 支持可持续激励和透明可验证的系统。服务于能够共同建设 DAO 未来的利益相关者。
@@ -461,9 +462,9 @@ community:
   title: '社区'
   hero:
     title:
-      - 结交<strong>朋友</strong>
-      - 探险家<strong>倡导者</strong>
-      - 和 WEB 3.0 的<strong>先行者</strong>
+      - 和 WEB 3.0 <strong>时代的
+      - 探索者、<strong>倡导者</strong>远见者
+      - 成为朋友
   social_media:
     title: Starcoin <strong>社交媒体</strong>
     desc: 作为一个不断壮大的社区，我们投入了无数时间来精益我们的技术，以满足先行探险者的品味。我们一起努力，为支持与进步共同繁荣的环境提供保障。如果您与我们的愿景一致，并看到了我们项目的潜力，我们热情邀请您加入我们的旅程。
@@ -474,12 +475,12 @@ community:
     desc: 受星穹形象的团结启发，一群志同道合的全球性团体正齐心协力推动有意义的改变。随着Starcoin开启其全球扩张之旅，我们很荣幸通过星穹计划与来自不同背景的人们合作。加入我们，通过正式启动Starcoin大使计划（星穹计划），一起迈出下一步。
     action: 在线申请
     card:
-      - title: 第三
-        content: 届大使
-      - title: 第二
-        content: 届大使
-      - title: 第一
-        content: 届大使
+      - title: 第三届
+        content: 大使
+      - title: 第二届
+        content: 大使
+      - title: 第一届
+        content: 大使
   # governance history
   gh:
     title: 一链 <strong>DAO</strong>
@@ -493,16 +494,16 @@ community:
       - 空投
     history:
       - '提案 13：升级链上 Move...'
-      - '提案 12：将星币标准库升级到 v11'
+      - '提案 12：将Starcoin标准库升级到 v11'
       - '提案 11：升级链上 Move 字节码版本到 v4'
   partners:
-    title: <strong>生态系统</strong>合作伙伴
+    title: <strong>生态</strong>合作伙伴
     content: 
-      - 感谢我们的生态系统合作伙伴的支持！
+      - 感谢我们的生态合作伙伴的支持！
   branding:
     title: 品牌 <small>更好地传达我们的共同价值观</small>
-    content: 媒体关系 媒体营销查询可发送至
-    action: 下载我们的徽标
+    content: 媒体关系 媒体营销合作可发送至
+    action: 下载我们的标识
 
 
 # News page

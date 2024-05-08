@@ -1,4 +1,4 @@
-import I18n, { type LocaleCode } from '@/i18n';
+import I18n, {getRelativeLocaleUrl, type LocaleCode } from '@/i18n';
 // import homenews from '@/images/homenews.mp4';
 
 // import newCardImage1 from '@/images/news01.png';
@@ -68,13 +68,13 @@ export default function NewsSection({
             </div>
             <div className="card" data-aos="fade-up">
               <figure>
-              <a href="http://v4.starcoin.org/en/news/" target="_blank">
+              <a href={getRelativeLocaleUrl(locale, "/news")} target="_blank">
                 <img src={newCardImage3.src} alt="" />
                 </a>
               </figure>
               <div className="card__content">
                 <h4 className="card__title">
-                  <a href="http://v4.starcoin.org/en/news/" target="_blank">
+                  <a href={getRelativeLocaleUrl(locale, "/news")} target="_blank">
                   {t('home.news.card_3.title')}
                   </a>
                 </h4>
