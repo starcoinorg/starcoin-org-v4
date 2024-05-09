@@ -26,7 +26,7 @@ export default function NewsSection({
           <div className="cards cards--news">
             <div className="card" data-aos="fade-right">
               <figure>
-              <a href="https://starcoin.medium.com/starcoin-blockchain-functionality-restoration-update-8404dcb0ec79" target="_blank">
+              <a href={getRelativeLocaleUrl(locale, "/news/post/starcoin-blockchain-functionality-restoration-update")} target="_blank">
                 <img src={newCardImage1.src} alt="" />
                 </a>
               </figure>
@@ -35,14 +35,14 @@ export default function NewsSection({
                   {t('new')}
                 </div>
                 <h4 className="card__title">
-                  <a href="https://starcoin.medium.com/starcoin-blockchain-functionality-restoration-update-8404dcb0ec79" target="_blank">
+                  <a href={getRelativeLocaleUrl(locale, "/news/post/starcoin-blockchain-functionality-restoration-update")} target="_blank">
                   {t('home.news.card_1.title')}
                   </a>
                   
                 </h4>
                 <div className="card__date">{t('home.news.card_1.date')}</div>
                 <div className="card__action">
-                  <a href="https://starcoin.medium.com/starcoin-blockchain-functionality-restoration-update-8404dcb0ec79" target="_blank" className="button button--primary">
+                  <a href={getRelativeLocaleUrl(locale, "/news/post/starcoin-blockchain-functionality-restoration-update")} target="_blank" className="button button--primary">
                     {t('view_more')} 
                     <svg className="icon--arrow-right-long"><use xlinkHref="#arrow-right-long" href="#arrow-right-long" /></svg>
                   </a>
@@ -50,15 +50,15 @@ export default function NewsSection({
               </div>
 
             </div>
-            <div className="card" data-aos="fade-up">
+            <div className="card" data-aos="fade-up"> 
               <figure>
-              <a href="https://starcoin.medium.com/first-flexidag-pow-blockchain-in-move-ecosystem-27aab6bdf4a8" target="_blank">
+              <a href={getRelativeLocaleUrl(locale, "/news/post/first-flexidag-pow-blockchain-in-move-ecosystem")} target="_blank">
                 <img src={newCardImage2.src} alt="" />
                 </a>
               </figure>
               <div className="card__content">
                 <h4 className="card__title">
-                  <a href="https://starcoin.medium.com/first-flexidag-pow-blockchain-in-move-ecosystem-27aab6bdf4a8" target="_blank">
+                  <a href={getRelativeLocaleUrl(locale, "/news/post/first-flexidag-pow-blockchain-in-move-ecosystem")} target="_blank">
                   {t('home.news.card_2.title')}
                   </a>
                   
@@ -68,13 +68,13 @@ export default function NewsSection({
             </div>
             <div className="card" data-aos="fade-up">
               <figure>
-              <a href={getRelativeLocaleUrl(locale, "/news")} target="_blank">
+              <a href={getRelativeLocaleUrl(locale, "/news/post/starcoin-2-revolutionizing-with-row-dag-join-our-testnet-to-experience-efficient-mining")} target="_blank">
                 <img src={newCardImage3.src} alt="" />
                 </a>
               </figure>
               <div className="card__content">
                 <h4 className="card__title">
-                  <a href={getRelativeLocaleUrl(locale, "/news")} target="_blank">
+                  <a href={getRelativeLocaleUrl(locale, "/news/post/starcoin-2-revolutionizing-with-row-dag-join-our-testnet-to-experience-efficient-mining")} target="_blank">
                   {t('home.news.card_3.title')}
                   </a>
                 </h4>

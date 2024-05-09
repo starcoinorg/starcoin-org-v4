@@ -22,9 +22,9 @@ export default function StarcoinGrantDevelopers({
               <use xlinkHref="#qoute" href="#qoute" />
           </svg>
           <p>{t('developers.grant.content.0')}</p>
-          <button className="button button--primary">
+          <a href="#" className="button button--primary">
             {t('more')}
-          </button>
+          </a>
           <svg className="icon--quote-right">
               <use xlinkHref="#qoute" href="#qoute" />
           </svg>
