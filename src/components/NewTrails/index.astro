@@ -1,0 +1,202 @@
+---
+import I18n, { type LocaleCode } from "@/i18n";
+import featuresTrails from "@/images/features-trails.mp4";
+// import featureVideoPoster2 from "@/images/features-video-2.png";
+import featureVideoPoster2 from "@/images/features-video-2.webp";
+interface Props {
+  locale: LocaleCode;
+}
+
+const { locale } = Astro.props;
+
+const t = I18n.create_trans(locale);
+---
+
+<section class="section section--new-trails">
+  <div id="new-trails" class="section__container new-trails__container">
+    <div class="section__title" data-aos="fade-up">
+      <h3 set:html={t("features.new_trails.title")} />
+    </div>
+    <div class="section__content">
+      <input
+        type="radio"
+        class="sr-only"
+        name="news"
+        id="storage"
+        value="storage"
+        checked
+      />
+      <input
+        type="radio"
+        class="sr-only"
+        name="news"
+        id="easy-gas"
+        value="easy-gas"
+      />
+      <input type="radio" class="sr-only" name="news" id="dao" value="dao" />
+      <input
+        type="radio"
+        class="sr-only"
+        name="news"
+        id="billing"
+        value="billing"
+      />
+      <input
+        type="radio"
+        class="sr-only"
+        name="news"
+        id="bootstrapped"
+        value="bootstrapped"
+      />
+      <input
+        type="radio"
+        class="sr-only"
+        name="news"
+        id="stdlib"
+        value="stdlib"
+      />
+      <input
+        type="radio"
+        class="sr-only"
+        name="news"
+        id="freely-nft"
+        value="freely-nft"
+      />
+      <input
+        type="radio"
+        class="sr-only"
+        name="news"
+        id="verification"
+        value="verification"
+      />
+      <ul class="news-lists" data-aos="fade-right">
+        <li id="news__item--storage" class="active">
+          <label for="storage">
+            {t("features.new_trails.news_title.0")}
+          </label>
+        </li>
+        <li id="news__item--easy-gas">
+          <label for="easy-gas">
+            {t("features.new_trails.news_title.1")}
+          </label>
+        </li>
+        <li id="news__item--dao">
+          <label for="dao">
+            {t("features.new_trails.news_title.2")}
+          </label>
+        </li>
+        <li id="news__item--billing">
+          <label for="billing">
+            {t("features.new_trails.news_title.3")}
+          </label>
+        </li>
+        <li id="news__item--bootstrapped">
+          <label for="bootstrapped">
+            {t("features.new_trails.news_title.4")}
+          </label>
+        </li>
+        <li id="news__item--stdlib">
+          <label for="stdlib">
+            {t("features.new_trails.news_title.5")}
+          </label>
+        </li>
+        <li id="news__item--freely-nft">
+          <label for="freely-nft">
+            {t("features.new_trails.news_title.6")}
+          </label>
+        </li>
+        <li id="news__item--verification">
+          <label for="verification">
+            {t("features.new_trails.news_title.7")}
+          </label>
+        </li>
+      </ul>
+      <ul class="cards--new" data-aos="fade-left">
+        <li id="card--storage" class="active">
+          <svg>
+            <use xlink:href="#card1" href="#card1"></use>
+          </svg>
+          <p>
+            {t("features.new_trails.news_content.0")}
+          </p>
+        </li>
+        <li id="card--easy-gas">
+          <svg>
+            <use xlink:href="#card2" href="#card2"></use>
+            <p>
+              {t("features.new_trails.news_content.1")}
+            </p>
+          </svg>
+        </li>
+        <li id="card--dao">
+          <svg>
+            <use xlink:href="#card3" href="#card3"></use>
+          </svg>
+          <p>
+            {t("features.new_trails.news_content.2")}
+          </p>
+        </li>
+        <li id="card--billing">
+          <svg>
+            <use xlink:href="#card4" href="#card4"></use>
+          </svg>
+          <p>
+            {t("features.new_trails.news_content.3")}
+          </p>
+        </li>
+        <li id="card--bootstrapped">
+          <svg>
+            <use xlink:href="#card5" href="#card5"></use>
+          </svg>
+          <p>
+            {t("features.new_trails.news_content.4")}
+          </p>
+        </li>
+        <li id="card--stdlib">
+          <svg>
+            <use xlink:href="#card6" href="#card6"></use>
+          </svg>
+          <p>
+            {t("features.new_trails.news_content.5")}
+          </p>
+        </li>
+        <li id="card--freely-nft">
+          <svg>
+            <use xlink:href="#card7" href="#card7"></use>
+          </svg>
+          <p>
+            {t("features.new_trails.news_content.6")}
+          </p>
+        </li>
+        <li id="card--verification">
+          <svg>
+            <use xlink:href="#card8" href="#card8"></use>
+          </svg>
+          <p>
+            {t("features.new_trails.news_content.7")}
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="video--container">
+    <div class="video--wrapper">
+      <video class="background-video" autoplay playsinline loop muted poster={featureVideoPoster2.src}>
+        <source src={featuresTrails} type="video/mp4" />
+      </video>
+    </div>
+  </div>
+</section>
+<script>
+  const titles = document.querySelectorAll(".news-lists > li");
+  const cards = document.querySelectorAll(".cards--new > li");
+
+  titles.forEach((title, index) => {
+    title.addEventListener("click", () => {
+      titles.forEach((item) => item.classList.remove("active"));
+      cards.forEach((item) => item.classList.remove("active"));
+      title.classList.add("active");
+      cards[index].classList.add("active");
+    });
+  });
+</script>

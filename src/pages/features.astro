@@ -1,11 +1,42 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "@/layouts/Layout.astro";
+import FeaturesPageHero from "@/components/FeaturesPageHero";
+import FeatureSection from "@/components/FeatureSection";
+import NewTrails from "@/components/NewTrails/index.astro";
+import StarcoinTwoFeatures from "@/components/StarcoinTwoFeatures";
+import StarcoinFoundation from "@/components/StarcoinFoundation";
+import StarcoinGrant from "@/components/StarcoinGrant";
+import StarcoinRoadmap from "@/components/StarcoinRoadmap";
+import Dividers from "@/components/Dividers";
+
+import I18n, { type LocaleCode } from "@/i18n";
+const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
+const t = I18n.create_trans(locale);
 ---
 
-<Layout title='Features'>
-	<h1>Features Page</h1>
-</Layout>
+<Layout>
+	<FeaturesPageHero locale={locale} />
+	<Dividers />
+	<FeatureSection locale={locale} />
+	<Dividers />
+	<NewTrails locale={locale} />
+	<Dividers />
+	<StarcoinTwoFeatures locale={locale} />
+	<Dividers />
+	<StarcoinFoundation locale={locale} />
+	<Dividers />
+	<StarcoinGrant locale={locale} />
+	<Dividers />
+	<StarcoinRoadmap locale={locale} />
 
-<style>
-	
-</style>
+	<Fragment slot="page-meta">
+		<title>{t("features.title")} - {t("site.name")}</title>
+		<meta name="description" content={t("site.desc")} />
+		<!-- <link rel="canonical" href={site} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={desc} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={site} />
+		<meta property="og:image" content={`${site}favicon.png`} /> -->
+	</Fragment>
+</Layout>

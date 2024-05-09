@@ -77,3 +77,4 @@ draft: true
 >- 为了添加 `sitemap` 利于 SEO, 需要配置项目域名以生成 sitemap 内的 url。
 >- 目前配置了线上域名 `https://starcoin.org`, 当直接访问**不带语言路径的测试域名** 时，会自动跳转 `https://starcoin.org/en`。
 >- 直接访问**带语言路径的测试域名** (如：`https://v4.starcoin.org/en`)，即可在测试阶段避免这个自动跳转问题。
+

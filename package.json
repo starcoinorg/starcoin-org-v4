@@ -1,5 +1,5 @@
 {
-  "name": "super-spiral",
+  "name": "starcoin-org",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,8 +10,32 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.6.1",
     "@astrojs/check": "^0.5.10",
+    "@astrojs/react": "^3.3.0",
+    "@astrojs/sitemap": "^3.1.4",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "astro": "^4.6.1",
+    "clsx": "^2.1.0",
+    "dayjs": "^1.11.10",
+    "mdast-util-to-string": "^4.0.0",
+    "radash": "^12.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reading-time": "^1.5.0",
+    "swr": "^2.2.5",
     "typescript": "^5.4.5"
-  }
+  },
+  "devDependencies": {
+    "@rollup/plugin-yaml": "^4.1.2",
+    "autoprefixer": "^10.4.19",
+    "postcss-csso": "^6.0.1",
+    "postcss-preset-env": "^9.5.11"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "not dead"
+  ],
+  "packageManager": "pnpm@9.0.2+sha256.d6fc013639b81658ff175829ebb9435bcb89eff206769e460fd3ae27c2054df6"
 }

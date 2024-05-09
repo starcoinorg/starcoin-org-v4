@@ -1,11 +1,37 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "@/layouts/Layout.astro";
+import HomePageHero from "@/components/HomePageHero";
+import GetStarted from "@/components/GetStarted";
+import StarcoinFeatures from "@/components/StarcoinFeatures";
+import CommunitySection from "@/components/CommunitySection";
+import NewsSection from "@/components/NewsSection";
+import Dividers from "@/components/Dividers";
+
+import I18n, { type LocaleCode } from "@/i18n";
+
+const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
+const t = I18n.create_trans(locale);
 ---
 
-<Layout title='Home Page'>
-	<h1>Home Page</h1>
-</Layout>
+<Layout>
+	<HomePageHero locale={locale} client:load />
+	<Dividers />
+	<GetStarted locale={locale} />
+	<Dividers />
+	<StarcoinFeatures locale={locale} />
+	<Dividers />
+	<CommunitySection locale={locale} />
+	<Dividers />
+	<NewsSection locale={locale} />
 
-<style>
-	
-</style>
+	<Fragment slot="page-meta">
+		<title>{t("home.title")} - {t("site.name")}</title>
+		<meta name="description" content={t('site.desc')} />
+		<!-- <link rel="canonical" href={site} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={desc} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={site} />
+		<meta property="og:image" content={`${site}favicon.png`} /> -->
+	</Fragment>
+</Layout>

@@ -9,3 +9,14 @@ node_modules/
 # 忽略构建输出
 build/
 dist/
+
+# environment variables
+.env
+.env.production
+
+# generated types
+.astro/
+
+# IDE
+.vscode/
+.idea/

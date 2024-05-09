@@ -1,0 +1,39 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import GetSTCPageHero from "@/components/GetSTCPageHero";
+import NodeMining from "@/components/NodeMining";
+import StarMaskWallet from "@/components/StarMaskWallet";
+import Geeks from "@/components/Geeks";
+import HardcorePlayer from "@/components/HardcorePlayer";
+import OneChainDAO from "@/components/OneChainDAO";
+import Dividers from "@/components/Dividers";
+
+import I18n, { type LocaleCode } from "@/i18n";
+const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
+const t = I18n.create_trans(locale);
+---
+
+<Layout>
+	<GetSTCPageHero locale={locale} />
+	<Dividers />
+	<NodeMining locale={locale} />
+	<Dividers />
+	<StarMaskWallet locale={locale} />
+	<Dividers />
+	<Geeks locale={locale} />
+	<Dividers />
+	<HardcorePlayer locale={locale} />
+	<Dividers />
+	<OneChainDAO locale={locale} />
+
+	<Fragment slot="page-meta">
+		<title>{t("getstc.title")} - {t("site.name")}</title>
+		<meta name="description" content={t("site.desc")} />
+		<!-- <link rel="canonical" href={site} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={desc} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={site} />
+		<meta property="og:image" content={`${site}favicon.png`} /> -->
+	</Fragment>
+</Layout>

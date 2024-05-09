@@ -1,0 +1,24 @@
+---
+import Page from "@/pages/news/post.astro";
+
+import I18n from "@/i18n";
+import { reorganizePosts, reorganizePostSlug } from "@/assets/reorganize-tools";
+
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const locale = I18n.config.locale_dict["zh"].code;
+  let posts = await getCollection("post");
+  posts = reorganizePosts(posts, locale);
+
+  const paths = posts.map((p) => {
+    return {
+      params: { slug: reorganizePostSlug(p) },
+    };
+  });
+
+  return paths;
+}
+---
+
+<Page />

@@ -1,0 +1,65 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
+const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
+const t = I18n.create_trans(locale);
+
+import dayjs from "dayjs";
+
+import { getEntry } from "astro:content";
+
+const { slug } = Astro.params;
+
+let entry = await getEntry("post", `${slug}${locale}`);
+if (!entry) {
+  entry = await getEntry("post", `${slug}`);
+}
+const renderEntry = await entry?.render();
+const Content = renderEntry?.Content;
+---
+
+<Layout>
+  <section class="section section--post">
+    <div class="section__container section--post__container">
+      <div class="toolbar">
+        <a href={getRelativeLocaleUrl(locale, "news")}> 
+          <svg class="icon--back">
+            <use href="#back" />
+          </svg>
+          Back 
+        </a>
+      </div>
+      <article>
+        <header>
+          {
+            entry ? (
+              <>
+                <h1>{entry.data.title}</h1>
+                <p>
+                  Published at {dayjs(entry.data.date).format("MMMM D, YYYY")}
+                  {entry.data.author ? `By ${entry.data.author}` : ""}.
+                </p>
+              </>
+            ) : null
+          }
+        </header>
+        <main>
+          {Content ? <Content /> : null}
+        </main>
+      </article>
+    </div>
+    
+  </section>
+
+  <Fragment slot="page-meta">
+    <title>{entry?.data.title} - {t("site.name")}</title>
+    <meta name="description" content={t("site.desc")} />
+    <!-- <link rel="canonical" href={site} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={desc} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={site} />
+		<meta property="og:image" content={`${site}favicon.png`} /> -->
+  </Fragment>
+</Layout>

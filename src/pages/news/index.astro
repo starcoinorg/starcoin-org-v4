@@ -1,0 +1,127 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import NewsPageHero from "@/components/NewsPageHero";
+import Dividers from "@/components/Dividers";
+import Pagination from "@/components/Pagination";
+
+import {
+  reorganizePosts,
+  reorganizeItemsByPage,
+  reorganizePageNumber,
+  reorganizePostSlug,
+} from "@/assets/reorganize-tools";
+
+import I18n, { getRelativeLocaleUrl, type LocaleCode } from "@/i18n";
+const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
+const t = I18n.create_trans(locale);
+
+// import newCard1 from "@/images/new1.png";
+import newCard1 from "@/images/new1.webp"
+
+import dayjs from "dayjs";
+import { readingTime } from "@/assets/remark-reading-time.mjs";
+
+import { getCollection } from "astro:content";
+let posts = await getCollection("post");
+posts = reorganizePosts(posts, locale);
+
+const { page } = Astro.params;
+const page_number = reorganizePageNumber(page);
+const page_path = getRelativeLocaleUrl(locale, "news");
+const total = posts.length;
+
+posts = reorganizeItemsByPage(posts, page_number);
+---
+
+<Layout>
+  <NewsPageHero locale={locale} />
+  <Dividers />
+
+  <section class="section section--news-card">
+    <div id="news-blog" class="section__container news-card__container">
+      {
+        posts.map((p, index) => {
+          if (index === 0) {
+            return (
+              <div class="cards--news__banner" data-aos="fade-up">
+                <figure>
+                  <img src={p.data.image || newCard1.src} alt={p.data.title} />
+                </figure>
+                <div class="card__content">
+                  <h4>{p.data.title}</h4>
+                  <div class="date">
+                    Published at {dayjs(p.data.date).format("MMMM D, YYYY")}
+                    <span> · </span>
+                    {readingTime(p.body).text}
+                  </div>
+                  <a
+                    href={getRelativeLocaleUrl(
+                      locale,
+                      `/news/post/${reorganizePostSlug(p)}`
+                    )}
+                    target="_blank"
+                    class="button button--primary"
+                  >
+                    Read Article
+                  </a>
+                </div>
+              </div>
+            );
+          }
+        })
+      }
+      <div class="cards cards--news">
+        {
+          posts.map((p, index) => {
+            if (index > 0) {
+              return (
+                <a
+                  class="card"
+                  href={getRelativeLocaleUrl(
+                    locale,
+                    `/news/post/${reorganizePostSlug(p)}`
+                  )}
+                  data-aos="fade-up">
+                  <figure>
+                    <img
+                      src={p.data.image || newCard1.src}
+                      alt={p.data.title}
+                    />
+                  </figure>
+                  <div class="card__content">
+                    <h4>{p.data.title}</h4>
+                    <p>
+                      Published at {dayjs(p.data.date).format("MMMM D, YYYY")}
+                      <span> · </span>
+                      {readingTime(p.body).text}
+                    </p>
+                    <p>{p.data.summary}</p>
+                    <svg>
+                      <use
+                        xlink:href="#arrow-right-long"
+                        href="#arrow-right-long"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              );
+            }
+          })
+        }
+      </div>
+
+      <Pagination total={total} page={page} path={page_path} />
+    </div>
+  </section>
+
+  <Fragment slot="page-meta">
+    <title>{t("news.title")} - {t("site.name")}</title>
+    <meta name="description" content={t("site.desc")} />
+    <!-- <link rel="canonical" href={site} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={desc} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={site} />
+		<meta property="og:image" content={`${site}favicon.png`} /> -->
+  </Fragment>
+</Layout>

@@ -1,11 +1,30 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "@/layouts/Layout.astro";
+import DevelopersPageHero from "@/components/DevelopersPageHero";
+import EasyBuilding from "@/components/EasyBuilding";
+import StarcoinGrantDevelopers from "@/components/StarcoinGrantDevelopers";
+import Dividers from "@/components/Dividers";
+
+import I18n, { type LocaleCode } from "@/i18n";
+const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
+const t = I18n.create_trans(locale);
 ---
 
-<Layout title='Developers'>
-	<h1>Developers Page</h1>
-</Layout>
+<Layout>
+	<DevelopersPageHero locale={locale} />
+	<Dividers />
+	<EasyBuilding locale={locale} />
+	<Dividers />
+	<StarcoinGrantDevelopers locale={locale} />
 
-<style>
-	
-</style>
+	<Fragment slot="page-meta">
+		<title>{t("developers.title")} - {t("site.name")}</title>
+		<meta name="description" content={t("site.desc")} />
+		<!-- <link rel="canonical" href={site} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={desc} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={site} />
+		<meta property="og:image" content={`${site}favicon.png`} /> -->
+	</Fragment>
+</Layout>

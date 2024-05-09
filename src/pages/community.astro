@@ -1,11 +1,39 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "@/layouts/Layout.astro";
+import CommunityPageHero from "@/components/CommunityPageHero";
+import SocialMediaSection from "@/components/SocialMediaSection";
+import StarDome from "@/components/StarDome";
+import GovernanceHistory from "@/components/GovernanceHistory";
+import EcosystemPartners from "@/components/EcosystemPartners";
+import Branding from "@/components/Branding";
+import Dividers from "@/components/Dividers";
+
+import I18n, { type LocaleCode } from "@/i18n";
+const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
+const t = I18n.create_trans(locale);
 ---
 
-<Layout title='community'>
-	<h1>community Page</h1>
-</Layout>
+<Layout>
+	<CommunityPageHero locale={locale} />
+	<Dividers />
+	<SocialMediaSection locale={locale} />
+	<Dividers />
+	<StarDome locale={locale} />
+	<Dividers />
+	<GovernanceHistory locale={locale} />
+	<Dividers />
+	<EcosystemPartners locale={locale} />
+	<Dividers />
+	<Branding locale={locale} />
 
-<style>
-	
-</style>
+	<Fragment slot="page-meta">
+		<title>{t("community.title")} - {t("site.name")}</title>
+		<meta name="description" content={t("site.desc")} />
+		<!-- <link rel="canonical" href={site} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={desc} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={site} />
+		<meta property="og:image" content={`${site}favicon.png`} /> -->
+	</Fragment>
+</Layout>
