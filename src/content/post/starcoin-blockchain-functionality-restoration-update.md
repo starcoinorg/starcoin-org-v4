@@ -7,8 +7,10 @@ tags: [
     "Starcoin"
 ]
 archives: "2024"
-image: https://miro.medium.com/max/1400/1*tUsLzSTg7hWq1xswYFRfzA.png
+image: https://miro.medium.com/v2/resize:fit:720/format:webp/1*eWKTYfbEPhDm2-iSFGasrQ.jpeg
 ---
+
+![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*eWKTYfbEPhDm2-iSFGasrQ.jpeg)
 
 Following significant efforts, Starcoin has completed the necessary modifications and upgrades to our node code. Effective March 8 UTC, 2024, we will initiate the phased restoration of network functions and the activation of select services:
 
