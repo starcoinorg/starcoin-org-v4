@@ -29,6 +29,7 @@ nav:
     getstc: '获取 stc'
     community: '社区'
     news: '消息'
+    starstack: 'Starstack(需要翻译)'
   home:
     get_started: '从这里解锁 Starcoin'
     feature: 'Starcoins 特性'
@@ -47,6 +48,11 @@ nav:
     explorer: '浏览器'
     easy_building: '轻松搭建'
     starcoin_grant: 'Starcoin 资助'
+  starstack:
+    get_start: 'Get start(需要翻译)'
+    resource_documentation: 'Resource & Documentation(需要翻译)' 
+    features: 'Features(需要翻译)'
+    connect: 'Connect(需要翻译)'    
   getstc:
     node_mining: '节点挖矿'
     starmask_wallet: 'StarMask 钱包'
@@ -513,4 +519,63 @@ news:
     title: 消息与博客
     desc: >
       在这里了解Starcoin项目的最新进展、活动和更新。若想最快速获取项目更新，请加入我们官方的<strong>Starcoin媒体</strong>社区。
-  
+
+# StarScaffold Page
+starscaffold:
+  title: 'starstack(接下来的内容需要翻译)'  
+  hero:
+    title: 翻译From Concept to Deployment
+    subtitle: in One Click with <strong>starstack</strong>
+    desc: Fast, modular, and powerful—everything you need is at your fingertips.
+  solutionBuilding:  
+    desc: >
+      <strong>A one-stop solution for building, customizing, and deploying Move-based blockchains with unparalleled speed and flexibility.</strong>Trusted by industry pioneers, StarStack simplifies the entire process, empowering developers with robust tools to create innovative blockchain solutions.
+    action: 
+      getstarted: Get Started
+      resources: Resources
+  ChooseStarstack:
+    title: Why Choose starstack?
+    des: A future-proof, scalable, and secure blockchain infrastructure
+    li_1:
+      h4: One <span> - </span> Click Deployment
+      p: >
+        Deploy custom blockchains instantly with modular plug-ins.
+    li_2:
+      h4: Modular Architecture
+      p: >
+        Easily customize governance, consensus, and economic models.
+
+    li_3:
+      h4: Multi <span> - </span> Consensus Support
+      p: >
+        Choose from PoW, PoS, and more in just a few clicks.
+
+    li_4:
+      h4: Seamless Move Integration
+      p: >
+        Leverage Move for secure and efficient smart contracts.
+
+    li_5:
+      h4: Developer <span> - </span> Friendly 
+      p: >
+        Comprehensive documentation, CLI tools, and active community support.            
+  CustomBlockchain:
+    title: Build a Custom Blockchain in Minutes
+    des: Fast prototyping and flexible blockchain development  
+    card1:
+      title: Define Parameters
+      des: Customize network configurations, consensus mechanisms, and core modules.
+    card2:
+      title: Deploy with Ease
+      des: Seamlessly deploy your blockchain using predefined scripts.
+    card3:
+      title: Scale and Expand
+      des: Easily add custom features and integrate with existing ecosystems. 
+    action:
+      documentation: Documentation
+      github: GitHub    
+      developerForums: Developer forums
+      community: Community
+  NeedHelp:
+    title: Need Help?
+    subtitle: We’ve Got You Covered!     

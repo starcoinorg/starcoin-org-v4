@@ -1,0 +1,36 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import StarScaffoldHero from "@/components/StarScaffoldHero";
+import AOneStopSolutionForBuilding from "@/components/AOneStopSolutionForBuilding";
+import ChooseStarstack from "@/components/ChooseStarstack";
+import CustomBlockchain from "@/components/CustomBlockchain";
+import NeedHelp from "@/components/NeedHelp";
+import Dividers from "@/components/Dividers";
+
+import I18n, { type LocaleCode } from "@/i18n";
+const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
+const t = I18n.create_trans(locale);
+---
+
+<Layout>
+	<StarScaffoldHero locale={locale} />
+	<AOneStopSolutionForBuilding locale={locale} />
+	<Dividers />
+	<ChooseStarstack locale={locale} />
+	<Dividers />
+	<CustomBlockchain locale={locale} />
+	<Dividers />
+	<NeedHelp locale={locale} />
+	
+
+	<Fragment slot="page-meta">
+		<title>{t("starscaffold.title")} - {t("site.name")}</title>
+		<meta name="description" content={t("site.desc")} />
+		<!-- <link rel="canonical" href={site} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={desc} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={site} />
+		<meta property="og:image" content={`${site}favicon.png`} /> -->
+	</Fragment>
+</Layout>
