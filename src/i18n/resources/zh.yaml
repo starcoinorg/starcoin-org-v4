@@ -29,7 +29,7 @@ nav:
     getstc: '获取 stc'
     community: '社区'
     news: '消息'
-    starstack: 'Starstack(需要翻译)'
+    starstack: 'Starstack'
   home:
     get_started: '从这里解锁 Starcoin'
     feature: 'Starcoins 特性'
@@ -49,10 +49,10 @@ nav:
     easy_building: '轻松搭建'
     starcoin_grant: 'Starcoin 资助'
   starstack:
-    get_start: 'Get start(需要翻译)'
-    resource_documentation: 'Resource & Documentation(需要翻译)' 
-    features: 'Features(需要翻译)'
-    connect: 'Connect(需要翻译)'    
+    get_start: '从这里开始'
+    resource_documentation: '资源和文档' 
+    features: 'StarStack 特性'
+    connect: '申请'    
   getstc:
     node_mining: '节点挖矿'
     starmask_wallet: 'StarMask 钱包'
@@ -580,4 +580,4 @@ starstack:
     title: 需要帮助吗？
     subtitle: 我们为您提供全方位的支持！  
     action:
-      apply: 应用      
+      apply: 申请      
