@@ -7,7 +7,7 @@ export default function AOneStopSolutionForBuilding({ locale }: { locale: Locale
     <section className="section section--solution-building">
       <div className="section__container solution-building__container" id="solution-building">
       <p data-aos="fade-up"
-            dangerouslySetInnerHTML={{ __html: t("starscaffold.solutionBuilding.desc") }}
+            dangerouslySetInnerHTML={{ __html: t("starstack.solutionBuilding.desc") }}
           ></p>
            <div className="solution-building__action" >
            <a
@@ -15,14 +15,14 @@ export default function AOneStopSolutionForBuilding({ locale }: { locale: Locale
             // href={whitePaper}
             className="button button--primary"
             data-aos="fade-up">
-            {t("starscaffold.solutionBuilding.action.getstarted")}
+            {t("starstack.solutionBuilding.action.getstarted")}
           
           </a>
           <a
             // href={getRelativeLocaleUrl(locale, "/getstc")}
             className="button button--outline"
             data-aos="fade-up" data-aos-delay="150">
-            {t("starscaffold.solutionBuilding.action.resources")}
+            {t("starstack.solutionBuilding.action.resources")}
           </a>
         </div>
       </div>

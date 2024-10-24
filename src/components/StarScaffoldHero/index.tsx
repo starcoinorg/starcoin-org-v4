@@ -10,13 +10,13 @@ export default function StarScaffoldHero({ locale }: { locale: LocaleCode }) {
     <section className="hero hero--starscaffold">
       <div className="hero__container section__container">
         <h2 className="hero__title">
-          <p>{t("starscaffold.hero.title")}</p>
+          <p>{t("starstack.hero.title")}</p>
           <p
-            dangerouslySetInnerHTML={{ __html: t("starscaffold.hero.subtitle") }}
+            dangerouslySetInnerHTML={{ __html: t("starstack.hero.subtitle") }}
           ></p>
         </h2>
         <div className="hero__content">
-          <p>{t("starscaffold.hero.desc")}</p>
+          <p dangerouslySetInnerHTML={{ __html: t("starstack.hero.desc") }}></p>
         </div>
       </div>
       <div className="video--container">

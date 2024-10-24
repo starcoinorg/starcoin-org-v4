@@ -520,62 +520,64 @@ news:
     desc: >
       在这里了解Starcoin项目的最新进展、活动和更新。若想最快速获取项目更新，请加入我们官方的<strong>Starcoin媒体</strong>社区。
 
-# StarScaffold Page
-starscaffold:
-  title: 'starstack(接下来的内容需要翻译)'  
+# starstack Page
+starstack:
+  title: 'StarStack'  
   hero:
-    title: 翻译From Concept to Deployment
-    subtitle: in One Click with <strong>starstack</strong>
-    desc: Fast, modular, and powerful—everything you need is at your fingertips.
+    title: 从概念到部署
+    subtitle: 一键轻松实现，尽在 <strong>StarStack</strong>
+    desc: 快速构建、模块化、功能强大——一切尽在掌握
   solutionBuilding:  
     desc: >
-      <strong>A one-stop solution for building, customizing, and deploying Move-based blockchains with unparalleled speed and flexibility.</strong>Trusted by industry pioneers, StarStack simplifies the entire process, empowering developers with robust tools to create innovative blockchain solutions.
+      <strong>一站式解决方案，助您以无与伦比的速度和灵活性构建、定制并部署基于Move的区块链。</strong>StarStack受到行业先驱的信任，简化了整个开发过程，从而赋予开发人员使用强大的工具来创建创新的区块链解决方案。
     action: 
-      getstarted: Get Started
-      resources: Resources
+      getstarted: 快速开始
+      resources: 资源
   ChooseStarstack:
-    title: Why Choose starstack?
-    des: A future-proof, scalable, and secure blockchain infrastructure
+    title: 为什么选择StarStack？
+    des: 具备前瞻性、可扩展性和安全性的区块链基础设施。
     li_1:
-      h4: One <span> - </span> Click Deployment
+      h4: 一键 <span> - </span> 部署
       p: >
-        Deploy custom blockchains instantly with modular plug-ins.
+        使用模块化插件，立即部署属于你的区块链。
     li_2:
-      h4: Modular Architecture
+      h4: 模块化架构
       p: >
-        Easily customize governance, consensus, and economic models.
+        轻松定制化治理框架、共识机制和经济模型。
 
     li_3:
-      h4: Multi <span> - </span> Consensus Support
+      h4: 支持多种 <span> - </span> 共识算法
       p: >
-        Choose from PoW, PoS, and more in just a few clicks.
+        轻松选择，PoW、PoS等主流共识算法
 
     li_4:
-      h4: Seamless Move Integration
+      h4: 无缝集成Move
       p: >
-        Leverage Move for secure and efficient smart contracts.
+        利用 Move 实现安全高效的智能合约。
 
     li_5:
-      h4: Developer <span> - </span> Friendly 
+      h4: 对开发者 <span> - </span> 友好 
       p: >
-        Comprehensive documentation, CLI tools, and active community support.            
+        详细的开发文档、完备的命令行工具和活跃的社区支持           
   CustomBlockchain:
-    title: Build a Custom Blockchain in Minutes
-    des: Fast prototyping and flexible blockchain development  
+    title: 仅需几分钟，即可轻松构建区块链
+    des: 快速的原型设计和灵活的区块链开发。  
     card1:
-      title: Define Parameters
-      des: Customize network configurations, consensus mechanisms, and core modules.
+      title: 自定义参数
+      des: 自定义网络配置、共识机制和核心模块。
     card2:
-      title: Deploy with Ease
-      des: Seamlessly deploy your blockchain using predefined scripts.
+      title: 轻松部署
+      des: 使用预定义的脚本无缝部署区块链。
     card3:
-      title: Scale and Expand
-      des: Easily add custom features and integrate with existing ecosystems. 
+      title: 生态集成
+      des: 轻松添加自定义功能并与现有生态系统集成。 
     action:
-      documentation: Documentation
+      documentation: 开发文档
       github: GitHub    
-      developerForums: Developer forums
-      community: Community
+      developerForums: 开发论坛
+      community: 社区
   NeedHelp:
-    title: Need Help?
-    subtitle: We’ve Got You Covered!     
+    title: 需要帮助吗？
+    subtitle: 我们为您提供全方位的支持！  
+    action:
+      apply: 应用      

@@ -3035,7 +3035,7 @@ img {
   text-align: center;
 }
 
-.section--solution-building p strong {
+.section--solution-building p {
   color: var(--primary-color);
 }
 
@@ -3075,6 +3075,7 @@ img {
   padding-bottom: 8px;
   margin-bottom: 8px;
   position: relative;
+  display: inline-flex;
 }
 
 .section--choose-starstack h4::after {
@@ -3083,14 +3084,14 @@ img {
   bottom: 0;
   height: 1px;
   left: 0;
-  right: 30%;
+  right: 0;
   background-color: #6FEE87;
 }
 
-.section--choose-starstack li:nth-child(2n) h4::after {
+/* .section--choose-starstack li:nth-child(2n) h4::after {
   left: 30%;
   right: 0;
-}
+} */
 
 .section--choose-starstack li:nth-child(2) h4::after {
   background-color: #D18989;
@@ -3119,7 +3120,7 @@ img {
   box-shadow: 0px 32px 64px -12px rgb(111 238 135 / 0.43);
   border-radius: 16px;
   position: relative;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
 }
 
 .cards--blockchain::before {
@@ -3172,6 +3173,7 @@ img {
   grid-column: 2;
   grid-row: 1;
   text-align: right;
+  margin-left: auto;
 }
 
 .need-help__container .section__title strong {
@@ -3181,6 +3183,15 @@ img {
 .need-help__container .section__content {
   grid-column: 1;
   grid-row: 1;
+}
+
+.need-help--action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+  font-family: var(--sys-family);
 }
 
 .need-help__container .social {
@@ -3335,6 +3346,10 @@ img {
     font-size: 20px;
   }
 
+  .section--choose-starstack .section__title small {
+    font-size: 22px;
+  }
+
   .page--header {
     padding-bottom: 48px;
   }
@@ -3477,6 +3492,12 @@ img {
   .hero--starscaffold .hero__title {
     font-size: 52px;
   }
+
+  .hero--starscaffold .hero__content {
+    font-size: 24px;
+  }
+
+
 
   .hero__content {
     max-width: 80vw;
@@ -4321,6 +4342,14 @@ img {
     font-size: 14px;
   }
 
+  .section--solution-building p {
+    font-size: 20px;
+    color: var(--primary-color);
+    max-width: 60vw;
+    line-height: 2;
+    margin: auto;
+  }
+
   .custom-blockchain__action {
     justify-content: space-between;
   }
@@ -4339,10 +4368,12 @@ img {
   }
 
   .cards--blockchain .card {
-    padding: 24px 50px;
+    /* padding: 24px 50px; */
     font-size: 20px;
-    max-width: 470px;
-    opacity: 1 !important;
+    max-width: 340px;
+    /* opacity: 1 !important; */
+    padding: 0;
+    border: none;
   }
 
   .cards--blockchain .card h4 {
@@ -4351,32 +4382,41 @@ img {
 
   .cards--blockchain .card-1 {
     position: absolute;
-    top: 9%;
-        left: 25%;
+    top: 16%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        max-width: 420px;
         
   }
 
   .cards--blockchain .card-2 {
     position: absolute;
     left: 32px;
-        bottom: 110px;
+        bottom: 150px;
   }
 
   .cards--blockchain .card-3 {
     position: absolute;
     right: 32px;
-        bottom: 110px;
+        bottom: 150px;
   }
 
   .section--choose-starstack ul li {
     width: 55%;
 }
-.section--choose-starstack h4::after {
+/* .section--choose-starstack h4::after {
   right: 45%;
 }
 .section--choose-starstack li:nth-child(2n) h4::after {
   left: 50%;
+} */
+
+.section--choose-starstack p {
+  word-spacing: 4px;
 }
+
+
+
 }
 
 /* width >= 1024px*/
@@ -4389,6 +4429,14 @@ img {
   .navigation--footer {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
+
+  .cards--blockchain .card {
+    max-width: 480px;
+  }
+
+  /* .need-help__container .section__title p {
+    white-space: nowrap;
+  } */
 }
 
 /* width >= 1200px */

@@ -96,7 +96,7 @@ nav_data.push({
 
 nav_data.push({
   group: 'starstack',
-  href: '/starscaffold',
+  href: '/starstack',
   t_key: 'nav.group.starstack',
   links: [
     {

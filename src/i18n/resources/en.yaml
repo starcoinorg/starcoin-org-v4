@@ -25,7 +25,7 @@ nav:
     home: 'Home'
     features: 'Features'
     developers: 'Developers'
-    starstack: 'Starstack'
+    starstack: 'StarStack'
     getstc: 'Get stc'
     community: 'Community'
     news: 'News'
@@ -517,13 +517,13 @@ news:
     desc: >
       Stay informed about the latest developments, events, and updates for the Starcoin project right here. For the most current and rapid access to project updates, join our Official <strong>Starcoin media</strong> community.
 
-# StarScaffold Page
-starscaffold:
-  title: 'starstack'  
+# StarStack Page
+starstack:
+  title: 'StarStack'  
   hero:
     title: From Concept to Deployment
-    subtitle: in One Click with <strong>starstack</strong>
-    desc: Fast, modular, and powerful—everything you need is at your fingertips.
+    subtitle: in One Click with <strong>StarStack</strong>
+    desc: Fast, modular, and powerful <br /> everything you need is at your fingertips.
   solutionBuilding:  
     desc: >
       <strong>A one-stop solution for building, customizing, and deploying Move-based blockchains with unparalleled speed and flexibility.</strong>Trusted by industry pioneers, StarStack simplifies the entire process, empowering developers with robust tools to create innovative blockchain solutions.
@@ -531,7 +531,7 @@ starscaffold:
       getstarted: Get Started
       resources: Resources
   ChooseStarstack:
-    title: Why Choose starstack?
+    title: Why Choose StarStack?
     des: A future-proof, scalable, and secure blockchain infrastructure
     li_1:
       h4: One <span> - </span> Click Deployment
@@ -575,4 +575,6 @@ starscaffold:
       community: Community
   NeedHelp:
     title: Need Help?
-    subtitle: We’ve Got You Covered!    
+    subtitle: We’ve Got You Covered!  
+    action:
+      apply: Apply  

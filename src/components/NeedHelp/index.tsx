@@ -11,15 +11,24 @@ export default function NeedHelp({ locale }: { locale: LocaleCode }) {
           <h3>
             <strong
               dangerouslySetInnerHTML={{
-                __html: t("starscaffold.NeedHelp.title"),
+                __html: t("starstack.NeedHelp.title"),
               }}
             ></strong>
             <p
               dangerouslySetInnerHTML={{
-                __html: t("starscaffold.NeedHelp.subtitle"),
+                __html: t("starstack.NeedHelp.subtitle"),
               }}
             ></p>
           </h3>
+          <div className="need-help--action">
+          <a
+            target="_blank"
+            // href={whitePaper}
+            className="button button--primary">
+            {t("starstack.NeedHelp.action.apply")}
+          
+          </a>
+          </div>
           <ul className="social">
             <li>
               <a href="http://t.me/Starcoin_STC" target="_blank">
