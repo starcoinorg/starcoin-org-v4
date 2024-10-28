@@ -3136,6 +3136,9 @@ img {
   background: url("../images/features_03High.webp") no-repeat center / cover;
 }
 
+.cards--blockchain figure {
+  display: none;
+}
 
 .cards--blockchain .card {
   border: 1px solid #FFFFFF;
@@ -4366,6 +4369,8 @@ img {
   .cards--blockchain figure {
     width: 720px;
     margin:200px auto;
+    display: grid;
+  
   }
 
   .cards--blockchain .card {
