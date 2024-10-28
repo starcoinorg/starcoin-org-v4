@@ -3157,6 +3157,7 @@ img {
   gap: 32px;
   flex-wrap: wrap;
   margin-top: 32px;
+  display: none;
 }
 
 .custom-blockchain__action a {
