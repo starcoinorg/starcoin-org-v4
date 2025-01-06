@@ -1,6 +1,6 @@
 import I18n, {getRelativeLocaleUrl, type LocaleCode } from '@/i18n'
 
-export default function GetStarted({
+export default function ChooseStarstack({
   locale
 }: {
   locale: LocaleCode

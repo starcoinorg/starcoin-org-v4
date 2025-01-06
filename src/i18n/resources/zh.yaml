@@ -29,6 +29,7 @@ nav:
     getstc: '获取 stc'
     community: '社区'
     news: '消息'
+    starstack: 'Starstack'
   home:
     get_started: '从这里解锁 Starcoin'
     feature: 'Starcoins 特性'
@@ -47,6 +48,11 @@ nav:
     explorer: '浏览器'
     easy_building: '轻松搭建'
     starcoin_grant: 'Starcoin 资助'
+  starstack:
+    get_start: '从这里开始'
+    resource_documentation: '资源和文档' 
+    features: 'StarStack 特性'
+    connect: '申请'    
   getstc:
     node_mining: '节点挖矿'
     starmask_wallet: 'StarMask 钱包'
@@ -513,4 +519,65 @@ news:
     title: 消息与博客
     desc: >
       在这里了解Starcoin项目的最新进展、活动和更新。若想最快速获取项目更新，请加入我们官方的<strong>Starcoin媒体</strong>社区。
-  
+
+# starstack Page
+starstack:
+  title: 'StarStack'  
+  hero:
+    title: 从概念到部署
+    subtitle: 一键轻松实现，尽在 <strong>StarStack</strong>
+    desc: 快速构建、模块化、功能强大——一切尽在掌握
+  solutionBuilding:  
+    desc: >
+      <strong>一站式解决方案，助您以无与伦比的速度和灵活性构建、定制并部署基于Move的区块链。</strong>StarStack受到行业先驱的信任，简化了整个开发过程，从而赋予开发人员使用强大的工具来创建创新的区块链解决方案。
+    action: 
+      getstarted: 快速开始
+      resources: 资源
+  ChooseStarstack:
+    title: 为什么选择StarStack？
+    des: 具备前瞻性、可扩展性和安全性的区块链基础设施。
+    li_1:
+      h4: 一键 <span> - </span> 部署
+      p: >
+        使用模块化插件，立即部署属于你的区块链。
+    li_2:
+      h4: 模块化架构
+      p: >
+        轻松定制化治理框架、共识机制和经济模型。
+
+    li_3:
+      h4: 支持多种 <span> - </span> 共识算法
+      p: >
+        轻松选择，PoW、PoS等主流共识算法
+
+    li_4:
+      h4: 无缝集成Move
+      p: >
+        利用 Move 实现安全高效的智能合约。
+
+    li_5:
+      h4: 对开发者 <span> - </span> 友好 
+      p: >
+        详细的开发文档、完备的命令行工具和活跃的社区支持           
+  CustomBlockchain:
+    title: 仅需几分钟，即可轻松构建区块链
+    des: 快速的原型设计和灵活的区块链开发。  
+    card1:
+      title: 自定义参数
+      des: 自定义网络配置、共识机制和核心模块。
+    card2:
+      title: 轻松部署
+      des: 使用预定义的脚本无缝部署区块链。
+    card3:
+      title: 生态集成
+      des: 轻松添加自定义功能并与现有生态系统集成。 
+    action:
+      documentation: 开发文档
+      github: GitHub    
+      developerForums: 开发论坛
+      community: 社区
+  NeedHelp:
+    title: 需要帮助吗？
+    subtitle: 我们为您提供全方位的支持！  
+    action:
+      apply: 申请      

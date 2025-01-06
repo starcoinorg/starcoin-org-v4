@@ -25,9 +25,11 @@ nav:
     home: 'Home'
     features: 'Features'
     developers: 'Developers'
+    starstack: 'StarStack'
     getstc: 'Get stc'
     community: 'Community'
     news: 'News'
+    
   home:
     get_started: 'Get Started on Starcoin'
     feature: 'Starcoins Feature'
@@ -46,6 +48,11 @@ nav:
     explorer: 'Explorer'
     easy_building: 'Easy Building'
     starcoin_grant: 'Starcoin Grant'
+  starstack:
+    get_start: 'Get start'
+    resource_documentation: 'Resource & Documentation' 
+    features: 'Features'
+    connect: 'Connect'    
   getstc:
     node_mining: 'Node Mining'
     starmask_wallet: 'StarMask Wallet'
@@ -59,6 +66,7 @@ nav:
     branding: 'Branding'
   news:
     news_blog: 'News & Blog'
+  
 
 # Feature table
 feature_table:
@@ -508,4 +516,65 @@ news:
     title: NEWS & BLOG
     desc: >
       Stay informed about the latest developments, events, and updates for the Starcoin project right here. For the most current and rapid access to project updates, join our Official <strong>Starcoin media</strong> community.
-  
+
+# StarStack Page
+starstack:
+  title: 'StarStack'  
+  hero:
+    title: From Concept to Deployment
+    subtitle: in One Click with <strong>StarStack</strong>
+    desc: Fast, modular, and powerful <br /> everything you need is at your fingertips.
+  solutionBuilding:  
+    desc: >
+      <strong>A one-stop solution for building, customizing, and deploying Move-based blockchains with unparalleled speed and flexibility.</strong>Trusted by industry pioneers, StarStack simplifies the entire process, empowering developers with robust tools to create innovative blockchain solutions.
+    action: 
+      getstarted: Get Started
+      resources: Resources
+  ChooseStarstack:
+    title: Why Choose StarStack?
+    des: A future-proof, scalable, and secure blockchain infrastructure
+    li_1:
+      h4: One <span> - </span> Click Deployment
+      p: >
+        Deploy custom blockchains instantly with modular plug-ins.
+    li_2:
+      h4: Modular Architecture
+      p: >
+        Easily customize governance, consensus, and economic models.
+
+    li_3:
+      h4: Multi <span> - </span> Consensus Support
+      p: >
+        Choose from PoW, PoS, and more in just a few clicks.
+
+    li_4:
+      h4: Seamless Move Integration
+      p: >
+        Leverage Move for secure and efficient smart contracts.
+
+    li_5:
+      h4: Developer <span> - </span> Friendly 
+      p: >
+        Comprehensive documentation, CLI tools, and active community support.            
+  CustomBlockchain:
+    title: Build a Custom Blockchain in Minutes
+    des: Fast prototyping and flexible blockchain development  
+    card1:
+      title: Define Parameters
+      des: Customize network configurations, consensus mechanisms, and core modules.
+    card2:
+      title: Deploy with Ease
+      des: Seamlessly deploy your blockchain using predefined scripts.
+    card3:
+      title: Scale and Expand
+      des: Easily add custom features and integrate with existing ecosystems. 
+    action:
+      documentation: Documentation
+      github: GitHub    
+      developerForums: Developer forums
+      community: Community
+  NeedHelp:
+    title: Need Help?
+    subtitle: We’ve Got You Covered!  
+    action:
+      apply: Apply  

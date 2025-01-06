@@ -95,6 +95,30 @@ nav_data.push({
 })
 
 nav_data.push({
+  group: 'starstack',
+  href: '/starstack',
+  t_key: 'nav.group.starstack',
+  links: [
+    {
+      href: '#solution-building',
+      t_key: 'nav.starstack.get_start'
+    },
+    {
+      href: '#choose-starstack',
+      t_key: 'nav.starstack.resource_documentation'
+    },
+    {
+      href: '#custom-blockchain',
+      t_key: 'nav.starstack.features'
+    },
+    {
+      href: '#need-help',
+      t_key: 'nav.starstack.connect'
+    },
+  ]
+})
+
+nav_data.push({
   group: 'getstc',
   href: '/getstc',
   t_key: 'nav.group.getstc',
@@ -157,5 +181,7 @@ nav_data.push({
     },
   ]
 })
+
+
 
 export default nav_data
