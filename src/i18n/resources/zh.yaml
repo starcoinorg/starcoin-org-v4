@@ -29,6 +29,7 @@ nav:
     getstc: '获取 stc'
     community: '社区'
     news: '消息'
+    starstack: 'Starstack'
   home:
     get_started: '从这里解锁 Starcoin'
     feature: 'Starcoins 特性'
@@ -47,6 +48,11 @@ nav:
     explorer: '浏览器'
     easy_building: '轻松搭建'
     starcoin_grant: 'Starcoin 资助'
+  starstack:
+    get_start: '从这里开始'
+    resource_documentation: '资源和文档' 
+    features: 'StarStack 特性'
+    connect: '申请'    
   getstc:
     node_mining: '节点挖矿'
     starmask_wallet: 'StarMask 钱包'
@@ -96,7 +102,6 @@ feature_table:
     - >
       是的。交易被组织成块，通过使用 TurboSTM，吞吐量提高了 10 倍。
   
-
 # Home page
 home:
   title: 首页
@@ -519,10 +524,10 @@ news:
     title: 消息与博客
     desc: >
       在这里了解Starcoin项目的最新进展、活动和更新。若想最快速获取项目更新，请加入我们官方的<strong>Starcoin媒体</strong>社区。
-  
+
 # starstack Page
 starstack:
-  title: 'StarStack: 强大的Move框架'  
+  title: 'StarStack：强大的Move框架'  
   meta_description: '了解 StarStack，一个强大的 Move 框架，旨在支持开发者构建区块链应用程序。'
   hero:
     title: 从概念到部署
