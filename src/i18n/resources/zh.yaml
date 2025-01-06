@@ -527,7 +527,7 @@ news:
 
 # starstack Page
 starstack:
-  title: 'StarStack：强大的Move框架'  
+  title: 'StarStack：强大的 Move 框架'  
   meta_description: '了解 StarStack，一个强大的 Move 框架，旨在支持开发者构建区块链应用程序。'
   hero:
     title: 从概念到部署
