@@ -1,5 +1,6 @@
 ---
 title: "从连接世界开始：Starcoin 生态的里程碑"
+meta_description: "探索 Starcoin 在利用 Move 连接世界并推进其区块链生态系统方面的重要里程碑。"
 date: 2022-06-17
 summary: "正如我们已经宣布，连接以太坊和Starcoin的跨链桥将在本周上线。这是Starcoin生态的一个里程碑...."
 author: "Starcoin"

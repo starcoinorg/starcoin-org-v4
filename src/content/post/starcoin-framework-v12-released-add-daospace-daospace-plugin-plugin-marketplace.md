@@ -1,5 +1,6 @@
 ---
 title: "Starcoin-framework V12 released, add DAOSpace, DAOSpace Plugin & Plugin Marketplace"
+meta_description: "Learn about the Framework v12 release with DAOSpace and its plugin marketplace for Move developers."
 date: 2022-12-01
 summary: "tarcoin-framework has released the v12 version, let’s take a look at what changes have taken place in the framework from v11..."
 author: "Starcoin"

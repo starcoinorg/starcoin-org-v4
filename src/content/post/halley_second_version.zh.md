@@ -1,5 +1,6 @@
 ---
 title: "Starcoin 区块链发布了测试网版本 v0.2"
+meta_description: "发现 Halley 第二个版本的更新，包括新的 Move 功能和为 Starcoin 用户带来的改进。"
 date: 2020-06-28
 image: 'read.jpg'
 summary: "Stacoin 发布了测试网版本 v0.2，该版本包含了一系列特性升级及更新。"

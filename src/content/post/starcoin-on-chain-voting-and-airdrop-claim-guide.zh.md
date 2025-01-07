@@ -1,5 +1,6 @@
 ---
 title: "Starcoin 链上投票及空投领奖指南"
+meta_description: "全面指南：Starcoin 的链上投票系统与空投领取流程。"
 date: 2023-02-22
 summary: "Starcoin 正在发起第13期链上投票。参与投票即可获得后续的空投奖励。..."
 author: "Starcoin"

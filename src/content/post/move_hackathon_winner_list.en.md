@@ -1,5 +1,6 @@
 ---
 title: "First Starcoin Move Online Hackathon Winners Announced"
+meta_description: "Celebrate the winners of the Move Hackathon, showcasing top blockchain projects and innovations."
 date: 2021-08-20
 summary: "Starcoin is the first unlicensed public chain supporting Move smart contracts, and the main network has been officially launched on May 18, 2021. To accelerate the ecological unfolding and give full play to Move's advantages in scenarios such as DeFi, Starcoin successfully held the First Move Online Hackathon..."
 author: "Starcoin"

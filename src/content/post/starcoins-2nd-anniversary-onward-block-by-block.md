@@ -1,5 +1,6 @@
 ---
 title: "Starcoin’s 2nd Anniversary: Onward, Block by Block"
+meta_description: "Celebrate Starcoin's 2nd anniversary with Move milestones and achievements in blockchain growth."
 date: 2023-05-16
 summary: "“Challenges are inevitable, but being in defeat is optional.” Hello, Starfam, It’s with great joy that we celebrate the second anniversary of Starcoin’s mainnet launch! We are immensely grateful for your..."
 author: "Starcoin"

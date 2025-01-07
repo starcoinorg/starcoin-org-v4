@@ -1,5 +1,6 @@
 ---
 title: "We are hiring! Join us as a Blockchain Rust Developer"
+meta_description: "Join Starcoin as a Blockchain Rust Developer and contribute to cutting-edge blockchain technology innovations."
 date: 2023-02-25
 summary: "Are you looking for an opportunity to unleash your potential and be part of a revolutionary industry? Westar Labs, which incubating the..."
 author: "Starcoin"

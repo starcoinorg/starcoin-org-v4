@@ -1,5 +1,6 @@
 ---
 title: "Starcoin BlockChain release v0.2 "
+meta_description: "Discover the updates in Halley’s second version, including new Move features and improvements for Starcoin users."
 date: 2020-06-28
 image: 'read.jpg'
 summary: "The second version of the Stacoin blockchain developer beta for Halley, which includes many new features. such as upgraded stdlib, enhanced block validation logic, refactored block executors, etc."

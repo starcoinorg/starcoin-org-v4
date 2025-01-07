@@ -1,5 +1,6 @@
 ---
-title: "MoveBit Partners with Starcoin to Build a Secure Move Ecosystem"
+title: "MoveBit Partners to Build a Secure Move Ecosystem - Starcoin"
+meta_description: "MoveBit partners with Starcoin to create a secure and robust ecosystem using Move technology."
 date: 2022-09-09
 summary: "MoveBit announced a strategic partnership with Starcoin. The two sides will cooperate deeply in the security aspect of the Move ecosystem..."
 author: "Starcoin"

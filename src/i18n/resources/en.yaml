@@ -25,9 +25,11 @@ nav:
     home: 'Home'
     features: 'Features'
     developers: 'Developers'
+    starstack: 'StarStack'
     getstc: 'Get stc'
     community: 'Community'
     news: 'News'
+    
   home:
     get_started: 'Get Started on Starcoin'
     feature: 'Starcoins Feature'
@@ -46,6 +48,11 @@ nav:
     explorer: 'Explorer'
     easy_building: 'Easy Building'
     starcoin_grant: 'Starcoin Grant'
+  starstack:
+    get_start: 'Get start'
+    resource_documentation: 'Resource & Documentation' 
+    features: 'Features'
+    connect: 'Connect'    
   getstc:
     node_mining: 'Node Mining'
     starmask_wallet: 'StarMask Wallet'
@@ -59,6 +66,7 @@ nav:
     branding: 'Branding'
   news:
     news_blog: 'News & Blog'
+  
 
 # Feature table
 feature_table:
@@ -517,8 +525,8 @@ news:
   
 # StarStack Page
 starstack:
-  title: 'Move & StarStack - Starcoin | Modular Solutions for Move Developers'  
-  meta_description: 'Learn about StarStack, a powerful Move framework supporting developers in building blockchain applications.'
+  title: 'Move & StarStack - Starcoin | Modular Solutions for Move Developers' 
+  meta_description: 'Learn about StarStack, a powerful Move framework supporting developers in building blockchain applications.' 
   hero:
     title: From Concept to Deployment
     subtitle: in One Click with <strong>StarStack</strong>

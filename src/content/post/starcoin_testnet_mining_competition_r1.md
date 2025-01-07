@@ -1,5 +1,6 @@
 ---
-title: "Starcraft·Win 10,000 USDT  ——  Starcoin mining competition round 1"
+title: "Win 10,000 USDT in Starcoin Mining Round 1 - Starcoin"
+meta_description: "Participate in Starcoin's Testnet Mining Competition R1 and showcase your mining skills."
 date: 2020-12-16
 summary: "starcoin testnet mining competition round one is comming"
 archives: "2020"

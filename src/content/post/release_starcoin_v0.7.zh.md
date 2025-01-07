@@ -1,5 +1,6 @@
 ---
 title: "Starcoin 区块链发布 v0.7 版本"
+meta_description: "了解 Starcoin v0.7 版本中的重要更新，重点提升 Move 区块链的可扩展性和安全性。"
 date: 2020-10-27
 summary: "Starcoin 区块链发布 v0.7 版本，在上个版本已经稳定运行了一个多月的基础上，对Chain、共识、Stdlib、Network等模块持续优化，增加CNR共识算法，调整时间精度，提升Spec形式化验证覆盖率到90%以上。欢迎下载 Starcoin 加入 Proxima 测试网络进行测试。"
 author: "suoyuan"
