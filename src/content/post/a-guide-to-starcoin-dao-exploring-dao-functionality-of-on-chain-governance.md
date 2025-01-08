@@ -1,5 +1,6 @@
 ---
 title: "A Guide to Starcoin DAO: Exploring DAO Functionality of On-Chain Governance"
+meta_description: "Learn about Starcoin DAO's on-chain governance functionality with Move and its role in decentralized decision-making."
 date: 2023-03-02
 summary: "Previous： Starcoin and Decentralized Governance Unlock the Benefits of Starcoin DAO We are pleased to announce the successful passage o..."
 author: "Starcoin"

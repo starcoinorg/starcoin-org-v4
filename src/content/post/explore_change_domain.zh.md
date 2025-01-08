@@ -1,5 +1,6 @@
 ---
 title: "Starcoin 区块浏览器切换域名"
+meta_description: "了解Starcoin的面向资源的Move编程及其在区块链开发中的优势。"
 date: 2021-07-22
 image: 'read.jpg'
 summary: "Starcoin 区块浏览器切换域名至 https://stcscan.io/"

@@ -1,5 +1,6 @@
 ---
-title: "Starcoin Easy Gas : More Flexible,More Easy"
+ttitle: "Starcoin Easy Gas : More Flexible,More Easy"
+meta_description: "Discover how Starcoin's easy gas system enhances flexibility and simplifies Move blockchain transactions."
 date: 2022-11-07
 summary: "Present Web3 applications are not as user-friendly as the familiar web2 applications in terms of user experience and interaction. Almost every interaction with a DApp is a complex process for some users. A typical..."
 author: "Starcoin"

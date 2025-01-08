@@ -54,7 +54,7 @@ const Content = renderEntry?.Content;
 
   <Fragment slot="page-meta">
     <title>{entry?.data.title} - {t("site.name")}</title>
-    <meta name="description" content={t("site.desc")} />
+    <meta name="description" content={t("{entry?.data..meta_description")} />
     <!-- <link rel="canonical" href={site} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={desc} />

@@ -1,5 +1,6 @@
 ---
 title: "Starcoin：为什么我们需要 Layer 2"
+meta_description: "了解 Starcoin 为什么选择 Layer 2 解决方案，以提升 Move 的可扩展性和性能。"
 date: 2022-12-02
 summary: "区块链行业经过这些年的发展，已经在加密货币（Cryptocurrency）以及去中心化金融（DeFi）方向上取得了初步的验证，各种应用的雏形已经具备，但如何让区块链技术被大规模用户采用，..."
 author: "Starcoin"

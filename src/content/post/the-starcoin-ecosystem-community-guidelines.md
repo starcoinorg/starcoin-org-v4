@@ -1,5 +1,6 @@
 ---
 title: "The Starcoin Ecosystem Community Guidelines"
+meta_description: "Understand the Starcoin and Move ecosystem's community guidelines for a collaborative environment."
 date: 2023-02-01
 summary: "Hello, Starcoin fam! A remarkable start to the year! We’ve seen an influx of new members joining our journey toward a new blockchain narrative. Thank you all for your support! As we grow into a dynamic..."
 author: "Starcoin"

@@ -110,7 +110,8 @@ feature_table:
 
 # Home page
 home:
-  title: Home
+  title: 'Build Secure Blockchain Solutions - Starcoin & Move'
+  meta_description: 'Starcoin is a proof-of-work blockchain that enables secure smart contracts based on Move to power services in Web 3.0'
   hero:
     title: Power in Speed
     subtitle: Innovate with <strong>PoW</strong>
@@ -192,7 +193,8 @@ home:
 
 # Features page
 features:
-  title: 'Features'
+  title: 'Innovative Blockchain Solutions with Move - Starcoin & Move'
+  meta_description: 'Explore Starcoin's features like scalability, security, and decentralized governance for next-gen Move blockchain solutions'
   hero:
     title: A Reliable, Flexible, and Progressible 
     subtitle: Web3 <strong>Infrastructure</strong>
@@ -335,7 +337,8 @@ features:
 
 # Developers page
 developers:
-  title: 'Developers'
+  title: 'Learn to Build Secure Blockchain Applications - Starcoin & Move'
+  meta_description: 'Access Starcoin developer tools, guides, and resources to build and innovate with Move and blockchain technology'
   hero:
     title: >
       <p><strong>Launchpad</strong></p>
@@ -380,7 +383,8 @@ developers:
 
 # Get stc page
 getstc:
-  title: 'Get stc'
+  title: 'Get Move's STC token - Starcoin & Move'
+  meta_description: 'Learn how to acquire STC tokens with detailed guides on wallets, exchanges, and platforms supporting Starcoin.'
   hero:
     title: >
       <p>Easy Fun</p>
@@ -462,7 +466,8 @@ getstc:
 
 # Community page
 community:
-  title: 'Community'
+  title: 'Connect and Collaborate on Blockchain Innovation - Starcoin & Move'
+  meta_description: 'Join the Starcoin community to connect, collaborate, and stay updated on the latest developments in the Starcoin and Move ecosystem.'
   hero:
     title:
       - Make <strong>Friends</strong> with
@@ -511,15 +516,17 @@ community:
 
 # News page
 news:
-  title: 'News'
+  title: 'Insights into Blockchain and Smart Contracts - Starcoin & Move'
+  meta_description: 'Stay updated with the latest Starcoin news, announcements, and insights from the Move blockchain community.'
   hero:
     title: NEWS & BLOG
     desc: >
       Stay informed about the latest developments, events, and updates for the Starcoin project right here. For the most current and rapid access to project updates, join our Official <strong>Starcoin media</strong> community.
-
+  
 # StarStack Page
 starstack:
-  title: 'StarStack'  
+  title: 'Move & StarStack - Starcoin | Modular Solutions for Move Developers' 
+  meta_description: 'Learn about StarStack, a powerful Move framework supporting developers in building blockchain applications.' 
   hero:
     title: From Concept to Deployment
     subtitle: in One Click with <strong>StarStack</strong>

@@ -1,5 +1,6 @@
 ---
 title: "PoW Consensus: Reinvented on Starcoin"
+meta_description: "Explore Starcoin's reinvented PoW consensus, enhancing efficiency and scalability in blockchain operations."
 date: 2023-01-31
 summary: "The blockchain trilemma states that it is impossible to achieve scalability, decentralization, and security all at once. Many projects have promised potential solutions, but none have been able to provide..."
 author: "Starcoin"

@@ -1,5 +1,6 @@
 ---
 title: "Starcoin 早期支持者回馈计划"
+meta_description: "Starcoin 是新一代分层的智能合约和分布式金融网络，点击了解早期支持者回馈计划。"
 date: 2021-04-09
 summary: "Starcoin 是新一代分层的智能合约和分布式金融网络。 主网上线前夕面对广大开发者及区块链爱好者，正在进行安全赏金计划及测试网挖矿第二期活动。"
 author: "fikgol"

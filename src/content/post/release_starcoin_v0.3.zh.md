@@ -1,5 +1,6 @@
 ---
 title: "Starcoin 区块链发布 v0.3 版本"
+meta_description: "探索最新 Starcoin v0.3 版本中引入的 Move 功能和改进。"
 date: 2020-07-21
 summary: "Starcoin 区块链发布 v0.3 版本，主要包含叔块，难度调整动态算法以及 Starcoin MoveVM stdlib 等主要更新。"
 author: "jolestar"

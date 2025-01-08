@@ -1,5 +1,6 @@
 ---
 title: "Starcoin: A Practitioner of Move-Based Web3"
+meta_description: "Learn how Starcoin is advancing Web3 innovation with its Move-based blockchain technology."
 date: 2023-03-28
 summary: "Smart contracts are one of the most important features of blockchain technology and Web3 applications. They allow two or more parties to make a contract without the need for a third party, which is often..."
 author: "Starcoin"

@@ -1,5 +1,6 @@
 ---
 title: "Recap Move & Starcoin [AMA 07.23.2022]"
+meta_description: "Catch up on key insights and discussions from the Move Starcoin AMA session with experts."
 date: 2022-07-26
 summary: "What is Move specifically referred to often in the Web3 space, and what does it mean? Tim: This has 3 levels of implications. Move language. Move is a smart contract language designed specifically for digital assets, which..."
 author: "Starcoin"

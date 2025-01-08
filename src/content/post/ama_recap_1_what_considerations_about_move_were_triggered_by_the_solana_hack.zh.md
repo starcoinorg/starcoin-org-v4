@@ -1,5 +1,6 @@
 ---
 title: "AMA Recap（1）Solana事件引发关于Move的哪些考虑？"
+meta_description: "在AMA会议中透露的关于Solana黑客事件引发的对Move语言的考量洞察。"
 date: 2022-08-22
 summary: "1.Solana安全事件具有偶然性？..."
 author: "Starcoin"

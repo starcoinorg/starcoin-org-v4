@@ -1,5 +1,6 @@
 ---
 title: "Prelude to a New Course: What is FlexiDAG?"
+meta_description: "Learn about FlexiDAG and its transformative impact on blockchain, setting the stage for a new Starcoin course."
 date: 2023-05-10
 summary: "Origin Nakamoto consensus In Nakamoto consensus, a 10-minute block time is set to ensure network security and stability. This time interval ensures enough time for all network miners to perform..."
 author: "Starcoin"

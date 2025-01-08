@@ -102,10 +102,10 @@ feature_table:
     - >
       是的。交易被组织成块，通过使用 TurboSTM，吞吐量提高了 10 倍。
   
-
 # Home page
 home:
   title: 首页
+  meta_description: 'Starcoin 是一种基于工作量证明（Proof-of-Work）的区块链，它基于 Move 提供安全的智能合约，为 Web 3.0 服务提供支持'
   hero:
     title: 速度赋能
     subtitle: 为<strong>PoW</strong>创新活力
@@ -186,7 +186,8 @@ home:
 
 # Features page
 features:
-  title: 'Features'
+  title: '特性'
+  meta_description: '探索 Starcoin 的特性，包括可扩展性、安全性和去中心化治理，为下一代 Move 区块链解决方案提供支持。'
   hero:
     title: 可靠的, 灵活的, 可持续发展的
     subtitle: Web3 <strong>基础设施</strong>
@@ -338,6 +339,7 @@ features:
 # Developers page
 developers:
   title: '开发者'
+  meta_description: '访问 Starcoin 开发者工具、指南和资源，使用 Move 和区块链技术进行构建和创新。'
   hero:
     title: >
       <p><strong>Move的</strong></p>
@@ -384,6 +386,7 @@ developers:
 # Get stc page
 getstc:
   title: '获取 stc'
+  meta_description: '通过详细的指南了解如何获取 STC 代币，包括钱包、交易所和支持 Starcoin 的平台。'
   hero:
     title: >
       <p>轻松有趣</p>
@@ -466,6 +469,7 @@ getstc:
 # Community page
 community:
   title: '社区'
+  meta_description: '加入 Starcoin 社区，与其他成员连接、协作，并随时了解 Starcoin 和 Move 生态系统的最新动态。'
   hero:
     title:
       - 和 WEB 3.0 时代的
@@ -515,6 +519,7 @@ community:
 # News page
 news:
   title: '消息'
+  meta_description: '获取 Move 区块链社区的最新新闻、公告和洞察，保持与 Starcoin 的最新动态同步。'
   hero:
     title: 消息与博客
     desc: >
@@ -522,7 +527,8 @@ news:
 
 # starstack Page
 starstack:
-  title: 'StarStack'  
+  title: 'StarStack：强大的 Move 框架'  
+  meta_description: '了解 StarStack，一个强大的 Move 框架，旨在支持开发者构建区块链应用程序。'
   hero:
     title: 从概念到部署
     subtitle: 一键轻松实现，尽在 <strong>StarStack</strong>

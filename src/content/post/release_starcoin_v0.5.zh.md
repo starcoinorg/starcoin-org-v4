@@ -1,5 +1,6 @@
 ---
 title: "Starcoin 区块链发布 v0.5 版本"
+meta_description: "探索 Starcoin v0.5 版本中的增强功能和修复，提升 Move 区块链的可用性。"
 date: 2020-09-20
 summary: "Starcoin 区块链发布 v0.5 版本，在上个版本稳定运行了一个多月（没有删档， 部署了六个测试节点，区块数据已经达到30多万）的基础上，对区块、Genesis、Stalib等模块做重大重构，实现了新的Service Registry框架，并增加了新的共识算法。欢迎下载 Starcoin 加入 Proxima 测试网络进行测试。"
 author: "suoyuan"

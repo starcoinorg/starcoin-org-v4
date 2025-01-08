@@ -1,5 +1,6 @@
 ---
 title: "星际争霸·瓜分万U  ——  Starcoin 挖矿比赛第一期"
+meta_description: "参与 Starcoin 的 Testnet Mining Competition R1，展示您的挖矿技能。"
 date: 2020-12-16
 summary: "starcoin testnet mining competition round one is comming"
 archives: "2020"
