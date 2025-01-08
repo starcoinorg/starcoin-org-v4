@@ -1,5 +1,6 @@
 ---
 title: "Starcoin 区块链安全赏金计划"
+meta_description: "探索 Starcoin 的尖端安全措施，以确保 Move 区块链生态系统的稳健性。"
 date: 2021-03-17
 summary: "Starcoin 区块链主网即将上线，现启动安全赏金计划，该计划时间为2021年3月24日到2021年4月24日。"
 author: "fikgol"

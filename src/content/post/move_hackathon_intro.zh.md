@@ -1,5 +1,6 @@
 ---
 title: "首届Starcoin Move线上黑客松参赛说明"
+meta_description: "了解 Move Hackathon 的宗旨和目标，促进区块链的创新与发展。"
 date: 2021-07-04
 summary: "Starcoin是一个按分层方式架构并为分布式金融而设计的区块链项目，使用专门为分布式金融网络及数字资产设计的智能合约语言Move，也是第一个支持无许可Move合约的公链。为了充分发挥Move优势，Starcoin最近激活了链上发布Move合约功能，并发起首届Starcoin Move线上黑客松大赛。 "
 author: "Starcoin"

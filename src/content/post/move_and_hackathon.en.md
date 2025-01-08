@@ -1,5 +1,6 @@
 ---
-title: "Starcoin to enable Move Contract and launch its first Move online hackathon"
+title: "Starcoin Launches Move Contract and Hackathon - Starcoin"
+meta_description: "Get insights into the Move and Hackathon initiative, fostering innovation in the blockchain ecosystem."
 date: 2021-06-21
 summary: "With the growing demand for Move deployment in the Starcoin ecosystem, Starcoin plans to launch a new proposal to enable Move contracts officially. The proposal will start voting on June 23, 2021, and end on June 30, 2021..."
 author: "Starcoin"

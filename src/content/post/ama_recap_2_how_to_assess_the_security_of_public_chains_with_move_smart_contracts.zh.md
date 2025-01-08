@@ -1,5 +1,6 @@
 ---
 title: "AMA Recap（2）Move公链怎么评估安全性？"
+meta_description: "在这份详细的AMA回顾中，了解Move智能合约如何确保公链的安全性。"
 date: 2022-08-22
 summary: "Tim: PoW共识最常见的攻击方式是使用算力攻击。在行业内比如btc和eth历史上也曾经多次出现这种情况，或者一些尝试分叉的力量..."
 author: "Starcoin"

@@ -1,5 +1,6 @@
 ---
 title: "StarMask V4.6.0:Preview the effect of trades on account assets before trading."
+meta_description: "Discover insights about domain change exploration and its impact on the Starcoin and Move ecosystem."
 date: 2022-07-08
 summary: "eg: Swapping 100 STC to 292 STAR on starswap.xyz. The transaction confirmed page of the old version only display the estimated gas fee:..."
 author: "Starcoin"

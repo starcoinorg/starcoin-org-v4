@@ -1,6 +1,6 @@
 ---
-title: "Mining Competition Phase 2 - Barnard Test Network and Mainline Launch Preview"
-date: 2021-03-26
+title: "Move Mining Phase 2: Barnard Testnet & Mainline Preview - Starcoin"
+
 summary: "Starcoin testnet mining competition round two is comming"
 archives: "2021"
 author: "starcoin-core"

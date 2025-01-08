@@ -1,5 +1,6 @@
 ---
-title: "Starcoin and Ethereum cross-chain is coming, Move, and EVM ecosystem will soon interoperate"
+title: "Starcoin and Ethereum Cross-Chain Integration - Starcoin"
+meta_description: "Learn how Move and EVM ecosystems will soon interoperate, bridging blockchain development seamlessly."
 date: 2022-06-15
 summary: "Cross-chain bridges are an indispensable part of the public chain ecosystem and a sure way to break down value silos to Web3. With the Starcoin launch...."
 author: "Starcoin"

@@ -1,5 +1,6 @@
 ---
 title: "2022 STARCOIN Roadmap Update｜Stepping Solidly Forward"
+meta_description: "Discover the 2022 Starcoin roadmap with Move significant milestones and advancements achieved throughout the year."
 date: 2022-07-12
 summary: "More important than keeping achievements alive is providing innovation in strategy. Having hit every milestone on the first half of our 2022 roadmap..."
 author: "Starcoin"

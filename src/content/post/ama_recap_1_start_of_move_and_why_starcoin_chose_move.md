@@ -1,5 +1,6 @@
 ---
-title: "AMA Recap (1)｜Start of Move and why Starcoin chose move"
+title: "AMA Recap (1): Why Starcoin Chose Move - Starcoin"
+meta_description: "Dive into why Starcoin chose Move and its importance in blockchain development as discussed in the AMA recap."
 date: 2022-08-09
 summary: "Move engineer salary of $1200 per hour phenomenon. Tim: Recently, I saw a tweet saying that Move engineers are top-rated now, and the hourly rate..."
 author: "Starcoin"

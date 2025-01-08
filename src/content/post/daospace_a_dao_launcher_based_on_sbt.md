@@ -1,5 +1,6 @@
 ---
 title: "DAOSpace — A DAO launcher based on SBT"
+meta_description: "Analyze token changes caused by transactions in any DApp with Move and Starcoin's advanced features."
 date: 2022-08-04
 summary: "DAO is a buzzword for Web3, a governance idea supported by a platform as well. As one of the pioneer permitless blockchains in the Move space, Starcoin will launch its own platform-based product, DAOSpace. DAO is a..."
 author: "Starcoin"
