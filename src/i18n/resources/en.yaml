@@ -194,7 +194,7 @@ home:
 # Features page
 features:
   title: 'Innovative Blockchain Solutions with Move - Starcoin & Move'
-  meta_description: 'Explore Starcoin's features like scalability, security, and decentralized governance for next-gen Move blockchain solutions'
+  meta_description: "Explore Starcoin's features like scalability, security, and decentralized governance for next-gen Move blockchain solutions"
   hero:
     title: A Reliable, Flexible, and Progressible 
     subtitle: Web3 <strong>Infrastructure</strong>
@@ -383,7 +383,7 @@ developers:
 
 # Get stc page
 getstc:
-  title: 'Get Move's STC token - Starcoin & Move'
+  title: "Get Move's STC token - Starcoin & Move"
   meta_description: 'Learn how to acquire STC tokens with detailed guides on wallets, exchanges, and platforms supporting Starcoin.'
   hero:
     title: >
