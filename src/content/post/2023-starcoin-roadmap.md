@@ -1,5 +1,6 @@
 ---
 title: "2023 Starcoin Roadmap"
+meta_description: "Get insights into Starcoin's 2023 roadmap, focusing on new goals with Move and future blockchain innovations."
 date: 2023-01-03
 summary: "Every year comes with its challenges and wins, and you’ve been with us every step of the way. Thank you for keeping us in your corner!Here’s to a new chapter of improvement and growth! As we look ahead to..."
 author: "Starcoin"

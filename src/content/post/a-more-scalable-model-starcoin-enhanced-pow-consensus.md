@@ -1,5 +1,6 @@
 ---
 title: "A More Scalable Model:Starcoin Enhanced PoW Consensus"
+meta_description: "Understand Starcoin's enhanced PoW consensus model and how it scales Move blockchain performance effectively."
 date: 2023-03-10
 summary: "Scalability has always been a major challenge for the traditional PoW system, hindering the adoption of blockchain..."
 author: "Starcoin"
