@@ -1,5 +1,6 @@
 ---
 title: "Starcoin Easy Gas : 一种更灵活更快捷的支付"
+meta_description: "了解 Starcoin 的Easy Gas 系统如何增强灵活性并简化 Move 区块链交易。"
 date: 2022-11-07
 summary: "目前的 Web3 应用在用户的使用和交互上来说，相对我们熟悉的 web2 应用，体验并不是那么友好。几乎每一次与 DApp 的互动对一些用户来说都是一个复杂的过程..."
 author: "Starcoin"

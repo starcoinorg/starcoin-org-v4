@@ -1,5 +1,6 @@
 ---
-title: "Starcoin Hackathon Final Concludes, DeFi Ecology Based on Move Language Takes Shape"
+title: "Hackathon Wrap-Up: DeFi via Move Language - Starcoin"
+meta_description: "Explore the results of the Starcoin Hackathon, showcasing DeFi innovation with the Move language."
 date: 2021-08-23
 summary: "4 teams won the Starcoin Hackathon Final, and they will receive comprehensive resource support from the Starcoin ecosystem."
 author: "TechWeb"

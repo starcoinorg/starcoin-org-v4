@@ -1,5 +1,6 @@
 ---
-title: "Starcoin’s First Cross-Chain Bridge.Brings a Secure Connection Between MOVE and EVM"
+title: "Starcoin’s First MOVE-EVM Secure Cross-Chain Bridge - Starcoin"
+meta_description: "Starcoin's first cross-chain bridge connects Move and EVM ecosystems securely and efficiently."
 date: 2022-06-20
 summary: "The theme of this year's Starcoin Hackathon is “All in Metaverse & Defi on Starcoin”, which aims to bring participants together for a limited period to brainstorm for new ideas in the field of Metaverse & Defi...."
 author: "Starcoin"

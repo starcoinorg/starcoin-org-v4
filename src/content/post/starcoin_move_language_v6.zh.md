@@ -1,5 +1,6 @@
 ---
 title: "Starcoin Move Language v6 版升级投票开始"
+meta_description: "发掘 Move Language v6 的新功能，专为高级区块链开发量身打造。"
 date: 2023-02-22
 summary: "Starcoin Move Language v6 版升级投票开始。本次 Move Language v6升级，主要包含..."
 author: "jolestar"

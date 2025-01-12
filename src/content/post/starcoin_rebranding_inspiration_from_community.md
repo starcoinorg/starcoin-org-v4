@@ -1,5 +1,6 @@
 ---
 title: "Starcoin Rebranding:Inspiration from Community"
+meta_description: "Learn about Starcoin's rebranding journey with Move, inspired by feedback from its vibrant community."
 date: 2022-06-01
 summary: "We are incredibly excited to announce the new identity of STARCOIN! May was a big month for us. Brand update almost perfectly aligns with our 1st Anniversary celebration. Looking back on our journey so far, we can’t hel...."
 author: "Starcoin"

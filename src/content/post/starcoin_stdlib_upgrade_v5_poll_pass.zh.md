@@ -1,6 +1,7 @@
 ---
-title: "Starcoin Move 合约标准库 v5 版升级投票通过，将于 24 小时后后执行"
-date: 2021-06-15
+title: "Starcoin Move 合约标准库 v5 版升级完成"
+meta_description: "Stdlib v5 升级已完成，为基于 Move 的 Starcoin 区块链带来了重大改进。"
+date: 2021-06-17
 summary: "Starcoin Move 合约标准库 v5 版升级投票结束，本次投票共有 7088587.7104 STC 赞成票，2 STC 反对票，赞成票超过当前流通量 4% 的阈值限制，并且大于反对票，投票通过。当前进入等待执行的公示状态。"
 author: "jolestar"
 tags: [

@@ -1,6 +1,7 @@
 ---
-title: "Starcoin Move stdlib upgrade voting is end，will be executed in 24 hours"
-date: 2021-06-15
+title: "Starcoin Move stdlib v5 upgrade completed"
+meta_description: "The Stdlib v5 upgrade is complete, delivering significant improvements to Starcoin's blockchain with Move."
+date: 2021-06-17
 summary: "Voting for the Starcoin Move stdlib v5 upgrade is end with 7088587.7104 STC votes agree and 2 STC votes against. The poll is now in the pending execute status."
 author: "jolestar"
 tags: [

@@ -1,5 +1,6 @@
 ---
 title: "Starcoin：DID 与 SBT 的思考"
+meta_description: "深入了解 Starcoin 基于 Move 的去中心化身份（DID）和灵魂绑定代币（SBT）解决方案。"
 date: 2022-10-05
 summary: "最近行业用户在关注 DID， 据悉 Starcoin 上的 Name Service 项目也正在开发之中，目前正在使用 Move 语言的可组合性尝试 SBT 与 域名身份结合的..."
 author: "Starcoin"
