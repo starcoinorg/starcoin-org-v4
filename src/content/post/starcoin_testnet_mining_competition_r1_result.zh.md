@@ -1,5 +1,6 @@
 ---
 title: "Starcoin 测试网挖矿比赛第一期结果"
+meta_description: ""
 date: 2021-01-05
 summary: "starcoin testnet mining competition round one is finish"
 archives: "2021"

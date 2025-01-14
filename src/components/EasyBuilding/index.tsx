@@ -25,10 +25,10 @@ export default function EasyBuilding({
         <div className="section__title">
           <h3 data-aos="fade-up">
             <strong>
-              {t('developers.easy_building.title')}
+              {t('starstack.easy_building.title')}
             </strong>
           </h3>
-          <small data-aos="fade-up">{t('developers.easy_building.subtitle')}</small>
+          <small data-aos="fade-up">{t('starstack.easy_building.subtitle')}</small>
         </div>
         <div className="section__content">
           <div className="cards cards--easy-building">
@@ -42,10 +42,10 @@ export default function EasyBuilding({
               </figure>
               <div className="card__content">
                 <h4 className="card__title">
-                  {t('developers.easy_building.card_1.title')}
+                  {t('starstack.easy_building.card_1.title')}
                 </h4>
                 <p>
-                  {t('developers.easy_building.card_1.content')}
+                  {t('starstack.easy_building.card_1.content')}
                 </p>
               </div>
               <svg className="icon--arrowRight">
@@ -63,10 +63,10 @@ export default function EasyBuilding({
               </figure>
               <div className="card__content">
                 <h4 className="card__title">
-                  {t('developers.easy_building.card_2.title')}
+                  {t('starstack.easy_building.card_2.title')}
                 </h4>
                 <p>
-                  {t('developers.easy_building.card_2.content')}
+                  {t('starstack.easy_building.card_2.content')}
                 </p>
               </div>
               <svg className="icon--arrowRight">
@@ -84,10 +84,10 @@ export default function EasyBuilding({
               </figure>
               <div className="card__content">
                 <h4 className="card__title">
-                  {t('developers.easy_building.card_3.title')}
+                  {t('starstack.easy_building.card_3.title')}
                 </h4>
                 <p>
-                  {t('developers.easy_building.card_3.content')}
+                  {t('starstack.easy_building.card_3.content')}
                 </p>
               </div>
               <svg className="icon--arrowRight">
@@ -95,47 +95,7 @@ export default function EasyBuilding({
               </svg>
             </a>
 
-            <a href="https://starcoin.org/en/developers/examples/" target="_blank" className="card" data-aos="fade-left">
-              <figure>
-                <div className="figure--inner">
-                  <img src={node4.src} alt="" />
-                  <figcaption>04</figcaption>
-                </div>
-
-              </figure>
-              <div className="card__content">
-                <h4 className="card__title">
-                  {t('developers.easy_building.card_4.title')}
-                </h4>
-                <p>
-                  {t('developers.easy_building.card_4.content')}
-                </p>
-              </div>
-              <svg className="icon--arrowRight">
-                <use xlinkHref="#arrowRight" href="#arrowRight" />
-              </svg>
-            </a>
-
-            <a href="https://starcoin.org/en/developers/others/" target="_blank" className="card" data-aos="fade-right">
-              <figure>
-                <div className="figure--inner">
-                  <img src={node5.src} alt="" />
-                  <figcaption>05</figcaption>
-                </div>
-
-              </figure>
-              <div className="card__content">
-                <h4 className="card__title">
-                  {t('developers.easy_building.card_5.title')}
-                </h4>
-                <p>
-                  {t('developers.easy_building.card_5.content')}
-                </p>
-              </div>
-              <svg className="icon--arrowRight">
-                <use xlinkHref="#arrowRight" href="#arrowRight" />
-              </svg>
-            </a>
+            
           </div>
         </div>
       </div>

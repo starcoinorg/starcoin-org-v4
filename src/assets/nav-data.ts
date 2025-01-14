@@ -72,24 +72,44 @@ nav_data.push({
   t_key: 'nav.group.developers',
   links: [
     {
-      href: 'https://starcoin.org/en/developers/node/',
-      t_key: 'nav.developers.resources_tutorials'
+      href: '#get-started-with-move',
+      t_key: 'nav.developers.get_started_with_move'
     },
     {
-      href: 'https://github.com/starcoinorg',
+      href: '#get-started-with-move',
       t_key: 'nav.developers.github'
     },
     {
-      href: 'https://stcscan.io/',
-      t_key: 'nav.developers.explorer'
+      href: '#what-is-move',
+      t_key: 'nav.developers.what_is_move'
     },
     {
-      href: '#easy-building',
-      t_key: 'nav.developers.easy_building'
+      href: '#why-move',
+      t_key: 'nav.developers.why_move'
     },
     {
-      href: '#starcoin-grant',
-      t_key: 'nav.developers.starcoin_grant'
+      href: '#move-starcoin',
+      t_key: 'nav.developers.move_starcoin'
+    },
+    {
+      href: '#starcoin-move-features',
+      t_key: 'nav.developers.starcoin_move_features'
+    },
+    {
+      href: '#download-the-sdk',
+      t_key: 'nav.developers.download_the_sdk'
+    },
+    {
+      href: '#download-the-sdk',
+      t_key: 'nav.developers.explore_tutorials'
+    },
+    {
+      href: '#move-innovation-with-starcoin',
+      t_key: 'nav.developers.move_innovation_with_starcoin'
+    },
+    {
+      href: '#join-the-community',
+      t_key: 'nav.developers.join_the_community'
     },
   ]
 })
@@ -100,19 +120,35 @@ nav_data.push({
   t_key: 'nav.group.starstack',
   links: [
     {
-      href: '#solution-building',
+      href: '#get_start',
       t_key: 'nav.starstack.get_start'
     },
     {
-      href: '#choose-starstack',
+      href: '#get_start',
+      t_key: 'nav.starstack.github'
+    },
+    {
+      href: '#resource-documentation',
       t_key: 'nav.starstack.resource_documentation'
     },
     {
-      href: '#custom-blockchain',
-      t_key: 'nav.starstack.features'
+      href: '#why-starStack',
+      t_key: 'nav.starstack.why_starStack'
     },
     {
-      href: '#need-help',
+      href: '#easy-building',
+      t_key: 'nav.starstack.easy_building'
+    },
+    {
+      href: '#starstack-features',
+      t_key: 'nav.starstack.starstack_features'
+    },
+    {
+      href: '#apply',
+      t_key: 'nav.starstack.apply'
+    },
+    {
+      href: '#connect',
       t_key: 'nav.starstack.connect'
     },
   ]

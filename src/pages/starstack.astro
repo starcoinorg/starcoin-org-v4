@@ -1,8 +1,10 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import StarScaffoldHero from "@/components/StarScaffoldHero";
-import AOneStopSolutionForBuilding from "@/components/AOneStopSolutionForBuilding";
-import ChooseStarstack from "@/components/ChooseStarstack";
+import ResourceDocumentation from "@/components/ResourceDocumentation";
+import WhyStarStack from "@/components/WhyStarStack";
+import EasyBuilding from "@/components/EasyBuilding";
+import StarstackFeatures from "@/components/StarstackFeatures";
 import CustomBlockchain from "@/components/CustomBlockchain";
 import NeedHelp from "@/components/NeedHelp";
 import Dividers from "@/components/Dividers";
@@ -14,9 +16,13 @@ const t = I18n.create_trans(locale);
 
 <Layout>
 	<StarScaffoldHero locale={locale} />
-	<AOneStopSolutionForBuilding locale={locale} />
+	<ResourceDocumentation locale={locale} />
 	<Dividers />
-	<ChooseStarstack locale={locale} />
+	<WhyStarStack locale={locale} />
+	<Dividers />
+	<EasyBuilding locale={locale}/>
+	<Dividers />
+	<StarstackFeatures locale={locale}/>
 	<Dividers />
 	<CustomBlockchain locale={locale} />
 	<Dividers />

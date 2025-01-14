@@ -1,6 +1,7 @@
 ---
 title: "A More Scalable Model:Starcoin Enhanced PoW Consensus"
 date: 2023-03-10
+meta_description: ""
 summary: "Scalability has always been a major challenge for the traditional PoW system, hindering the adoption of blockchain..."
 author: "Starcoin"
 tags: [

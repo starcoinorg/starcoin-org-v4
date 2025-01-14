@@ -1,5 +1,6 @@
 ---
 title: "Starcoin: First PoW Public Chain to Support “Easy Gas” in Move Ecosystem"
+meta_description: ""
 date: 2023-01-24
 summary: "Previous：Starcoin Easy Gas : More Flexible,More Easy Starcoin: A pioneer in the blockchain world, as the first PoW public chain to..."
 author: "Starcoin"

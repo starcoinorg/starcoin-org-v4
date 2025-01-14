@@ -1,8 +1,13 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import DevelopersPageHero from "@/components/DevelopersPageHero";
-import EasyBuilding from "@/components/EasyBuilding";
-import StarcoinGrantDevelopers from "@/components/StarcoinGrantDevelopers";
+import WhatIsMove from "@/components/WhatIsMove";
+import WhyMove from "@/components/WhyMove";
+import MoveStarcoin from "@/components/MoveStarcoin";
+import StarcoinMoveFeatures from "@/components/StarcoinMoveFeatures";
+import DownloadTheSdk from "@/components/DownloadTheSdk";
+import MoveInnovationWithStarcoin from "@/components/MoveInnovationWithStarcoin";
+import JoinTheCommunity from "@/components/JoinTheCommunity";
 import Dividers from "@/components/Dividers";
 
 import I18n, { type LocaleCode } from "@/i18n";
@@ -13,10 +18,19 @@ const t = I18n.create_trans(locale);
 <Layout>
 	<DevelopersPageHero locale={locale} />
 	<Dividers />
-	<EasyBuilding locale={locale} />
+	<WhatIsMove locale={locale} />
 	<Dividers />
-	<StarcoinGrantDevelopers locale={locale} />
-
+	<WhyMove locale={locale}/>
+	<Dividers />
+	<MoveStarcoin locale={locale}/>
+	<Dividers />
+	<StarcoinMoveFeatures locale={locale}/>
+	<Dividers />
+	<DownloadTheSdk locale={locale}/>
+	<Dividers />
+	<MoveInnovationWithStarcoin locale={locale}/>
+	<Dividers />
+	<JoinTheCommunity locale={locale}/>
 	<Fragment slot="page-meta">
 		<title>{t("developers.title")} - {t("site.name")}</title>
 		<meta name="description" content={t("developers.meta_description")} />

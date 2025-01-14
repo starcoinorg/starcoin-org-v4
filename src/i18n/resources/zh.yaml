@@ -43,16 +43,25 @@ nav:
     starcoin_grant: 'Starcoin 资助'
     starcoin_roadmap: 'Starcoin 路线图'
   developers:
-    resources_tutorials: '资源与教程'
+    get_started_with_move: 'Get Started with Move'
     github: 'GitHub'
-    explorer: '浏览器'
-    easy_building: '轻松搭建'
-    starcoin_grant: 'Starcoin 资助'
+    what_is_move: 'What is Move?'
+    why_move: 'Why Move?'
+    move_starcoin: 'Move & Starcoin'
+    starcoin_move_features: 'Starcoin Move Features'
+    download_the_sdk: 'Download The SDK'
+    explore_tutorials: 'Explore Tutorials'
+    move_innovation_with_starcoin: 'Move Innovation with Starcoin'
+    join_the_community: 'Join the Community'
   starstack:
-    get_start: '从这里开始'
-    resource_documentation: '资源和文档' 
-    features: 'StarStack 特性'
-    connect: '申请'    
+    get_start: 'Get start'
+    github: 'Github'
+    resource_documentation: 'Resource'
+    why_starStack: 'Why StarStack?' 
+    easy_building: 'Easy Building'
+    starstack_features: 'StarStack Features'
+    apply: 'Apply'
+    connect: 'Connect'     
   getstc:
     node_mining: '节点挖矿'
     starmask_wallet: 'StarMask 钱包'
@@ -338,50 +347,209 @@ features:
 
 # Developers page
 developers:
-  title: '开发者'
-  meta_description: '访问 Starcoin 开发者工具、指南和资源，使用 Move 和区块链技术进行构建和创新。'
+  title: 'Learn to Build Secure Blockchain Applications - Starcoin & Move'
+  meta_description: 'Access Starcoin developer tools, guides, and resources to build and innovate with Move and blockchain technology'
   hero:
     title: >
-      <p><strong>Move的</strong></p>
-      <p>启动台</p>
+      <p>Build and Deploy Move dApps</p>
+      <p>Faster—With Starcoin</p>
     desc_p1: >
-      Starcoin 自 2020 年 7 月以来率先在中国建立了第一个 Move 语言开发者社区.
-      作为基于 Move 智能合约的第一个无许可的PoW共识区块链,
-    desc_p2: >
-      Starcoin 拥有丰富的实现，包括<strong>U256 类型、代币/NFT/SBT 标准、一链式 DAO 治理系统、EasyGas</strong>等众多创新功能。
+      Starcoin simplifies Move dApp development with seamless compatibility, high efficiency, and robust tools. Start building scalable and secure applications in no time.
     action:
-      - 资源和教程
+      - Get Started with Move
       - Github
-      - 浏览器
-  easy_building:
-    title: 轻松搭建
-    subtitle: 简捷
+  what_is_move:
+    title: What is Move?
+    subtitle: Resource-oriented programming
+    desc_p: >
+      Move is a next-generation smart contract programming language designed with <strong>security</strong> and <strong>financial scenarios</strong> in mind. It combines <strong>linear logic with resource-oriented programming</strong> to offer unparalleled safety, flexibility, and efficiency in blockchain development. This section provides a comprehensive introduction to Move, helping you understand its core features and advantages.    
     card_1:
-      title: 节点
-      content: >
-        理解 Starcoin 的最佳方式是先启动一个节点。获取有关 Starcoin 节点的所有内容，包括快速入门、节点如何工作、命令行使用等！
+      title: Resource-Oriented Programming
+      content: 
+        p1: >
+          Move is built around the concept of resource-oriented programming, a paradigm that treats assets as unique and irreplaceable resources. This approach ensures:
+        li1: >
+          Ownership Security: Resources in Move can never be accidentally duplicated or deleted, eliminating risks like double-spending or unauthorized asset transfers.
+        li2: >
+          Precise Control: Developers can define strict rules for resource creation, transfer, and destruction, enhancing contract integrity.
+        p2: >
+          Real-World Alignment: Move’s resource model closely mirrors real-world asset management, making it ideal for financial applications such as DeFi, FTs, and NFTs.
+      action: Learn more
     card_2:
-      title: Move
-      content: >
-        更深入地了解 Move，通过我们全面的模块解锁 Move 智能合约开发，探索其以安全为中心的设计、面向资源和面向通用的编程，以及用于实现强大合约安全的形式化验证工具。
+      title: Security Focused Design    
+      content: 
+        p1: >
+          Move was built with security at its core, making it an ideal choice for financial applications and decentralized finance (DeFi) ecosystems. Its resource-oriented programming model ensures assets are treated as unique and irreplaceable, preventing double-spending and other common vulnerabilities.
+      action: Learn more
     card_3:
-      title: DAPP
-      content: >
-        探索 Starcoin 第一层技术上 DApp 开发的全面资源，包括从开发环境和 SDK 的设置到 RPC 和 DApp 示例的一切，确保与公链的无缝合约开发和交互。
+      title: Unique Ability System
+      content: 
+        p1: >
+          Move introduces an innovative Ability feature, which defines four key abilities for smart contract data structures:
+        li1: >
+          Copy: Allows duplication.
+        li2: >
+          Drop: Enables disposal.
+        li3: >
+          Key: Makes the data a unique identifier.
+        li4: >
+          Store: Permits persistent storage.
+        p2: >
+          These abilities can be applied to different Structs, enabling developers to design secure, scenario-specific smart contract structures like Resource types, which are critical for FT and NFT use cases.
+      action: Learn more
     card_4:
-      title: Examples
-      content: >
-        在 Starcoin 生态系统中获取简化的 DApp 开发资源，包含 Move 合约和 StarMask 调用示例，以实现高效和全面的开发。
-    card_5:
-      title: Glossary
-      content: >
-        全面了解 Starcoin 第一层技术，包括 Stdlib、NFT 协议、Oracle 协议、DAO、SIP 等，以更好地理解平台的核心概念和关键定义。
-  grant:
-    title: Starcoin <strong>资助</strong>
-    subtitle: 一起赋能开发者，共同构建 Starcoin 生态系统。
-    content:
-      - >
-        我们的目标是为从事 Starcoin 生态系统构建的开源开发者（尤其是公共产品研发）创造长期激励，这对 Starcoin 的成功至关重要。为您的 Starcoin 项目申请资金吧。
+      title: Formal Verification
+      content: 
+        p1: >
+          Move offers a complete set of formal verification tools, unmatched by other smart contract languages like Solidity. These tools allow developers to mathematically prove the correctness and security of their contracts, using the actual smart contract code as input data. This feature significantly reduces vulnerabilities and ensures a high level of trust in smart contract operations.
+      action: Learn more        
+  why_move:
+    title: Why Move is the Future of Blockchain dApp Development
+    desc_p: 
+      p1: >
+        Move is a next-generation smart contract programming language designed with <strong>security</strong> and <strong>financial scenarios</strong> in mind. It combines <strong>linear logic with resource-oriented programming</strong> to offer unparalleled safety, flexibility, and efficiency in blockchain development. 
+      p2: >
+        This section provides a comprehensive introduction to Move, helping you understand its core features and advantages.
+    table:     
+      row_1:
+        - Feature
+        - Move
+        - Solidity
+      row_2:
+        - Security
+        - High (resource safety, formal verification)
+        - Medium (requires manual implementation of safety)
+      row_3:
+        - Ease of Use
+        - Moderate (steeper learning curve)
+        - High (familiar for JavaScript developers)
+      row_4:
+        - Performance
+        - High (optimized execution and scalability)
+        - Medium (dependent on Ethereum VM and gas costs)
+      row_5:
+        - Ecosystem
+        - Emerging (backed by platforms like Starcoin)
+        - Mature (backed by Ethereum)      
+  move_starcoin:
+    title: Move’s Unique Advantages on Starcoin
+    desc_p: >
+      Starcoin-The Best Blockchain for Move Developers
+    table:     
+      row_1:
+        - Feature
+        - Starcoin/Move
+        - Aptos/Move
+        - Sui/Move
+        - Kaspa
+      row_2:
+        - Consensus
+        - POW + FlexiDAG
+        - POS + Raptr
+        - POS + Mystceti
+        - POW + GhostDAG
+      row_3:
+        - Data Storage
+        - Stored globally or in the owner's account
+        - Stored globally or in the owner's account
+        - Stored globally
+        - Stored globally
+      row_4:
+        - Parallelization
+        - Infers parallelization at runtime
+        - Infers parallelization at runtime
+        - Requires explicit data access
+        - Currently serial (in production phase)
+      row_5:
+        - Transaction Safety
+        - Sequence number
+        - Sequence number
+        - Transaction uniqueness
+        - Transaction uniqueness
+      row_6:
+        - Type Safety
+        - Module structs and generics
+        - Module structs and generics
+        - Module structs and generics
+        - Script only, no contract
+      row_7:
+        - Function Calling
+        - Static dispatch
+        - Static dispatch
+        - Static dispatch
+        - Not supported
+      row_8:
+        - Authenticated Storage
+        - Yes
+        - Yes
+        - No
+        - No
+      row_9:
+        - Global Object Access
+        - Yes
+        - Yes
+        - Can only exist in objects
+        - No        
+  starcoin_move_features:
+    title: Why Build Your Move dApp on Starcoin
+    des: >
+      Move Development Made Easy with Starcoin
+    li_1:
+      h4: Pre <span> - </span> Built Modules
+      p: >
+        Templates for fungible tokens (FT), non-fungible tokens (NFT), soulbound tokens (SBT), DAOs, and payment systems.
+    li_2:
+      h4: Developer Tools
+      p: >
+        CLI tools for contract management. IDE plugins for seamless coding. A fully-featured Move VM for testing and deployment.
+
+    li_3:
+      h4: Performance Optimization
+      p: >
+        EasyGas simplifies gas fee management. Move contract execution is optimized for high performance.
+  download_the_sdk:
+    title: How to Build and Deploy Move dApps on Starcoin
+    subtitle: >
+      Get Started with Move on Starcoin in 3 Steps
+    card1:
+      order: 1
+      h4: Explore the Modular Framework  
+      p: Visit the Developer Guide to explore StarStack modules.
+    card2:
+      order: 2
+      h4: Set Up Your Development Environment  
+      p: Download the Starcoin SDK and tools to begin. 
+    card3:
+      order: 3
+      h4: Deploy Your Move Blockchain
+      p: >
+        Test and launch your blockchain on Starcoin’s testnet or mainnet.  
+    action:
+      download_the_SDK: Download the SDK
+      explore_tutorials: Explore Tutorials  
+  move_innovation_with_starcoin:
+    title: Real-World Use Cases with Move and Starcoin
+    desc: Innovative Solutions Built with Move and Starcoin
+    card1:
+      h4: Token Ecosystems
+      p: > 
+        Launch fungible tokens, NFT marketplaces, or SBT systems with Move’s resource safety.
+    card2:
+      h4: Decentralized Governance
+      p: > 
+        Simplify DAO creation with Starcoin’s one-chain governance modules.
+    card3:
+      h4: DEX
+      p: > 
+        Build high-performance decentralized exchanges with Move’s secure asset management and Starcoin’s scalable infrastructure. 
+  join_the_community:
+    title: >
+      Learn More About <strong>Move</strong>
+    subtitle: Be Part of the Move Revolution with Starcoin
+    desc: This section is just the beginning. In the following modules, we will dive deeper into Move’s unique features, starting from the basics and gradually exploring its more advanced capabilities. Step by step, you’ll gain the knowledge to master Move and harness its full potential.
+    action:
+      join_the_community: Join the Community  
+      more_about_move: More about Move
 
 # Get stc page
 getstc:
@@ -527,63 +695,90 @@ news:
 
 # starstack Page
 starstack:
-  title: 'StarStack：强大的 Move 框架'  
-  meta_description: '了解 StarStack，一个强大的 Move 框架，旨在支持开发者构建区块链应用程序。'
+  title: 'Move & StarStack - Starcoin | Modular Solutions for Move Developers' 
+  meta_description: 'Learn about StarStack, a powerful Move framework supporting developers in building blockchain applications.' 
   hero:
-    title: 从概念到部署
-    subtitle: 一键轻松实现，尽在 <strong>StarStack</strong>
-    desc: 快速构建、模块化、功能强大——一切尽在掌握
+    title: Build Blockchain with Move,
+    subtitle: Empowered by <strong>StarStack</strong>
+    desc: 
+      p1: >
+        The Developer-Friendly Framework for Building Scalable and Secure Move-Based Blockchains.
+      p2: >
+        As the first permissionless PoW blockchain fully integrated with Move smart contracts, Starcoin lays the foundation for scalable, secure, and modular blockchain <br /> development. To empower developers, StarStack delivers the frameworks needed to build faster and smarter on the Move ecosystem.  
+    action: 
+      get_starte_with_starStack: Get Started with StarStack
+      github: Github    
   solutionBuilding:  
     desc: >
-      <strong>一站式解决方案，助您以无与伦比的速度和灵活性构建、定制并部署基于Move的区块链。</strong>StarStack受到行业先驱的信任，简化了整个开发过程，从而赋予开发人员使用强大的工具来创建创新的区块链解决方案。
+      <strong>A one-stop solution for building, customizing, and deploying Move-based blockchains with unparalleled speed and flexibility.</strong>Trusted by industry pioneers, StarStack simplifies the entire process, empowering developers with robust tools to create innovative blockchain solutions.
     action: 
-      getstarted: 快速开始
-      resources: 资源
-  ChooseStarstack:
-    title: 为什么选择StarStack？
-    des: 具备前瞻性、可扩展性和安全性的区块链基础设施。
+      resources: Resources
+  why_starStack:
+    title: Why Build Blockchain with Move on StarStack?
+    des: Fast, modular, and powerful everything you need is at your fingertips.
     li_1:
-      h4: 一键 <span> - </span> 部署
+      h4: Tailored for Move dApps
       p: >
-        使用模块化插件，立即部署属于你的区块链。
+        Highlight StarStack’s seamless compatibility with Move, ensuring effortless integration for any dApp.
     li_2:
-      h4: 模块化架构
+      h4: Plug <span>-</span> and <span>-</span> Play Architecture
       p: >
-        轻松定制化治理框架、共识机制和经济模型。
+        Showcase how modular plug-ins simplify the development process, reducing time and cost.
 
     li_3:
-      h4: 支持多种 <span> - </span> 共识算法
+      h4: Effortless Scalability
       p: >
-        轻松选择，PoW、PoS等主流共识算法
-
+        Emphasize the ability to handle high transaction volumes efficiently, suitable for growing businesses.
+  easy_building:
+    title: Easy Building with StarStack
+    subtitle: Simplicity meets Depth
+    card_1:
+      title: Step 1
+      content: Explore the Modular Framework – Visit the Developer Guide to explore StarStack modules.
+    card_2:
+      title: Step 2
+      content: Set Up Your Development Environment – Download the Starcoin SDK and get started.
+    card_3:
+      title: Step 3
+      content: Deploy Your Move Blockchain – Design, test, and launch your blockchain effortlessly.  
+  starstack_features:
+    title: Why StarStack is the Best Choice for Move <strong>Blockchain</strong>
+    des: A future-proof, scalable, and secure blockchain infrastructure
+    li_1:
+      h4: Streamlined Blockchain Deployment
+      p: >
+        Highlight how StarStack enables businesses to efficiently deploy custom blockchains with minimal setup time.
+    li_2:
+      h4: Flexible Consensus Options
+      p: >
+        Emphasize the ability to choose between PoW, PoS, or other models, catering to diverse business needs.
+    li_3:
+      h4: Enterprise-Grade Customization
+      p: >
+        Focus on customizable governance, consensus, and a models to meet specific business requirements.
     li_4:
-      h4: 无缝集成Move
+      h4: Comprehensive Developer Support
       p: >
-        利用 Move 实现安全高效的智能合约。
-
-    li_5:
-      h4: 对开发者 <span> - </span> 友好 
-      p: >
-        详细的开发文档、完备的命令行工具和活跃的社区支持           
+        Mention documentation, CLI tools, and community resources that empower developers to innovate efficiently.                  
   CustomBlockchain:
-    title: 仅需几分钟，即可轻松构建区块链
-    des: 快速的原型设计和灵活的区块链开发。  
+    title: Build a Custom Blockchain in Minutes
+    des: Fast prototyping and flexible blockchain development  
     card1:
-      title: 自定义参数
-      des: 自定义网络配置、共识机制和核心模块。
+      title: Define Parameters
+      des: Customize network configurations, consensus mechanisms, and core modules.
     card2:
-      title: 轻松部署
-      des: 使用预定义的脚本无缝部署区块链。
+      title: Deploy with Ease
+      des: Seamlessly deploy your blockchain using predefined scripts.
     card3:
-      title: 生态集成
-      des: 轻松添加自定义功能并与现有生态系统集成。 
+      title: Scale and Expand
+      des: Easily add custom features and integrate with existing ecosystems. 
     action:
-      documentation: 开发文档
+      documentation: Documentation
       github: GitHub    
-      developerForums: 开发论坛
-      community: 社区
+      developerForums: Developer forums
+      community: Community
   NeedHelp:
-    title: 需要帮助吗？
-    subtitle: 我们为您提供全方位的支持！  
+    title: Need Help?
+    subtitle: We’ve Got You Covered!  
     action:
-      apply: 申请      
+      apply: Apply  
