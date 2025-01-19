@@ -13,33 +13,36 @@ export default function DownloadTheSdk({
   return (
     <section className="section section--download-the-sdk">
       <div id="download-the-sdk" className="section__container download-the-sdk__container">
-        <div className="section__title" data-aos="fade-right">
+        <div className="section__title" data-aos="fade-up">
           <h3 dangerouslySetInnerHTML={{__html: t('developers.download_the_sdk.title')}} ></h3>
           <small>{t('developers.download_the_sdk.subtitle')}</small>
         </div>
         <div className="section__content">
           <div className="cards">
-            <div className="card">
+            <div className="card" data-aos="fade-up" data-aos-delay="50">
+            <span>{t('developers.download_the_sdk.card1.order')}</span>
               <h4 dangerouslySetInnerHTML={{__html: t('developers.download_the_sdk.card1.h4')}} ></h4>
-              <span>{t('developers.download_the_sdk.card1.order')}</span>
+              
               <p>{t('developers.download_the_sdk.card1.p')}</p>
             </div>
-            <div className="card">
+            <div className="card" data-aos="fade-up" data-aos-delay="100">
+            <span>{t('developers.download_the_sdk.card2.order')}</span>
               <h4 dangerouslySetInnerHTML={{__html: t('developers.download_the_sdk.card2.h4')}} ></h4>
-              <span>{t('developers.download_the_sdk.card2.order')}</span>
+              
               <p>{t('developers.download_the_sdk.card2.p')}</p>
             </div>
-            <div className="card">
+            <div className="card" data-aos="fade-up" data-aos-delay="150">
+            <span>{t('developers.download_the_sdk.card3.order')}</span>
               <h4 dangerouslySetInnerHTML={{__html: t('developers.download_the_sdk.card3.h4')}} ></h4>
-              <span>{t('developers.download_the_sdk.card3.order')}</span>
+              
               <p>{t('developers.download_the_sdk.card3.p')}</p>
             </div>
           </div>
-          <div className="action">
-          <a href="#" target="_blank" className="button button--outline" data-aos="fade-up" data-aos-delay="100">
+          <div className="actions">
+          <a href="#" target="_blank" className="button button--primary" data-aos="fade-up" data-aos-delay="50">
             {t('developers.download_the_sdk.action.download_the_SDK')}
           </a>
-          <a href="#" target="_blank" className="button button--outline" data-aos="fade-up" data-aos-delay="100">
+          <a href="#" target="_blank" className="button button--secondary" data-aos="fade-up" data-aos-delay="100">
             {t('developers.download_the_sdk.action.explore_tutorials')}
           </a>
           </div>

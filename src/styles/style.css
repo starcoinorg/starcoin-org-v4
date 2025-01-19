@@ -309,6 +309,19 @@ img {
   color: var(--btn-text-color);
 }
 
+.button--secondary {
+  --btn-border-color: transparent;
+  --btn-bg-color: #fff;
+  --btn-text-color: #000;
+}
+
+.button--secondary:hover {
+  --btn-border-color: #fff;
+  --btn-bg-color: transparent;
+  --btn-text-color: #fff;
+  color: #fff;
+}
+
 /* Section */
 .section {
   display: grid;
@@ -877,6 +890,20 @@ img {
   line-height: 1.6;
 }
 
+.hero--starscaffold .hero__content p:first-child {
+  max-width: 55vw;
+  margin: 0 auto 1.5rem;
+}
+
+.hero--starscaffold .actions {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
 [lang="zh"] .hero__content {
   line-height: 1.8;
 }
@@ -901,12 +928,14 @@ img {
 }
 
 .hero--developers .hero__title {
-  min-width: 10em;
-  text-align: left;
+  /* min-width: 10em;
+  text-align: left; */
+  font-size: 60px;
+  line-height: 1.35;
 }
 
 .hero--developers .hero__title p:last-child {
-  text-align: right;
+  /* text-align: right; */
 }
 
 /* HomePage */
@@ -1488,6 +1517,7 @@ img {
   overflow: hidden;
   display: grid;
   gap: 12px;
+  align-content: start;
 }
 
 .cards--feacures .card>figure {
@@ -1880,7 +1910,7 @@ img {
 
 .cards--easy-building figure img {
   width: 62px;
-  height: 100%;
+  height: 186px;
 }
 
 .cards--easy-building .figure--inner {
@@ -1981,6 +2011,262 @@ img {
 
 .starcoin-grant-developers__container .button--primary {
   margin-right: auto;
+}
+
+.section--what-is-move {
+  background: linear-gradient(180deg, rgba(111, 238, 135, 0.3) 0%, rgba(111, 238, 135, 0.147) 87%, rgba(63, 136, 77, 0.048) 100%);
+}
+
+.section--what-is-move .des {
+  color: rgb(255 255 255/.6);
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+
+.section--what-is-move .cards--feacures .card:last-child {
+  grid-column: auto;
+}
+
+.section--what-is-move ul {
+  padding-left: 2rem;
+}
+
+.section--what-is-move li {
+  list-style-type: disc;
+}
+
+.section--what-is-move .action {
+  margin-top: 28px;
+}
+
+.section--what-is-move .action a {
+  text-decoration: underline;
+}
+
+.section--why-move .des {
+  text-align: center;
+  color: rgb(255 255 255/.6);
+  margin-bottom: 64px;
+}
+
+.section--why-move .des strong {
+  color: var(--primary-color);
+}
+
+.section--why-move .card--table {
+  filter: drop-shadow(0 19px 19px rgb(111 238 135/.25));
+  background: #000;
+}
+
+.section--why-move .table--feature .row {
+  grid-template-columns: 100px minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.section--why-move .table--feature .row__title {
+  color: #000;
+}
+
+.section--move-starcoin {
+  background: linear-gradient(180deg, rgba(54, 92, 61, 0) 0%, #214628 100%);
+}
+
+.move-starcoin__container .des {
+  text-align: center;
+  color: rgb(255 255 255/.6);
+  margin-bottom: 64px;
+}
+
+.move-starcoin__container .card--table {
+  filter: drop-shadow(0 19px 19px rgb(111 238 135/.5));
+  background: linear-gradient(90deg, rgba(111, 238, 135, 0.25) 0.39%, rgba(255, 187, 187, 0.25) 15.51%, rgba(153, 153, 153, 0.25) 100%);
+}
+
+.move-starcoin__container .table--feature .row {
+  grid-template-columns: 110px repeat(4, minmax(0, 1fr));
+  border-color: #fff;
+}
+
+.move-starcoin__container .table--feature .column:not(:last-child) {
+  border-color: #fff;
+}
+
+.move-starcoin__container .table--feature .row:last-child {
+  border-bottom: none;
+}
+
+.move-starcoin__container .table--feature .row__title {
+  color: #000;
+}
+
+.section--download-the-sdk .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-bottom: 64px;
+}
+
+.section--download-the-sdk .card {
+  display: grid;
+  align-content: start;
+  padding: 28px;
+  gap: 20px;
+  backdrop-filter: blur(5px);
+  background: rgba(217, 217, 217, 0.25);
+  border-radius: 24px;
+  border: 0.5px solid rgba(255, 255, 255, 0);
+  transition: all .2s;
+  font-size: 16px;
+}
+
+.section--download-the-sdk .card:hover {
+
+
+  background: linear-gradient(180deg, rgba(111, 238, 135, 0.75) 0%, rgba(111, 238, 135, 0.36) 100%);
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 4px 4px rgba(111, 238, 135, 0.2);
+  backdrop-filter: blur(2px);
+}
+
+.section--download-the-sdk .card h4 {
+  font-family: var(--font-PlusJakartaSans);
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.section--download-the-sdk .card span {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 6px 24px;
+  border: 1px solid #CFCFCF;
+  border-radius: 14px;
+  font-weight: 900;
+  font-size: 24px;
+  margin-right: auto;
+  line-height: 1;
+
+}
+
+.section--download-the-sdk .card:first-child span {
+  min-height: 70px;
+  aspect-ratio: 1;
+  background: linear-gradient(90deg, #6FEE87 0%, #D18989 35.5%, #3F884D 100%);
+  font-size: 48px;
+
+}
+
+.section--download-the-sdk .actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+
+.section--move-innovation-with-starcoin .section__title {
+  text-align: left;
+}
+
+.section--move-innovation-with-starcoin .section__content {
+  position: relative;
+}
+
+.section--move-innovation-with-starcoin .section__content::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  min-height: 148px;
+
+  background: linear-gradient(90deg, #6FEE87 0%, #D18989 50%, #006C14 100%);
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 32px;
+
+}
+
+.section--move-innovation-with-starcoin .cards {
+  margin: 36px 20px 0;
+  display: grid;
+  /* grid-template-columns: repeat(3, minmax(0, 1fr)); */
+  background: #000;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 32px 64px -12px rgba(111, 238, 135, 0.43);
+  border-radius: 24px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.section--move-innovation-with-starcoin .card {
+  padding: 44px 50px;
+  display: grid;
+  font-size: 20px;
+  align-content: start;
+  background-color: #000;
+  transition: all .2s ease;
+}
+
+.section--move-innovation-with-starcoin .card:hover {
+
+
+  background: rgba(217, 217, 217, 0.3);
+
+}
+
+.section--move-innovation-with-starcoin .card:first-child {
+  border-radius: 24px 24px 0 0;
+}
+
+.section--move-innovation-with-starcoin .card:last-child {
+  border-radius: 0 0 24px 24px;
+}
+
+.section--move-innovation-with-starcoin .card:nth-child(2) {
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+
+.section--move-innovation-with-starcoin .card h4 {
+  text-align: center;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  margin-bottom: 28px;
+
+  font-family: var(--font-PlusJakartaSans);
+}
+
+.section--join-the-community .section__title small {
+  font-size: 32px;
+  font-family: var(--font-starcoin);
+  color: #fff;
+}
+
+.section--join-the-community .section__content p {
+
+  font-family: var(--font-PlusJakartaSans);
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+.section--join-the-community .actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 34px;
 }
 
 /* GetSTC Page */
@@ -3053,21 +3339,25 @@ img {
 
 }
 
+.section--starcoin-move-features ul,
 .section--choose-starstack ul {
   display: grid;
   gap: 46px;
   color: rgb(255 255 255 / .7);
 }
 
+.section--starcoin-move-features ul li,
 .section--choose-starstack ul li {
   width: 75%;
 }
 
+.section--starcoin-move-features ul li:nth-child(2n),
 .section--choose-starstack ul li:nth-child(2n) {
   margin-left: auto;
   text-align: right;
 }
 
+.section--starcoin-move-features h4,
 .section--choose-starstack h4 {
   font-size: 24px;
   font-family: var(--font-starcoin);
@@ -3078,6 +3368,7 @@ img {
   display: inline-flex;
 }
 
+.section--starcoin-move-features h4::after,
 .section--choose-starstack h4::after {
   content: "";
   position: absolute;
@@ -3093,18 +3384,22 @@ img {
   right: 0;
 } */
 
+.section--starcoin-move-features li:nth-child(2) h4::after,
 .section--choose-starstack li:nth-child(2) h4::after {
   background-color: #D18989;
 }
 
+.section--starcoin-move-features li:nth-child(3) h4::after,
 .section--choose-starstack li:nth-child(3) h4::after {
   background-color: #F7EF27;
 }
 
+.section--starcoin-move-features li:nth-child(4) h4::after,
 .section--choose-starstack li:nth-child(4) h4::after {
   background-color: #29A9FC;
 }
 
+.section--starcoin-move-features li:nth-child(5) h4::after,
 .section--choose-starstack li:nth-child(5) h4::after {
   background-color: #F7EF27;
 }
@@ -3149,7 +3444,7 @@ img {
   font-size: 10px;
 }
 
-.cards--blockchain .card  h4 {
+.cards--blockchain .card h4 {
   font-family: var(--font-PlusJakartaSans);
   font-size: 16px;
   font-weight: 900;
@@ -3275,6 +3570,10 @@ img {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .section--what-is-move .cards--feacures {
+    grid-template-columns: auto;
+  }
+
   .cards--feacures .card:last-child {
     grid-column: span 2;
   }
@@ -3323,6 +3622,11 @@ img {
   .solution-building__action {
     gap: 30px;
   }
+
+  /* .section--download-the-sdk .cards {
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 24px;
+  } */
 }
 
 /* width >= 768px */
@@ -3498,7 +3802,8 @@ img {
   }
 
   .hero--starscaffold .hero__content {
-    font-size: 24px;
+    font-size: 20px;
+    max-width: 74vw;
   }
 
 
@@ -3569,6 +3874,10 @@ img {
     gap: 64px;
   }
 
+  .section--what-is-move .cards--feacures {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .cards--features {
     gap: 32px;
   }
@@ -3626,6 +3935,14 @@ img {
 
   .table--feature .row {
     grid-template-columns: 160px minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .section--why-move .table--feature .row {
+    grid-template-columns: 160px minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .move-starcoin__container .table--feature .row {
+    grid-template-columns: 160px repeat(4, minmax(0, 1fr));
   }
 
   .table--feature .column {
@@ -4368,9 +4685,9 @@ img {
 
   .cards--blockchain figure {
     width: 720px;
-    margin:200px auto;
+    margin: 200px auto;
     display: grid;
-  
+
   }
 
   .cards--blockchain .card {
@@ -4389,37 +4706,40 @@ img {
   .cards--blockchain .card-1 {
     position: absolute;
     top: 16%;
-        left: 50%;
-        transform: translate(-50%, 0);
-        max-width: 420px;
-        
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 420px;
+
   }
 
   .cards--blockchain .card-2 {
     position: absolute;
     left: 32px;
-        bottom: 150px;
+    bottom: 150px;
   }
 
   .cards--blockchain .card-3 {
     position: absolute;
     right: 32px;
-        bottom: 150px;
+    bottom: 150px;
   }
 
+  .section--starcoin-move-features ul li,
   .section--choose-starstack ul li {
     width: 55%;
-}
-/* .section--choose-starstack h4::after {
+  }
+
+  /* .section--choose-starstack h4::after {
   right: 45%;
 }
 .section--choose-starstack li:nth-child(2n) h4::after {
   left: 50%;
 } */
 
-.section--choose-starstack p {
-  word-spacing: 4px;
-}
+  .section--starcoin-move-features p,
+  .section--choose-starstack p {
+    word-spacing: 4px;
+  }
 
 
 
@@ -4443,6 +4763,36 @@ img {
   /* .need-help__container .section__title p {
     white-space: nowrap;
   } */
+  .section--what-is-move .cards--feacures {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .section--what-is-move .cards--feacures .card:first-child {
+    grid-column: span 3;
+  }
+
+  .section--move-innovation-with-starcoin .cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .section--move-innovation-with-starcoin .card:first-child {
+    border-radius: 24px 0 0 24px;
+  }
+
+  .section--move-innovation-with-starcoin .card:last-child {
+    border-radius: 0 24px 24px 0;
+  }
+
+  .section--move-innovation-with-starcoin .card:nth-child(2) {
+    border-bottom: none;
+    border-top: none;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+  }
+
+  .section--move-innovation-with-starcoin .card h4 {
+    min-height: 2lh;
+  }
 }
 
 /* width >= 1200px */

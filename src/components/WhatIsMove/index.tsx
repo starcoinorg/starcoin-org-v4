@@ -2,6 +2,7 @@ import I18n, { type LocaleCode } from "@/i18n";
 
 // import testImage from '@/images/home_03HighPerformance.png';
 // import highPerformance from "@/images/home_03HighPerformance.webp";
+import feature from "@/images/features_01EnhancedPowConsensus.webp";
 
 export default function WhatIsMove({
   locale
@@ -20,9 +21,12 @@ export default function WhatIsMove({
         </div>
         <div className="section__content">
           <div className="des" dangerouslySetInnerHTML={{ __html: t('developers.what_is_move.desc_p') }} data-aos="fade-up"></div>
-          <div className="cards" data-aos="fade-up">
+          <div className="cards cards--feacures" data-aos="fade-up">
             <div className="card">
-              <h3 className="card__title">{t('developers.what_is_move.card_1.title')}</h3>
+              <figure>
+                <img src={feature.src} alt="" />
+              </figure>
+              <h4 className="card__title">{t('developers.what_is_move.card_1.title')}</h4>
               <div className="card__content">
                 <p>{t('developers.what_is_move.card_1.content.p1')}</p>
                 <ul>
@@ -36,6 +40,9 @@ export default function WhatIsMove({
               </div>
             </div>
             <div className="card">
+            <figure>
+                <img src={feature.src} alt="" />
+              </figure>
               <h3 className="card__title">{t('developers.what_is_move.card_2.title')}</h3>
               <div className="card__content">
                 <p>{t('developers.what_is_move.card_2.content.p1')}</p>
@@ -45,6 +52,9 @@ export default function WhatIsMove({
               </div>
             </div>
             <div className="card">
+            <figure>
+                <img src={feature.src} alt="" />
+              </figure>
               <h3 className="card__title">{t('developers.what_is_move.card_3.title')}</h3>
               <div className="card__content">
                 <p>{t('developers.what_is_move.card_3.content.p1')}</p>
@@ -61,6 +71,9 @@ export default function WhatIsMove({
               </div>
             </div>
             <div className="card">
+            <figure>
+                <img src={feature.src} alt="" />
+              </figure>
               <h3 className="card__title">{t('developers.what_is_move.card_4.title')}</h3>
               <div className="card__content">
                 <p>{t('developers.what_is_move.card_4.content.p1')}</p>
