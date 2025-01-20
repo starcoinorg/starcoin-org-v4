@@ -26,7 +26,9 @@ const t = I18n.create_trans(locale);
 
 	<Fragment slot="page-meta">
 		<title>{t("home.title")} - {t("site.name")}</title>
+		<meta name="robots" content="index, follow" />
 		<meta name="description" content={t('home.meta_description')} />
+		<meta name="keywords" content={t("home.keywords")} />
 		<!-- <link rel="canonical" href={site} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={desc} />

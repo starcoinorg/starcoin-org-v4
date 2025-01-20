@@ -121,6 +121,7 @@ feature_table:
 home:
   title: 'Build Secure Blockchain Solutions - Starcoin & Move'
   meta_description: 'Starcoin is a proof-of-work blockchain that enables secure smart contracts based on Move to power services in Web 3.0'
+  keywords: ""
   hero:
     title: Power in Speed
     subtitle: Innovate with <strong>PoW</strong>
@@ -204,6 +205,7 @@ home:
 features:
   title: 'Innovative Blockchain Solutions with Move - Starcoin & Move'
   meta_description: "Explore Starcoin's features like scalability, security, and decentralized governance for next-gen Move blockchain solutions"
+  keywords: ""
   hero:
     title: A Reliable, Flexible, and Progressible 
     subtitle: Web3 <strong>Infrastructure</strong>
@@ -348,6 +350,7 @@ features:
 developers:
   title: 'Learn to Build Secure Blockchain Applications - Starcoin & Move'
   meta_description: 'Access Starcoin developer tools, guides, and resources to build and innovate with Move and blockchain technology'
+  keywords: ""
   hero:
     title: >
       <p>Build and Deploy Move dApps</p>
@@ -554,6 +557,7 @@ developers:
 getstc:
   title: "Get Move's STC token - Starcoin & Move"
   meta_description: 'Learn how to acquire STC tokens with detailed guides on wallets, exchanges, and platforms supporting Starcoin.'
+  keywords: ""
   hero:
     title: >
       <p>Easy Fun</p>
@@ -637,6 +641,7 @@ getstc:
 community:
   title: 'Connect and Collaborate on Blockchain Innovation - Starcoin & Move'
   meta_description: 'Join the Starcoin community to connect, collaborate, and stay updated on the latest developments in the Starcoin and Move ecosystem.'
+  keywords: ""
   hero:
     title:
       - Make <strong>Friends</strong> with
@@ -687,6 +692,7 @@ community:
 news:
   title: 'Insights into Blockchain and Smart Contracts - Starcoin & Move'
   meta_description: 'Stay updated with the latest Starcoin news, announcements, and insights from the Move blockchain community.'
+  keywords: ""
   hero:
     title: NEWS & BLOG
     desc: >
@@ -696,6 +702,7 @@ news:
 starstack:
   title: 'Move & StarStack - Starcoin | Modular Solutions for Move Developers' 
   meta_description: 'Learn about StarStack, a powerful Move framework supporting developers in building blockchain applications.' 
+  keywords: ""
   hero:
     title: Build Blockchain with Move,
     subtitle: Empowered by <strong>StarStack</strong>
