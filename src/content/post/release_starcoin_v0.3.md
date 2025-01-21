@@ -1,6 +1,11 @@
 ---
 title: "Starcoin Blockchain release v0.3"
 meta_description: "Explore the Move features and improvements introduced in the latest Starcoin v0.3 release."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 summary: "Starcoin blockchain is released in v0.3, which includes unified block, dynamic algorithm for difficulty adjustment and Starcoin MoveVM stdlib."
 date: 2020-07-21
 author: "jolestar"

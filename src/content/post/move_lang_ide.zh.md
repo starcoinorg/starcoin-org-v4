@@ -1,6 +1,11 @@
 ---
 title: "Move 合约开发懒人指南"
 meta_description: "此课程主要帮助开发者快速了解 Move 编程的核心概念，熟悉相关的开发工具，无需 Move 编程背景。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2020-07-23
 image: 'read.jpg'
 summary: "此课程主要帮助开发者快速了解 Move 编程的核心概念，熟悉相关的开发工具，无需 Move 编程背景。"

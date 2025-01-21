@@ -1,6 +1,11 @@
 ---
 title: "Starcoin：Why we need Layer 2"
 meta_description: "Learn why Starcoin embraces Layer 2 solutions for enhanced Move scalability and performance."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-12-02
 summary: "After all these years of development, the blockchain industry has achieved initial proof in the fields of Cryptocurrency and DeFi, and the prototypes of applications are already present, but how to make blockchain technology adopted by massive users is the most important..."
 author: "Starcoin"

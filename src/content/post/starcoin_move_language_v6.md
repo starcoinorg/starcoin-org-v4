@@ -1,6 +1,11 @@
 ---
 title: "Starcoin Move Language upgrade voting is open"
 meta_description: "Uncover new capabilities in the Move Language v6, tailored for advanced blockchain development."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-02-20
 summary: "Voting for the Starcoin Move Language v6 upgrade is open. This upgrade support move language table(need upgrade stdlib) and new bytecode u16, u32, u256 and security improved"
 author: "nkysg"

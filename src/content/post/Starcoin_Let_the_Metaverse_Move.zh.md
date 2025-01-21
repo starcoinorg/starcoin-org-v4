@@ -1,6 +1,11 @@
 ---
 title: "Starcoin，让元宇宙Move起来"
 meta_description: "深入了解 Starcoin 使用 Move 编程语言构建区块链驱动元宇宙的愿景。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-11-25
 summary: "4个团队在首届Starcoin Move线上黑客松大赛决赛胜出，将获得Starcoin生态的全面资源扶持。"
 author: "TechWeb"

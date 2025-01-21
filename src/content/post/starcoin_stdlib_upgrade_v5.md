@@ -1,6 +1,11 @@
 ---
 title: "Starcoin Move stdlib upgrade voting is open"
 meta_description: "Move Community consensus drives the successful poll for Starcoin's Stdlib v5 upgrade."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-06-08
 summary: "Voting for the Starcoin Move stdlib v5 upgrade is open. This upgrade is the first stdlib upgrade since the Starcoin mainnet lanuched and includes the following features."
 author: "jolestar"

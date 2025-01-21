@@ -1,6 +1,11 @@
 ---
 title: "2022 STARCOIN Roadmap更新｜稳步向前"
 meta_description: "发现 2022 年 Starcoin 路线图，其中包括 Move 生态系统中的重要里程碑和全年取得的进展。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-07-12
 summary: "比保持成就更重要的是在战略上谋求突破。 迄今为止，我们已经实现了2022年路线图上半年的每一个里程碑，我们很高兴宣布本季度剩余时间和未来一年的下一步计划。 Starcoin一直在不断发展，以提供行业价值，适..."
 author: "Starcoin"

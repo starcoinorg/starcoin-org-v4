@@ -1,6 +1,11 @@
 ---
 title: "Connecting the World: Milestone in the Move Ecosystem - Starcoin"
 meta_description: "Explore Starcoin's milestone in connecting the world with Move and advancing its blockchain ecosystem."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-06-17
 summary: "As been announced, the cross-chain bridge which connects Ethereum and Starcoin will go live this week. It is a milestone for Starcoin Ecosystem...."
 author: "Starcoin"

@@ -54,7 +54,13 @@ const Content = renderEntry?.Content;
 
   <Fragment slot="page-meta">
     <title>{entry?.data.title} - {t("site.name")}</title>
+    <meta name="robots" content="index, follow" />
     <meta name="description" content={t("entry?.data.meta_description")} />
+    <meta name="keywords" content={t("entry?.data.keywords")} />
+    <meta name="twitter:card" content={t("entry?.data.twitter_card")} />
+		<meta name="twitter:title" content={t("entry?.data.twitter_title")} />
+		<meta name="twitter:description" content={t("entry?.data.twitter_description")} /> 
+		<meta name="twitter:image" content={t("entry?.data.twitter_image")} />
     <!-- <link rel="canonical" href={site} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={desc} />

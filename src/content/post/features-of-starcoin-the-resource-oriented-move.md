@@ -1,6 +1,11 @@
 ---
 title: "Features of Starcoin: The Resource-Oriented Move"
 meta_description: "Discover the 2022 Starcoin roadmap with Move significant milestones and advancements achieved throughout the year."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-04-11
 summary: "Move, a new generation smart contract language, has received widespread attention within the industry from day one. ..."
 author: "Starcoin"

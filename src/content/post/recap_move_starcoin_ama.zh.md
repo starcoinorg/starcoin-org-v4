@@ -1,6 +1,11 @@
 ---
 title: "回顾 Move & Starcoin [AMA 07.23.2022]"
 meta_description: "回顾 Move Starcoin AMA 活动中专家们的重要见解和讨论内容。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-07-26
 summary: "Web3领域经常提到Move具体是指什么，它有什么意义？ Tim: 包括3个层面含义 Move语言。Move是一门专门为数字资产而设计的智能合约语言，它对数字资产提供安全的保护，同时在编程模型上具有先进性； Move..."
 author: "Starcoin"

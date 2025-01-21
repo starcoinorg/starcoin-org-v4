@@ -1,6 +1,11 @@
 ---
 title: "Starcoin一周年纪念感谢信"
 meta_description: "一封来自 Starcoin 的感谢信，庆祝其一周年及 Move 社区的卓越成就。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-05-25
 summary: "亲爱的社区伙伴们： 在这个值得庆祝的日子里我们已经迫不及待的想和你们分享这一份喜悦！因为Starcoin主网上线一周年啦！感谢大家一直以来的关注。这是充满挑战但也很美好的一年，尽管市场风云变幻，Starcoin...."
 author: "Starcoin"

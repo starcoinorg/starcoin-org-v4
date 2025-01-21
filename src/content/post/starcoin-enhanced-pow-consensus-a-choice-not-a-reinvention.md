@@ -1,6 +1,11 @@
 ---
 title: "Starcoin Enhanced PoW Consensus: A Choice Not a Reinvention"
 meta_description: "Understand Starcoin's enhanced PoW consensus with Move as an innovative choice for blockchain operations."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-02-20
 summary: "Starcoin Network is a decentralized hierarchical smart contract finance network which adopts the enhanced Proof-of-Work (PoW) consensus..."
 author: "Starcoin"

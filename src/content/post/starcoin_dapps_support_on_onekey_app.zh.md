@@ -1,6 +1,11 @@
 ---
 title: "Starcoin Dapps 支持在 OneKey APP 上线使用"
 meta_description: "通过 OneKey 应用访问 Starcoin DApps，为 Move 用户简化区块链交互。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-08-05
 summary: "我们很高兴地宣布 Starcoin Dapps 现在可以在OneKey钱包APP上使用啦..."
 author: "Starcoin"

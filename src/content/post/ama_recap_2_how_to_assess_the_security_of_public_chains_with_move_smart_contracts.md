@@ -1,6 +1,11 @@
 ---
 title: "AMA Recap (2): Security of Move Smart Contracts - Starcoin"
 meta_description: "Learn how Move smart contracts ensure the security of public chains in this detailed AMA recap."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-08-22
 summary: "Tim: The most common form of attack on PoW consensus is the use of computing power attacks. In the industry such as BTC and ETH history..."
 author: "Starcoin"

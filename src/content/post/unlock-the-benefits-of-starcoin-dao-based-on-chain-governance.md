@@ -1,6 +1,11 @@
 ---
 title: "Unlock the Benefits of Starcoin DAO based On-Chain Governance"
 meta_description: "Unlock the potential of DAO-based governance with Starcoin's on-chain solutions with Move."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-02-28
 summary: "Previous：Starcoin and Decentralized Governance Starcoin is taking an important step forward in its commitment to decentralized governance..."
 author: "Starcoin"

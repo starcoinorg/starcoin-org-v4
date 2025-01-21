@@ -115,7 +115,11 @@ feature_table:
 home:
   title: 首页
   meta_description: 'Starcoin 是一种基于工作量证明（Proof-of-Work）的区块链，它基于 Move 提供安全的智能合约，为 Web 3.0 服务提供支持'
-  keywords: ""
+  keywords: "Move 区块链, Starcoin Move, 安全区块链解决方案, 模块化区块链, Web3 Move"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title: 速度赋能
     subtitle: 为<strong>PoW</strong>创新活力
@@ -198,7 +202,11 @@ home:
 features:
   title: '特性'
   meta_description: '探索 Starcoin 的特性，包括可扩展性、安全性和去中心化治理，为下一代 Move 区块链解决方案提供支持。'
-  keywords: ""
+  keywords: "Move 区块链, Starcoin Move, 安全区块链解决方案, 模块化区块链, Web3 Move"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title: 可靠的, 灵活的, 可持续发展的
     subtitle: Web3 <strong>基础设施</strong>
@@ -351,7 +359,11 @@ features:
 developers:
   title: '学习构建安全的区块链应用程序 - Starcoin & Move'
   meta_description: '访问 Starcoin 开发者工具、指南和资源，以使用 Move 和区块链技术进行构建和创新'
-  keywords: ""
+  keywords: "Move dApp 开发, Starcoin 工具, Move 区块链资源, 安全 dApps, 可扩展应用"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title: >
       <p>构建并部署 Move dApps</p>
@@ -557,7 +569,11 @@ developers:
 getstc:
   title: '获取 stc'
   meta_description: '通过详细的指南了解如何获取 STC 代币，包括钱包、交易所和支持 Starcoin 的平台。'
-  keywords: ""
+  keywords: "Move STC 代币, Starcoin 挖矿, Move DEX, 去中心化交易, STC 钱包"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title: >
       <p>轻松有趣</p>
@@ -641,7 +657,11 @@ getstc:
 community:
   title: '社区'
   meta_description: '加入 Starcoin 社区，与其他成员连接、协作，并随时了解 Starcoin 和 Move 生态系统的最新动态。'
-  keywords: ""
+  keywords: "Move 区块链社区, Starcoin 开发者, Web3 合作, 区块链动态, Move 生态"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title:
       - 和 WEB 3.0 时代的
@@ -692,7 +712,11 @@ community:
 news:
   title: '消息'
   meta_description: '获取 Move 区块链社区的最新新闻、公告和洞察，保持与 Starcoin 的最新动态同步。'
-  keywords: ""
+  keywords: "Move 区块链动态, Starcoin 新闻, Web3 洞察, 智能合约, 区块链发展"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title: 消息与博客
     desc: >
@@ -702,7 +726,11 @@ news:
 starstack:
   title: 'Move & StarStack - Starcoin | 为 Move 开发者提供的模块化解决方案' 
   meta_description: '了解 StarStack，这是一种支持开发者构建区块链应用程序的强大 Move 框架。' 
-  keywords: ""
+  keywords: "Move 区块链解决方案, StarStack Move, 模块化区块链平台, 可扩展 Move dApps, 安全开发"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title: 用 Move 构建区块链，
     subtitle: 借助 <strong>StarStack</strong> 实现

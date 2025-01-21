@@ -1,6 +1,11 @@
 ---
 title: "Harness the Power of Web 3.0 with Move"
 meta_description: "Unleash Web 3.0's potential through Starcoin's Move, optimizing blockchain for decentralized applications."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-03-20
 summary: "Web3.0 is a new phase of the Internet in which data ownership is completely handed over to users. This ideology of empowering the users was borne out of contention with the lack of transparency and..."
 author: "Starcoin"

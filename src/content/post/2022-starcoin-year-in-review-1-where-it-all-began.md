@@ -1,6 +1,11 @@
 ---
 title: "2022 Starcoin Year in Review (1)-Where it all began"
 meta_description: "Explore Starcoin's beginnings and major achievements in the first part of the 2022 year-in-review series in the Move ecosystem."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-12-21
 summary: "With Christmas just around the corner, we are happy to present the 2022 Starcoin Year in Review..."
 author: "Starcoin"

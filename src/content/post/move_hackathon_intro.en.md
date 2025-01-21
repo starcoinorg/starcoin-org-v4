@@ -1,6 +1,11 @@
 ---
 title: "First Starcoin Move Online Hackathon Introduction"
 meta_description: "Discover the purpose and goals of the Move Hackathon, promoting blockchain innovation and development."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-07-05
 summary: "Starcoin is a permissionless blockchain using Move, a smart contract language explicitly designed for distributed financial applications and digital assets; it is the first public blockchain to support Move contracts. Starcoin activated the Move smart contract publishing feature and launched the first Starcoin Move online hackathon."
 author: "Starcoin"

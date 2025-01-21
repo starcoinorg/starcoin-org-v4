@@ -1,6 +1,11 @@
 ---
 title: "Starcoin与Ethereum跨链在即，Move生态与EVM生态即将互通"
 meta_description: "了解 Move 和 EVM 生态系统即将如何实现互操作性，无缝连接区块链开发。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-06-15
 summary: "跨链桥是公链生态中不可或缺的一环，是打破价值孤岛，通往Web3的必经之路。Starcoin主网即将上线PolyBridge，迎来Starcoin生态的首个跨链桥。这是一个重要的里程碑...."
 author: "Starcoin"

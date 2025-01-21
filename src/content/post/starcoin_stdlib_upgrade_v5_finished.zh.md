@@ -1,6 +1,11 @@
 ---
 title: "Starcoin Move 合约标准库 v5 版升级完成"
 meta_description: "Stdlib v5 升级已完成，为基于 Move 的 Starcoin 区块链带来了重大改进。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-06-17
 summary: "Starcoin Move 合约标准库 v5 版升级完成，交易信息：[0x7d4275ca7d444c57ffdccfd0baf6bb5f5f5d2abca90d3763d6b2a93dc046b1e3](https://stcscan.io/main/transactions/detail/0x7d4275ca7d444c57ffdccfd0baf6bb5f5f5d2abca90d3763d6b2a93dc046b1e3)"
 author: "jolestar"

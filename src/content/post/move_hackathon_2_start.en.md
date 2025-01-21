@@ -1,6 +1,11 @@
 ---
 title: "Participation Instructions for Starcoin Hackathon"
 meta_description: "Join the Move Hackathon 2.0 and be part of groundbreaking blockchain projects and ideas."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-12-22
 summary: "The theme of this year's Starcoin Hackathon is “All in Metaverse & Defi on Starcoin”, which aims to bring participants together for a limited period to brainstorm for new ideas in the field of Metaverse & Defi...."
 author: "Starcoin"

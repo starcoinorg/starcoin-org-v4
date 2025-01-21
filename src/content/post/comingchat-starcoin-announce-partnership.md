@@ -1,6 +1,11 @@
 ---
 title: "ComingChat & Starcoin announce partnership"
 meta_description: "Explore Move DAOSpace, a DAO launcher based on Soulbound Tokens, advancing decentralized governance."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-08-24
 summary: "We are proud to announce the establishment of our friendly partnership with Starcoin. We applied for Starcoin’s grant...."
 author: "Starcoin"

@@ -1,6 +1,11 @@
 ---
 title: "Westar Launches First Move Blockchain, Starcoin - Yahoo! - Starcoin"
 meta_description: "Discover Westar's groundbreaking launch of the first permissionless Move public chain on Yahoo Finance."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-09-22
 summary: "The Westar team, the pioneer of blockchain infrastructure, has announced that Starcoin, the world's first finished public chain developed using Move language, was officially launched."
 author: "Yahoo! Finance"

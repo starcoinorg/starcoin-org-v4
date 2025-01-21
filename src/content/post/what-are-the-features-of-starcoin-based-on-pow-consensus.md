@@ -1,6 +1,11 @@
 ---
 title: "Key Features of Starcoin’s PoW Consensus with Move- Starcoin"
 meta_description: "Explore Starcoin's unique features with Move based on PoW consensus, delivering scalability and security."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-02-08
 summary: "As a Proof-of-Work consensus public chain, Starcoin offers a suite of exciting features that set the network apart from other public chains..."
 author: "Starcoin"

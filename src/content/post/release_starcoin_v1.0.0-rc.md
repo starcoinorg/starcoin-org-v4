@@ -1,6 +1,11 @@
 ---
 title: "Starcoin released v1.0, the mainnet has launched"
 meta_description: "Celebrate the launch of Starcoin v1.0.0 with groundbreaking features for Move blockchain innovation."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-05-18
 summary: "Starcoin released v1.0.0-rc, the mainnet will be launched at the height of 310000 in the Barnard network, and the global users can launch Starcoin mainnet together."
 author: "jolestar"

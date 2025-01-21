@@ -1,6 +1,11 @@
 ---
 title: "Thank You Letter for The First Anniversary of Starcoin"
 meta_description: "A thank-you letter from Starcoin celebrating its first anniversary and Move community achievements."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-05-24
 summary: "Dear Community Users, We can’t wait to share this joy with you on this day of celebration! Because it’s the first anniversary of the Starcoin mainnet...."
 author: "Starcoin"

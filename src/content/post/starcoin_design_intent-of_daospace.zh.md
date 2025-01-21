@@ -1,6 +1,11 @@
 ---
 title: "STARCOIN： DAOSpace的设想"
 meta_description: "探索基于 Move 的 DAOSpace 背后的愿景与设计理念，这个平台是 Starcoin 的去中心化治理平台。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-07-21
 summary: "Starcoin 预计在8月将推出一个整合产品DAOSpace，一个为人类利益提供服务的去中心化自治组织的平台。..."
 author: "Starcoin"

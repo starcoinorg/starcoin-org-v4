@@ -121,7 +121,11 @@ feature_table:
 home:
   title: 'Build Secure Blockchain Solutions - Starcoin & Move'
   meta_description: 'Starcoin is a proof-of-work blockchain that enables secure smart contracts based on Move to power services in Web 3.0'
-  keywords: ""
+  keywords: "Move blockchain, Starcoin Move, secure blockchain solutions, modular blockchain, Web3 Move"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title: Power in Speed
     subtitle: Innovate with <strong>PoW</strong>
@@ -205,7 +209,11 @@ home:
 features:
   title: 'Innovative Blockchain Solutions with Move - Starcoin & Move'
   meta_description: "Explore Starcoin's features like scalability, security, and decentralized governance for next-gen Move blockchain solutions"
-  keywords: ""
+  keywords: "Move features, blockchain scalability, secure smart contracts, Starcoin Move, decentralized governance"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title: A Reliable, Flexible, and Progressible 
     subtitle: Web3 <strong>Infrastructure</strong>
@@ -350,7 +358,11 @@ features:
 developers:
   title: 'Learn to Build Secure Blockchain Applications - Starcoin & Move'
   meta_description: 'Access Starcoin developer tools, guides, and resources to build and innovate with Move and blockchain technology'
-  keywords: ""
+  keywords: "Move dApp development, Starcoin tools, Move blockchain resources, secure dApps, scalable applications"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title: >
       <p>Build and Deploy Move dApps</p>
@@ -387,17 +399,17 @@ developers:
       title: Unique Ability System
       content: 
         p1: >
-          Move introduces an innovative Ability feature, which defines four key abilities for smart contract data structures:
+          Move introduces an innovative Ability feature that defines four key capabilities for smart contract data structures:
         li1: >
-          Copy: Allows duplication.
+          Copy enables data duplication.
         li2: >
-          Drop: Enables disposal.
+          Drop allows safe disposal.
         li3: >
-          Key: Makes the data a unique identifier.
+          Key serves as a unique identifier.
         li4: >
-          Store: Permits persistent storage.
+          Store ensures persistent storage.
         p2: >
-          These abilities can be applied to different Structs, enabling developers to design secure, scenario-specific smart contract structures like Resource types, which are critical for FT and NFT use cases.
+          These abilities can be flexibly applied to different structures, empowering developers to design secure and scenario-specific smart contract structures, such as Resource types essential for FT and NFT use cases.
       action: Learn more
     card_4:
       title: Formal Verification
@@ -557,7 +569,11 @@ developers:
 getstc:
   title: "Get Move's STC token - Starcoin & Move"
   meta_description: 'Learn how to acquire STC tokens with detailed guides on wallets, exchanges, and platforms supporting Starcoin.'
-  keywords: ""
+  keywords: "Move STC token, Starcoin mining, Move DEX, Move trading, STC wallet"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title: >
       <p>Easy Fun</p>
@@ -641,7 +657,11 @@ getstc:
 community:
   title: 'Connect and Collaborate on Blockchain Innovation - Starcoin & Move'
   meta_description: 'Join the Starcoin community to connect, collaborate, and stay updated on the latest developments in the Starcoin and Move ecosystem.'
-  keywords: ""
+  keywords: "Move blockchain community, Starcoin developers, Web3 collaboration, Move news, Move ecosystem"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title:
       - Make <strong>Friends</strong> with
@@ -692,7 +712,11 @@ community:
 news:
   title: 'Insights into Blockchain and Smart Contracts - Starcoin & Move'
   meta_description: 'Stay updated with the latest Starcoin news, announcements, and insights from the Move blockchain community.'
-  keywords: ""
+  keywords: "Move blockchain updates, Starcoin news, Web3 insights, smart contracts, blockchain developments"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title: NEWS & BLOG
     desc: >
@@ -702,7 +726,11 @@ news:
 starstack:
   title: 'Move & StarStack - Starcoin | Modular Solutions for Move Developers' 
   meta_description: 'Learn about StarStack, a powerful Move framework supporting developers in building blockchain applications.' 
-  keywords: ""
+  keywords: "Move blockchain solutions, StarStack Move, modular blockchain platform, scalable Move dApps, secure development"
+  twitter_card: ""
+  twitter_title: ""
+  twitter_description: ""
+  twitter_image: ""
   hero:
     title: Build Blockchain with Move,
     subtitle: Empowered by <strong>StarStack</strong>

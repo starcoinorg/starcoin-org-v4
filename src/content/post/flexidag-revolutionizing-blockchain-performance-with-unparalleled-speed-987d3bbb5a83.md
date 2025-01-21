@@ -1,6 +1,11 @@
 ---
 title: "FlexiDAG: Revolutionizing Blockchain Performance with Unparalleled Speed"
 meta_description: "FlexiDAG brings unparalleled speed and performance to Move blockchain technology—redefining the ecosystem."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-05-30
 summary: "“FlexiDAG, technically not a direct manifestation of the Nakamoto consensus, serves as an intriguing expansion that pushes the..."
 author: "Starcoin"

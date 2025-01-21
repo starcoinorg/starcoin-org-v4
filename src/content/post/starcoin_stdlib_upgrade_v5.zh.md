@@ -1,6 +1,11 @@
 ---
 title: "Starcoin Move 合约标准库 v5 版升级投票开始"
 meta_description: "Move 社区共识推动了 Starcoin Stdlib v5 升级投票的成功完成。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-06-08
 summary: "Starcoin Move 合约标准库 v5 版升级投票开始。本次 Move 合约标准库（stdlib）升级是 Starcoin 主网上线以来第一次升级，主要包含..."
 author: "jolestar"

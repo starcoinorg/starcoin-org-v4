@@ -1,6 +1,11 @@
 ---
 title: "AMA recap: Starcoin, Move生态的先锋实践者"
 meta_description: "一起了解AMA会议的回顾，了解Starcoin是如何成为Move生态的先锋实践者"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 summary: "AptosEden: 我们收集了一些网友的提问，会在本次ama中统一解答，如果有些问题没覆盖到或者有其他疑问，可以在自由问答环节接着提问..."
 date: 2023-04-07
 author: "Starcoin"

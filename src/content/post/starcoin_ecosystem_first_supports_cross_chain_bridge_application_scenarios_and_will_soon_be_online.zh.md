@@ -1,6 +1,11 @@
 ---
 title: "Starcoin 生态首批支持跨链桥应用场景即将上线"
 meta_description: "探索 Starcoin 基于 Move 的首批跨链桥应用，即将提升区块链的互操作性。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-07-09
 summary: "经过数周的测试，连接以太坊和Starcoin的跨链桥已经具备广泛上线条件，因此我们计划开通跨链桥资产第一批生态应用的场景支持。..."
 author: "Starcoin"

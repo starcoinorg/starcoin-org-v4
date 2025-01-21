@@ -1,6 +1,11 @@
 ---
 title: "Starcoin, Let the Metaverse Move"
 meta_description: "Dive into Starcoin's vision for a blockchain-powered metaverse using the Move programming language."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-11-25
 summary: "4 teams won the Starcoin Hackathon Final, and they will receive comprehensive resource support from the Starcoin ecosystem."
 author: "TechWeb"

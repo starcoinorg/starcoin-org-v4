@@ -1,6 +1,11 @@
 ---
 title: "Starcoin 2.0 | Tempus: Next Wave of Web3 with Move - Starcoin"
 meta_description: "Join Starcoin 2.0's testnet and experience mining efficiency with the Move revolutionary ROW-DAG approach."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-10-10
 summary: "“FlexiDAG, technically not a direct manifestation of the Nakamoto consensus, serves as an intriguing expansion that pushes the..."
 author: "Starcoin"

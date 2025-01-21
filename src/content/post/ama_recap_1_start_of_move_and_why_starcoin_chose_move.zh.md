@@ -1,6 +1,11 @@
 ---
 title: "AMA Recap (1) Move的起源以及Starcoin为什么选择move"
 meta_description: "深入探讨Starcoin为何选择Move及其在区块链开发中的重要性，这些内容在AMA回顾中进行了讨论。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-08-09
 summary: "Move工程师时薪1200美元现象 Tim:最近看到一条Twitter消息，说Move工程师现在非常受欢迎，每小时薪资报价1200 美元，也引起了很多讨论和转发，虽然还没确认这条消息的具体情況，如果属实的话，1200美元可能..."
 author: "Starcoin"

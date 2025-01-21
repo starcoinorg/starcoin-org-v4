@@ -1,6 +1,11 @@
 ---
 title: "StarMask V4.6.0 新功能介绍：交易确认页面，显示tokens余额和变化量"
 meta_description: "探索域名变更的洞察及其对Starcoin和Move生态系统的影响。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-07-08
 summary: "以 starswap上 兑换 100 STC 为 292 STAR 为例..."
 author: "Starcoin"

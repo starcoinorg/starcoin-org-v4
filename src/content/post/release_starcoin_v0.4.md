@@ -1,6 +1,11 @@
 ---
 title: "Starcoin Blockchain release v0.4"
 meta_description: "Discover the updates and features introduced in Starcoin's v0.4 release for improved Move blockchain performance."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 summary: "Starcoin Blockchain releases v0.4, which includes refactoring and stabilization of basic types and protocols. One month after that, Starcoin Blockchain will start a month-long unabridged beta test. Feel free to download Starcoin and join the Proxima test network."
 date: 2020-08-06
 author: "jolestar"

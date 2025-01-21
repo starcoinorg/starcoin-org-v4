@@ -1,6 +1,11 @@
 ---
 title: "Starcoin and Decentralized Governance"
 meta_description: "Explore how Starcoin promotes decentralized governance with Move to empower its blockchain community."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-02-24
 summary: "Governance in decentralized systems is an important part of achieving flexible and efficient running of networks. The coming together of the majority of a network’s participants to create and enforce certain rules..."
 author: "Starcoin"

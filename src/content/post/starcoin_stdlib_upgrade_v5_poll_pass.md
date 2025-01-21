@@ -1,6 +1,11 @@
 ---
 title: "Starcoin Move stdlib upgrade voting is end，will be executed in 24 hours"
-meta_description: ""
+meta_description: "Starcoin Move stdlib v5 upgrade voting is completed with execution scheduled in 24 hours. Learn about the upgrade details and governance improvements."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-06-15
 summary: "Voting for the Starcoin Move stdlib v5 upgrade is end with 7088587.7104 STC votes agree and 2 STC votes against. The poll is now in the pending execute status."
 author: "jolestar"

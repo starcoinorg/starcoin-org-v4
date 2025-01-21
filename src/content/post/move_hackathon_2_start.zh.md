@@ -1,6 +1,11 @@
 ---
 title: "Starcoin黑客松大赛参赛说明"
 meta_description: "加入 Move Hackathon 2.0，参与开创性的区块链项目和创意。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-12-22
 summary: "本届Starcoin黑客松大赛主题是：All in Metaverse & DeFi on Starcoin，旨在让参与者与Starcoin一道，在有限的时间内，在Metaverse & DeFi的实践碰撞出新的想法..."
 tags: [

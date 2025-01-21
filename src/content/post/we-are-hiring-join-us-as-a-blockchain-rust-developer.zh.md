@@ -1,6 +1,11 @@
 ---
 title: "我们正在招聘！欢迎区块链 Rust 开发者加入我们！"
 meta_description: "加入 Starcoin，成为一名区块链 Rust 开发者，共同推动尖端区块链技术创新。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-02-25
 summary: "Starcoin是Move生态中的第一个也是唯一一个基于Pow共识的区块链项目。我们在2021年5月成功上线主网，并积极打造生态探索DeFi、NFT等项目，成为区块链行业内备受瞩目的项目之一..."
 author: "Starcoin"

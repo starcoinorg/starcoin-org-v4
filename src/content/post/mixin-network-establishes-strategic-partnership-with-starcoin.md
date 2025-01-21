@@ -1,6 +1,11 @@
 ---
 title: "Mixin Network Partners With Starcoin - Starcoin"
 meta_description: "Mixin Network establishes a strategic partnership with Starcoin to innovate blockchain technologies."
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-10-27
 summary: "Mixin Network is glad to announce a strategic partnership with Starcoin. Starcoin is a proof-of-work blockchain that enables secure smart contracts based on Move to power services in Web 3.0..."
 author: "Starcoin"

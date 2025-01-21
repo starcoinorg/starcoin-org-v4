@@ -1,6 +1,11 @@
 ---
 title: "Starcoin 发起第一个 Move 语言社区, 并开展多个 Move 技术活动"
 meta_description: "Stacoin 发起了第一个 Move 开发语言社区"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2020-07-02
 image: 'read.jpg'
 summary: "Stacoin 发起了第一个 Move 开发语言社区 http://movelang.io/"

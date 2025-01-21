@@ -1,6 +1,11 @@
 ---
 title: "Starcoin投票开放Move合约功能暨首届Starcoin Move线上黑客松预告"
 meta_description: "深入了解 Move 和 Hackathon 计划，推动区块链生态系统的创新发展。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-06-21
 summary: "随着Starcoin生态对Move部署的需求日益强烈，Starcoin计划发起正式开放Move合约新提案。提案将于2021年6月23日开始投票，并于2021年6月30日投票结束..."
 author: "Starcoin"

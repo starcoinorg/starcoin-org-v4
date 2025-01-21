@@ -1,6 +1,11 @@
 ---
 title: "Starcoin的第一个跨链桥，带来了MOVE和EVM之间的安全连接"
 meta_description: "Starcoin 的首个跨链桥安全高效地连接了 Move 和 EVM 生态系统。"
+keywords: ""
+twitter_card: ""
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-06-20
 summary: "第一阶段，我们将支持 STC、ETH、USDT 这三种资产在 Starcoin 和 Ethereum 两条公链之间的互跨。 理论上目前 Poly 跨链桥已经支持的基础设施（近三十条公链）上的各种加密资产都很容易添加到支持列表中...."
 author: "Starcoin"
