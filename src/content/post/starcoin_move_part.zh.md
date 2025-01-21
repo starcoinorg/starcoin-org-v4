@@ -2,7 +2,7 @@
 title: "Starcoin 将于8月20日在大理，苍山洱海边畅聊Web3之Move生态崛起"
 meta_description: "探索 Starcoin 如何通过创新与社区合作推动 Web3 Move 生态发展。了解 Move 的去中心化未来。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

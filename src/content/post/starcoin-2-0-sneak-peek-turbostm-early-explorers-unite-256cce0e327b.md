@@ -2,7 +2,7 @@
 title: "Starcoin 2.0 Sneak Peek: TurboSTM Revealed with Move - Starcoin"
 meta_description: "Navigate Web3 advancements with Starcoin 2.0's Tempus with Move, setting a new wave for Move blockchain technology."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

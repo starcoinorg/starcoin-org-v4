@@ -2,7 +2,7 @@
 title: "Starcoin v1.0.0-rc Released; Mainnet Launch Soon - Starcoin"
 meta_description: "Get a glimpse of Starcoin's v1.0.0-rc release, featuring critical improvements for Move developers and users."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

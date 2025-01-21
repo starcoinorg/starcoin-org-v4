@@ -2,7 +2,7 @@
 title: "Key Features of Starcoin’s PoW Consensus with Move- Starcoin"
 meta_description: "Explore Starcoin's unique features with Move based on PoW consensus, delivering scalability and security."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

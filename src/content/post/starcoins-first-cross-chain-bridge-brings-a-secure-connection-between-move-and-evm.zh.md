@@ -2,7 +2,7 @@
 title: "Starcoin的第一个跨链桥，带来了MOVE和EVM之间的安全连接"
 meta_description: "Starcoin 的首个跨链桥安全高效地连接了 Move 和 EVM 生态系统。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

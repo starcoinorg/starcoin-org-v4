@@ -2,7 +2,7 @@
 title: "Thank You Letter for The First Anniversary of Starcoin"
 meta_description: "A thank-you letter from Starcoin celebrating its first anniversary and Move community achievements."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

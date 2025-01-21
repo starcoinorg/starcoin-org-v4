@@ -2,7 +2,7 @@
 title: "Starcoin 发布 v1.0.0-rc 版，主网将在 Barnard 网络的 310000 高度启动"
 meta_description: "了解 Starcoin v1.0.0-rc 版本的重要更新，包含为 Move 开发者和用户提供的关键改进。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

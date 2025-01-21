@@ -2,7 +2,7 @@
 title: "Starcoin投票开放Move合约功能暨首届Starcoin Move线上黑客松预告"
 meta_description: "深入了解 Move 和 Hackathon 计划，推动区块链生态系统的创新发展。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

@@ -2,7 +2,7 @@
 title: "Starcoin Move stdlib upgrade voting is open"
 meta_description: "The Stdlib v5 upgrade is complete, delivering significant improvements to Starcoin's blockchain with Move."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

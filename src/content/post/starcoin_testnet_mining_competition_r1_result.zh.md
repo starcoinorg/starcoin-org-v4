@@ -2,7 +2,7 @@
 title: "Starcoin 测试网挖矿比赛第一期结果"
 meta_description: "Starcoin 测试网挖矿比赛第一期结果揭晓！了解获奖名单、奖励详情，以及此次活动如何提升挖矿效率。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

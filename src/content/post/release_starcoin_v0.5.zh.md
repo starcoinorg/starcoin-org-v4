@@ -2,7 +2,7 @@
 title: "Starcoin 区块链发布 v0.5 版本"
 meta_description: "探索 Starcoin v0.5 版本中的增强功能和修复，提升 Move 区块链的可用性。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

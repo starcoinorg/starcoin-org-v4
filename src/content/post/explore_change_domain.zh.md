@@ -2,7 +2,7 @@
 title: "Starcoin 区块浏览器切换域名"
 meta_description: "了解Starcoin的面向资源的Move编程及其在区块链开发中的优势。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

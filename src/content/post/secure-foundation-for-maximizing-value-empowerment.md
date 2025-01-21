@@ -2,7 +2,7 @@
 title: "Secure Foundation for Maximizing Value Empowerment"
 meta_description: "Understand how Starcoin's foundation maximizes value with Move and empowers decentralized blockchain ecosystems."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

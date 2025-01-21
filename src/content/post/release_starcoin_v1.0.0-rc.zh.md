@@ -2,7 +2,7 @@
 title: "Starcoin 发布 v1.0.0 版，主网正式启动"
 meta_description: "庆祝 Starcoin v1.0.0 的发布，带来突破性的功能，推动 Move 区块链创新。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

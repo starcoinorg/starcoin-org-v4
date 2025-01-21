@@ -2,7 +2,7 @@
 title: "Starcoin黑客松决赛落幕，基于Move语言的DeFi生态初成"
 meta_description: "探索 Starcoin Hackathon 的成果，展示基于 Move 语言的 DeFi 创新项目。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

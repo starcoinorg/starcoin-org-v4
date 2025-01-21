@@ -2,7 +2,7 @@
 title: "Starcoin 2.0: Revolutionizing with PoW DAG. Join our Testnet to experience efficient mining!"
 meta_description: "Join Starcoin's testnet to experience efficient mining with Move revolutionary ROW-DAG technology."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

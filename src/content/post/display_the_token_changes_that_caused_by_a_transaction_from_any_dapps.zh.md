@@ -2,7 +2,7 @@
 title: "StarMask V4.6.0 新功能介绍：交易确认页面，显示tokens余额和变化量"
 meta_description: "探索域名变更的洞察及其对Starcoin和Move生态系统的影响。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

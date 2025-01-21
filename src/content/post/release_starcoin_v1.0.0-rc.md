@@ -2,7 +2,7 @@
 title: "Starcoin released v1.0, the mainnet has launched"
 meta_description: "Celebrate the launch of Starcoin v1.0.0 with groundbreaking features for Move blockchain innovation."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

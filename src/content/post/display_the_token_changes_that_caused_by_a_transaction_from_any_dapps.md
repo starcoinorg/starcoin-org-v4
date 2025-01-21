@@ -2,7 +2,7 @@
 title: "StarMask V4.6.0:Preview the effect of trades on account assets before trading."
 meta_description: "Discover insights about domain change exploration and its impact on the Starcoin and Move ecosystem."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

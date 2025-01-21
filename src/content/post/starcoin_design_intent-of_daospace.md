@@ -2,7 +2,7 @@
 title: "STARCOIN: Design Intent of DAOSpace"
 meta_description: "Explore the vision and design intent behind DAOSpace with Move, Starcoin's decentralized governance platform."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

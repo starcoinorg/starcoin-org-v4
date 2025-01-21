@@ -2,7 +2,7 @@
 title: "Starcoin Enhanced PoW Consensus: A Choice Not a Reinvention"
 meta_description: "Understand Starcoin's enhanced PoW consensus with Move as an innovative choice for blockchain operations."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

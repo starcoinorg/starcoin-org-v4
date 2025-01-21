@@ -2,7 +2,7 @@
 title: "Harness the Power of Web 3.0 with Move"
 meta_description: "Unleash Web 3.0's potential through Starcoin's Move, optimizing blockchain for decentralized applications."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

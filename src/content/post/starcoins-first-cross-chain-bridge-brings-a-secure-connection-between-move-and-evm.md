@@ -2,7 +2,7 @@
 title: "Starcoin’s First MOVE-EVM Secure Cross-Chain Bridge - Starcoin"
 meta_description: "Starcoin's first cross-chain bridge connects Move and EVM ecosystems securely and efficiently."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

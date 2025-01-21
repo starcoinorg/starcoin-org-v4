@@ -2,7 +2,7 @@
 title: "Starcoin  security bounty plan"
 meta_description: "Discover Starcoin's cutting-edge security measures to ensure a robust Move blockchain ecosystem."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

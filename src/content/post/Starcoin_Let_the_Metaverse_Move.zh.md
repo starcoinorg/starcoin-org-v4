@@ -2,7 +2,7 @@
 title: "Starcoin，让元宇宙Move起来"
 meta_description: "深入了解 Starcoin 使用 Move 编程语言构建区块链驱动元宇宙的愿景。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

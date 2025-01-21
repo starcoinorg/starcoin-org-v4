@@ -2,7 +2,7 @@
 title: "AMA Recap (1): Solana Hack's Impact on Move - Starcoin"
 meta_description: "Insights into considerations about Move triggered by the Solana hack, as revealed in the AMA session."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

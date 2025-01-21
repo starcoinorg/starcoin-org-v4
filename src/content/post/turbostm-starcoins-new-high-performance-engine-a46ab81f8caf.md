@@ -2,7 +2,7 @@
 title: "TurboSTM: Starcoin’s New High-Performance Engine"
 meta_description: "Learn about Starcoin's new TurboSTM engine for unmatched Move blockchain performance."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

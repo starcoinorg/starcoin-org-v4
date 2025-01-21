@@ -2,7 +2,7 @@
 title: "Cross-Chain Guide to Ethereum Learning - Starcoin"
 meta_description: "Accelerate your Ethereum knowledge with Starcoin's eco-benefits and cross-chain learning resources."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

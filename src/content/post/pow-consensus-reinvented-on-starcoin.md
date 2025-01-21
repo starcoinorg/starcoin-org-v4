@@ -2,7 +2,7 @@
 title: "PoW Consensus: Reinvented on Starcoin"
 meta_description: "Explore Starcoin's reinvented PoW consensus, enhancing efficiency and scalability in blockchain operations."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

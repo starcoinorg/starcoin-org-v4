@@ -2,7 +2,7 @@
 title: "Starcoin：Why we need Layer 2"
 meta_description: "Learn why Starcoin embraces Layer 2 solutions for enhanced Move scalability and performance."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

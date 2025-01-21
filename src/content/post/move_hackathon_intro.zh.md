@@ -2,7 +2,7 @@
 title: "首届Starcoin Move线上黑客松参赛说明"
 meta_description: "了解 Move Hackathon 的宗旨和目标，促进区块链的创新与发展。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

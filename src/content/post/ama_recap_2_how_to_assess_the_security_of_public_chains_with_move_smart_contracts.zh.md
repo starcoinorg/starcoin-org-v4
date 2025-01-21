@@ -2,7 +2,7 @@
 title: "AMA Recap（2）Move公链怎么评估安全性？"
 meta_description: "在这份详细的AMA回顾中，了解Move智能合约如何确保公链的安全性。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

@@ -2,7 +2,7 @@
 title: "Starcoin：DID 与 SBT 的思考"
 meta_description: "深入了解 Starcoin 基于 Move 的去中心化身份（DID）和灵魂绑定代币（SBT）解决方案。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

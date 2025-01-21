@@ -2,7 +2,7 @@
 title: "Starcoin airdrop claim guide"
 meta_description: "Step-by-step guide to claiming your Starcoin airdrop efficiently and securely."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

@@ -2,7 +2,7 @@
 title: "Starcoin Blockchain Functionality Restoration Update"
 meta_description: "Latest Move updates on Starcoin blockchain functionality restoration and service improvements."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

@@ -2,7 +2,7 @@
 title: "Starcoin 区块链发布了测试网版本 v0.2"
 meta_description: "发现 Halley 第二个版本的更新，包括新的 Move 功能和为 Starcoin 用户带来的改进。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

@@ -2,7 +2,7 @@
 title: "Starcoin-framework V12 released, add DAOSpace, DAOSpace Plugin & Plugin Marketplace"
 meta_description: "Learn about the Framework v12 release with DAOSpace and its plugin marketplace for Move developers."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

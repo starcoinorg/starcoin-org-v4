@@ -2,7 +2,7 @@
 title: "Prelude to a New Course: What is FlexiDAG?"
 meta_description: "Learn about FlexiDAG and its transformative impact on blockchain, setting the stage for a new Starcoin course."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

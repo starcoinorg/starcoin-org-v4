@@ -2,7 +2,7 @@
 title: "深入浅出libp2p"
 meta_description: libp2p 是一套分布式的点对点网络传输协议，用于分布式网络下节点间的发现，连接，内容分发等。""
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

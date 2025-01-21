@@ -2,7 +2,7 @@
 title: "First Starcoin Move Online Hackathon Winners Announced"
 meta_description: "Celebrate the winners of the Move Hackathon, showcasing top blockchain projects and innovations."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

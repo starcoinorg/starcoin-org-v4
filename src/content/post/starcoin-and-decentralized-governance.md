@@ -2,7 +2,7 @@
 title: "Starcoin and Decentralized Governance"
 meta_description: "Explore how Starcoin promotes decentralized governance with Move to empower its blockchain community."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

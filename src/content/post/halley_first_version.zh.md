@@ -2,7 +2,7 @@
 title: "Starcoin区块链发布第一个测试网版本, 测试网Halley也已经同步启动"
 meta_description: "探索 Halley 的第一个版本，包含 Starcoin 网络的关键 Move 更新和增强功能。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

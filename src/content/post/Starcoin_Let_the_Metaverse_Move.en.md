@@ -2,7 +2,7 @@
 title: "Starcoin, Let the Metaverse Move"
 meta_description: "Dive into Starcoin's vision for a blockchain-powered metaverse using the Move programming language."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

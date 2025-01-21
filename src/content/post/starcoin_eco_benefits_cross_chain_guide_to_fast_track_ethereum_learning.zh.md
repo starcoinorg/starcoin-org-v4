@@ -2,7 +2,7 @@
 title: "Starcoin生态利好，跨链指南教您快速打通Ethereum"
 meta_description: "通过 Starcoin 的生态优势和跨链学习资源，加速您的以太坊知识积累。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

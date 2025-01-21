@@ -2,7 +2,7 @@
 title: "Starcoin BlockChain release the First developer version"
 meta_description: "Explore the first version of Halley, featuring key Move updates and enhancements for the Starcoin network."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

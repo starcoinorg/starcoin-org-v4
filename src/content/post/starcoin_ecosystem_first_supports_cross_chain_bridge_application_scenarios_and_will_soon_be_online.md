@@ -2,7 +2,7 @@
 title: "Starcoin Bridge Tokens and DApps Going Online - Starcoin"
 meta_description: "Discover Starcoin's first cross-chain bridge applications with Move, soon to enhance interoperability."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

@@ -2,7 +2,7 @@
 title: "Starcoin Dapps Support on OneKey App"
 meta_description: "Access Starcoin DApps via the OneKey app, simplifying blockchain interactions for Move users."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

@@ -2,7 +2,7 @@
 title: "DAOSpace — A DAO launcher based on SBT"
 meta_description: "Analyze token changes caused by transactions in any DApp with Move and Starcoin's advanced features."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

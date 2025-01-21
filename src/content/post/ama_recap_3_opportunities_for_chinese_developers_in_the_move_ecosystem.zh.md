@@ -2,7 +2,7 @@
 title: "AMA Recap (3)中国开发者在Move生态的机会"
 meta_description: "ComingChat与Starcoin宣布战略合作，共同推动Move区块链创新。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

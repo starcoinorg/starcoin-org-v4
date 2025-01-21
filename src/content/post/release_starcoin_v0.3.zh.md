@@ -2,7 +2,7 @@
 title: "Starcoin 区块链发布 v0.3 版本"
 meta_description: "探索最新 Starcoin v0.3 版本中引入的 Move 功能和改进。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

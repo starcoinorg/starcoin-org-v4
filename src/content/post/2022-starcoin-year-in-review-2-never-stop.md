@@ -2,7 +2,7 @@
 title: "2022 Starcoin Year in Review （2）-Never Stop"
 meta_description: "Uncover the Move journey and continuous growth of Starcoin in the second part of the 2022 year-in-review."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

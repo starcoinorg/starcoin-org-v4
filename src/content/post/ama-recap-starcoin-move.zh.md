@@ -2,7 +2,7 @@
 title: "AMA recap: Starcoin, Move生态的先锋实践者"
 meta_description: "一起了解AMA会议的回顾，了解Starcoin是如何成为Move生态的先锋实践者"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

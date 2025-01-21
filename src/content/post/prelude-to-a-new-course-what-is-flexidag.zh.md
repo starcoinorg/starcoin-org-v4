@@ -2,7 +2,7 @@
 title: "新航向的前奏： 什么是 FlexiDAG？"
 meta_description: "了解 FlexiDAG 及其对区块链的变革性影响，为全新的 Starcoin 发展奠定基础。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

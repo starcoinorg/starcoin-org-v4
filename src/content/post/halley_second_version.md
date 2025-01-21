@@ -2,7 +2,7 @@
 title: "Starcoin BlockChain release v0.2 "
 meta_description: "Discover the updates in Halley’s second version, including new Move features and improvements for Starcoin users."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

@@ -2,7 +2,7 @@
 title: "Starcoin 早期支持者回馈计划"
 meta_description: "Starcoin 是新一代分层的智能合约和分布式金融网络，点击了解早期支持者回馈计划。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

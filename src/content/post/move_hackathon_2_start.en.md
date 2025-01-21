@@ -2,7 +2,7 @@
 title: "Participation Instructions for Starcoin Hackathon"
 meta_description: "Join the Move Hackathon 2.0 and be part of groundbreaking blockchain projects and ideas."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

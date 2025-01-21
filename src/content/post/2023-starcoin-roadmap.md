@@ -2,7 +2,7 @@
 title: "2023 Starcoin Roadmap"
 meta_description: "Get insights into Starcoin's 2023 roadmap, focusing on new goals with Move and future blockchain innovations."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

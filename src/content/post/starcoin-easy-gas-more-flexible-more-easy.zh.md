@@ -2,7 +2,7 @@
 title: "Starcoin Easy Gas : 一种更灵活更快捷的支付"
 meta_description: "了解 Starcoin 的Easy Gas 系统如何增强灵活性并简化 Move 区块链交易。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

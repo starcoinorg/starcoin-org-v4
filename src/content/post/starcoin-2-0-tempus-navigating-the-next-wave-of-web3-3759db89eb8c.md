@@ -2,7 +2,7 @@
 title: "Starcoin 2.0 | Tempus: Next Wave of Web3 with Move - Starcoin"
 meta_description: "Join Starcoin 2.0's testnet and experience mining efficiency with the Move revolutionary ROW-DAG approach."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

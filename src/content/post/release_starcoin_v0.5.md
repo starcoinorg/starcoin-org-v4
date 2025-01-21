@@ -2,7 +2,7 @@
 title: "Starcoin Blockchain release v0.5"
 meta_description: "Explore the enhancements and fixes in Starcoin's v0.5 release, advancing Move blockchain usability."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

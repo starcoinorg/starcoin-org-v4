@@ -2,7 +2,7 @@
 title: "首届Starcoin Move线上黑客松获奖名单揭晓"
 meta_description: "庆祝 Move Hackathon 的获奖者，展示顶尖区块链项目和创新成果。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

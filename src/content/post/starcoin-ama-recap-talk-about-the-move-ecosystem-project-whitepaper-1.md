@@ -2,7 +2,7 @@
 title: "AMA Recap: Move Ecosystem Whitepaper (1) - Starcoin"
 meta_description: "Insights from Starcoin's AMA on the Move ecosystem whitepaper and its development goals."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

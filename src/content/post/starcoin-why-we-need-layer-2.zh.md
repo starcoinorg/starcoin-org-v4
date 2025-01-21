@@ -2,7 +2,7 @@
 title: "Starcoin：为什么我们需要 Layer 2"
 meta_description: "了解 Starcoin 为什么选择 Layer 2 解决方案，以提升 Move 的可扩展性和性能。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

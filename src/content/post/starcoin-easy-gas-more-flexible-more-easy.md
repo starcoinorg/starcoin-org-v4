@@ -2,7 +2,7 @@
 title: "Starcoin Easy Gas : More Flexible,More Easy"
 meta_description: "Discover how Starcoin's easy gas system enhances flexibility and simplifies Move blockchain transactions."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

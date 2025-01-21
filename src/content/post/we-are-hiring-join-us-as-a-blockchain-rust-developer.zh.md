@@ -2,7 +2,7 @@
 title: "我们正在招聘！欢迎区块链 Rust 开发者加入我们！"
 meta_description: "加入 Starcoin，成为一名区块链 Rust 开发者，共同推动尖端区块链技术创新。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

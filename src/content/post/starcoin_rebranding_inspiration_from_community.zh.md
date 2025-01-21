@@ -2,7 +2,7 @@
 title: "Starcoin品牌重塑：来自社区的灵感"
 meta_description: "了解 Starcoin 基于 Move 的品牌重塑之旅，灵感来源于充满活力的社区反馈。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

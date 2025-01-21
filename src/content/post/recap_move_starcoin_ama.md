@@ -2,7 +2,7 @@
 title: "Recap Move & Starcoin [AMA 07.23.2022]"
 meta_description: "Catch up on key insights and discussions from the Move Starcoin AMA session with experts."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

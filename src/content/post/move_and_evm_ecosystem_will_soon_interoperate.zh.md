@@ -2,7 +2,7 @@
 title: "Starcoin与Ethereum跨链在即，Move生态与EVM生态即将互通"
 meta_description: "了解 Move 和 EVM 生态系统即将如何实现互操作性，无缝连接区块链开发。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

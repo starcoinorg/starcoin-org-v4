@@ -2,7 +2,7 @@
 title: "Westar Launches First Move Blockchain, Starcoin - Yahoo! - Starcoin"
 meta_description: "Discover Westar's groundbreaking launch of the first permissionless Move public chain on Yahoo Finance."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

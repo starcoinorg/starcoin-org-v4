@@ -2,7 +2,7 @@
 title: "AMA Recap (2) Move生态有哪些可以体验的项目"
 meta_description: "从AMA亮点中发现中国开发者在Move生态系统中的机遇。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

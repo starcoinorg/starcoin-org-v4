@@ -2,7 +2,7 @@
 title: "Move Mining Phase 2: Barnard Testnet & Mainline Preview - Starcoin"
 meta_description: "Join the second phase of Starcoin testnet mining on the Barnard network. Experience innovative zero-threshold mining and get ready for the mainnet launch."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

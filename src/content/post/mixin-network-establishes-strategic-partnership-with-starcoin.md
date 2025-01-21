@@ -2,7 +2,7 @@
 title: "Mixin Network Partners With Starcoin - Starcoin"
 meta_description: "Mixin Network establishes a strategic partnership with Starcoin to innovate blockchain technologies."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

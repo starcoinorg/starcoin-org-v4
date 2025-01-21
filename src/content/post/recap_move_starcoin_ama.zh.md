@@ -2,7 +2,7 @@
 title: "回顾 Move & Starcoin [AMA 07.23.2022]"
 meta_description: "回顾 Move Starcoin AMA 活动中专家们的重要见解和讨论内容。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

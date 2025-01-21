@@ -2,7 +2,7 @@
 title: "Move 编程语言---如何保证资产安全？"
 meta_description: "WeStar 区块链实验室的朱光宇老师，在线分享了Move语言，从智能合约的安全现状出发，结合具体例子对Move编程语言中的安全亮点进行了梳理。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

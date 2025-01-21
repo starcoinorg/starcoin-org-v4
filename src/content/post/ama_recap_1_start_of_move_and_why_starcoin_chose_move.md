@@ -2,7 +2,7 @@
 title: "AMA Recap (1): Why Starcoin Chose Move - Starcoin"
 meta_description: "Dive into why Starcoin chose Move and its importance in blockchain development as discussed in the AMA recap."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

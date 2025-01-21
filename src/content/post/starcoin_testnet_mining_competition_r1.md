@@ -2,7 +2,7 @@
 title: "Win 10,000 USDT in Starcoin Mining Round 1 - Starcoin"
 meta_description: "Participate in Starcoin's Testnet Mining Competition R1 and showcase your mining skills."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

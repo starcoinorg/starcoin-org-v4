@@ -2,7 +2,7 @@
 title: "AMA Recap (1) Move的起源以及Starcoin为什么选择move"
 meta_description: "深入探讨Starcoin为何选择Move及其在区块链开发中的重要性，这些内容在AMA回顾中进行了讨论。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

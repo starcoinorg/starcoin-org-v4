@@ -2,7 +2,7 @@
 title: "The Starcoin Ecosystem Community Guidelines"
 meta_description: "Understand the Starcoin and Move ecosystem's community guidelines for a collaborative environment."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

@@ -2,7 +2,7 @@
 title: "DAOSpace — 一个基于SBT的DAO启动平台"
 meta_description: "利用Move语言和Starcoin的高级功能，分析任意DApp中由交易引起的代币变化。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

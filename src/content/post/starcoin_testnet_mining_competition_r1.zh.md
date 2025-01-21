@@ -2,7 +2,7 @@
 title: "星际争霸·瓜分万U  ——  Starcoin 挖矿比赛第一期"
 meta_description: "参与 Starcoin 的 Testnet Mining Competition R1，展示您的挖矿技能。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

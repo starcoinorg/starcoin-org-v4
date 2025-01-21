@@ -2,7 +2,7 @@
 title: "Starcoin黑客松大赛参赛说明"
 meta_description: "加入 Move Hackathon 2.0，参与开创性的区块链项目和创意。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

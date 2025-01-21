@@ -2,7 +2,7 @@
 title: "Starcoin Blockchain release v0.7"
 meta_description: "Learn about the significant updates in Starcoin's v0.7 version, focusing on scalability and security with Move."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

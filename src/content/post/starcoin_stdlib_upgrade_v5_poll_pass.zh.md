@@ -2,7 +2,7 @@
 title: "Starcoin Move 合约标准库 v5 版升级投票通过，将于 24 小时后后执行"
 meta_description: "Starcoin Move 标准库 v5 升级投票已完成，计划在 24 小时内执行。了解此次升级详情及治理改进。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

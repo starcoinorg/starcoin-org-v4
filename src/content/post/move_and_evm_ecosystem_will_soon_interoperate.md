@@ -2,7 +2,7 @@
 title: "Starcoin and Ethereum Cross-Chain Integration - Starcoin"
 meta_description: "Learn how Move and EVM ecosystems will soon interoperate, bridging blockchain development seamlessly."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

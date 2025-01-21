@@ -2,7 +2,7 @@
 title: "Starcoin on-chain voting and airdrop claim guide"
 meta_description: "Comprehensive guide to Starcoin's on-chain voting system and airdrop claims."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

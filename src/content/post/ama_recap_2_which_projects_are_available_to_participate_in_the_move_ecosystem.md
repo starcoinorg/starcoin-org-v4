@@ -2,7 +2,7 @@
 title: "AMA Recap (2): Projects in the Move Ecosystem - Starcoin"
 meta_description: "Discover opportunities for Chinese developers in the Move ecosystem from the AMA highlights."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

@@ -2,7 +2,7 @@
 title: "AMA Recap (3): Move Ecosystem for Chinese Devs - Starcoin"
 meta_description: "Announcement of the strategic partnership between ComingChat and Starcoin to drive Move blockchain innovation."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

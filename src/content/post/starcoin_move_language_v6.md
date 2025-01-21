@@ -2,7 +2,7 @@
 title: "Starcoin Move Language upgrade voting is open"
 meta_description: "Uncover new capabilities in the Move Language v6, tailored for advanced blockchain development."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

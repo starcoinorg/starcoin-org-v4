@@ -2,7 +2,7 @@
 title: "Starcoin Move Language v6 版升级投票开始"
 meta_description: "发掘 Move Language v6 的新功能，专为高级区块链开发量身打造。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

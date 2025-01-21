@@ -2,7 +2,7 @@
 title: "We are hiring! Join us as a Blockchain Rust Developer"
 meta_description: "Join Starcoin as a Blockchain Rust Developer and contribute to cutting-edge blockchain technology innovations."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

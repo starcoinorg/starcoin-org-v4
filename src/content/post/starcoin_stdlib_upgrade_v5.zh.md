@@ -2,7 +2,7 @@
 title: "Starcoin Move 合约标准库 v5 版升级投票开始"
 meta_description: "Move 社区共识推动了 Starcoin Stdlib v5 升级投票的成功完成。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

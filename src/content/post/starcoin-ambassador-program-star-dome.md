@@ -2,7 +2,7 @@
 title: "Starcoin Ambassador Program — — Star Dome 2.0 Launch"
 meta_description: "Become a Starcoin ambassador and join the Star Dome program to lead Move blockchain adoption."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

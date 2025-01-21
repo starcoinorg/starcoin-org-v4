@@ -2,7 +2,7 @@
 title: "Starcoin 2.0 Sneak Peek: FlexiDAG Explorers with Move - Starcoin"
 meta_description: "Experience TurboSTM's blockchain efficiency with early access to Starcoin 2.0 innovations with Move."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

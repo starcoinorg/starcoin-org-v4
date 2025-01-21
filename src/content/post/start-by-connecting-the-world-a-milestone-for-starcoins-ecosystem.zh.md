@@ -2,7 +2,7 @@
 title: "从连接世界开始：Starcoin 生态的里程碑"
 meta_description: "探索 Starcoin 在利用 Move 连接世界并推进其区块链生态系统方面的重要里程碑。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

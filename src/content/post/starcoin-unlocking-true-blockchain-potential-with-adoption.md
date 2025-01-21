@@ -2,7 +2,7 @@
 title: "Pioneering a User-Centric Move Blockchain Ecosystem - Starcoin"
 meta_description: "Discover how Starcoin is unlocking blockchain's true potential through adoption and innovation."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

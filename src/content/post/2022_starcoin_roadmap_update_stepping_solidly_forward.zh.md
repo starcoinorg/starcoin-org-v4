@@ -2,7 +2,7 @@
 title: "2022 STARCOIN Roadmap更新｜稳步向前"
 meta_description: "发现 2022 年 Starcoin 路线图，其中包括 Move 生态系统中的重要里程碑和全年取得的进展。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

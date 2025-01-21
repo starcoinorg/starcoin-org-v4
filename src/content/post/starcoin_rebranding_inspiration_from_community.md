@@ -2,7 +2,7 @@
 title: "Starcoin Rebranding:Inspiration from Community"
 meta_description: "Learn about Starcoin's rebranding journey with Move, inspired by feedback from its vibrant community."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

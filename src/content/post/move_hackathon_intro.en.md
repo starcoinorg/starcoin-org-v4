@@ -2,7 +2,7 @@
 title: "First Starcoin Move Online Hackathon Introduction"
 meta_description: "Discover the purpose and goals of the Move Hackathon, promoting blockchain innovation and development."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

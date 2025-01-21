@@ -2,7 +2,7 @@
 title: "Features of Starcoin: The Resource-Oriented Move"
 meta_description: "Discover the 2022 Starcoin roadmap with Move significant milestones and advancements achieved throughout the year."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

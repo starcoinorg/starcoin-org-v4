@@ -2,7 +2,7 @@
 title: "Starcoin一周年纪念感谢信"
 meta_description: "一封来自 Starcoin 的感谢信，庆祝其一周年及 Move 社区的卓越成就。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

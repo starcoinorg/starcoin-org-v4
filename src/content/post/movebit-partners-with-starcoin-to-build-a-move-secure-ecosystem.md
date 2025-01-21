@@ -2,7 +2,7 @@
 title: "MoveBit Partners to Build a Secure Move Ecosystem - Starcoin"
 meta_description: "MoveBit partners with Starcoin to create a secure and robust ecosystem using Move technology."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

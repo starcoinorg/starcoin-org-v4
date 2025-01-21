@@ -2,7 +2,7 @@
 title: "Starcoin’s 2nd Anniversary: Onward, Block by Block"
 meta_description: "Celebrate Starcoin's 2nd anniversary with Move milestones and achievements in blockchain growth."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

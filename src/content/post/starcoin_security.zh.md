@@ -2,7 +2,7 @@
 title: "Starcoin 区块链安全赏金计划"
 meta_description: "探索 Starcoin 的尖端安全措施，以确保 Move 区块链生态系统的稳健性。"
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""

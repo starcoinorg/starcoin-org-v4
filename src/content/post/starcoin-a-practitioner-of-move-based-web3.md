@@ -2,7 +2,7 @@
 title: "Starcoin: A Practitioner of Move-Based Web3"
 meta_description: "Learn how Starcoin is advancing Web3 innovation with its Move-based blockchain technology."
 keywords: ""
-twitter_card: ""
+twitter_card: "summary_large_image"
 twitter_title: ""
 twitter_description: ""
 twitter_image: ""
