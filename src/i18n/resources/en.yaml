@@ -123,8 +123,8 @@ home:
   meta_description: 'Starcoin is a proof-of-work blockchain that enables secure smart contracts based on Move to power services in Web 3.0'
   keywords: "Move blockchain, Starcoin Move, secure blockchain solutions, modular blockchain, Web3 Move"
   twitter_card: "summary_large_image"
-  twitter_title: ""
-  twitter_description: ""
+  twitter_title: "Build Secure Blockchain Solutions with Starcoin & Move"
+  twitter_description: "Discover Starcoin, a PoW blockchain designed for secure Move smart contracts and powering Web3 with modular and scalable solutions."
   twitter_image: ""
   hero:
     title: Power in Speed
@@ -211,8 +211,8 @@ features:
   meta_description: "Explore Starcoin's features like scalability, security, and decentralized governance for next-gen Move blockchain solutions"
   keywords: "Move features, blockchain scalability, secure smart contracts, Starcoin Move, decentralized governance"
   twitter_card: "summary_large_image"
-  twitter_title: ""
-  twitter_description: ""
+  twitter_title: "Discover Starcoin's Features for Move Blockchain"
+  twitter_description: "Learn about Starcoin's innovative features, including scalability, security, and decentralized governance for Move-based blockchain solutions."
   twitter_image: ""
   hero:
     title: A Reliable, Flexible, and Progressible 
@@ -360,8 +360,8 @@ developers:
   meta_description: 'Access Starcoin developer tools, guides, and resources to build and innovate with Move and blockchain technology'
   keywords: "Move dApp development, Starcoin tools, Move blockchain resources, secure dApps, scalable applications"
   twitter_card: "summary_large_image"
-  twitter_title: ""
-  twitter_description: ""
+  twitter_title: "Build Secure Blockchain Applications with Starcoin & Move"
+  twitter_description: "Explore Starcoin’s developer tools and resources to create scalable and secure dApps using Move smart contracts and blockchain technology."
   twitter_image: ""
   hero:
     title: >
@@ -571,8 +571,8 @@ getstc:
   meta_description: 'Learn how to acquire STC tokens with detailed guides on wallets, exchanges, and platforms supporting Starcoin.'
   keywords: "Move STC token, Starcoin mining, Move DEX, Move trading, STC wallet"
   twitter_card: "summary_large_image"
-  twitter_title: ""
-  twitter_description: ""
+  twitter_title: "Get Move's STC Token - Your Guide to Starcoin"
+  twitter_description: "Discover how to get STC tokens through exchanges, wallets, and mining on Starcoin's blockchain. Start your Move blockchain journey today!"
   twitter_image: ""
   hero:
     title: >
@@ -659,8 +659,8 @@ community:
   meta_description: 'Join the Starcoin community to connect, collaborate, and stay updated on the latest developments in the Starcoin and Move ecosystem.'
   keywords: "Move blockchain community, Starcoin developers, Web3 collaboration, Move news, Move ecosystem"
   twitter_card: "summary_large_image"
-  twitter_title: ""
-  twitter_description: ""
+  twitter_title: "oin the Starcoin & Move Community"
+  twitter_description: "Connect with developers and innovators in the Starcoin & Move community. Share ideas, collaborate, and explore blockchain innovation together."
   twitter_image: ""
   hero:
     title:
@@ -714,8 +714,8 @@ news:
   meta_description: 'Stay updated with the latest Starcoin news, announcements, and insights from the Move blockchain community.'
   keywords: "Move blockchain updates, Starcoin news, Web3 insights, smart contracts, blockchain developments"
   twitter_card: "summary_large_image"
-  twitter_title: ""
-  twitter_description: ""
+  twitter_title: "Stay Informed with Starcoin & Move News"
+  twitter_description: "Get the latest updates, announcements, and insights on blockchain innovation, smart contracts, and the Move ecosystem with Starcoin."
   twitter_image: ""
   hero:
     title: NEWS & BLOG
@@ -728,8 +728,8 @@ starstack:
   meta_description: 'Learn about StarStack, a powerful Move framework supporting developers in building blockchain applications.' 
   keywords: "Move blockchain solutions, StarStack Move, modular blockchain platform, scalable Move dApps, secure development"
   twitter_card: "summary_large_image"
-  twitter_title: ""
-  twitter_description: ""
+  twitter_title: "Discover StarStack: Modular Solutions for Move Blockchain Developers"
+  twitter_description: "Explore StarStack, a comprehensive Move framework that empowers developers to build secure, scalable, and modular blockchain applications with Starcoin."
   twitter_image: ""
   hero:
     title: Build Blockchain with Move,
