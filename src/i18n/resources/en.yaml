@@ -125,7 +125,7 @@ home:
   twitter_card: "summary_large_image"
   twitter_title: "Build Secure Blockchain Solutions with Starcoin & Move"
   twitter_description: "Discover Starcoin, a PoW blockchain designed for secure Move smart contracts and powering Web3 with modular and scalable solutions."
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/starcoin_twitter_image.jpg"
   hero:
     title: Power in Speed
     subtitle: Innovate with <strong>PoW</strong>
@@ -213,7 +213,7 @@ features:
   twitter_card: "summary_large_image"
   twitter_title: "Discover Starcoin's Features for Move Blockchain"
   twitter_description: "Learn about Starcoin's innovative features, including scalability, security, and decentralized governance for Move-based blockchain solutions."
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/twitter_features_image.jpg"
   hero:
     title: A Reliable, Flexible, and Progressible 
     subtitle: Web3 <strong>Infrastructure</strong>
@@ -362,7 +362,7 @@ developers:
   twitter_card: "summary_large_image"
   twitter_title: "Build Secure Blockchain Applications with Starcoin & Move"
   twitter_description: "Explore Starcoin’s developer tools and resources to create scalable and secure dApps using Move smart contracts and blockchain technology."
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/twitter_developers_image.jpg"
   hero:
     title: >
       <p>Build and Deploy Move dApps</p>
@@ -573,7 +573,7 @@ getstc:
   twitter_card: "summary_large_image"
   twitter_title: "Get Move's STC Token - Your Guide to Starcoin"
   twitter_description: "Discover how to get STC tokens through exchanges, wallets, and mining on Starcoin's blockchain. Start your Move blockchain journey today!"
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/twitter_getstc_image.jpg"
   hero:
     title: >
       <p>Easy Fun</p>
@@ -661,7 +661,7 @@ community:
   twitter_card: "summary_large_image"
   twitter_title: "oin the Starcoin & Move Community"
   twitter_description: "Connect with developers and innovators in the Starcoin & Move community. Share ideas, collaborate, and explore blockchain innovation together."
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/twitter_community_image.jpg"
   hero:
     title:
       - Make <strong>Friends</strong> with
@@ -716,7 +716,7 @@ news:
   twitter_card: "summary_large_image"
   twitter_title: "Stay Informed with Starcoin & Move News"
   twitter_description: "Get the latest updates, announcements, and insights on blockchain innovation, smart contracts, and the Move ecosystem with Starcoin."
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/twitter_news_image.jpg"
   hero:
     title: NEWS & BLOG
     desc: >
@@ -730,7 +730,7 @@ starstack:
   twitter_card: "summary_large_image"
   twitter_title: "Discover StarStack: Modular Solutions for Move Blockchain Developers"
   twitter_description: "Explore StarStack, a comprehensive Move framework that empowers developers to build secure, scalable, and modular blockchain applications with Starcoin."
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/twitter_starstack_image.jpg"
   hero:
     title: Build Blockchain with Move,
     subtitle: Empowered by <strong>StarStack</strong>

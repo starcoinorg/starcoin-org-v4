@@ -119,7 +119,7 @@ home:
   twitter_card: "summary_large_image"
   twitter_title: "使用 Starcoin 和 Move 构建安全的区块链解决方案"
   twitter_description: "探索 Starcoin，这是一种 PoW 区块链，专为安全的 Move 智能合约设计，并通过模块化和可扩展的解决方案推动 Web3 的发展。"
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/starcoin_twitter_image.jpg"
   hero:
     title: 速度赋能
     subtitle: 为<strong>PoW</strong>创新活力
@@ -206,7 +206,7 @@ features:
   twitter_card: "summary_large_image"
   twitter_title: "探索 Starcoin & Move 的创新功能"
   twitter_description: "了解 Starcoin 的核心功能，从 Move 智能合约到扩展性和去中心化治理，为下一代区块链解决方案提供支持。"
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/twitter_features_image.jpg"
   hero:
     title: 可靠的, 灵活的, 可持续发展的
     subtitle: Web3 <strong>基础设施</strong>
@@ -363,7 +363,7 @@ developers:
   twitter_card: "summary_large_image"
   twitter_title: "使用 Starcoin 和 Move 构建安全的区块链应用"
   twitter_description: "探索 Starcoin 的开发工具和资源，利用 Move 智能合约和区块链技术创建可扩展和安全的 dApp。"
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/twitter_developers_image.jpg"
   hero:
     title: >
       <p>构建并部署 Move dApps</p>
@@ -573,7 +573,7 @@ getstc:
   twitter_card: "summary_large_image"
   twitter_title: "获取 Move 的 STC 代币 - 了解 Starcoin 的指南"
   twitter_description: "探索通过交易所、钱包和挖矿获取 STC 代币的方法，在 Starcoin 区块链上开启您的 Move 之旅！"
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/twitter_getstc_image.jpg"
   hero:
     title: >
       <p>轻松有趣</p>
@@ -661,7 +661,7 @@ community:
   twitter_card: "summary_large_image"
   twitter_title: "加入 Starcoin 和 Move 社区"
   twitter_description: "与 Starcoin 和 Move 社区中的开发者和创新者建立联系。分享想法，协作创新，共同探索区块链未来。"
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/twitter_community_image.jpg"
   hero:
     title:
       - 和 WEB 3.0 时代的
@@ -716,7 +716,7 @@ news:
   twitter_card: "summary_large_image"
   twitter_title: "关注 Starcoin 和 Move 的最新动态"
   twitter_description: "了解区块链创新、智能合约以及 Move 生态的最新动态、公告和深度洞察，尽在 Starcoin。"
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/twitter_news_image.jpg"
   hero:
     title: 消息与博客
     desc: >
@@ -730,7 +730,7 @@ starstack:
   twitter_card: "summary_large_image"
   twitter_title: "探索 StarStack：为 Move 区块链开发者提供模块化解决方案"
   twitter_description: "了解 StarStack，一个全面的 Move 框架，帮助开发者使用 Starcoin 构建安全、可扩展且模块化的区块链应用程序。"
-  twitter_image: ""
+  twitter_image: "https://starcoin.org/static/twitter_starstack_image.jpg"
   hero:
     title: 用 Move 构建区块链，
     subtitle: 借助 <strong>StarStack</strong> 实现
