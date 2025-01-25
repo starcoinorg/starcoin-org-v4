@@ -72,7 +72,7 @@ nav_data.push({
   t_key: 'nav.group.developers',
   links: [
     {
-      href: 'https://starcoin.org/en/developers/node/',
+      href: 'https://v3.starcoin.org/en/developers/node/',
       t_key: 'nav.developers.resources_tutorials'
     },
     {

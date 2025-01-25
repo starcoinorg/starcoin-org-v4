@@ -521,8 +521,8 @@ news:
 starstack:
   title: 'StarStack'  
   hero:
-    title: From Concept to Deployment
-    subtitle: in One Click with <strong>StarStack</strong>
+    title: Customizable, Developer Friendly 
+    subtitle: Blockchain for Efficient <strong>Chain Building with StarStack</strong>
     desc: Fast, modular, and powerful <br /> everything you need is at your fingertips.
   solutionBuilding:  
     desc: >
@@ -534,9 +534,9 @@ starstack:
     title: Why Choose StarStack?
     des: A future-proof, scalable, and secure blockchain infrastructure
     li_1:
-      h4: One <span> - </span> Click Deployment
+      h4: Efficient Setup Process
       p: >
-        Deploy custom blockchains instantly with modular plug-ins.
+        Launch custom blockchains quickly with modular plug-ins.
     li_2:
       h4: Modular Architecture
       p: >
@@ -545,7 +545,7 @@ starstack:
     li_3:
       h4: Multi <span> - </span> Consensus Support
       p: >
-        Choose from PoW, PoS, and more in just a few clicks.
+        Choose from PoW, PoS, and more to suit your needs.
 
     li_4:
       h4: Seamless Move Integration

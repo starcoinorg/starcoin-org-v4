@@ -22,7 +22,7 @@ export default function DevelopersPageHero({
 
         </div>
         <div className="hero__action">
-          <a href="https://starcoin.org/en/developers/node/" target="_blank" className="button button--primary" data-aos="fade-up">
+          <a href="https://v3.starcoin.org/en/developers/node/" target="_blank" className="button button--primary" data-aos="fade-up">
             {t('developers.hero.action.0')}
           </a>
           <a href="https://github.com/starcoinorg" target="_blank" className="button button--outline" data-aos="fade-up" data-aos-delay="100">

@@ -82,5 +82,13 @@ const lng = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
       });
 
     </script>
-  </body>
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-4P3NE03RH5"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4P3NE03RH5');
+</script>  
+</body>
 </html>

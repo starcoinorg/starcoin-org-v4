@@ -524,8 +524,8 @@ news:
 starstack:
   title: 'StarStack'  
   hero:
-    title: 从概念到部署
-    subtitle: 一键轻松实现，尽在 <strong>StarStack</strong>
+    title: 可定制、开发者友好的区块链
+    subtitle: 通过 <strong>StarStack</strong> 高效构建新链
     desc: 快速构建、模块化、功能强大——一切尽在掌握
   solutionBuilding:  
     desc: >
@@ -537,9 +537,9 @@ starstack:
     title: 为什么选择StarStack？
     des: 具备前瞻性、可扩展性和安全性的区块链基础设施。
     li_1:
-      h4: 一键 <span> - </span> 部署
+      h4: 高效的设置及部署
       p: >
-        使用模块化插件，立即部署属于你的区块链。
+        通过模块化及参数可配置，立即部署属于你的区块链。
     li_2:
       h4: 模块化架构
       p: >
@@ -548,7 +548,7 @@ starstack:
     li_3:
       h4: 支持多种 <span> - </span> 共识算法
       p: >
-        轻松选择，PoW、PoS等主流共识算法
+        轻松选择PoW、PoS等主流共识算法
 
     li_4:
       h4: 无缝集成Move

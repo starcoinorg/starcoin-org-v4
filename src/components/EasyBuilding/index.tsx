@@ -32,7 +32,7 @@ export default function EasyBuilding({
         </div>
         <div className="section__content">
           <div className="cards cards--easy-building">
-            <a href="https://starcoin.org/en/developers/node/" target="_blank" className="card" data-aos="fade-right">
+            <a href="https://v3.starcoin.org/en/developers/node/" target="_blank" className="card" data-aos="fade-right">
               <figure>
                 <div className="figure--inner">
                   <img src={node1.src} alt="" />
@@ -53,7 +53,7 @@ export default function EasyBuilding({
               </svg>
             </a>
 
-            <a href="https://starcoin.org/en/developers/move/" target="_blank" className="card" data-aos="fade-left">
+            <a href="https://v3.starcoin.org/en/developers/move/" target="_blank" className="card" data-aos="fade-left">
               <figure>
                 <div className="figure--inner">
                   <img src={node2.src} alt="" />
@@ -74,7 +74,7 @@ export default function EasyBuilding({
               </svg>
             </a>
 
-            <a href="https://starcoin.org/en/developers/dapp/" target="_blank" className="card" data-aos="fade-right">
+            <a href="https://v3.starcoin.org/en/developers/dapp/" target="_blank" className="card" data-aos="fade-right">
               <figure>
                 <div className="figure--inner">
                   <img src={node3.src} alt="" />
@@ -95,7 +95,7 @@ export default function EasyBuilding({
               </svg>
             </a>
 
-            <a href="https://starcoin.org/en/developers/examples/" target="_blank" className="card" data-aos="fade-left">
+            <a href="https://v3.starcoin.org/en/developers/examples/" target="_blank" className="card" data-aos="fade-left">
               <figure>
                 <div className="figure--inner">
                   <img src={node4.src} alt="" />
@@ -116,7 +116,7 @@ export default function EasyBuilding({
               </svg>
             </a>
 
-            <a href="https://starcoin.org/en/developers/others/" target="_blank" className="card" data-aos="fade-right">
+            <a href="https://v3.starcoin.org/en/developers/others/" target="_blank" className="card" data-aos="fade-right">
               <figure>
                 <div className="figure--inner">
                   <img src={node5.src} alt="" />
