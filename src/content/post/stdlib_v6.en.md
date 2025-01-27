@@ -1,5 +1,11 @@
 ---
 title: "Announcement on Starcoin On-Chain Governance Vote (Vote ID:4) Passed"
+meta_description: "Starcoin releases Stdlib v6 with innovative features to support Move blockchain developers."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-09-03
 summary: "The Starcoin on-chain governance poll (poll ID:4) has passed, the mainnet stdlib v6 upgrade transaction is complete..."
 author: "Starcoin"

@@ -1,5 +1,11 @@
 ---
-title: "Starcoin：Pioneering a User-Centric Blockchain Ecosystem for Adoption"
+title: "Pioneering a User-Centric Move Blockchain Ecosystem - Starcoin"
+meta_description: "Discover how Starcoin is unlocking blockchain's true potential through adoption and innovation."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-04-28
 summary: "The value of blockchains lies in their ability to integrate with other systems and drive adoption through real-world use cases. Starcoin’s..."
 author: "Starcoin"

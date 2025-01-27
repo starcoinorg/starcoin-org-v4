@@ -1,5 +1,11 @@
 ---
 title: "Starcoin Blockchain release v0.7"
+meta_description: "Learn about the significant updates in Starcoin's v0.7 version, focusing on scalability and security with Move."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 summary: "Starcoin Blockchain released v0.7, On the basis that the previous version has been running stably for more than a month, we continue to optimize the Chain, Consensus, Stdlib, Network and other modules to implement the CNR consensus algorithm, adjust the time accuracy, and improve the Spec verification coverage to more than 90%. Feel free to download Starcoin to join the Proxima test network for testing!"
 date: 2020-10-27
 author: "suoyuan"

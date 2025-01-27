@@ -1,5 +1,11 @@
 ---
 title: "Starcoin  security bounty plan"
+meta_description: "Discover Starcoin's cutting-edge security measures to ensure a robust Move blockchain ecosystem."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-03-17
 summary: "With the upcoming launch of the Starcoin blockchain mainnet, a security bounty program is being launched, which will run from March 24, 2021 to April 24, 2021. "
 author: "fikgol"

@@ -1,5 +1,11 @@
 ---
 title: "Starcoin 2.0: Revolutionizing with PoW DAG. Join our Testnet to experience efficient mining!"
+meta_description: "Join Starcoin's testnet to experience efficient mining with Move revolutionary ROW-DAG technology."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2024-02-01
 summary: "This is a momentous occasion for us! We are excited to announce that Starcoin is gearing up for the 2.0 upgrade! In celebration, we are introducing the FlexiDAG testnet mining event..."
 author: "Starcoin"

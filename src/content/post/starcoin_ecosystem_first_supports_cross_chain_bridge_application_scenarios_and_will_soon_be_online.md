@@ -1,5 +1,11 @@
 ---
-title: "First phase of Starcoin cross-chain bridge tokens and dapps scenarios and will soon be online"
+title: "Starcoin Bridge Tokens and DApps Going Online - Starcoin"
+meta_description: "Discover Starcoin's first cross-chain bridge applications with Move, soon to enhance interoperability."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-07-09
 summary: "After weeks of testing, the cross-chain bridge connecting Ethereum and Starcoin is ready for launch. Next, we will launch the first phase of cross-..."
 author: "Starcoin"

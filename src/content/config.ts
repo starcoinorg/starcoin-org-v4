@@ -11,6 +11,8 @@ const postCollection = defineCollection({
     archives: z.string().optional(),
     image: z.string().optional(),
     draft: z.boolean().optional().default(false),
+    meta_description: z.string(),
+    keywords: z.string(),
   }),
 });
 

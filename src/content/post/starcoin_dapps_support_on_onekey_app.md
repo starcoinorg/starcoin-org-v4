@@ -1,5 +1,11 @@
 ---
 title: "Starcoin Dapps Support on OneKey App"
+meta_description: "Access Starcoin DApps via the OneKey app, simplifying blockchain interactions for Move users."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-08-05
 summary: "We are thrilled to announce that Starcoin is now available on OneKey wallet APP. Starcoin has kept asset security as the primary prerequisite for all ecosystem development since its launch over a year ago, and the..."
 author: "Starcoin"

@@ -1,5 +1,11 @@
 ---
 title: "Westar 推出首个无需许可的公链 Starcoin - 彭博社"
+meta_description: "Westar 推出首个由创新 Move 区块链技术驱动的无许可公链。"
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-09-22
 summary: "2021年9月22日, 区块链基础设施的先驱者 Westar 团队宣布，全球首个使用 Move 语言开发的公链 Starcoin 正式上线"
 author: "彭博社"

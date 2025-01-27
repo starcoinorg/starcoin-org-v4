@@ -1,5 +1,11 @@
 ---
 title: "关于Starcoin链上治理投票（投票ID:4)通过的公告"
+meta_description: "Starcoin 发布了 Stdlib v6，引入创新功能，为 Move 区块链开发者提供支持。"
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-09-03
 summary: "Starcoin链上治理投票ID4已经通过，主网 stdlib v6 升级交易完成执行..."
 author: "Starcoin"

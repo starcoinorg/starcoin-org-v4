@@ -1,5 +1,11 @@
 ---
 title: "Starcoin 区块链发布 v0.4 版本"
+meta_description: "了解 Starcoin v0.4 版本中引入的更新和功能，以提升 Move 区块链的性能。"
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2020-08-06
 summary: "Starcoin 区块链发布 v0.4 版本，主要包括模块重构以及基本类型和协议的稳定化。之后一个月，Starcoin 区块链将开启为期一个月的不删档公测。欢迎下载 Starcoin 加入 Proxima 测试网络进行测试。"
 author: "jolestar"

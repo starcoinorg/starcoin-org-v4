@@ -12,7 +12,7 @@ export default function CustomBlockchain({
 
   return (
     <section className="section--custom-blockchain section">
-      <div id="custom-blockchain" className="section__container custom-blockchain__container">
+      <div id="apply" className="section__container custom-blockchain__container">
         <div className="section__title">
           <h3 dangerouslySetInnerHTML={{ __html: t('starstack.CustomBlockchain.title') }} data-aos="fade-up"></h3>
           <small dangerouslySetInnerHTML={{ __html: t('starstack.CustomBlockchain.des') }} data-aos="fade-up"></small>

@@ -1,5 +1,11 @@
 ---
 title: "新航向的前奏： 什么是 FlexiDAG？"
+meta_description: "了解 FlexiDAG 及其对区块链的变革性影响，为全新的 Starcoin 发展奠定基础。"
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-05-10
 summary: "中本聪共识的起源 在中本聪共识中，设置了10分钟的区块时间，以确保网络安全和稳定。这个时间间隔确保所有网络矿工有足够的时间进行验证，避免网络拥堵带来的安全风险。 如果区块时间太短，矿工将不断..."
 author: "Starcoin"

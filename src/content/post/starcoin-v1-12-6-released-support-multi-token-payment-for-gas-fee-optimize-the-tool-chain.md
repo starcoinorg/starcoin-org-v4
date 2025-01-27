@@ -1,5 +1,11 @@
 ---
 title: "Starcoin V1.12.6 released, support multi-token payment for gas fee, optimize the tool chain"
+meta_description: "Explore the v1.12.6 release, featuring multi-token payments for gas fees and toolchain optimizations in the Move eco."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-11-30
 summary: "Starcoin has released v1.12.6, which adds multi-token payment of Gas fees when sending transactions, upgrades the standard library from v11 to v12, upgrades the rust toolchain..."
 author: "Starcoin"

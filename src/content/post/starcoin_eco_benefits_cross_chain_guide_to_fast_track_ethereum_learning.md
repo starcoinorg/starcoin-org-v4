@@ -1,5 +1,11 @@
 ---
-title: "Starcoin Eco-benefits: Cross-Chain Guide to Fast-Track Ethereum Learning"
+title: "Cross-Chain Guide to Ethereum Learning - Starcoin"
+meta_description: "Accelerate your Ethereum knowledge with Starcoin's eco-benefits and cross-chain learning resources."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-06-27
 summary: "In Web3’s grand voyage era, public chains empower data decentralization, and cross-chains break data silos. Therefore, cross-chain is one of the..."
 author: "Starcoin"

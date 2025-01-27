@@ -1,5 +1,11 @@
 ---
 title: "Starcoin on-chain voting and airdrop claim guide"
+meta_description: "Comprehensive guide to Starcoin's on-chain voting system and airdrop claims."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-02-22
 summary: "Starcoin is launching the 13th on-chain poll. Participate in the poll to receive the subsequent airdrop rewards. Voting time： Feb 22, 4:00 am GMT Voting page：..."
 author: "Starcoin"

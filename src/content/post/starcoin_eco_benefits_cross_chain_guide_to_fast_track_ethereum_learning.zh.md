@@ -1,5 +1,11 @@
 ---
 title: "Starcoin生态利好，跨链指南教您快速打通Ethereum"
+meta_description: "通过 Starcoin 的生态优势和跨链学习资源，加速您的以太坊知识积累。"
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-06-27
 summary: "Web3的大航海时代，公链赋予数据去中心化的能力，跨链则打破了数据孤岛。所以，跨链是每个公链生态必备的基础组件之一，也是衡量一个公链生态是否成熟的重要维度。Starcoin生态即将上线首个去中心化的Poly跨..."
 author: "Starcoin"

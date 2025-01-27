@@ -1,5 +1,11 @@
 ---
 title: "DAOSpace — 一个基于SBT的DAO启动平台"
+meta_description: "利用Move语言和Starcoin的高级功能，分析任意DApp中由交易引起的代币变化。"
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-08-04
 summary: "DAO是Web3领域一个热门的方向，它是一种治理思想，但同样需要平台的支持。作为Move领域最早的一条无许可区块链，Starcoin最近推出自己在DAO领域的平台型产品DAOSpace。 DAO 是与社区分享价值的承诺。通..."
 author: "Starcoin"

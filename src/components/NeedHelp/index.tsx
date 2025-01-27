@@ -6,7 +6,7 @@ export default function NeedHelp({ locale }: { locale: LocaleCode }) {
 
   return (
     <section className="section--need-help section">
-      <div id="need-help" className="section__container need-help__container">
+      <div id="connect" className="section__container need-help__container">
         <div className="section__title" data-aos="fade-left">
           <h3>
             <strong

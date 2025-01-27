@@ -1,5 +1,11 @@
 ---
 title: "First FlexiDAG POW Blockchain in Move Ecosystem"
+meta_description: "Discover the first FlexiDAG-powered blockchain within the Move ecosystem, enhancing scalability and efficiency."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2024-02-07
 summary: "Welcome to the world of Starcoin 2.0, where a revolutionary upgrade through FlexiDAG technology heralds a new era for blockchain advancements..."
 author: "Starcoin"

@@ -1,5 +1,11 @@
 ---
-title: "AMA Recap（1）What considerations about Move were triggered by the Solana hack?"
+title: "AMA Recap (1): Solana Hack's Impact on Move - Starcoin"
+meta_description: "Insights into considerations about Move triggered by the Solana hack, as revealed in the AMA session."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-08-22
 summary: "Is this Solana security incident a coincidence? Tim: This incident of theft of funds on Solana is different from some previous security incidents in that..."
 author: "Starcoin"

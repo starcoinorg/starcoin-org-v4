@@ -31,7 +31,13 @@ const t = I18n.create_trans(locale);
 
 	<Fragment slot="page-meta">
 		<title>{t("features.title")} - {t("site.name")}</title>
-		<meta name="description" content={t("site.desc")} />
+		<meta name="robots" content="index, follow" />
+		<meta name="description" content={t("features.meta_description")} />
+		<meta name="keywords" content={t("features.keywords")} />
+		<meta name="twitter:card" content={t("features.twitter_card")} />
+		<meta name="twitter:title" content={t("features.twitter_title")} />
+		<meta name="twitter:description" content={t("features.twitter_description")} /> 
+		<meta name="twitter:image" content={t("features.twitter_image")} />
 		<!-- <link rel="canonical" href={site} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={desc} />

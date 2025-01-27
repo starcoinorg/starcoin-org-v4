@@ -1,5 +1,11 @@
 ---
 title: "Starcoin: First PoW Public Chain to Support “Easy Gas” in Move Ecosystem"
+meta_description: "Starcoin becomes the first PoW blockchain to support 'Easy Gas' in the Move ecosystem, simplifying transactions with flexible gas payments and user-friendly features."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-01-24
 summary: "Previous：Starcoin Easy Gas : More Flexible,More Easy Starcoin: A pioneer in the blockchain world, as the first PoW public chain to..."
 author: "Starcoin"

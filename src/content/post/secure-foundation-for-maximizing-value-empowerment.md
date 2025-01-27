@@ -1,5 +1,11 @@
 ---
 title: "Secure Foundation for Maximizing Value Empowerment"
+meta_description: "Understand how Starcoin's foundation maximizes value with Move and empowers decentralized blockchain ecosystems."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-04-24
 summary: "As we all know that Security is one of the most important features in the blockchain industry. Starcoin clearly recognizes this feature and fulfills it in two ways: Enhancing PoW and employing our own smart..."
 author: "Starcoin"

@@ -1,5 +1,11 @@
 ---
-title: "AMA Recap (2)Which projects are available to participate in the Move ecosystem?"
+title: "AMA Recap (2): Projects in the Move Ecosystem - Starcoin"
+meta_description: "Discover opportunities for Chinese developers in the Move ecosystem from the AMA highlights."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-08-10
 summary: "1.What kind of projects can I experience in the Move ecosystem? Tim: Starcoin is the first public chain to go live in the move ecosystem, which has..."
 author: "Starcoin"

@@ -1,5 +1,11 @@
 ---
-title: "Starcoin Move stdlib v5 upgrade completed"
+title: "Starcoin Move stdlib upgrade voting is open"
+meta_description: "The Stdlib v5 upgrade is complete, delivering significant improvements to Starcoin's blockchain with Move."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-06-17
 summary: "Starcoin Move stdlib v5 upgrade completed, transaction information: [0x7d4275ca7d444c57ffdccfd0baf6bb5f5f5d2abca90d3763d6b2a93dc046b1e3](https://stcscan.io/main/transactions/detail/0x7d4275ca7d444c57ffdccfd0baf6bb5f5f5d2abca90d3763d6b2a93dc046b1e3)"
 author: "jolestar"

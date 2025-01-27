@@ -1,5 +1,11 @@
 ---
 title: "Starcoin品牌重塑：来自社区的灵感"
+meta_description: "了解 Starcoin 基于 Move 的品牌重塑之旅，灵感来源于充满活力的社区反馈。"
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-06-01
 summary: "社区的朋友可能已经留意到 Starcoin 的新身份，在这篇文章中我们简要介绍一下本次 Starcoin 的品牌升级。 五月对 Starcoin 来说是一个重要的月份，品牌升级几乎与我们的一周年庆典完美吻合。 回顾过去一年的旅程...."
 author: "Starcoin"

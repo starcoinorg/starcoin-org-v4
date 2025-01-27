@@ -1,5 +1,11 @@
 ---
 title: "Westar launches first permissionless public chain, Starcoin - Bloomberg"
+meta_description: "Westar introduces the first permissionless public chain powered by innovative Move blockchain technology."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-09-22
 summary: "The Westar team, the pioneer of blockchain infrastructure, has announced that Starcoin, the world's first finished public chain developed using Move language, was officially launched."
 author: "Bloomberg"

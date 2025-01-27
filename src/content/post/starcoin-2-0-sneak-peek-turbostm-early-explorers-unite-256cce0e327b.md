@@ -1,5 +1,11 @@
 ---
-title: "Starcoin 2.0 Sneak Peek-TurboSTM.Early Explorers Unite!"
+title: "Starcoin 2.0 Sneak Peek: TurboSTM Revealed with Move - Starcoin"
+meta_description: "Navigate Web3 advancements with Starcoin 2.0's Tempus with Move, setting a new wave for Move blockchain technology."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2023-10-12
 summary: "“FlexiDAG, technically not a direct manifestation of the Nakamoto consensus, serves as an intriguing expansion that pushes the..."
 author: "Starcoin"

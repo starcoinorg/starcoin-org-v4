@@ -1,5 +1,11 @@
 ---
 title: "Starcoin block explorer changes domain name"
+meta_description: "Learn about Starcoin's resource-oriented Move programming and its advantages for blockchain development."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-07-22
 image: 'read.jpg'
 summary: "Starcoin block explorer changes domain name to https://stcscan.io/"

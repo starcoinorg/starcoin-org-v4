@@ -1,5 +1,11 @@
 ---
 title: "Starcoin: Thinking about DID and SBT"
+meta_description: "Insights into Starcoin's approach with Move to decentralized identity (DID) and Soulbound Tokens (SBT)."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-10-05
 summary: "Author:AIVE Recently users have been looking at DIDs, and Starcoin’s Name Service project is also known to be in development, and is currently experimenting with composable DIDs that combine SBT and..."
 author: "Starcoin"

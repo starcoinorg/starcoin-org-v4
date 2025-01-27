@@ -1,5 +1,11 @@
 ---
 title: "AMA Recap (2) Move生态有哪些可以体验的项目"
+meta_description: "从AMA亮点中发现中国开发者在Move生态系统中的机遇。"
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2022-08-10
 summary: "1.Move生态有哪些可以体验的项目？ Tim： Starcoin是move生态里面第一个上线的公链，这一年多以在Move生态做了很多有意义的尝试： 基础设施：Stcscan，数据服务产品，区块链浏览器。 钱包： starmask,一个立..."
 author: "Starcoin"

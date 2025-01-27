@@ -1,5 +1,11 @@
 ---
 title: "Starcoin BlockChain release the First developer version"
+meta_description: "Explore the first version of Halley, featuring key Move updates and enhancements for the Starcoin network."
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2020-04-09
 image: 'read.jpg'
 summary: "Stacoin Blockchain released its first developer beta, Halley, which contains a lot of new features. technologies, including Move Smart Contract Language, Move Virtual Machine, and more."

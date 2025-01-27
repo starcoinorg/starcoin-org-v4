@@ -1,5 +1,11 @@
 ---
 title: "Starcoin 挖矿比赛第二期-Barnard 测试网暨主网上线预告"
+meta_description: "加入 Starcoin 的第二届 Testnet Mining Competition，探索 Move 生态中的全新区块链挖矿机会。"
+keywords: ""
+twitter_card: "summary_large_image"
+twitter_title: ""
+twitter_description: ""
+twitter_image: ""
 date: 2021-03-26
 summary: "Starcoin testnet mining competition round two is comming"
 archives: "2021"
