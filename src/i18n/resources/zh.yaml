@@ -28,13 +28,13 @@ nav:
     developers: '开发者'
     getstc: '获取 stc'
     community: '社区'
-    news: '消息'
+    news: '动态'
     starstack: 'Starstack'
   home:
     get_started: '从这里解锁 Starcoin'
     feature: 'Starcoins 特性'
     community: '社区'
-    news: '最新消息'
+    news: '最新动态'
   features:
     features: '特性'
     new_trails: '创新实践'
@@ -57,11 +57,11 @@ nav:
     get_start: '从这里开始'
     github: 'Github'
     resource_documentation: '资源'
-    why_starStack: '为什么选择 StarStack?' 
+    why_starStack: '为什么选择 StarStack?'
     easy_building: '轻松便捷搭建'
     starstack_features: 'StarStack 特性'
     apply: '申请'
-    connect: '联系我们'     
+    connect: '联系我们'
   getstc:
     node_mining: '节点挖矿'
     starmask_wallet: 'StarMask 钱包'
@@ -74,7 +74,7 @@ nav:
     ecosystem_partners: '生态合作伙伴'
     branding: '品牌'
   news:
-    news_blog: '消息 & 博客'
+    news_blog: '动态 & 博客'
 
 # Feature table
 feature_table:
@@ -110,7 +110,7 @@ feature_table:
     - 不
     - >
       是的。交易被组织成块，通过使用 TurboSTM，吞吐量提高了 10 倍。
-  
+
 # Home page
 home:
   title: 首页
@@ -123,7 +123,7 @@ home:
   hero:
     title: 速度赋能
     subtitle: 为<strong>PoW</strong>创新活力
-    desc_p1: >  
+    desc_p1: >
       自 2020 年以来, Starcoin 一直在开拓
       <strong> 增强型 PoW </strong> 共识 和 <strong>Move 智能合约 </strong>,
       确保安全, 可扩展的区块链基础设施.
@@ -161,7 +161,7 @@ home:
         极速挖矿, 赚取更多, 极速出块的革命性体验
   features:
     title: <strong>Starcoin</strong> 特性
-    subtitle: 创新升级 2.0。提升您的体验。 
+    subtitle: 创新升级 2.0。提升您的体验。
     desc: >
       Starcoin 于 2020 年推出，率先将中本聪的增强型工作量证明（PoW）共识与用于智能合约的安全 Move 编程语言整合在一起。随着 2023 年 FlexiDAG 和 TurboSTM 升级的推出，Starcoin 2.0（或称 "Tempus"）标志着性能的显著提升。此次升级彰显了 Starcoin 不断创新的承诺，为 Web3 数字生活打造了一个安全、高效、灵活的去中心化系统。通过业界领先的并行化技术（如 TurboSTM 和有向无环图共识算法 FlexiDAG），Starcoin 增强了可扩展性和效率，构想了一个去中心化的数字生态系统，使用户能够安全高效地控制资产和进行交易。
     card_1:
@@ -186,8 +186,8 @@ home:
     h4: 生态项目
     infiniteScrollText: Wallet-Dex-Exchange-Mining Pool⎻-NFT Marketplace⎻-Stablecoin
   news:
-    title: 消息
-    subtitle: 掌握最新消息
+    title: 动态
+    subtitle: 掌握最新动态
     card_1:
       title: 'Starcoin区块链功能修复更新'
       date: '2024年3月8日'
@@ -213,7 +213,7 @@ features:
     desc: Starcoin率先采用了增强版中本聪共识PoW 与 Move 智能合约，并于 2021 年在主网上推出。为了应对可扩展性挑战，其创新并行化技术 FlexiDAG 和 TurboSTM 优化了交易速度，进入了Starcoin 2.0 阶段。
     action:
       - 白皮书
-      - 技术白皮书   
+      - 技术白皮书
       - 经济白皮书
   features:
     title: 特性
@@ -278,7 +278,7 @@ features:
       它是采用和合作战略背后的推动力。
       基金会的工作旨在扩大Starcoin社区，影响立法和商业标准，维护利益相关者的责任。
   grant:
-    title: Westar <strong>实验室</strong> 
+    title: Westar <strong>实验室</strong>
     subtitle: Starcoin技术创新背后的孵化中心
     content_p1: >
       Westar 实验室是 Starcoin 项目的重要技术孵化器。
@@ -352,7 +352,7 @@ features:
         - 提供 U256 类型，提高 dapp 开发的便利性。
         - 改进烹饪手册，帮助开发人员快速了解 Starcoin 开发。
         - 使用本地节点账户在远程节点部署合约，方便开发人员快速部署 mpm，提供集成测试功能，mpm 集成测试提供自定义参数和部署功能，方便 dapp 开发人员测试。
-        - 提供有用的移动数据结构，如 HashMap 和 BigVector，以提高 dapp 开发的便利性。 
+        - 提供有用的移动数据结构，如 HashMap 和 BigVector，以提高 dapp 开发的便利性。
 
 
 # Developers page
@@ -380,7 +380,7 @@ developers:
       Move 是一种为<strong>安全性</strong>和<strong>金融场景</strong>而设计的下一代智能合约编程语言。它结合了<strong>线性逻辑和面向资源的编程</strong>，在区块链开发中提供了无与伦比的安全性、灵活性和效率。本节提供了对 Move 的全面介绍，帮助您了解其核心功能和优势。
     card_1:
       title: 面向资源的编程
-      content: 
+      content:
         p1: >
           Move 基于面向资源编程的概念，这是一种将资产视为独特且不可替代资源的范式。这种方法确保：
         li1: >
@@ -392,13 +392,13 @@ developers:
       action: 了解更多
     card_2:
       title: 安全设计
-      content: 
+      content:
         p1: >
           Move 是以安全性为核心设计的，非常适合金融应用程序和去中心化金融（DeFi）生态系统。其面向资源的编程模型确保资产被视为独特且不可替代，从而防止双花和其他常见漏洞。
       action: 了解更多
     card_3:
       title: 独特的能力系统
-      content: 
+      content:
         p1: >
           Move 引入了一项创新的能力功能，它为智能合约数据结构定义了四个关键能力：
         li1: >
@@ -414,18 +414,18 @@ developers:
       action: 了解更多
     card_4:
       title: 形式化验证
-      content: 
+      content:
         p1: >
           Move 提供了一整套形式化验证工具，这是其他智能合约语言（如 Solidity）所无法比拟的。这些工具允许开发人员通过数学方法验证合约的正确性和安全性，使用实际的智能合约代码作为输入数据。这一功能显著减少了漏洞，确保了智能合约操作的高度信任。
-      action: 了解更多        
+      action: 了解更多
   why_move:
     title: 为什么 Move 是区块链 dApp 开发的未来
-    desc_p: 
+    desc_p:
       p1: >
         Move 是一种为<strong>安全性</strong>和<strong>金融场景</strong>而设计的下一代智能合约编程语言。它结合了<strong>线性逻辑和面向资源的编程</strong>，在区块链开发中提供了无与伦比的安全性、灵活性和效率。
       p2: >
         本节提供了对 Move 的全面介绍，帮助您了解其核心功能和优势。
-    table:     
+    table:
       row_1:
         - 特性
         - Move
@@ -445,12 +445,12 @@ developers:
       row_5:
         - 生态系统
         - 新兴（由 Starcoin 等平台支持）
-        - 成熟（由 Ethereum 支持）      
+        - 成熟（由 Ethereum 支持）
   move_starcoin:
     title: Move 在 Starcoin 上的独特优势
     desc_p: >
       Starcoin——Move 开发者的最佳区块链
-    table:     
+    table:
       row_1:
         - 特性
         - Starcoin/Move
@@ -504,7 +504,7 @@ developers:
         - 是
         - 是
         - 仅限于对象中
-        - 否        
+        - 否
   starcoin_move_features:
     title: 为什么要在 Starcoin 上构建您的 Move dApp
     des: >
@@ -527,34 +527,34 @@ developers:
       三步开始在 Starcoin 上使用 Move
     card1:
       order: 1
-      h4: 探索模块化框架  
+      h4: 探索模块化框架
       p: 访问开发者指南以探索 StarStack 模块。
     card2:
       order: 2
-      h4: 设置您的开发环境  
+      h4: 设置您的开发环境
       p: 下载 Starcoin SDK 和工具开始开发。
     card3:
       order: 3
       h4: 部署您的 Move 区块链
       p: >
-        在 Starcoin 的测试网或主网上测试并发布您的区块链。  
+        在 Starcoin 的测试网或主网上测试并发布您的区块链。
     action:
       download_the_SDK: 下载 SDK
-      explore_tutorials: 探索教程  
+      explore_tutorials: 探索教程
   move_innovation_with_starcoin:
     title: 使用 Move 和 Starcoin 的真实用例
     desc: 用 Move 和 Starcoin 构建的创新解决方案
     card1:
       h4: 代币生态系统
-      p: > 
+      p: >
         使用 Move 的资源安全性推出可替代代币、NFT 市场或 SBT 系统。
     card2:
       h4: 去中心化治理
-      p: > 
+      p: >
         使用 Starcoin 的一链治理模块简化 DAO 创建。
     card3:
       h4: DEX
-      p: > 
+      p: >
         利用 Move 的安全资产管理和 Starcoin 的可扩展基础设施构建高性能去中心化交易所。
   join_the_community:
     title: >
@@ -562,7 +562,7 @@ developers:
     subtitle: 加入 Starcoin 的 Move 革命
     desc: 本节只是个开始。在接下来的模块中，我们将深入探讨 Move 的独特功能，从基础知识开始，逐步探索其更高级的功能。一步一步，您将掌握 Move 的知识，并充分利用其潜力。
     action:
-      join_the_community: 加入社区  
+      join_the_community: 加入社区
       more_about_move: 更多关于 Move 的内容
 
 # Get stc page
@@ -590,7 +590,7 @@ getstc:
         content: 5
       - name: 当前哈希率（H/s）
         content: 45,870,608
-      - 
+      -
         name: 每秒区块
         content: 0.2
       - name: 起始 - 结束区块
@@ -626,7 +626,7 @@ getstc:
           desc: >
             通过 Google Chrome 的应用商店下载简单方便。一些地区可能需要互联网访问。
           action: 从 Chrome 下载
-          
+
     dt:
       - title: <strong>支持 STC</strong> 的硬件钱包
         desc: 安装 StarMask 后，为了增强账户安全，请考虑使用硬件钱包，例如 <a href="{{onekey_url}}">OneKey</a>。
@@ -639,16 +639,16 @@ getstc:
       - 控制台命令行教程
   hc_player:
     title: <strong>骨灰级</strong>玩家
-    content: 
+    content:
       - 作为深入参与Starcoin的骨灰级玩家，您将通过以下方式贡献您的热情，推动Starcoin的发展。
       - 编写代码
   oc_dao:
     title: 一链 <strong>DAO</strong>
     subtitle: Starcoin DAO
-    content: 
+    content:
       - >
         Starcoin是一个由社区共同拥有的原生俱乐部， 支持可持续激励和透明可验证的系统。服务于能够共同建设 DAO 未来的利益相关者。
-      - > 
+      - >
         每个STC持有者都可以积极参与链上治理， 利用他们的STC引导社区走向进步。
 
 
@@ -700,7 +700,7 @@ community:
       - '提案 11：升级链上 Move 字节码版本到 v4'
   partners:
     title: <strong>生态</strong>合作伙伴
-    content: 
+    content:
       - 感谢我们的生态合作伙伴的支持！
   branding:
     title: 品牌 <small>更好地传达我们的共同价值观</small>
@@ -710,7 +710,7 @@ community:
 
 # News page
 news:
-  title: '消息'
+  title: '动态'
   meta_description: '获取 Move 区块链社区的最新新闻、公告和洞察，保持与 Starcoin 的最新动态同步。'
   keywords: "Move 区块链动态, Starcoin 新闻, Web3 洞察, 智能合约, 区块链发展"
   twitter_card: "summary_large_image"
@@ -718,14 +718,14 @@ news:
   twitter_description: "了解区块链创新、智能合约以及 Move 生态的最新动态、公告和深度洞察，尽在 Starcoin。"
   twitter_image: "https://starcoin.org/static/twitter_news_image.jpg"
   hero:
-    title: 消息与博客
+    title: 动态与博客
     desc: >
       在这里了解Starcoin项目的最新进展、活动和更新。若想最快速获取项目更新，请加入我们官方的<strong>Starcoin媒体</strong>社区。
 
 # starstack Page
 starstack:
-  title: 'Move & StarStack - Starcoin | 为 Move 开发者提供的模块化解决方案' 
-  meta_description: '了解 StarStack，这是一种支持开发者构建区块链应用程序的强大 Move 框架。' 
+  title: 'Move & StarStack - Starcoin | 为 Move 开发者提供的模块化解决方案'
+  meta_description: '了解 StarStack，这是一种支持开发者构建区块链应用程序的强大 Move 框架。'
   keywords: "Move 区块链解决方案, StarStack Move, 模块化区块链平台, 可扩展 Move dApps, 安全开发"
   twitter_card: "summary_large_image"
   twitter_title: "探索 StarStack：为 Move 区块链开发者提供模块化解决方案"
@@ -734,18 +734,18 @@ starstack:
   hero:
     title: 用 Move 构建区块链，
     subtitle: 借助 <strong>StarStack</strong> 实现
-    desc: 
+    desc:
       p1: >
         为构建可扩展且安全的基于 Move 的区块链提供的开发者友好框架。
       p2: >
         作为首个完全与 Move 智能合约集成的无许可 PoW 区块链，Starcoin 为可扩展、安全和模块化的区块链开发奠定了基础。为了赋能开发者，StarStack 提供了构建 Move 生态系统所需的框架。
-    action: 
+    action:
       get_starte_with_starStack: 开始使用 StarStack
-      github: GitHub    
-  solutionBuilding:  
+      github: GitHub
+  solutionBuilding:
     desc: >
       <strong>一个用于快速构建、定制和部署基于 Move 的区块链的一站式解决方案，具有无与伦比的速度和灵活性。</strong>受到行业先锋的信赖，StarStack 简化了整个流程，为开发人员提供了强大的工具来创建创新的区块链解决方案。
-    action: 
+    action:
       resources: 资源
   why_starStack:
     title: 为什么使用 Move 和 StarStack 构建区块链？
@@ -774,7 +774,7 @@ starstack:
       content: 设置您的开发环境——下载 Starcoin SDK 并开始开发。
     card_3:
       title: 第 3 步
-      content: 部署您的 Move 区块链——设计、测试并轻松发布您的区块链。  
+      content: 部署您的 Move 区块链——设计、测试并轻松发布您的区块链。
   starstack_features:
     title: 为什么 StarStack 是 Move <strong>区块链</strong> 的最佳选择
     des: 面向未来、可扩展且安全的区块链基础设施
@@ -793,10 +793,10 @@ starstack:
     li_4:
       h4: 全面的开发者支持
       p: >
-        提到文档、CLI 工具和社区资源，这些资源使开发者能够高效创新。                  
+        提到文档、CLI 工具和社区资源，这些资源使开发者能够高效创新。
   CustomBlockchain:
     title: 在几分钟内构建一个自定义区块链
-    des: 快速原型设计和灵活的区块链开发  
+    des: 快速原型设计和灵活的区块链开发
     card1:
       title: 定义参数
       des: 自定义网络配置、共识机制和核心模块。
@@ -805,14 +805,14 @@ starstack:
       des: 使用预定义的脚本无缝部署您的区块链。
     card3:
       title: 扩展和扩容
-      des: 轻松添加自定义功能并与现有生态系统集成。 
+      des: 轻松添加自定义功能并与现有生态系统集成。
     action:
       documentation: 文档
-      github: GitHub    
+      github: GitHub
       developerForums: 开发者论坛
       community: 社区
   NeedHelp:
     title: 需要帮助？
-    subtitle: 我们随时为您提供支持！  
+    subtitle: 我们随时为您提供支持！
     action:
       apply: 申请
