@@ -3,6 +3,7 @@ title: "Move Mining Phase 2: Barnard Testnet & Mainline Preview - Starcoin"
 
 summary: "Starcoin testnet mining competition round two is comming"
 archives: "2021"
+date: 2021-03-26
 author: "starcoin-core"
 tags: [
     "Testnet",
@@ -98,4 +99,3 @@ Starcoin is not responsible for maintenance, etc. * Starcoin is the final arbite
 * Medium: [Starcoin](https://starcoin.medium.com/)
 * [Discord](https://discord.gg/DJkU8NAezd)
 * WeChat Assistant: starcoinorg
-
