@@ -17,7 +17,7 @@ export default defineConfig({
     fallback: locale_config.fallback,
     routing: {
       prefixDefaultLocale: true,
-      redirectToDefaultLocale: false
+      redirectToDefaultLocale: true
     }
   },
   integrations: [react(), sitemap({
