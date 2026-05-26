@@ -24,6 +24,7 @@ nav:
         home: "首页"
         features: "特性"
         developers: "开发者"
+        agentmine: "AgentMine"
         getstc: "获取 stc"
         community: "社区"
         news: "消息"
@@ -46,6 +47,10 @@ nav:
         explorer: "浏览器"
         easy_building: "轻松搭建"
         starcoin_grant: "Starcoin 资助"
+    agentmine:
+        overview: "Overview"
+        workflow: "Workflow"
+        faq: "FAQ"
     starstack:
         get_start: "从这里开始"
         resource_documentation: "资源和文档"
@@ -64,6 +69,51 @@ nav:
         branding: "品牌"
     news:
         news_blog: "消息 & 博客"
+
+# AgentMine page
+agentmine:
+    title: "AgentMine | AI-Native Mining on Starcoin"
+    meta_description: "AgentMine 是 Starcoin 的 AI-native mining interface，连接 powd 与 Codex、Claude Code、OpenClaw，用自然语言管理本地 mining 工作流。"
+    hero:
+        eyebrow: "Agent-native Starcoin mining"
+        subtitle: "Starcoin 上的 AI-Native Mining"
+        description: "AgentMine 是 Starcoin 的 AI-native mining interface，连接 powd 与 Codex、Claude Code、OpenClaw，用自然语言管理本地 mining 工作流。"
+    actions:
+        repository: "查看 Repository"
+        releases: "下载 Releases"
+    overview:
+        title: "通过 AI agent 进行 mining"
+        subtitle: "面向本地 Starcoin mining 的更自然交互界面"
+    features:
+        - title: "自然语言 mining"
+          content: "使用 AI agent 检查、准备并操作本地 Starcoin mining 工作流，不必在文档和 shell commands 之间反复切换。"
+        - title: "本地执行"
+          content: "AgentMine 面向本地控制而设计，让用户直接掌控自己的 mining 环境和操作决策。"
+        - title: "powd 集成"
+          content: "AgentMine 将 AI agents 与 powd 连接起来，由 powd 负责 Starcoin 上的本地 mining 执行。"
+    workflow:
+        title: "AgentMine 如何配置"
+        subtitle: "通过 AgentMine 专用工具 powd 支持 agent 在 Starcoin 挖矿"
+        steps:
+            - "选择 Codex、Claude Code 或 OpenClaw"
+            - "将 agent 连接到 AgentMine"
+            - "让 powd 在本地处理 mining 执行"
+            - "通过自然语言监控并持续调整"
+    faq_title: "AgentMine FAQ"
+    faq:
+        - question: "AgentMine 是什么？"
+          answer: "AgentMine 是 Starcoin 的 AI-native mining interface，用自然语言管理本地 mining 工作流。"
+        - question: "AgentMine 是否在本地运行？"
+          answer: "是。AgentMine 面向本地执行而设计，因此用户可以直接掌控自己的 mining 环境。"
+        - question: "AgentMine 支持哪些 AI tools？"
+          answer: "AgentMine 支持 Codex、Claude Code 和 OpenClaw。"
+        - question: "AgentMine 如何连接到 mining？"
+          answer: "AgentMine 将 AI agents 与 powd 连接起来，由 powd 负责 Starcoin 上的本地 mining 执行。"
+    cta:
+        title: "开始使用 AgentMine mining"
+        description: "探索一种更自然、更 agent-native 的 Starcoin mining 方式。"
+    schema:
+        application_description: "AgentMine 是 Starcoin 的 AI-native mining interface，用自然语言管理本地 mining 工作流。"
 
 # Feature table
 feature_table:

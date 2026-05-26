@@ -95,6 +95,26 @@ nav_data.push({
 })
 
 nav_data.push({
+  group: 'agentmine',
+  href: '/agentmine',
+  t_key: 'nav.group.agentmine',
+  links: [
+    {
+      href: '#overview',
+      t_key: 'nav.agentmine.overview'
+    },
+    {
+      href: '#workflow',
+      t_key: 'nav.agentmine.workflow'
+    },
+    {
+      href: '#faq',
+      t_key: 'nav.agentmine.faq'
+    },
+  ]
+})
+
+nav_data.push({
   group: 'starstack',
   href: '/starstack',
   t_key: 'nav.group.starstack',

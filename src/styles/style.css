@@ -1983,6 +1983,222 @@ img {
   margin-right: auto;
 }
 
+/* AgentMine Page */
+
+.hero--agentmine {
+  min-height: 720px;
+  background:
+    radial-gradient(circle at 50% 28%, rgb(111 238 135 / 0.24), transparent 34%),
+    linear-gradient(180deg, rgb(0 0 0 / 0.18) 0%, #000 100%),
+    #000;
+}
+
+.hero--agentmine::before {
+  content: "";
+  grid-area: 1 / 1 / -1 / -1;
+  background-image:
+    linear-gradient(rgb(255 255 255 / 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.08) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: linear-gradient(to bottom, transparent, #000 18%, transparent 88%);
+  opacity: 0.45;
+}
+
+.hero--agentmine .hero__container {
+  padding-bottom: 120px;
+}
+
+.hero--agentmine .hero__title {
+  display: grid;
+  gap: 12px;
+  font-size: clamp(48px, 10vw, 118px);
+  letter-spacing: 0;
+  line-height: 0.95;
+}
+
+.hero--agentmine .hero__title span {
+  font-family: var(--font-PlusJakartaSans);
+  font-size: clamp(20px, 3.6vw, 40px);
+  font-weight: 900;
+  color: var(--primary-color);
+}
+
+.agentmine__eyebrow {
+  color: var(--primary-color);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.section--agentmine-overview,
+.section--agentmine-faq {
+  background: #000;
+}
+
+.section--agentmine-workflow {
+  background:
+    linear-gradient(180deg, rgb(111 238 135 / 0.16) 0%, rgb(111 238 135 / 0.06) 100%),
+    #000;
+}
+
+.section--agentmine-cta {
+  background: #000;
+}
+
+.agentmine-feature-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.agentmine-card,
+.agentmine-faq-item,
+.agentmine-cta-panel {
+  background: rgb(217 217 217 / 0.12);
+  border: 1px solid rgb(255 255 255 / 0.42);
+  box-shadow: 0px 32px 64px -12px rgb(111 238 135 / 0.28);
+  border-radius: 8px;
+}
+
+.agentmine-card {
+  display: grid;
+  align-content: start;
+  gap: 16px;
+  padding: 24px;
+  min-height: 240px;
+}
+
+.agentmine-card span {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  font-weight: 900;
+}
+
+.agentmine-card h4,
+.agentmine-faq-item h4,
+.agentmine-cta-panel h3 {
+  margin: 0;
+  font-family: var(--font-starcoin);
+  font-size: 24px;
+  letter-spacing: 0.4px;
+}
+
+.agentmine-card p,
+.agentmine-faq-item p,
+.agentmine-cta-panel p {
+  color: rgb(255 255 255 / 0.76);
+}
+
+.agentmine-workflow__container .section__content {
+  display: grid;
+  gap: 24px;
+}
+
+.agentmine-steps {
+  display: grid;
+  gap: 12px;
+  counter-reset: agentmine-step;
+}
+
+.agentmine-steps li {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  align-items: center;
+  gap: 16px;
+  padding: 18px;
+  border: 1px solid rgb(255 255 255 / 0.28);
+  background: rgb(0 0 0 / 0.28);
+  border-radius: 8px;
+}
+
+.agentmine-steps span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  color: var(--black);
+  font-weight: 900;
+}
+
+.agentmine-steps p {
+  font-weight: 900;
+}
+
+.agentmine-tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.agentmine-tools span {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 18px;
+  border-radius: 999rem;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 900;
+}
+
+.agentmine-faq-list {
+  display: grid;
+  gap: 16px;
+}
+
+.agentmine-faq-item {
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+}
+
+.agentmine-cta__container {
+  padding-top: 0;
+}
+
+.agentmine-cta-panel {
+  display: grid;
+  justify-items: center;
+  gap: 18px;
+  padding: 32px 20px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 767.98px) {
+  .agentmine-feature-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .agentmine-steps {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .agentmine-steps li {
+    grid-template-columns: 1fr;
+    align-content: start;
+    min-height: 168px;
+  }
+
+  .agentmine-faq-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .agentmine-cta-panel {
+    padding: 48px;
+  }
+}
+
 /* GetSTC Page */
 
 /* Node Minig*/

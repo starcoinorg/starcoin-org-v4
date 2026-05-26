@@ -1,0 +1,171 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Dividers from "@/components/Dividers";
+import I18n, { type LocaleCode } from "@/i18n";
+
+const locale = I18n.pick_current_locale(Astro.currentLocale as LocaleCode);
+const t = I18n.create_trans(locale);
+
+const tools = ["Codex", "Claude Code", "OpenClaw"];
+const featureIndexes = [0, 1, 2];
+const workflowIndexes = [0, 1, 2, 3];
+const faqIndexes = [0, 1, 2, 3];
+const faqs = faqIndexes.map((index) => ({
+  question: t(`agentmine.faq.${index}.question`),
+  answer: t(`agentmine.faq.${index}.answer`),
+}));
+
+const softwareSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: t("agentmine.title"),
+  url: `https://starcoin.org/${locale}/agentmine`,
+  description: t("agentmine.meta_description"),
+  mainEntity: {
+    "@type": "SoftwareApplication",
+    name: "AgentMine",
+    applicationCategory: "DeveloperApplication",
+    operatingSystem: "Linux, macOS, Windows",
+    description: t("agentmine.schema.application_description"),
+    softwareRequirements: "powd, Codex or Claude Code or OpenClaw",
+    isRelatedTo: [
+      {
+        "@type": "SoftwareApplication",
+        name: "powd",
+      },
+      {
+        "@type": "Thing",
+        name: "Starcoin",
+      },
+    ],
+  },
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.answer,
+    },
+  })),
+};
+---
+
+<Layout>
+  <section class="hero hero--agentmine">
+    <div class="hero__container section__container">
+      <p class="agentmine__eyebrow" data-aos="fade-up">{t("agentmine.hero.eyebrow")}</p>
+      <h2 class="hero__title" data-aos="fade-up">
+        AgentMine
+        <span>{t("agentmine.hero.subtitle")}</span>
+      </h2>
+      <div class="hero__content" data-aos="fade-up" data-aos-delay="100">
+        <p>
+          {t("agentmine.hero.description")}
+        </p>
+      </div>
+      <div class="hero__action">
+        <a class="button button--primary" href="https://github.com/starcoinorg/powd/" target="_blank" rel="noreferrer" data-aos="fade-up">
+          {t("agentmine.actions.repository")}
+        </a>
+        <a class="button button--outline" href="https://github.com/starcoinorg/powd/releases" target="_blank" rel="noreferrer" data-aos="fade-up" data-aos-delay="100">
+          {t("agentmine.actions.releases")}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <Dividers />
+
+  <section class="section section--agentmine-overview">
+    <div id="overview" class="section__container agentmine-overview__container">
+      <div class="section__title">
+        <h3 data-aos="fade-up">{t("agentmine.overview.title")}</h3>
+        <small data-aos="fade-up">{t("agentmine.overview.subtitle")}</small>
+      </div>
+      <div class="section__content">
+        <div class="agentmine-feature-grid">
+          {featureIndexes.map((featureIndex, index) => (
+            <article class="agentmine-card" data-aos="fade-up" data-aos-delay={String(index * 100)}>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <h4>{t(`agentmine.features.${featureIndex}.title`)}</h4>
+              <p>{t(`agentmine.features.${featureIndex}.content`)}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Dividers />
+
+  <section class="section section--agentmine-workflow">
+    <div id="workflow" class="section__container agentmine-workflow__container">
+      <div class="section__title">
+        <h3 data-aos="fade-up">{t("agentmine.workflow.title")}</h3>
+        <small data-aos="fade-up">{t("agentmine.workflow.subtitle")}</small>
+      </div>
+      <div class="section__content">
+        <ol class="agentmine-steps">
+          {workflowIndexes.map((workflowIndex, index) => (
+            <li data-aos="fade-up" data-aos-delay={String(index * 100)}>
+              <span>{index + 1}</span>
+              <p>{t(`agentmine.workflow.steps.${workflowIndex}`)}</p>
+            </li>
+          ))}
+        </ol>
+        <div class="agentmine-tools" data-aos="fade-up">
+          {tools.map((tool) => <span>{tool}</span>)}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Dividers />
+
+  <section class="section section--agentmine-faq">
+    <div id="faq" class="section__container agentmine-faq__container">
+      <div class="section__title">
+        <h3 data-aos="fade-up">{t("agentmine.faq_title")}</h3>
+      </div>
+      <div class="section__content">
+        <div class="agentmine-faq-list">
+          {faqs.map((faq) => (
+            <article class="agentmine-faq-item" data-aos="fade-up">
+              <h4>{faq.question}</h4>
+              <p>{faq.answer}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--agentmine-cta">
+    <div class="section__container agentmine-cta__container">
+      <div class="agentmine-cta-panel" data-aos="fade-up">
+        <h3>{t("agentmine.cta.title")}</h3>
+        <p>{t("agentmine.cta.description")}</p>
+        <div class="hero__action">
+          <a class="button button--primary" href="https://github.com/starcoinorg/powd/" target="_blank" rel="noreferrer">
+            {t("agentmine.actions.repository")}
+          </a>
+          <a class="button button--outline" href="https://github.com/starcoinorg/powd/releases" target="_blank" rel="noreferrer">
+            {t("agentmine.actions.releases")}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Fragment slot="page-meta">
+    <title>{t("agentmine.title")} - {t("site.name")}</title>
+    <meta name="description" content={t("agentmine.meta_description")} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(softwareSchema)} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+</Layout>

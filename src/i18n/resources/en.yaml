@@ -24,6 +24,7 @@ nav:
         home: "Home"
         features: "Features"
         developers: "Developers"
+        agentmine: "AgentMine"
         starstack: "StarStack"
         getstc: "Get stc"
         community: "Community"
@@ -31,7 +32,7 @@ nav:
 
     home:
         get_started: "Get Started on Starcoin"
-        feature: "Starcoins Feature"
+        feature: "Starcoin Features"
         community: "Community"
         news: "News"
     features:
@@ -47,8 +48,12 @@ nav:
         explorer: "Explorer"
         easy_building: "Easy Building"
         starcoin_grant: "Starcoin Grant"
+    agentmine:
+        overview: "Overview"
+        workflow: "Workflow"
+        faq: "FAQ"
     starstack:
-        get_start: "Get start"
+        get_start: "Get Started"
         resource_documentation: "Resource & Documentation"
         features: "Features"
         connect: "Connect"
@@ -66,6 +71,51 @@ nav:
     news:
         news_blog: "News & Blog"
 
+# AgentMine page
+agentmine:
+    title: "AgentMine | AI-Native Mining on Starcoin"
+    meta_description: "AgentMine is Starcoin's AI-native mining interface, connecting powd with Codex, Claude Code, and OpenClaw for local natural-language mining workflows."
+    hero:
+        eyebrow: "Agent-native Starcoin mining"
+        subtitle: "AI-Native Mining on Starcoin"
+        description: "AgentMine is Starcoin's AI-native mining interface, connecting powd with Codex, Claude Code, and OpenClaw for local natural-language mining workflows."
+    actions:
+        repository: "View Repository"
+        releases: "Download Releases"
+    overview:
+        title: "Mine through an AI agent"
+        subtitle: "A more natural interface for local Starcoin mining"
+    features:
+        - title: "Natural-language mining"
+          content: "Use an AI agent to inspect, prepare, and operate local Starcoin mining workflows without switching between manuals and shell commands."
+        - title: "Local execution"
+          content: "AgentMine is designed for local control, keeping the mining environment and operational decisions close to the user."
+        - title: "powd integration"
+          content: "AgentMine connects AI agents with powd, which handles local mining execution on Starcoin."
+    workflow:
+        title: "Setting up AgentMine"
+        subtitle: "AgentMine links AI agent tools using powd to mine on the Starcoin network"
+        steps:
+            - "Choose Codex, Claude Code, or OpenClaw"
+            - "Connect the agent to AgentMine"
+            - "Let powd handle mining execution locally"
+            - "Monitor and iterate through natural language"
+    faq_title: "AgentMine FAQ"
+    faq:
+        - question: "What is AgentMine?"
+          answer: "AgentMine is Starcoin's AI-native mining interface for managing local mining workflows through natural language."
+        - question: "Does AgentMine run locally?"
+          answer: "Yes. AgentMine is designed for local execution, so users keep direct control over their mining environment."
+        - question: "Which AI tools work with AgentMine?"
+          answer: "AgentMine works with Codex, Claude Code, and OpenClaw."
+        - question: "How does AgentMine connect to mining?"
+          answer: "AgentMine connects AI agents with powd, which handles local mining execution on Starcoin."
+    cta:
+        title: "Start Mining with AgentMine"
+        description: "Explore a more natural, agent-native way to mine on Starcoin."
+    schema:
+        application_description: "AgentMine is Starcoin's AI-native mining interface for managing local mining workflows through natural language."
+
 # Feature table
 feature_table:
     row_1:
@@ -82,10 +132,10 @@ feature_table:
         - Consensus Mechanism
         - >
             -Proof of Work (PoW) <br />
-            -An enhance version of Nakamoto Consensus
+            -An enhanced version of Nakamoto Consensus
         - >
             -Proof of Work (PoW) <br />
-            -An enhance version of Nakamoto Consensus combined with FlexiDAG
+            -An enhanced version of Nakamoto Consensus combined with FlexiDAG
     row_4:
         - Scalability
         - >
@@ -137,7 +187,7 @@ home:
             h4: Easy building <small>Your Launchpad to Move.</small>
             p: >
                 Join us, the PoW consensus pioneers in the Move ecosystem.
-                Get started with Starcoin,the leading platform for early developers in the Move ecology.
+                Get started with Starcoin, the leading platform for early developers in the Move ecology.
         li_2:
             h4: Easy buying <small>Your Simple Gateway.</small>
             p: >
@@ -195,7 +245,7 @@ features:
     hero:
         title: A Reliable, Flexible, and Progressible
         subtitle: Web3 <strong>Infrastructure</strong>
-        desc: Pioneering Satoshi Nakamoto's enhanced PoW with Move smart contracts, Starcoin launched on the mainnet in 2021. To address scalability challenges,Its innovative parallelization technology, FlexiDAG and TurboSTM, optimizes transaction speeds, epitomizing the advancements of the Starkcoin 2.0 phase.This phase signifies our commitment to continuous innovation, delivering a secure, efficient, and agile decentralized system for the Web3 era.
+        desc: Pioneering Satoshi Nakamoto's enhanced PoW with Move smart contracts, Starcoin launched on the mainnet in 2021. To address scalability challenges, its innovative parallelization technology, FlexiDAG and TurboSTM, optimizes transaction speeds, epitomizing the advancements of the Starcoin 2.0 phase. This phase signifies our commitment to continuous innovation, delivering a secure, efficient, and agile decentralized system for the Web3 era.
         action:
             - Light Whitepapers
             - Technical Whitepapers
@@ -342,7 +392,7 @@ developers:
         desc_p1: >
             Starcoin has pioneered the establishment of the first Move language developer community since July 2020. As the first permissionless PoW blockchain based on the Move smart contract,
         desc_p2: >
-            Starcoin boasts rich implementations including <strong>the U256 type, token/NFT/SBT standard, one-chain DAO governance system,EasyGas,</strong> and many other innovative features.
+            Starcoin boasts rich implementations including <strong>the U256 type, token/NFT/SBT standard, one-chain DAO governance system, EasyGas,</strong> and many other innovative features.
         action:
             - Resources & Tutorials
             - Github
@@ -353,7 +403,7 @@ developers:
         card_1:
             title: Node
             content: >
-                The best way to understand Starcoin is to start a node first.Get all content on Starcoin nodes, including a quick start, how nodes work, command line usage, and more!
+                The best way to understand Starcoin is to start a node first. Get all content on Starcoin nodes, including a quick start, how nodes work, command line usage, and more!
         card_2:
             title: Move
             content: >
@@ -405,7 +455,7 @@ getstc:
               content: 5
         desc:
             - Starcoin is the only proof-of-work (PoW) blockchain that utilizes the Move programming language and is coupled with the support for parallel block production through a Directed Acyclic Graph (DAG) structure.
-            - The mining of starcoin is based on the CryptoNight-RS algorithm, a variant of the CryptoNight algorithm, which is known for its democratic mining features. This algorithm is designed to be fair and accessible, ensuring that a wide range of participants, including those with less powerful hardware, can contribute to the network's security and consensus. Starcoin supports a broad spectrum of mining hardware, including CPUs, GPUs, and ASICs. This inclusive approach to mining hardware compatibility makes it accessible for various miners, from hobbyists with basic equipment to more advanced miners with specialized hardware. This diversity in mining participation helps in maintaining the decentralized nature of the blockchain, ensuring that no single group holds too much control over the network.
+            - The mining of Starcoin is based on the CryptoNight-RS algorithm, a variant of the CryptoNight algorithm, which is known for its democratic mining features. This algorithm is designed to be fair and accessible, ensuring that a wide range of participants, including those with less powerful hardware, can contribute to the network's security and consensus. Starcoin supports a broad spectrum of mining hardware, including CPUs, GPUs, and ASICs. This inclusive approach to mining hardware compatibility makes it accessible for various miners, from hobbyists with basic equipment to more advanced miners with specialized hardware. This diversity in mining participation helps in maintaining the decentralized nature of the blockchain, ensuring that no single group holds too much control over the network.
         card:
             - title: CEX
               content:
@@ -449,7 +499,7 @@ getstc:
             - As a hardcore player deeply involved with Starcoin, you will contribute your passion to drive the development of Starcoin in the following ways.
             - Building Code
     oc_dao:
-        title: One  chain <strong>DAO</strong>
+        title: One-chain <strong>DAO</strong>
         subtitle: Starcoin DAO
         content:
             - >
