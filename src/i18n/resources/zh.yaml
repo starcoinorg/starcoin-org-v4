@@ -398,7 +398,7 @@ developers:
             Starcoin 拥有丰富的实现，包括<strong>U256 类型、代币/NFT/SBT 标准、一链式 DAO 治理系统、EasyGas</strong>等众多创新功能。
         action:
             - 资源和教程
-            - Github
+            - GitHub
             - 浏览器
     easy_building:
         title: 轻松搭建
@@ -477,10 +477,10 @@ getstc:
         download:
             title: 下载 StarMask
             card:
-                - media: Github 下载并安装（推荐）
+                - media: GitHub 下载并安装（推荐）
                   desc: >
-                      通过官方 Github 仓库下载 StarMask 的最新版本，在任何地方都可访问。
-                  action: 从 Github 下载
+                      通过官方 GitHub 仓库下载 StarMask 的最新版本，在任何地方都可访问。
+                  action: 从 GitHub 下载
                 - media: Chrome 网上应用店下载
                   desc: >
                       通过 Google Chrome 的应用商店下载简单方便。一些地区可能需要互联网访问。
