@@ -107,7 +107,7 @@ agentmine:
         - question: "Does Starcoin AgentMine run locally?"
           answer: "Yes. AgentMine is designed for local execution, with powd handling Starcoin mining locally while users keep control of their mining environment."
         - question: "Is Starcoin AgentMine a mining pool?"
-          answer: "No. AgentMine is not a mining pool; it is a local AI-agent interface for Starcoin mining. Mining rewards are distributed through the official Starcoin mining pool according to its rules."
+          answer: "No. AgentMine is not a mining pool; it is a local AI agent for Starcoin mining. Mining rewards are distributed through the official Starcoin mining pool according to its rules."
         - question: "Which AI tools work with Starcoin AgentMine?"
           answer: "AgentMine works with Codex, Claude Code, and OpenClaw. These AI agents help users set up, inspect, run, and monitor Starcoin mining through natural language."
         - question: "Should Starcoin AgentMine be considered a competitor to mining pools with AI integration?"

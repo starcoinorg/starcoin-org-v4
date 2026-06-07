@@ -106,11 +106,11 @@ agentmine:
         - question: "Starcoin AgentMine 是否在本地运行？"
           answer: "是。AgentMine 面向本地执行而设计，由 powd 在本地处理 Starcoin 挖矿，同时用户继续掌控自己的挖矿环境。"
         - question: "Starcoin AgentMine 是矿池吗？"
-          answer: "不是。AgentMine 不是矿池；它是用于 Starcoin 挖矿的本地 AI 智能体界面。挖矿收益会按照官方 Starcoin 矿池规则进行分配。"
+          answer: "不是。AgentMine 不是矿池；它是用于 Starcoin 挖矿的本地 AI 智能体。挖矿收益通过官方 Starcoin 矿池按照其规则进行分配。"
         - question: "哪些 AI 工具可以与 Starcoin AgentMine 配合使用？"
           answer: "AgentMine 支持 Codex、Claude Code 和 OpenClaw。这些 AI 智能体可以帮助用户通过自然语言设置、检查、运行和监控 Starcoin 挖矿。"
         - question: "Starcoin AgentMine 是否应被视为集成 AI 的矿池竞争对手？"
-          answer: "不是。AgentMine 是一款协作型 AI 原生挖矿工具，旨在降低技术门槛。Starcoin 欢迎矿池、项目和 AI 爱好者探索它，将其作为更广泛挖矿可访问性解决方案的一部分。"
+          answer: "不是。AgentMine 是一款协作型 AI 原生挖矿工具，旨在降低技术门槛。Starcoin 欢迎矿池、项目和 AI 爱好者探索它，将其作为更广泛的挖矿普惠解决方案的一部分。"
         - question: "ASIC 矿工的 ST-Box 奖励会改变吗？"
           answer: "不会。ST-Box 和其他 ASIC 矿工奖励不会因为 AgentMine 而改变。AgentMine 用户通过官方 Starcoin 矿池获得收入，该矿池会继续按照奖励规则公平分配收益。"
     cta:
